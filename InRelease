@@ -1,0 +1,35 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Date: Wed, 12 May 2021 17:29:21 +0000
+MD5Sum:
+ 2480036fbba8e613793fc80a851a9536            22494 Packages
+ 7179c12e8e3e10e8528770c4ef9afc5e             5854 Packages.gz
+ 78d21a154ebf228e0ddc37dab04ac0de               38 Release
+ 80a8d33e380398f605ec4f6f4420dc9b            20720 Sources
+ 1445b3a9b7b88f44f3c1986cf6d9fb7f             4554 Sources.gz
+SHA1:
+ e55a54d4c6425d6777185c792638ce9c86273166            22494 Packages
+ 894fa9bc8fec9a3582c0a832acaf8946f224018e             5854 Packages.gz
+ 754943259ad9ec3152a716840685d2e8d49e714a               38 Release
+ 60a72f096ae99f9dc5f55dbda9559e81ce3e2520            20720 Sources
+ 6dae86f2270f06ac864a93bbae399c6eb85c82c4             4554 Sources.gz
+SHA256:
+ 84ae49177f793f4ef38bbb759c699e216e6110a756870081fae73966696f9f71            22494 Packages
+ 082215cdb6157e98f692933b12c784ea0e45ff5f7b67e295742d9d8d010ac63c             5854 Packages.gz
+ 7ff717ce3652bf1d9c23c86296c658f16ea901f0c6411a46c8ad0e56ecd4dc2e               38 Release
+ 252f9b855d4cf7ba1159ac6b78d8046aa27dac95006357c6932135fe7204af05            20720 Sources
+ ad27d8b9d5ed07ff0da0982fcf22308c419256c872d332765aa5abea6ff208a9             4554 Sources.gz
+SHA512:
+ 16dcf03f13d46bcf42d203e8433678770dea59b4c5881b9985304a199ceefd8d6fcf3e4c9b8a4bedd1bd4cc53a7734bf3ff651c8130a7ea7093de2fb48e2e268            22494 Packages
+ 8637094ce60cdaa25b5511761f85870243e02de00528add24a876e0a4796f6ae151b0402f920bc2f88055108051149e4869b39f6db087580b66bfd3f3b4479a3             5854 Packages.gz
+ fde91c9241b4f6dc17d097c5605607f9c2a595a7b8f374ced439aff7f27fefaaef4dfaa31dba1da030c43404d68ec9bc446730287f90b1f4f11004963e8fa7cd               38 Release
+ 05c0db67c79b25ba70375ba5ea89ac914764bb091a6abf35b801de5519a0e7e676cf19c6f4d0e737cbcbaec195e4d69ef3c5cb556b33e0815f2c573d005a0e92            20720 Sources
+ 1cbf1f7a45451b2d03595e5fb41582ac1afaf2609d9831ee2d3e49cc5772df4330d7131bf86e208fbb04ace5015216f08d95cc330d5d10d998ae03323876e4e6             4554 Sources.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHAEARECADAWIQQrXsDO30pUA0lsCnKPYfcgpwUzugUCYJwQ2hIcaGFtbWVyYUBw
+aWNrdXAuaHUACgkQj2H3IKcFM7qs0QCgrUljd+g6/yL8nKGy+4wGyWlJ2UcAn2oj
+a71uTcnbXs00Fs0q2IuPRtPq
+=gQf/
+-----END PGP SIGNATURE-----
