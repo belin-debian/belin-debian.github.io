@@ -1,0 +1,35 @@
+ dpkg-buildpackage -rfakeroot -us -uc -ui -S
+dpkg-buildpackage: warning: using a gain-root-command while being root
+dpkg-buildpackage: info: source package belin-desktop
+dpkg-buildpackage: info: source version 5.0~ppa15
+dpkg-buildpackage: info: source distribution bionic
+dpkg-buildpackage: info: source changed by Attila Hammer <hammera@pickup.hu>
+ dpkg-source --before-build belin-desktop
+ fakeroot debian/rules clean
+dh_testdir
+dh_germinate_clean
+dh_clean
+ dpkg-source -b belin-desktop
+dpkg-source: info: using source format '3.0 (native)'
+dpkg-source: info: building belin-desktop in belin-desktop_5.0~ppa15.tar.xz
+dpkg-source: info: building belin-desktop in belin-desktop_5.0~ppa15.dsc
+ dpkg-genbuildinfo --build=source
+ dpkg-genchanges --build=source >../belin-desktop_5.0~ppa15_source.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build belin-desktop
+dpkg-buildpackage: info: source-only upload: Debian-native package
+Now running lintian belin-desktop_5.0~ppa15_source.changes ...
+warning: the authors of lintian do not recommend running it with root privileges!
+W: belin-desktop source: no-debian-copyright
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile dsc belin-desktop_5.0~ppa15.dsc Attila Hammer <hammera@pickup.hu>
+
+ fixup_buildinfo belin-desktop_5.0~ppa15.dsc belin-desktop_5.0~ppa15_source.buildinfo
+ signfile buildinfo belin-desktop_5.0~ppa15_source.buildinfo Attila Hammer <hammera@pickup.hu>
+
+ fixup_changes dsc belin-desktop_5.0~ppa15.dsc belin-desktop_5.0~ppa15_source.changes
+ fixup_changes buildinfo belin-desktop_5.0~ppa15_source.buildinfo belin-desktop_5.0~ppa15_source.changes
+ signfile changes belin-desktop_5.0~ppa15_source.changes Attila Hammer <hammera@pickup.hu>
+
+Successfully signed dsc, buildinfo, changes files

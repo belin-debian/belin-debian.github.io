@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 16 May 2018 10:04:00 +0200
+Source: belin-desktop
+Binary: belin-desktop belin-mate-desktop belin-desktop-oem belin-minimal
+Architecture: source
+Version: 6.0~ppa3
+Distribution: bionic
+Urgency: high
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Changed-By: Attila Hammer <hammera@pickup.hu>
+Description:
+ belin-desktop - BeLin alkalmazás telepítő
+ belin-desktop-oem - BeLin alkalmazás telepítő
+ belin-mate-desktop - BeLin alkalmazás telepítő
+ belin-minimal - BeLin alkalmazás telepítő
+Changes:
+ belin-desktop (6.0~ppa3) bionic; urgency=high
+ .
+   * Optimalizálás történt az oem csomagoknál
+Checksums-Sha1:
+ cf8f5845a7e3ada550eb8fcb529a99b5d6eba63f 1041 belin-desktop_6.0~ppa3.dsc
+ bf3e1ab0ac8ecaf1e7fb10a946706cd3c8566f5c 2352 belin-desktop_6.0~ppa3.tar.gz
+ 8b7501947eb187ec2fa3910e9ea1f09fc42a4ae6 6443 belin-desktop_6.0~ppa3_source.buildinfo
+Checksums-Sha256:
+ 9681e21974abb482d72e33ead77cfa0887417d49ec91cd2b649d7d7d68255087 1041 belin-desktop_6.0~ppa3.dsc
+ 80461c29adcff5ca5a50c4934fe4b0dc00502de7bc2204ed1c34426accd7b29e 2352 belin-desktop_6.0~ppa3.tar.gz
+ 3e1384e9486097f976a6d9e1a6cdff089ef3f214851d3b54b51e3d5c1c52f097 6443 belin-desktop_6.0~ppa3_source.buildinfo
+Files:
+ 5256d9f158777d7896b530b3eaefe7a9 1041 metapackages extra belin-desktop_6.0~ppa3.dsc
+ 79910958f066a1960d5fd083d2d97e55 2352 metapackages extra belin-desktop_6.0~ppa3.tar.gz
+ 54d36084726a84dfd372376de62e368b 6443 metapackages extra belin-desktop_6.0~ppa3_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iHAEARECADAWIQQrXsDO30pUA0lsCnKPYfcgpwUzugUCYHCOJhIcaGFtbWVyYUBw
+aWNrdXAuaHUACgkQj2H3IKcFM7qaYACeIVGAsclTyVre95fK8PpBNI+IJG8An1tS
+lkn6bQA3jz+WTm/jW/3FiuPY
+=tvfg
+-----END PGP SIGNATURE-----

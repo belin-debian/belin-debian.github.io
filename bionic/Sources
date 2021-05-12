@@ -1,0 +1,482 @@
+Format: 3.0 (native)
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 5.0~ppa15
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 4.1.4
+Vcs-Browser: https://salsa.debian.org/belin-team/belin-meta/-/belin/bionic
+Vcs-Git: https://salsa.debian.org/belin-team/belin-meta.git -b belin/bionic
+Build-Depends: debhelper (>= 11), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages optional arch=any
+ belin-desktop-oem deb metapackages optional arch=any
+ belin-mate-desktop deb metapackages optional arch=any
+ belin-minimal deb metapackages optional arch=any
+Directory: .
+Checksums-Sha1:
+ 5b0d5f87bc13ec2d713ea1dae831c5dc1db0f1fa 1214 belin-desktop_5.0~ppa15.dsc
+ 228f39cfbd87290ecaf235e4a37b08a0450f4d7a 2216 belin-desktop_5.0~ppa15.tar.xz
+Checksums-Sha256:
+ 7fb8858f9d5e1b31caa410307a01aed5457bee0095f9a09d34c9f8db9733039a 1214 belin-desktop_5.0~ppa15.dsc
+ 5397fffee74341c758c2e079fc7f8549f1429fef799143bca1106eef729a6bb9 2216 belin-desktop_5.0~ppa15.tar.xz
+Files:
+ adbf6ac90d16173650907512d3b587ae 1214 belin-desktop_5.0~ppa15.dsc
+ 26a92631557c05a7e150cd06d3f343af 2216 belin-desktop_5.0~ppa15.tar.xz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 5.5~ppa1
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ 0f46cea63b7bc9d91e1d7eb81cc53d99e19a5b4e 1044 belin-desktop_5.5~ppa1.dsc
+ e730cf2fea30135dbe895abf7edc9ee1786fa434 28444 belin-desktop_5.5~ppa1.tar.gz
+Checksums-Sha256:
+ 75a36bbb439f889153773de1ea9bee5b75964d1f2eeaa0a11b856e6c52d0e00c 1044 belin-desktop_5.5~ppa1.dsc
+ 97003344dc5e0657f01359f7e6f59e046ddd88664f6b4e8948caf238ae4dfee4 28444 belin-desktop_5.5~ppa1.tar.gz
+Files:
+ da2df09de027589bb8113ffa9bdc8bb5 1044 belin-desktop_5.5~ppa1.dsc
+ e63f6c9a8d8091a83559df3f1e45e9ff 28444 belin-desktop_5.5~ppa1.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 5.5~ppa2
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ cdec291ded2f8d7b7d0c52dba1bb234886f2849a 1041 belin-desktop_5.5~ppa2.dsc
+ 5107d3aa1b55836215a906ff93fdc97d8f441094 3001 belin-desktop_5.5~ppa2.tar.gz
+Checksums-Sha256:
+ 18d060eedfab6d793d27eda975de7d365cea62044a2ac4d5ced12f646d83db5e 1041 belin-desktop_5.5~ppa2.dsc
+ ff082f3beb09959383f6b17d2fac410f343c9710afab0e5e78e49dfe52850cdb 3001 belin-desktop_5.5~ppa2.tar.gz
+Files:
+ 2963966a42421107b14e133b49ce7519 1041 belin-desktop_5.5~ppa2.dsc
+ 7ba76a6ef6db7221bf4bafd3468de927 3001 belin-desktop_5.5~ppa2.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 5.5~ppa3
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ 1a9846255f1cac6f8d44d997231e9594e1d884e4 1041 belin-desktop_5.5~ppa3.dsc
+ dc7ac6cbacb1d414bd41fef90da08f4500693cb2 2473 belin-desktop_5.5~ppa3.tar.gz
+Checksums-Sha256:
+ 686f1e5e3ac2a3a9543c91bd06efe23cfa66773a03d3f8bec5cc7482b821b36c 1041 belin-desktop_5.5~ppa3.dsc
+ c381e7006d6f7311320462b61cf9e4721a6441e22cba9f8821dcd7ecb68aef1c 2473 belin-desktop_5.5~ppa3.tar.gz
+Files:
+ 5c160c84897a0e1507e1b3437352ba9a 1041 belin-desktop_5.5~ppa3.dsc
+ 901e04866ac5e93bbe255f42767a9830 2473 belin-desktop_5.5~ppa3.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 5.5~ppa4
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ de59c605dae6849c317578aacfe6bb4c392d67ea 1041 belin-desktop_5.5~ppa4.dsc
+ b43401ea2e0b006f98de3430471ac64565892d6b 2145 belin-desktop_5.5~ppa4.tar.gz
+Checksums-Sha256:
+ 177ece9f4436a3e7cbee5a0d28a0639a0dd465581b689db62d5b468360c59495 1041 belin-desktop_5.5~ppa4.dsc
+ a7b68a33b6cf75398cbeefd543d81250d6ba1a5bf408d7e471465f2295650754 2145 belin-desktop_5.5~ppa4.tar.gz
+Files:
+ 9b95b5213cfcf038b9349abce6967ee3 1041 belin-desktop_5.5~ppa4.dsc
+ b9c42d30b9d899e0a4297e387b26c7e9 2145 belin-desktop_5.5~ppa4.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 5.5~ppa5
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ 149ba5835ee3fb58985bae693fa2a1bb570cf4a9 1041 belin-desktop_5.5~ppa5.dsc
+ 053deeac694a66e3d468caefa419c90450fdc746 2132 belin-desktop_5.5~ppa5.tar.gz
+Checksums-Sha256:
+ 5ecceafe1cbf852ee1b028168c598b68a278379039c4c5e4c98ebf16c7610a63 1041 belin-desktop_5.5~ppa5.dsc
+ dc5dab55dcf1c2e9c95169b2bf30ba9a7f38d3a839bb53862c06960230faf6e5 2132 belin-desktop_5.5~ppa5.tar.gz
+Files:
+ 1884ca35b4a8c05560369594572349f3 1041 belin-desktop_5.5~ppa5.dsc
+ b378a89d3e17861b6931a53a24dfcb72 2132 belin-desktop_5.5~ppa5.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 5.5~ppa6
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ 22c237d8c6d27143ee8ec7660298b71c98830ba9 1041 belin-desktop_5.5~ppa6.dsc
+ 867eb21c3f8bd4d1e76fa19400c31976beabe5df 2143 belin-desktop_5.5~ppa6.tar.gz
+Checksums-Sha256:
+ 3a2a3f4a84c52856ef8356f5cea243514cf9ee2eff434ef2c0880ceaea757a4c 1041 belin-desktop_5.5~ppa6.dsc
+ fc3e1c2f66b68114776bcdc08645cdb717ed8ca19272b940ec12766729aa5669 2143 belin-desktop_5.5~ppa6.tar.gz
+Files:
+ 3bad9a1267089c257d789dfb1865fa8b 1041 belin-desktop_5.5~ppa6.dsc
+ b22a3e286eb9293e191d76ebd6fbd480 2143 belin-desktop_5.5~ppa6.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 5.5~ppa7
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ 54880fc6406437cc124248bd3ca4f337e5ac1b1d 1041 belin-desktop_5.5~ppa7.dsc
+ f77df6f7c641a82307dcab01228d52f2e26ea445 2128 belin-desktop_5.5~ppa7.tar.gz
+Checksums-Sha256:
+ aec6c7cfde43d049572100fb661669162346ac3c4ba6b63dbbbd32d3cfd2ccc3 1041 belin-desktop_5.5~ppa7.dsc
+ edcf5a7362f82a1e75f4b74c88072f49660908cb242529c1b48a4e8c57860cf4 2128 belin-desktop_5.5~ppa7.tar.gz
+Files:
+ d2886984c6a42a3660fa109305aa603a 1041 belin-desktop_5.5~ppa7.dsc
+ 359f7b52e1d7dba062e9f7810bb987f4 2128 belin-desktop_5.5~ppa7.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 6.0~ppa1
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ c3f37ad64d53124291488dac72f79095c742f4ca 1041 belin-desktop_6.0~ppa1.dsc
+ fb0d63a7d386b326b6273fb4030e160366e2617c 2125 belin-desktop_6.0~ppa1.tar.gz
+Checksums-Sha256:
+ a63ee4843d7c66f99ae33b1852e973af48c0cf39cf7b2fead8a7f62e03cc12a4 1041 belin-desktop_6.0~ppa1.dsc
+ 2f0714a2ed36e2a517a75de00b4b828395bd5716106ba57fc65380a3bfc4d187 2125 belin-desktop_6.0~ppa1.tar.gz
+Files:
+ be843d449675cc41c76e1eb070d2ff08 1041 belin-desktop_6.0~ppa1.dsc
+ 98cadf0a8291317e6ec592920590c1cf 2125 belin-desktop_6.0~ppa1.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 6.0~ppa10
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ d87a0f09715e1d17da2b127bf1174592d454ad94 1045 belin-desktop_6.0~ppa10.dsc
+ 91c56d70abe95eb05c002826006fe19c989fc408 2521 belin-desktop_6.0~ppa10.tar.gz
+Checksums-Sha256:
+ 4d734cf967113fc0a650b259c9785a043a69f122147048968179ed8f033aa190 1045 belin-desktop_6.0~ppa10.dsc
+ 9674e524da9a68654476ffe2f22ab3524e45e7defb0c4adbe0cacb0d9c1d79aa 2521 belin-desktop_6.0~ppa10.tar.gz
+Files:
+ 44883ea661bd562dbc91f55d980f7c38 1045 belin-desktop_6.0~ppa10.dsc
+ a795b8f62348d9940c66cddb517db874 2521 belin-desktop_6.0~ppa10.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 6.0~ppa11
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ dc35d45fc80862b6ff9a04b13ac951781aa6c132 1045 belin-desktop_6.0~ppa11.dsc
+ 97e7576fd26b5f1b7594dd51523ed89c5079b03d 2579 belin-desktop_6.0~ppa11.tar.gz
+Checksums-Sha256:
+ 1ec88264274bfb70cf101f6d4d57bd1b9c21c33118c2d90beeea288faadcd691 1045 belin-desktop_6.0~ppa11.dsc
+ 9cb015d50c353b425e41faf7ba72af039f7d748dd225803f5e2c7120d00c3339 2579 belin-desktop_6.0~ppa11.tar.gz
+Files:
+ e507e95c4cb44c758f9799f46d0873a4 1045 belin-desktop_6.0~ppa11.dsc
+ e339f1266976942feb5450e0f4595621 2579 belin-desktop_6.0~ppa11.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 6.0~ppa12
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ 4c966f4f7a8f6791be7abae7b601866d9026519c 1045 belin-desktop_6.0~ppa12.dsc
+ 613c7f9074f20d36652989ecdff2f8539b334a1a 2629 belin-desktop_6.0~ppa12.tar.gz
+Checksums-Sha256:
+ 762480d523e523809f22b6cfbb1bd16a5b5117a159eb81f378669b1721dbf145 1045 belin-desktop_6.0~ppa12.dsc
+ d2cc3e05b35923adb6a87e754ae2efcb498b45d76c3bcaac37890091aa681523 2629 belin-desktop_6.0~ppa12.tar.gz
+Files:
+ b8b93f230752f15eb44252b79b37aed3 1045 belin-desktop_6.0~ppa12.dsc
+ f96e5992e4d77252563edfbbd9cf3203 2629 belin-desktop_6.0~ppa12.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 6.0~ppa2
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ 7edb5dde27daec932e56ef7415bd9d97b40d49f2 1041 belin-desktop_6.0~ppa2.dsc
+ cf657ed02f80b9c6288e7a792ea49a85eb2cd7a6 2334 belin-desktop_6.0~ppa2.tar.gz
+Checksums-Sha256:
+ 33158c852161503a484bd9d3a0226115c8e7128dd6ab44c93fbdf5a96ac6ee2d 1041 belin-desktop_6.0~ppa2.dsc
+ c6a8a2c5e0ea4d7d89475e47cd1abb7d7bebc7794ab0134e439108a256173e63 2334 belin-desktop_6.0~ppa2.tar.gz
+Files:
+ d983e1a36d789a716f6cc48df0e4e928 1041 belin-desktop_6.0~ppa2.dsc
+ 7362b568661122643396fa7f0d14a80f 2334 belin-desktop_6.0~ppa2.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 6.0~ppa3
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ cf8f5845a7e3ada550eb8fcb529a99b5d6eba63f 1041 belin-desktop_6.0~ppa3.dsc
+ bf3e1ab0ac8ecaf1e7fb10a946706cd3c8566f5c 2352 belin-desktop_6.0~ppa3.tar.gz
+Checksums-Sha256:
+ 9681e21974abb482d72e33ead77cfa0887417d49ec91cd2b649d7d7d68255087 1041 belin-desktop_6.0~ppa3.dsc
+ 80461c29adcff5ca5a50c4934fe4b0dc00502de7bc2204ed1c34426accd7b29e 2352 belin-desktop_6.0~ppa3.tar.gz
+Files:
+ 5256d9f158777d7896b530b3eaefe7a9 1041 belin-desktop_6.0~ppa3.dsc
+ 79910958f066a1960d5fd083d2d97e55 2352 belin-desktop_6.0~ppa3.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 6.0~ppa4
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ f49c60d6a7f21887427917e6c0ad5fc3ee739597 1041 belin-desktop_6.0~ppa4.dsc
+ f9013e753c6da8851da5420ece8a0ea6aecb291b 2373 belin-desktop_6.0~ppa4.tar.gz
+Checksums-Sha256:
+ 5882635a9a08fa38b7b9f0d8712aa92ba13257ad3efd969f7b7f672fa51da6cd 1041 belin-desktop_6.0~ppa4.dsc
+ 4a68d44c9a907f03e195c30bbd039cfa5b894b930c10944a4205c59dc4a1c8fd 2373 belin-desktop_6.0~ppa4.tar.gz
+Files:
+ 8fb3ed0cce17c716f2d283b4b25b1ad4 1041 belin-desktop_6.0~ppa4.dsc
+ 27e9d35e8cc579ace22d652bbb7103e2 2373 belin-desktop_6.0~ppa4.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 6.0~ppa5
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ 1aa5a30c8bbcdc95dcee8554ffe352a8ba45d413 1041 belin-desktop_6.0~ppa5.dsc
+ 190f20ec5c006d3b4216fa9dffa910f1a87c2cb6 3406 belin-desktop_6.0~ppa5.tar.gz
+Checksums-Sha256:
+ b23e4748de51e09eafa22a6edd06f4eea5a2f94b0750d8d759e92c4227e50471 1041 belin-desktop_6.0~ppa5.dsc
+ b09b4b0832332e9edd80c4b3d5748031f506d8f5621ae02dcf34bd03782ceae0 3406 belin-desktop_6.0~ppa5.tar.gz
+Files:
+ 9b4db5af83c541414c84284175ee5ed9 1041 belin-desktop_6.0~ppa5.dsc
+ 02527ce46eaa4940e16a53b4f32728eb 3406 belin-desktop_6.0~ppa5.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 6.0~ppa6
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ 07b91247430056d39a95cce28c8289e5c2d25785 1041 belin-desktop_6.0~ppa6.dsc
+ 77e65f2093cc405e52af57da5dd645ae839907f4 3379 belin-desktop_6.0~ppa6.tar.gz
+Checksums-Sha256:
+ 3832b11ea5535a340f0bbafac519614a100cd8af285ef17d595c47fe681b72d6 1041 belin-desktop_6.0~ppa6.dsc
+ d36995a7d78f163d350f21fa5757977f8bd1ff5e21ad5b136129b849437ae865 3379 belin-desktop_6.0~ppa6.tar.gz
+Files:
+ 6b408bec50a4f7b0c2bef59a0d70e57f 1041 belin-desktop_6.0~ppa6.dsc
+ f949dfb56aa396c32964c8d94cc5a8a8 3379 belin-desktop_6.0~ppa6.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 6.0~ppa7
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ fae1170b3f252c1894537cd5f19f861ad392063a 1041 belin-desktop_6.0~ppa7.dsc
+ 26a4872c720228ea38df955b71481d93c7c0b4d0 2506 belin-desktop_6.0~ppa7.tar.gz
+Checksums-Sha256:
+ 99a84e1aaca61b1fbb789e4c3353b2b8ecf576232cf86f104ba3fc45f0d0d68c 1041 belin-desktop_6.0~ppa7.dsc
+ 803d560eade8e7c210d15d1c678a3e3509bd48b71ded694e171a71f773ced267 2506 belin-desktop_6.0~ppa7.tar.gz
+Files:
+ 9ecc2a3e0b7020c09c75eaccd200d9ac 1041 belin-desktop_6.0~ppa7.dsc
+ 0a973eb4f7fe0fe81ef0e64c429f3cd1 2506 belin-desktop_6.0~ppa7.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 6.0~ppa8
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ 7b4ea3bf77b6c352d05ca48a173176997ca75f08 1041 belin-desktop_6.0~ppa8.dsc
+ 14d0633f56e90074fb10e092b300507b5e275a17 3385 belin-desktop_6.0~ppa8.tar.gz
+Checksums-Sha256:
+ a5e67ab69869bded16bd65a59f6e086c1e6905ffbdd91d5984a2cd0d77ddbb47 1041 belin-desktop_6.0~ppa8.dsc
+ 699c94543b353b5d2215627e64bce9a20a45dcc5e0c0996ff9f8c1a1fe29b019 3385 belin-desktop_6.0~ppa8.tar.gz
+Files:
+ 20eed240a71f90dc65b78b1544179577 1041 belin-desktop_6.0~ppa8.dsc
+ 7757decbb197e9d795e02ac55154247f 3385 belin-desktop_6.0~ppa8.tar.gz
+
+Format: 1.0
+Package: belin-desktop
+Binary: belin-desktop, belin-mate-desktop, belin-desktop-oem, belin-minimal
+Architecture: any
+Version: 6.0~ppa9
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ belin-desktop deb metapackages extra arch=any
+ belin-desktop-oem deb metapackages extra arch=any
+ belin-mate-desktop deb metapackages extra arch=any
+ belin-minimal deb metapackages extra arch=any
+Directory: .
+Checksums-Sha1:
+ 231d08605234cc743ced902225501f486d0b8cdc 1041 belin-desktop_6.0~ppa9.dsc
+ 1a1ac7eba34da98235ac889618cbcb7e1c3fa9dd 2515 belin-desktop_6.0~ppa9.tar.gz
+Checksums-Sha256:
+ bb3fb42f1a5407bd3254f574d94ae1ec400469791eef26cea10ef4b913d2bbc4 1041 belin-desktop_6.0~ppa9.dsc
+ 2b348411e7b86efd3febd4af10c88f1e37585ad8685b2118fe73ea8b757de251 2515 belin-desktop_6.0~ppa9.tar.gz
+Files:
+ 15d02fddf0559a639213edfdf78b2fc0 1041 belin-desktop_6.0~ppa9.dsc
+ f3ea66d8fbfe0206a89bf865619d8d65 2515 belin-desktop_6.0~ppa9.tar.gz
+

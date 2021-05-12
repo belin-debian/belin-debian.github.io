@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 16 May 2018 10:04:00 +0200
+Source: belin-desktop
+Binary: belin-desktop belin-mate-desktop belin-desktop-oem belin-minimal
+Architecture: source
+Version: 6.0~ppa4
+Distribution: bionic
+Urgency: high
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Changed-By: Attila Hammer <hammera@pickup.hu>
+Description:
+ belin-desktop - BeLin alkalmazás telepítő
+ belin-desktop-oem - BeLin alkalmazás telepítő
+ belin-mate-desktop - BeLin alkalmazás telepítő
+ belin-minimal - BeLin alkalmazás telepítő
+Changes:
+ belin-desktop (6.0~ppa4) bionic; urgency=high
+ .
+   * Bekerült a vlc csomag az alaptelepítésbe
+Checksums-Sha1:
+ f49c60d6a7f21887427917e6c0ad5fc3ee739597 1041 belin-desktop_6.0~ppa4.dsc
+ f9013e753c6da8851da5420ece8a0ea6aecb291b 2373 belin-desktop_6.0~ppa4.tar.gz
+ 1e2f7e32e69384d3b30b70ce5d93b7d21733e8c4 6443 belin-desktop_6.0~ppa4_source.buildinfo
+Checksums-Sha256:
+ 5882635a9a08fa38b7b9f0d8712aa92ba13257ad3efd969f7b7f672fa51da6cd 1041 belin-desktop_6.0~ppa4.dsc
+ 4a68d44c9a907f03e195c30bbd039cfa5b894b930c10944a4205c59dc4a1c8fd 2373 belin-desktop_6.0~ppa4.tar.gz
+ 61be2792a3eadab00e82c9c4ae4426a18e17d5f6e099e5f995136f5dfed760dc 6443 belin-desktop_6.0~ppa4_source.buildinfo
+Files:
+ 8fb3ed0cce17c716f2d283b4b25b1ad4 1041 metapackages extra belin-desktop_6.0~ppa4.dsc
+ 27e9d35e8cc579ace22d652bbb7103e2 2373 metapackages extra belin-desktop_6.0~ppa4.tar.gz
+ 15e15e1da45c9f766bead72a1130aa3e 6443 metapackages extra belin-desktop_6.0~ppa4_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iHAEARECADAWIQQrXsDO30pUA0lsCnKPYfcgpwUzugUCYHCM2xIcaGFtbWVyYUBw
+aWNrdXAuaHUACgkQj2H3IKcFM7r3iQCfcbCC2Dqc3YroIgk43ncMghSu4fcAn1pl
+qnsDXPQZ/T9WqDxC6RwkGsmX
+=IyfO
+-----END PGP SIGNATURE-----
