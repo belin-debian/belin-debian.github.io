@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 16 May 2018 10:04:00 +0200
+Source: belin-desktop
+Binary: belin-desktop belin-mate-desktop belin-desktop-oem belin-minimal
+Architecture: source
+Version: 6.0~ppa8
+Distribution: bionic
+Urgency: high
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Changed-By: Attila Hammer <hammera@pickup.hu>
+Description:
+ belin-desktop - BeLin alkalmazás telepítő
+ belin-desktop-oem - BeLin alkalmazás telepítő
+ belin-mate-desktop - BeLin alkalmazás telepítő
+ belin-minimal - BeLin alkalmazás telepítő
+Changes:
+ belin-desktop (6.0~ppa8) bionic; urgency=high
+ .
+   * Bekerült az inxi csomag a metacsomag fájlokba
+Checksums-Sha1:
+ 7b4ea3bf77b6c352d05ca48a173176997ca75f08 1041 belin-desktop_6.0~ppa8.dsc
+ 14d0633f56e90074fb10e092b300507b5e275a17 3385 belin-desktop_6.0~ppa8.tar.gz
+ 3848c05b9c51bb40b6a712fa22f430a8255fc6c4 6443 belin-desktop_6.0~ppa8_source.buildinfo
+Checksums-Sha256:
+ a5e67ab69869bded16bd65a59f6e086c1e6905ffbdd91d5984a2cd0d77ddbb47 1041 belin-desktop_6.0~ppa8.dsc
+ 699c94543b353b5d2215627e64bce9a20a45dcc5e0c0996ff9f8c1a1fe29b019 3385 belin-desktop_6.0~ppa8.tar.gz
+ 04d02451c66f3e07b30c051473abece4b2e6bd3fff41f0a1b14c23a1bd0b308b 6443 belin-desktop_6.0~ppa8_source.buildinfo
+Files:
+ 20eed240a71f90dc65b78b1544179577 1041 metapackages extra belin-desktop_6.0~ppa8.dsc
+ 7757decbb197e9d795e02ac55154247f 3385 metapackages extra belin-desktop_6.0~ppa8.tar.gz
+ 1975909685e5a99b4bd26fce9893dfe6 6443 metapackages extra belin-desktop_6.0~ppa8_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iHAEARECADAWIQQrXsDO30pUA0lsCnKPYfcgpwUzugUCYHCDqhIcaGFtbWVyYUBw
+aWNrdXAuaHUACgkQj2H3IKcFM7p4tgCfaxYvp1GMTQbKP7o+BWJmDwenPw0An3zh
+GOJJ5QL2N0LxTN66rImNF+Mq
+=kKSm
+-----END PGP SIGNATURE-----

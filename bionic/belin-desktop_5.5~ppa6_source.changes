@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 16 May 2018 10:04:00 +0200
+Source: belin-desktop
+Binary: belin-desktop belin-mate-desktop belin-desktop-oem belin-minimal
+Architecture: source
+Version: 5.5~ppa6
+Distribution: bionic
+Urgency: high
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Changed-By: Attila Hammer <hammera@pickup.hu>
+Description:
+ belin-desktop - BeLin alkalmazás telepítő
+ belin-desktop-oem - BeLin alkalmazás telepítő
+ belin-mate-desktop - BeLin alkalmazás telepítő
+ belin-minimal - BeLin alkalmazás telepítő
+Changes:
+ belin-desktop (5.5~ppa6) bionic; urgency=high
+ .
+   * Bekerültek az Orka képernyőolvasóval kapcsolatos csomagok az oem telepítő csomagba
+Checksums-Sha1:
+ 22c237d8c6d27143ee8ec7660298b71c98830ba9 1041 belin-desktop_5.5~ppa6.dsc
+ 867eb21c3f8bd4d1e76fa19400c31976beabe5df 2143 belin-desktop_5.5~ppa6.tar.gz
+ 9a9b7d21af5343e14ecb68a837832b5a747644ee 6443 belin-desktop_5.5~ppa6_source.buildinfo
+Checksums-Sha256:
+ 3a2a3f4a84c52856ef8356f5cea243514cf9ee2eff434ef2c0880ceaea757a4c 1041 belin-desktop_5.5~ppa6.dsc
+ fc3e1c2f66b68114776bcdc08645cdb717ed8ca19272b940ec12766729aa5669 2143 belin-desktop_5.5~ppa6.tar.gz
+ a4f781347f71835e3a1358b4eb9539eedc5d538d333ebc571d9809688d3fad54 6443 belin-desktop_5.5~ppa6_source.buildinfo
+Files:
+ 3bad9a1267089c257d789dfb1865fa8b 1041 metapackages extra belin-desktop_5.5~ppa6.dsc
+ b22a3e286eb9293e191d76ebd6fbd480 2143 metapackages extra belin-desktop_5.5~ppa6.tar.gz
+ 5b17d215753b73589621be9b8b03543f 6443 metapackages extra belin-desktop_5.5~ppa6_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iHAEARECADAWIQQrXsDO30pUA0lsCnKPYfcgpwUzugUCYHCTyhIcaGFtbWVyYUBw
+aWNrdXAuaHUACgkQj2H3IKcFM7rDZQCffnZGk5LkbBZifRD93Hn+iqHjqmgAoLcu
+OjdJhfDcvfYVt78cRb6T4A8w
+=sJHI
+-----END PGP SIGNATURE-----
