@@ -1,0 +1,6 @@
+Archive: bionic focal
+Component: main
+Origin: belin-ubuntu.github.io
+Label: BeLin package repository
+Architecture: i386
+Description: BeLin package repository for Debian System
