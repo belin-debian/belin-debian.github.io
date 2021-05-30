@@ -1,0 +1,3 @@
+verbose
+basedir ./belin/debian
+ask-passphrase
