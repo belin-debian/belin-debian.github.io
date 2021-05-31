@@ -127,18 +127,18 @@ Description: New set of tools for working with SquashFS images - shared library
  the squashfs-tools-ng library.
 
 Package: live-installer
-Version: 2020.03.13
+Version: 2020.03.14
 Architecture: all
 Maintainer: Attila Hammer <hammera@pickup.hu>
-Installed-Size: 5202
-Depends: python:any (>= 2.7), gir1.2-webkit2-4.0, python (>= 2.7), python (<< 3), python-parted, parted, gparted, python-gi-cairo, python-pyqt5, python-pil, imagemagick, isoquery, desktop-file-utils, shared-mime-info, sysv-rc, menu, gdisk, iso-codes, locales, adduser, rsync
+Installed-Size: 5199
+Depends: gir1.2-webkit2-4.0, python3, python3-parted, parted, gparted, python3-gi-cairo, python3-pyqt5, python3-pil, imagemagick, isoquery, desktop-file-utils, shared-mime-info, sysv-rc, menu, gdisk, iso-codes, locales, adduser, rsync
 Priority: optional
 Section: admin
-Filename: pool/main/l/live-installer/live-installer_2020.03.13_all.deb
-Size: 2258948
-SHA256: a9f27bc612795f7c8c5058675e3cb07d6156e8219213896497c19bf0b35d448f
-SHA1: d6295e555ab12942bf0b78bfbddbb4ae851a61a3
-MD5sum: f7184d5d82366bcfda312d214da537a8
+Filename: pool/main/l/live-installer/live-installer_2020.03.14_all.deb
+Size: 2258504
+SHA256: 1ea4cf520316b82ab32ea1dcb86d7d2434e95801219fe2bdef167ab32a2f27e6
+SHA1: 2b01f74f875f4ed32726d735e68b219a3f466df9
+MD5sum: a7037a8c26938e77bbe81fc7cf5345f2
 Description: Live Installer
  A live installer
 Original-Maintainer: Clement Lefebvre <root@linuxmint.com>
