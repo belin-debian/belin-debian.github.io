@@ -4,6 +4,6 @@ codename: bullseye
 Architectures: i386 amd64 source
 Components: main
 Description: BeLin package repository for Debian System
-SignWith: yes
+SignWith: AF3BB4E64A94CCEA029E03FD0020DDA5C3EA3EC0
 Pull: bullseye
 

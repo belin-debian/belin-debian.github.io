@@ -1,36 +1,36 @@
 Origin: belin-ubuntu.github.io
 Label: BeLin package repository
 Codename: bullseye
-Date: Sun, 30 May 2021 18:53:02 UTC
+Date: Mon, 31 May 2021 11:05:33 UTC
 Architectures: i386 amd64
 Components: main
 Description: BeLin package repository for Debian System
 MD5Sum:
- 8eb297259b78e9aa40176888cc5a1503 2125 main/binary-i386/Packages
- b2a67fc49af037b2b95eb72335d127be 1032 main/binary-i386/Packages.gz
+ 71a475099d789ef7c5bac363da3e5b3f 1001 main/binary-i386/Packages
+ 9d4d2cae5c8e09ec15077c1c902d860e 499 main/binary-i386/Packages.gz
  0b63663dc3de903c274c6cfa5f2e4e5f 154 main/binary-i386/Release
- 2541d90630a6749d7162cbfc200f6977 23990 main/binary-amd64/Packages
- 356c890bb1018f48ecd05c015029a2d6 6302 main/binary-amd64/Packages.gz
+ 72f1c97d5b0a57f583d1184c8ac9a9b5 13063 main/binary-amd64/Packages
+ bf30e00187d1b07f0c66e568579fb4cd 4066 main/binary-amd64/Packages.gz
  820717a30b18bda9b6d5434833306bfc 155 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  fab5c51136581089c5b9ebb4b69d68e3 156 main/source/Release
 SHA1:
- 905555f746c6ffb107ed193ab731ec2ac8245946 2125 main/binary-i386/Packages
- b5dabba4a9819a1ea7c3e615ee497bdf173e26ed 1032 main/binary-i386/Packages.gz
+ 5fdf313726605f1139e214dc0412b66eee3c8833 1001 main/binary-i386/Packages
+ 3874cca6cad28f003dbdc5ccbac92ce46c0a368e 499 main/binary-i386/Packages.gz
  95f363d10b327a4b2a4c403f49b2ce375e80ccf5 154 main/binary-i386/Release
- 6ff579b004b58d20ea48375fcc0d0deb7ed62f2b 23990 main/binary-amd64/Packages
- e7bb3b91e3aa0486ff96d569552776054b02f685 6302 main/binary-amd64/Packages.gz
+ bb71a6b6dbcd13c8ef2e09dbab0abc8029f7405f 13063 main/binary-amd64/Packages
+ be7b06c2fb9a4f472994dbcc3ad180d248b5a793 4066 main/binary-amd64/Packages.gz
  cb4688bf290af2c0817797a58a41e8590a96020a 155 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  623121e8ab7b94df56bb926e9a249d694be9225d 156 main/source/Release
 SHA256:
- 1abcd8a20510519110bfa2188623f84912152040daa205ddcf65ac4a62e5c2de 2125 main/binary-i386/Packages
- 3650bbea2801c744717d7041b0da48805b7292c9f2d2f75e1c11b0a5062fae5c 1032 main/binary-i386/Packages.gz
+ 318ab9685938ddc78cbaa14a01a12dfccbbbbd8b118f3ea4ca8e566b8355403c 1001 main/binary-i386/Packages
+ 3ff2f565e74a862f49ae2ddf71959c45ea7efabec0e258648e3488fb20e5d927 499 main/binary-i386/Packages.gz
  db5471031bdc3320f2385b7075d9b8d912cd3c249ea7bebc8254b3bc6b8f2fe5 154 main/binary-i386/Release
- 6985a19098c83c4fbe18b68b5f9de431fc23d6ddf944228103f811bef8f30b62 23990 main/binary-amd64/Packages
- 50a5d925606a3423edbef49845d304afe1ed2c09b9fb512b779bd304fe0a5f09 6302 main/binary-amd64/Packages.gz
+ dbf7abd066d1632d74317c8ed05408e288ad370a0672405fc8b6dcd755534179 13063 main/binary-amd64/Packages
+ 52e7b458bd7c015119f3c6951bdb3649fa9b53b316bb7c9ce9e8ec4e97861d8d 4066 main/binary-amd64/Packages.gz
  402bf2ecf7cefdb3e0be4cae39707b05b5e7da52cb5885a41f5094b49ad92c01 155 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz

@@ -1,30 +1,3 @@
-Package: speedtest-cli
-Version: 2.1.3-1
-Architecture: all
-Maintainer: Jonathan Carter <jcc@debian.org>
-Installed-Size: 104
-Depends: python3:any (>= 3.3.2-2~), python3-pkg-resources, ca-certificates
-Homepage: https://github.com/sivel/speedtest-cli/
-Priority: optional
-Section: utils
-Filename: pool/main/s/speedtest-cli/speedtest-cli_2.1.3-1_all.deb
-Size: 24356
-SHA256: 52e5271587d7a5f703d74d226ac44da53e1ca6699926d4c6c2973e054548d233
-SHA1: 2dac8150afb4400d904b8a2652a9769019e18384
-MD5sum: 7da2ea0bf1fedfea6108f2740f553df7
-Description: Command line interface for testing internet bandwidth using speedtest.net
- Speedtest.net is a webservice that allows you to test your broadband
- connection by downloading a file from one of many Speedtest.net
- servers from around the world.
- .
- This utility allows you to use the Speedtest.net service from the
- command line.
- .
- Note: This tool accesses speedtest.net over http, while the web-based client
- uses websockets. This tool has shown to become increasingly inacurate with
- high-speed connections. For more information, see the readme on:
- https://github.com/sivel/speedtest-cli
-
 Package: ubiquity-ubuntu-artwork
 Source: ubiquity
 Version: 18.04.14.15belin5
