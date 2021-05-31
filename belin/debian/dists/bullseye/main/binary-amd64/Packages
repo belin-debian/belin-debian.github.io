@@ -126,6 +126,23 @@ Description: New set of tools for working with SquashFS images - shared library
  This package contains the C libraries needed to run executables that use
  the squashfs-tools-ng library.
 
+Package: live-installer
+Version: 2020.03.13
+Architecture: all
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Installed-Size: 5202
+Depends: python:any (>= 2.7), gir1.2-webkit2-4.0, python (>= 2.7), python (<< 3), python-parted, parted, gparted, python-gi-cairo, python-pyqt5, python-pil, imagemagick, isoquery, desktop-file-utils, shared-mime-info, sysv-rc, menu, gdisk, iso-codes, locales, adduser, rsync
+Priority: optional
+Section: admin
+Filename: pool/main/l/live-installer/live-installer_2020.03.13_all.deb
+Size: 2258948
+SHA256: a9f27bc612795f7c8c5058675e3cb07d6156e8219213896497c19bf0b35d448f
+SHA1: d6295e555ab12942bf0b78bfbddbb4ae851a61a3
+MD5sum: f7184d5d82366bcfda312d214da537a8
+Description: Live Installer
+ A live installer
+Original-Maintainer: Clement Lefebvre <root@linuxmint.com>
+
 Package: squashfs-tools-ng
 Version: 1.0.1-1
 Architecture: amd64
