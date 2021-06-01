@@ -1,0 +1,37 @@
+Origin: belin-ubuntu.github.io
+Label: BeLin package repository
+Codename: bullseye
+Date: Tue, 01 Jun 2021 11:02:10 UTC
+Architectures: i386 amd64
+Components: main
+Description: BeLin package repository for Debian System
+MD5Sum:
+ 71a475099d789ef7c5bac363da3e5b3f 1001 main/binary-i386/Packages
+ 9d4d2cae5c8e09ec15077c1c902d860e 499 main/binary-i386/Packages.gz
+ 0b63663dc3de903c274c6cfa5f2e4e5f 154 main/binary-i386/Release
+ 72f1c97d5b0a57f583d1184c8ac9a9b5 13063 main/binary-amd64/Packages
+ bf30e00187d1b07f0c66e568579fb4cd 4066 main/binary-amd64/Packages.gz
+ 820717a30b18bda9b6d5434833306bfc 155 main/binary-amd64/Release
+ b90a373a211975dd514dcead837645b9 1091 main/source/Sources
+ 1d5e85548c7e523490ec8265b93824ae 586 main/source/Sources.gz
+ fab5c51136581089c5b9ebb4b69d68e3 156 main/source/Release
+SHA1:
+ 5fdf313726605f1139e214dc0412b66eee3c8833 1001 main/binary-i386/Packages
+ 3874cca6cad28f003dbdc5ccbac92ce46c0a368e 499 main/binary-i386/Packages.gz
+ 95f363d10b327a4b2a4c403f49b2ce375e80ccf5 154 main/binary-i386/Release
+ bb71a6b6dbcd13c8ef2e09dbab0abc8029f7405f 13063 main/binary-amd64/Packages
+ be7b06c2fb9a4f472994dbcc3ad180d248b5a793 4066 main/binary-amd64/Packages.gz
+ cb4688bf290af2c0817797a58a41e8590a96020a 155 main/binary-amd64/Release
+ 386d1eda8cbabd39a625b84640cf1978627d3c59 1091 main/source/Sources
+ 92487225a2239fca911ec8ea9ed38017d02c6909 586 main/source/Sources.gz
+ 623121e8ab7b94df56bb926e9a249d694be9225d 156 main/source/Release
+SHA256:
+ 318ab9685938ddc78cbaa14a01a12dfccbbbbd8b118f3ea4ca8e566b8355403c 1001 main/binary-i386/Packages
+ 3ff2f565e74a862f49ae2ddf71959c45ea7efabec0e258648e3488fb20e5d927 499 main/binary-i386/Packages.gz
+ db5471031bdc3320f2385b7075d9b8d912cd3c249ea7bebc8254b3bc6b8f2fe5 154 main/binary-i386/Release
+ dbf7abd066d1632d74317c8ed05408e288ad370a0672405fc8b6dcd755534179 13063 main/binary-amd64/Packages
+ 52e7b458bd7c015119f3c6951bdb3649fa9b53b316bb7c9ce9e8ec4e97861d8d 4066 main/binary-amd64/Packages.gz
+ 402bf2ecf7cefdb3e0be4cae39707b05b5e7da52cb5885a41f5094b49ad92c01 155 main/binary-amd64/Release
+ 670307df18fa2978f083de672c4b6e20d46e43ef617dc793677e86bc7de56c38 1091 main/source/Sources
+ ab9c306940e5d2d232211cd4b721a048f04502faf365718b0a5efdd0d57bb055 586 main/source/Sources.gz
+ 75403ddf57e69a6a2bfae0086a16cbd8898dafa296c7fa5974e53151906e8065 156 main/source/Release
