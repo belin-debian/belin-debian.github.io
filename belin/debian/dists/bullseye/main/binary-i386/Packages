@@ -1,3 +1,28 @@
+Package: base-files
+Version: 11.3
+Architecture: i386
+Essential: yes
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Installed-Size: 342
+Pre-Depends: awk
+Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
+Replaces: base, dpkg (<= 1.15.0), miscutils
+Provides: base
+Multi-Arch: foreign
+Priority: required
+Section: admin
+Filename: pool/main/b/base-files/base-files_11.3_i386.deb
+Size: 70152
+SHA256: 1696e1babc52cb31a7cc829b1e334d4d3b29ee84aa02d9f0dee9aa70865470dd
+SHA1: 0e11d0f58cd00855bda40f0e5f3cc36598f2df7d
+MD5sum: 34273f3582df5e200b83d26a17182646
+Description: Debian base system miscellaneous files
+ This package contains the basic filesystem hierarchy of a Debian system, and
+ several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
+ and the text of several common licenses in use on Debian systems.
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
 Package: console-conf
 Source: subiquity
 Version: 20.04.3+git84g6a5e36ed
