@@ -40,6 +40,35 @@ MD5sum: 9ec63000b29d5fa8991ea96c5d398f3c
 Description: Run a "live" preinstalled system from read-only media
 Tag: admin::boot, admin::filesystem, implemented-in::shell, protocol::smb, role::plugin, scope::utility, special::completely-tagged, works-with-format::iso9660
 
+Package: console-conf
+Source: subiquity
+Version: 20.04.3+git84g6a5e36ed
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 125
+Depends: python3, subiquitycore, python3:any (>= 3.3.2-2~)
+Homepage: https://github.com/CanonicalLtd/subiquity
+Priority: optional
+Section: admin
+Filename: pool/main/s/subiquity/console-conf_20.04.3+git84g6a5e36ed_all.deb
+Size: 21324
+SHA256: 5f4d56462eacddc4eac91a9542c41ee3b5a42fde196a3efc0e6181961e7af493
+SHA1: 688ec25fbdc87aaba4a7b3aa98fc394f05abc14e
+MD5sum: 9ba710c669a223b43268cde09564e933
+Description: Ubuntu Core Pre-Ownership Configurator
+ SUbiquity is an installer system for servers, embedded devices and desktops
+ or laptops meant to build systems as quickly as possible for users to reach
+ a point where their system is usable.
+ .
+ By default, subiquity provides a "first boot" experience that allows users
+ to do initial system configuration such as adding users and login settings,
+ along with doing basic network configuration. It can also be used to build
+ a new system from the ground up, partitioning and copying a disk image to
+ the storage device selected by the user.
+ .
+ This package provides the setup routines for pre-ownership configuration of
+ a system.
+
 Package: libdebian-installer-extra4
 Source: libdebian-installer
 Version: 0.120ubuntu3~ubuntu18.04.1
@@ -201,6 +230,35 @@ Description: New set of tools for working with SquashFS images
      replicate the file system (and especially permissions) locally,
    - support for SELinux contexts file (see selabel_file(5)) to generate
      SELinux labels.
+
+Package: subiquitycore
+Source: subiquity
+Version: 20.04.3+git84g6a5e36ed
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1095
+Depends: probert-network, python3-urwid (>= 1.2.1), python3-attr, python3-yaml, python3:any (>= 3.3.2-2~)
+Homepage: https://github.com/CanonicalLtd/subiquity
+Priority: optional
+Section: admin
+Filename: pool/main/s/subiquity/subiquitycore_20.04.3+git84g6a5e36ed_all.deb
+Size: 318728
+SHA256: cbe6435c0e57387c823e844f4747f12ad5e9eff20645e66222c7ef491a57c432
+SHA1: 612dc2aff89856f1858eafc2bf0a8d8c2bb1eae6
+MD5sum: 42e103e111516108c0cca28ed77d5571
+Description: Ubuntu Server Installer - core libraries
+ SUbiquity is an installer system for servers, embedded devices and desktops
+ or laptops meant to build systems as quickly as possible for users to reach
+ a point where their system is usable.
+ .
+ By default, subiquity provides a "first boot" experience that allows users
+ to do initial system configuration such as adding users and login settings,
+ along with doing basic network configuration. It can also be used to build
+ a new system from the ground up, partitioning and copying a disk image to
+ the storage device selected by the user.
+ .
+ This package provides the installer routines for bootstrapping a system
+ with the Subiquity the server installer UI.
 
 Package: ubiquity
 Version: 18.04.14.15belin5
