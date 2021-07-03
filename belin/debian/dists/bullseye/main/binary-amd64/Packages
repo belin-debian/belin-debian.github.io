@@ -1,3 +1,27 @@
+Package: base-files
+Version: 11.2
+Architecture: amd64
+Essential: yes
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 342
+Pre-Depends: awk
+Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
+Replaces: base, dpkg (<= 1.15.0), miscutils
+Provides: base
+Multi-Arch: foreign
+Priority: required
+Section: admin
+Filename: pool/main/b/base-files/base-files_11.2_amd64.deb
+Size: 70128
+SHA256: c2cfb0a4d471c77254e6e440432aad7fde1d6ee701e2b7bae56b6bef05641375
+SHA1: e62b444f7974f3176c225e33ba1f7eba2efb4ee5
+MD5sum: 74c8d64d27413d2ec55fd470e8ac0370
+Description: Debian base system miscellaneous files
+ This package contains the basic filesystem hierarchy of a Debian system, and
+ several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
+ and the text of several common licenses in use on Debian systems.
+
 Package: casper
 Version: 1.461
 Architecture: amd64
