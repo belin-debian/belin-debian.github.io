@@ -6,4 +6,4 @@ Components: main
 Description: BeLin package repository for Debian System
 SignWith: 160D573FA5CB60C9
 Pull: bullseye
-
+UDebComponents: main
