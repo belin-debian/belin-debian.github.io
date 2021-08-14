@@ -94,6 +94,150 @@ Description: Ubuntu Core Pre-Ownership Configurator
  This package provides the setup routines for pre-ownership configuration of
  a system.
 
+Package: gir1.2-atk-1.0
+Source: atk1.0
+Version: 2.36.0-2
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@lists.alioth.debian.org>
+Installed-Size: 92
+Depends: gir1.2-glib-2.0 (>= 1.32.0), libatk1.0-0 (>= 2.35.1)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: introspection
+Filename: pool/main/a/atk1.0/gir1.2-atk-1.0_2.36.0-2_amd64.deb
+Size: 26064
+SHA256: 3dfe430c007dbfaa75b0ea1f4d821a8e92406382bb3cbded4da0873bf74ed10a
+SHA1: 6494cf295f15fc5dfb8ae12c9f832e603a3ffecd
+MD5sum: e99891545a55431e379dac3c50a12bc4
+Description: ATK accessibility toolkit (GObject introspection)
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings
+
+Package: libatk1.0-0
+Source: atk1.0
+Version: 2.36.0-2
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@lists.alioth.debian.org>
+Installed-Size: 195
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.55.2), libatk1.0-data (>= 2.36.0-2)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: libs
+Filename: pool/main/a/atk1.0/libatk1.0-0_2.36.0-2_amd64.deb
+Size: 52240
+SHA256: ac1aed6fb9f79ec5866b7ebc500ed1b0e7aa8c2ffd991f75501292524ee9bb73
+SHA1: 238a216da923d35409b43e503293e7436135a3f4
+MD5sum: 9efb21261a684f609eea43332a044ad1
+Description: ATK accessibility toolkit
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ This is the runtime part of ATK, needed to run applications built with it.
+
+Package: libatk1.0-0-dbgsym
+Source: atk1.0
+Version: 2.36.0-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@lists.alioth.debian.org>
+Installed-Size: 176
+Depends: libatk1.0-0 (= 2.36.0-2)
+Breaks: libatk1.0-dbg (<< 2.21.90-1~)
+Replaces: libatk1.0-dbg (<< 2.21.90-1~)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/a/atk1.0/libatk1.0-0-dbgsym_2.36.0-2_amd64.deb
+Size: 137432
+SHA256: a13c5d6c8b6cea64e72679ebaae3a40cb35a31e5bbc1c0ceb1b171fa7b7fc74c
+SHA1: a4944efe4e1e18d936b4e7a97a885243b3e23a93
+MD5sum: 94faea5f7a6369fad0dedbe96eaf1843
+Description: debug symbols for libatk1.0-0
+Build-Ids: 3d241dd0f0a39e9f9953fffa9b5a7d1473c12c15
+
+Package: libatk1.0-data
+Source: atk1.0
+Version: 2.36.0-2
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@lists.alioth.debian.org>
+Installed-Size: 1233
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: misc
+Filename: pool/main/a/atk1.0/libatk1.0-data_2.36.0-2_all.deb
+Size: 148948
+SHA256: 059384099a9ffd496257d108767f5666cdadaa3bcde1d8086ab1cd384c899890
+SHA1: dd3f8241693a0f23a360822f22b7c43807cb1a02
+MD5sum: 39b277eb29d821996c6dcdff7ef3d688
+Description: Common files for the ATK accessibility toolkit
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ This contains the common files which the runtime libraries need.
+
+Package: libatk1.0-dev
+Source: atk1.0
+Version: 2.36.0-2
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@lists.alioth.debian.org>
+Installed-Size: 1320
+Depends: libatk1.0-0 (= 2.36.0-2), gir1.2-atk-1.0 (= 2.36.0-2), pkg-config, libglib2.0-dev (>= 2.31.2)
+Replaces: gir-repository-dev
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: libdevel
+Filename: pool/main/a/atk1.0/libatk1.0-dev_2.36.0-2_amd64.deb
+Size: 103816
+SHA256: 059a31d4a7c34b08982dee0b1951c6910a1cae1bdd2a998051eeacc93611b8a2
+SHA1: 428ee983549428d402e45361dca8244bb841fd01
+MD5sum: dba7e6cf796e00ef0f2b527e87750dc3
+Description: Development files for the ATK accessibility toolkit
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ These are the development files for ATK, needed for compilation of
+ programs or toolkits which use it.
+
+Package: libatk1.0-doc
+Source: atk1.0
+Version: 2.36.0-2
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@lists.alioth.debian.org>
+Installed-Size: 1237
+Suggests: libglib2.0-doc, libgtk-3-doc, devhelp
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: doc
+Filename: pool/main/a/atk1.0/libatk1.0-doc_2.36.0-2_all.deb
+Size: 104196
+SHA256: 4ab3b36153824629895b43b4b45bf2b51c728698845b0fe775e6edab947d32c4
+SHA1: 7b7153b84a91b85de61af2dfcde21c3a480c18b7
+MD5sum: 7a778bb8f1934c829560e1d4105b31f0
+Description: Documentation files for the ATK toolkit
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ This contains the HTML documentation for the ATK library in
+ /usr/share/doc/libatk1.0-doc/ .
+
 Package: libdebian-installer-extra4
 Source: libdebian-installer
 Version: 0.120ubuntu3~ubuntu18.04.1

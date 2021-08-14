@@ -1,0 +1,24 @@
+Package: libatk1.0-udeb
+Source: atk1.0
+Version: 2.36.0-2
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@lists.alioth.debian.org>
+Installed-Size: 168
+Depends: libc6-udeb (>= 2.31), libglib2.0-udeb (>= 2.66.8)
+Priority: optional
+Section: debian-installer
+Filename: pool/main/a/atk1.0/libatk1.0-udeb_2.36.0-2_amd64.udeb
+Size: 41720
+SHA256: 9d3f36734a73784bbcea15df5db23a1884c644f51d3ab181e06e3c0c45c59807
+SHA1: b044dc582a5ea4f1ef7040d0db5fe885a2c66baa
+MD5sum: 570dca99488cacac13eb990cc18876db
+Description: ATK accessibility toolkit
+ This is a udeb, or a microdeb, for the debian-installer.
+ .
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ This is a stripped down version of the runtime part of ATK.
+
