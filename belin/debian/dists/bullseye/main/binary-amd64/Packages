@@ -67,19 +67,19 @@ Tag: admin::boot, admin::filesystem, implemented-in::shell, protocol::smb, role:
 
 Package: console-conf
 Source: subiquity
-Version: 20.04.3+git84g6a5e36ed
+Version: 20.04.4+git84g6a5e36ed
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 125
-Depends: python3, subiquitycore, python3:any (>= 3.3.2-2~)
+Depends: python3, subiquitycore, python3:any
 Homepage: https://github.com/CanonicalLtd/subiquity
 Priority: optional
 Section: admin
-Filename: pool/main/s/subiquity/console-conf_20.04.3+git84g6a5e36ed_all.deb
-Size: 21324
-SHA256: 5f4d56462eacddc4eac91a9542c41ee3b5a42fde196a3efc0e6181961e7af493
-SHA1: 688ec25fbdc87aaba4a7b3aa98fc394f05abc14e
-MD5sum: 9ba710c669a223b43268cde09564e933
+Filename: pool/main/s/subiquity/console-conf_20.04.4+git84g6a5e36ed_all.deb
+Size: 21492
+SHA256: eb9af9b1adfffde327df386bcdd57a9ce2bc528a5b4973a5a60f1b515c41269f
+SHA1: c98eaf031dac54b13bb42e4dcbb1c87023abaf87
+MD5sum: f245ed50920f52504f26089bdeb75c21
 Description: Ubuntu Core Pre-Ownership Configurator
  SUbiquity is an installer system for servers, embedded devices and desktops
  or laptops meant to build systems as quickly as possible for users to reach
@@ -1573,19 +1573,19 @@ Description: New set of tools for working with SquashFS images
 
 Package: subiquitycore
 Source: subiquity
-Version: 20.04.3+git84g6a5e36ed
+Version: 20.04.4+git84g6a5e36ed
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 1095
-Depends: probert-network, python3-urwid (>= 1.2.1), python3-attr, python3-yaml, python3:any (>= 3.3.2-2~)
+Depends: python3-urwid (>= 1.2.1), python3-attr, python3-yaml, python3:any
 Homepage: https://github.com/CanonicalLtd/subiquity
 Priority: optional
 Section: admin
-Filename: pool/main/s/subiquity/subiquitycore_20.04.3+git84g6a5e36ed_all.deb
-Size: 318728
-SHA256: cbe6435c0e57387c823e844f4747f12ad5e9eff20645e66222c7ef491a57c432
-SHA1: 612dc2aff89856f1858eafc2bf0a8d8c2bb1eae6
-MD5sum: 42e103e111516108c0cca28ed77d5571
+Filename: pool/main/s/subiquity/subiquitycore_20.04.4+git84g6a5e36ed_all.deb
+Size: 318760
+SHA256: ff8eadbc5ac1e0fa3a5e40491820d3874f61e768719371b4cbe485d773798b7e
+SHA1: 6fd3e4f4b01a452f44c3487aa8aadf085d25bf5a
+MD5sum: 30e98e1c255642ab3c35ad1ec8fa5cbf
 Description: Ubuntu Server Installer - core libraries
  SUbiquity is an installer system for servers, embedded devices and desktops
  or laptops meant to build systems as quickly as possible for users to reach

@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: subiquity
 Binary: subiquitycore, console-conf
 Architecture: all
-Version: 20.04.3+git84g6a5e36ed
+Version: 20.04.4+git84g6a5e36ed
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Homepage: https://github.com/CanonicalLtd/subiquity
 Standards-Version: 4.3.0
@@ -16,21 +16,21 @@ Package-List:
  console-conf deb admin optional arch=all
  subiquitycore deb admin optional arch=all
 Checksums-Sha1:
- 12e096889fee1e3c23cd4178ce5e426097f3b88b 560324 subiquity_20.04.3+git84g6a5e36ed.tar.xz
+ c0b54c2f2552edd11513ddf7358c14f867f914ac 559764 subiquity_20.04.4+git84g6a5e36ed.tar.xz
 Checksums-Sha256:
- 7b26832b08e7b271825b2f8557977cad6f1184dba2aa57d3b1510019b2bdda73 560324 subiquity_20.04.3+git84g6a5e36ed.tar.xz
+ 800847bf2ac9462e3393a4ee43a3e2a7ee695959dc2aaeb7a11946e6414e99f3 559764 subiquity_20.04.4+git84g6a5e36ed.tar.xz
 Files:
- 4a29e0afa7c7d47dfd1e0d69fedeafa9 560324 subiquity_20.04.3+git84g6a5e36ed.tar.xz
+ e8076c62e9a3e6da51932ff7a2efd46f 559764 subiquity_20.04.4+git84g6a5e36ed.tar.xz
 Ubuntu-Use-Langpack: yes
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCgAdFiEEH3IeP65Ge6Ps6Bgvs4CARxGPsssFAmDgWacACgkQs4CARxGP
-sstRgwf+PZ2bKyk8DPUE3nk8N4WzNlwRB1DPIRb0D91TN2WvpTcOZq03cyR3OjLz
-8sD52uh94t3DBmQ92B9Q5f1yCZa5yTG9qSzhAvvj3Vnf+uuSC/n8ZqBnT9ivQ3ia
-CjUiCmddw+V/u1fRcw5u2kFmOB60eCqMdRfxOwHvjvSnMSnvBx0e+mEigbisP+Bt
-M1g747h49FNCEQY4I0utjGoQv9lxBETtWKp6aR6lLdAaECU1a9YC85mANhUGNHi+
-bMt8pH9ndAViYLEKJj4nmkIOryJRQuU0L3YxQ+Ph1iFLiXs07QKEz526WEkp3yfB
-S0qhomd3BQqIZX58XUnK3ho8ZBn1kQ==
-=AEyf
+iQFGBAEBCgAwFiEEH3IeP65Ge6Ps6Bgvs4CARxGPsssFAmEZHc0SHGhhbW1lcmFA
+cGlja3VwLmh1AAoJELOAgEcRj7LLLhUIAJLnKTHpsnVg1qd054Gccee4tTg3KB41
+4TRwrkWxeCOjbHDyfFtB/hNDNXRpJH8sKk9/Io+0i6WmtlAeJ7uxxO3nN4lK2OE9
+7sHl3Ae/3c6a5WQnLtnseEAGysjL78vLevxRypTKjT2zo/RHhVZJGOvM6NGo6/NU
+9mMb5vNc67Bbiku1qVrmfcjY9k5Db3jN8W6jtAo2fVoNkDQNL2svvdYjM5pdrvP0
+q/t9AFZ2Xu5CGMD8m2yOPkmH3GPLyp6FjbKnWQA0ZF2L+O5PkT9HcJUTzOS7zpFi
+VhbLo+mbPFDFBT5+2cR9uDE7xTBDWM9aEaKNzrC5smdmxcA3T1KE8Gg=
+=sXCn
 -----END PGP SIGNATURE-----
