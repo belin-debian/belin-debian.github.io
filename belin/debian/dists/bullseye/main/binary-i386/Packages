@@ -174,6 +174,69 @@ Description: Scriptable screen reader
  This package containing always the latest Orca Screen Reader version
 Original-Maintainer: Debian Accessibility Team <pkg-a11y-devel@lists.alioth.debian.org>
 
+Package: qtbase5-doc
+Source: qtbase-opensource-src
+Version: 5.15.2+dfsg-10
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 29889
+Homepage: https://www.qt.io/developers/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc_5.15.2+dfsg-10_all.deb
+Size: 24221488
+SHA256: ff20b21c978c9da860932f3da26829ccbbc34a42b0acb22babb16825613e621e
+SHA1: b8fa3c63ae07601864f61b242dd08fdcc4b69951
+MD5sum: 9d659e802908084bfe775a16e0f520c1
+Description: Qt 5 base documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 base libraries.
+
+Package: qtbase5-doc-dev
+Source: qtbase-opensource-src
+Version: 5.15.2+dfsg-10
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 9272
+Breaks: qtbase5-doc-html (<< 5.12.5+dfsg-5~)
+Replaces: qtbase5-doc-html (<< 5.12.5+dfsg-5~)
+Homepage: https://www.qt.io/developers/
+Priority: optional
+Section: libdevel
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc-dev_5.15.2+dfsg-10_all.deb
+Size: 413752
+SHA256: f887fd9ffaba7d98779dd561662949e16c0bb20dd85eb508caf991320d99e618
+SHA1: 2958ef534bece4e714b3e79c0b1d60c7b0af4e98
+MD5sum: 3ffe9948117957314101494b537595d5
+Description: Qt 5 base tags files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the doxygen tags files for the qtbase documentation.
+
+Package: qtbase5-doc-html
+Source: qtbase-opensource-src
+Version: 5.15.2+dfsg-10
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 122955
+Homepage: https://www.qt.io/developers/
+Priority: optional
+Section: doc
+Filename: pool/main/q/qtbase-opensource-src/qtbase5-doc-html_5.15.2+dfsg-10_all.deb
+Size: 20955680
+SHA256: 4012d6d27ed35899a9c31782bdc263e6d1f016f49a111440dd54bfb7e8b1fd86
+SHA1: 8e97a3948dc7b8050a9fb5d9257e30c7aceb9969
+MD5sum: d21eb16320101ce53b4d1e3139ead527
+Description: Qt 5 base HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 base
+ libraries.
+
 Package: subiquitycore
 Source: subiquity
 Version: 20.04.3+git84g6a5e36ed
