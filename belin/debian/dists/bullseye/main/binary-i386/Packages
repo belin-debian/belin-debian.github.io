@@ -24,7 +24,7 @@ Description: Debian base system miscellaneous files
 Original-Maintainer: Santiago Vila <sanvila@debian.org>
 
 Package: calamares-settings-debian
-Version: 11.0.5-3
+Version: 11.0.5-4
 Architecture: all
 Maintainer: Jonathan Carter <jcc@debian.org>
 Installed-Size: 261
@@ -33,11 +33,11 @@ Provides: calamares-settings
 Homepage: https://salsa.debian.org/live-team/calamares-settings-debian
 Priority: optional
 Section: utils
-Filename: pool/main/c/calamares-settings-debian/calamares-settings-debian_11.0.5-3_all.deb
-Size: 176000
-SHA256: 6068f437e7ef91e4c8bc7f8101cf816a85c8797fa64c8330ec5d0539490cee58
-SHA1: e6ce546f96a1aece06d09f556e7f0b15289f0cd9
-MD5sum: da6c4ee3e2d08521cacdf16976048f0f
+Filename: pool/main/c/calamares-settings-debian/calamares-settings-debian_11.0.5-4_all.deb
+Size: 175860
+SHA256: fc403ca48de875b025594d20226c028ae59934721e62d74c6024f089ca51ec44
+SHA1: 1a76a0521167714120855b66191da1e9d6e6f81f
+MD5sum: cf9162f9fd3dd04f5e2dd2638ce6d380
 Description: Debian theme and settings for the Calamares Installer
  Calamares is a generic installer framework for Linux distributions.
  By default, it contains a set of boilerplate wording and images. This
