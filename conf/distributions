@@ -1,9 +1,11 @@
-origin: belin-ubuntu.github.io
+Origin: BeLin
 Label: BeLin package repository
-codename: bullseye
+Codename: bullseye
 Architectures: i386 amd64 source
 Components: main
-Description: BeLin package repository for Debian System
+Description: BeLin package repository for Debian derivative
 SignWith: 160D573FA5CB60C9
 Pull: bullseye
 UDebComponents: main
+Suite: bullseye,unstable
+
