@@ -22,6 +22,17 @@ Suite: stable
 
 Origin: BeLin
 Label: BeLin package repository
+Codename: testing
+Architectures: i386 amd64 source
+Components: main contrib non-free
+Description: BeLin package repository for Debian derivative
+SignWith: 160D573FA5CB60C9
+Pull: testing
+UDebComponents: main contrib non-free
+Suite: testing
+
+Origin: BeLin
+Label: BeLin package repository
 Codename: unstable
 Architectures: i386 amd64 source
 Components: main contrib non-free

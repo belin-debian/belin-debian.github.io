@@ -2,7 +2,7 @@ Origin: BeLin
 Label: BeLin package repository
 Suite: bullseye
 Codename: bullseye
-Date: Thu, 19 Aug 2021 16:12:28 UTC
+Date: Thu, 19 Aug 2021 16:26:14 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: BeLin package repository for Debian derivative
