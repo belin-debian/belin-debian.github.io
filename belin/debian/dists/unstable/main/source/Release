@@ -1,0 +1,6 @@
+Archive: unstable
+Component: main
+Origin: BeLin
+Label: BeLin package repository
+Architecture: source
+Description: BeLin package repository for Debian derivative

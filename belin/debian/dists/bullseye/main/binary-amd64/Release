@@ -1,5 +1,6 @@
+Archive: bullseye
 Component: main
-Origin: belin-ubuntu.github.io
+Origin: BeLin
 Label: BeLin package repository
 Architecture: amd64
-Description: BeLin package repository for Debian System
+Description: BeLin package repository for Debian derivative
