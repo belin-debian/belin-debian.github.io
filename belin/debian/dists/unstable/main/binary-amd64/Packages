@@ -1,0 +1,106 @@
+Package: libdebian-installer-extra4
+Source: libdebian-installer
+Version: 0.121
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 41
+Depends: libc6 (>= 2.7), libdebian-installer4 (= 0.121)
+Breaks: cdebootstrap (<< 0.7.6+)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdebian-installer/libdebian-installer-extra4_0.121_amd64.deb
+Size: 17176
+SHA256: 255155d569f79dec0c2b4cfa7f76490850ec69972db6b5bf28ff11752657e77d
+SHA1: b4ce00788400ee55632365a5ebe6bd3a6b3446e0
+MD5sum: beab5d226802db8ae5a061552fdd4865
+Description: Library of some extra debian-installer functions
+ This library is used by debian-installer to perform common functions
+ such as logging messages and executing commands. If you aren't
+ working on debian-installer or building your own install system based
+ on debian-installer, then you probably don't need this library.
+
+Package: libdebian-installer-extra4-dbgsym
+Source: libdebian-installer
+Version: 0.121
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 22
+Depends: libdebian-installer-extra4 (= 0.121)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libd/libdebian-installer/libdebian-installer-extra4-dbgsym_0.121_amd64.deb
+Size: 7288
+SHA256: 8330682fa2b0b1d29e9d79894806cdc5eee3ab5022e408a6962752a3c0dacbe9
+SHA1: da5f5c6859937b28d6e4c7ef2417d18b3b3cbceb
+MD5sum: 5179ae6ea9804da2bc064194bd4d1107
+Description: debug symbols for libdebian-installer-extra4
+Build-Ids: 9cbc1a521c28fec3dd096c388302a7dff9032452
+
+Package: libdebian-installer4
+Source: libdebian-installer
+Version: 0.121
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 84
+Depends: libc6 (>= 2.4)
+Breaks: cdebootstrap (<< 0.7.6+)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdebian-installer/libdebian-installer4_0.121_amd64.deb
+Size: 32096
+SHA256: 82c6c2244b40661cd1cae9e7666652df051ceeb5d8bcd6d84305eea1394b2b3f
+SHA1: 599c0fd57f1e2454a3a8db765e8826552f718624
+MD5sum: fa7398820ece012d953f1063871cc4f8
+Description: Library of common debian-installer functions
+ This library is used by debian-installer to perform common functions
+ such as logging messages and executing commands. If you aren't
+ working on debian-installer or building your own install system based
+ on debian-installer, then you probably don't need this library.
+
+Package: libdebian-installer4-dbgsym
+Source: libdebian-installer
+Version: 0.121
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 79
+Depends: libdebian-installer4 (= 0.121)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libd/libdebian-installer/libdebian-installer4-dbgsym_0.121_amd64.deb
+Size: 56560
+SHA256: 4bbc1ac9545666609cdf402f348d47d21ce23c7e67e74ffa97c1251af5c2dd8d
+SHA1: 5f29fc76f60577541fbe17eb15957d3c4ebbd320
+MD5sum: 4d977e7e63430c787e1b59dbe46dd9df
+Description: debug symbols for libdebian-installer4
+Build-Ids: 1360807af507059f25535164ee0673a098ccb5f2
+
+Package: libdebian-installer4-dev
+Source: libdebian-installer
+Version: 0.121
+Architecture: amd64
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 1873
+Depends: libdebian-installer4 (= 0.121), libdebian-installer-extra4 (= 0.121)
+Conflicts: libdebian-installer-dev
+Provides: libdebian-installer-dev
+Priority: optional
+Section: libdevel
+Filename: pool/main/libd/libdebian-installer/libdebian-installer4-dev_0.121_amd64.deb
+Size: 182080
+SHA256: 403aa32e1d4c8bb3b1afdddc3c9746289c90b902edd7610e5b6fd57766ade782
+SHA1: 6c5be17a17c9eb520650a8cd161dd277641e9be6
+MD5sum: 2bd91928d2755de3f3cd15c440a9f64a
+Description: Library of common debian-installer functions
+ This library is used by debian-installer to perform common functions
+ such as logging messages and executing commands. If you aren't
+ working on debian-installer or building your own install system based
+ on debian-installer, then you probably don't need this library.
+ .
+ This package contains files needed to do libdebian-installer development.
+

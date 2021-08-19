@@ -1,10 +1,9 @@
-ChangelogURI: 
-http://packages.debian.org/changelogs/pool/%s/%s/%s/%s_%s/changelog
+ChangelogURI: http://packages.debian.org/changelogs/pool/%s/%s/%s/%s_%s/changelog
 
-Suite: bullseye
+Suite: {series}
 RepositoryType: deb
-BaseURI: http://belin-ubuntu.github.io/belin/debian/merged
-MatchURI: ((http|ftp)[0-9]*\.([a-z]*\.){0,1}|deb\.|httpredir\.)belin-ubuntu.github.io
+BaseURI: http://belin-ubuntu.github.io/belin/debian
+MatchURI: http://belin-ubuntu.github.io/belin/debian
 MirrorsFile: Belin.mirrors
 Description: BeLin 7.0 release
 Component: main
@@ -13,5 +12,58 @@ Component: contrib
 CompDescription: DFSG-compatible Software with Non-Free Dependencies
 Component: non-free
 CompDescription: Non-DFSG-compatible Software
+
+Suite: stable
+RepositoryType: deb
+BaseURI: http://belin-ubuntu.github.io/belin/debian
+MatchURI: http://belin-ubuntu.github.io
+MirrorsFile: Belin.mirrors
+Description: BeLin current stable release
+Component: main
+CompDescription: Officially supported
+Component: contrib
+CompDescription: DFSG-compatible Software with Non-Free Dependencies
+Component: non-free
+CompDescription: Non-DFSG-compatible Software
+
+Suite: testing
+RepositoryType: deb
+BaseURI: http://belin-ubuntu.github.io/belin/debian
+MatchURI: http://belin-ubuntu.github.io/belin/debian
+MirrorsFile: Belin.mirrors
+Description: BeLin testing release
+Component: main
+CompDescription: Officially supported
+Component: contrib
+CompDescription: DFSG-compatible Software with Non-Free Dependencies
+Component: non-free
+CompDescription: Non-DFSG-compatible Software
+
+Suite: sid
+RepositoryType: deb
+BaseURI: http://belin-ubuntu.github.io/belin/debian
+MatchURI: http://belin-ubuntu.github.io/belin/debian
+MirrorsFile: Belin.mirrors
+Description: BeLin 'Sid' (unstable) release
+Component: main
+CompDescription: Officially supported
+Component: contrib
+CompDescription: DFSG-compatible Software with Non-Free Dependencies
+Component: non-free
+CompDescription: Non-DFSG-compatible Software
+
+Suite: unstable
+RepositoryType: deb
+BaseURI: http://belin-ubuntu.github.io/belin/debian
+MatchURI: http://belin-ubuntu.github.io/belin/debian
+MirrorsFile: Belin.mirrors
+Description: BeLin 'Sid' (unstable) release
+Component: main
+CompDescription: Officially supported
+Component: contrib
+CompDescription: DFSG-compatible Software with Non-Free Dependencies
+Component: non-free
+CompDescription: Non-DFSG-compatible Software
+
 
 
