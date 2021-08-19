@@ -2,10 +2,32 @@ Origin: BeLin
 Label: BeLin package repository
 Codename: bullseye
 Architectures: i386 amd64 source
-Components: main
+Components: main contrib non-free
 Description: BeLin package repository for Debian derivative
 SignWith: 160D573FA5CB60C9
 Pull: bullseye
-UDebComponents: main
-Suite: bullseye,unstable
+UDebComponents: main contrib non-free
+Suite: bullseye
+
+Origin: BeLin
+Label: BeLin package repository
+Codename: stable
+Architectures: i386 amd64 source
+Components: main contrib non-free
+Description: BeLin package repository for Debian derivative
+SignWith: 160D573FA5CB60C9
+Pull: stable
+UDebComponents: main contrib non-free
+Suite: stable
+
+Origin: BeLin
+Label: BeLin package repository
+Codename: unstable
+Architectures: i386 amd64 source
+Components: main contrib non-free
+Description: BeLin package repository for Debian derivative
+SignWith: 160D573FA5CB60C9
+Pull: unstable
+UDebComponents: main contrib non-free
+Suite: unstable
 
