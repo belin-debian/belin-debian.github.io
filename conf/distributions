@@ -29,7 +29,7 @@ Description: BeLin package repository for Debian derivative
 SignWith: 160D573FA5CB60C9
 Pull: testing
 UDebComponents: main contrib non-free
-Suite: bullseye
+Suite: testing
 
 Origin: BeLin
 Label: BeLin package repository
