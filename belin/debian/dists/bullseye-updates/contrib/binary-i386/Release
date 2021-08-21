@@ -1,0 +1,7 @@
+Archive: bullseye-updates
+Version: 7.0
+Component: contrib
+Origin: BeLin
+Label: BeLin package repository
+Architecture: i386
+Description: BeLin package repository for Debian derivative (official updates packages repository)

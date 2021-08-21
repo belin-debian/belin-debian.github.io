@@ -1,0 +1,7 @@
+Archive: bullseye-security
+Version: 7.0
+Component: non-free
+Origin: BeLin
+Label: BeLin package repository
+Architecture: i386
+Description: BeLin package repository for Debian derivative (security packages repository)
