@@ -1,14 +1,53 @@
 Origin: BeLin
 Label: BeLin package repository
 Codename: bullseye
+AlsoAcceptFor: testing, sid, unstable
 Architectures: i386 amd64 source
 Components: main contrib non-free
-Description: BeLin package repository for Debian derivative
+Description: BeLin package repository for Debian derivative (stable repository)
 SignWith: 160D573FA5CB60C9
 Pull: bullseye
 UDebComponents: main contrib non-free
-Suite: stable
-Suite: testing
-Suite: unstable
-Suite: sid
 Version: 7.0
+Suite: stable
+
+Origin: BeLin
+Label: BeLin package repository
+Codename: bullseye-backports
+AlsoAcceptFor: bullseye, stable, stable-backports, testing, sid, unstable
+Architectures: i386 amd64 source
+Components: main contrib non-free
+Description: BeLin package repository for Debian derivative (backported packages repository)
+SignWith: 160D573FA5CB60C9
+Pull: bullseye-backports
+UDebComponents: main contrib non-free
+Version: 7.0
+Suite: bullseye-backports
+
+Origin: BeLin
+Label: BeLin package repository
+Codename: bullseye-updates
+AlsoAcceptFor: bullseye, bullseye-updates, stable-updates, stable, testing, sid, unstable
+Architectures: i386 amd64 source
+Components: main contrib non-free
+Description: BeLin package repository for Debian derivative (official updates packages repository)
+SignWith: 160D573FA5CB60C9
+Pull: bullseye-updates
+UDebComponents: main contrib non-free
+Version: 7.0
+Suite: bullseye-updates
+
+Origin: BeLin
+Label: BeLin package repository
+Codename: bullseye-security
+AlsoAcceptFor: bullseye, bullseye-security, stable, stable-security, testing, unstable, sid
+Architectures: i386 amd64 source
+Components: main contrib non-free
+Description: BeLin package repository for Debian derivative (security packages repository)
+SignWith: 160D573FA5CB60C9
+Pull: bullseye-security
+UDebComponents: main contrib non-free
+Version: 7.0
+Suite: bullseye-security
+
+
