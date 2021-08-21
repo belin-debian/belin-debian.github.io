@@ -1,3 +1,23 @@
+Package: apt-btrfs-snapshot
+Version: 3.5.5
+Architecture: all
+Maintainer: Michael Vogt <michael.vogt@ubuntu.com>
+Installed-Size: 38
+Depends: python3:any, btrfs-progs
+Priority: optional
+Section: admin
+Filename: pool/main/a/apt-btrfs-snapshot/apt-btrfs-snapshot_3.5.5_all.deb
+Size: 8116
+SHA256: f3a3ec42d117bfaf0bbcee68ce7ffaeb8f50288275dc6e055e384391dc754f7f
+SHA1: 16c0054c2e0adee8f8965cfb55ba83c68fb7716a
+MD5sum: ad893c4c70ac4cb8e7d31dfa1b06f8cb
+Description: Automatically create snapshot on apt operations
+ This will create a btrfs snapshot of the root filesystem each time
+ that apt installs/removes/upgrades a software package.
+ .
+ A commandline tool called "apt-btrfs-snapshot" is also provided
+ for easy access create/list/delete snapshots.
+
 Package: base-files
 Version: 11.3
 Architecture: i386
