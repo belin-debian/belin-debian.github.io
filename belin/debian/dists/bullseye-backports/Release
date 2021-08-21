@@ -3,7 +3,7 @@ Label: BeLin package repository
 Suite: bullseye-backports
 Codename: bullseye-backports
 Version: 7.0
-Date: Sat, 21 Aug 2021 16:24:55 UTC
+Date: Sat, 21 Aug 2021 19:06:02 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: BeLin package repository for Debian derivative (backported packages repository)
