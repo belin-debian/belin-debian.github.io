@@ -50,4 +50,11 @@ UDebComponents: main contrib non-free
 Version: 7.0
 Suite: bullseye-security
 
-
+DebOverride: override.testing
+DscOverride: override.testing
+DscOverride: override.unstable
+DebOverride: override.unstable
+DebOverride: override.hirsute
+DscOverride: override.hirsute
+DebOverride: override.impish
+DscOverride: override.hirsute

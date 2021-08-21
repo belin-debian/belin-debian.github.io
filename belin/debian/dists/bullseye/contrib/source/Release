@@ -1,6 +1,7 @@
-Archive: bullseye
+Archive: stable testing unstable
+Version: 7.0
 Component: contrib
 Origin: BeLin
 Label: BeLin package repository
 Architecture: source
-Description: BeLin package repository for Debian derivative
+Description: BeLin package repository for Debian derivative (Stable repository)
