@@ -1,0 +1,19 @@
+Name: debian
+Method: http://ftp.hu.debian.org/debian
+VerifyRelease: blindtrust
+
+Name: bullseye
+Method: http://ftp.hu.debian.org/debian
+VerifyRelease: blindtrust
+
+Name: bullseye-security
+Method: http://security.debian.org/
+VerifyRelease: blindtrust
+
+Name: bullseye-updates
+Method: http://ftp.hu.debian.org/debian
+VerifyRelease: blindtrust
+
+Name: bullseye-backports
+Method: http://ftp.hu.debian.org/debian
+VerifyRelease: blindtrust

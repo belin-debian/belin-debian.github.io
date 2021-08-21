@@ -10,6 +10,10 @@ Pull: bullseye
 UDebComponents: main contrib non-free
 Version: 7.0
 Suite: stable
+Update: bullseye
+DebOverride: override
+UDebOverride: override
+DscOverride: srcoverride
 
 Origin: BeLin
 Label: BeLin package repository
@@ -23,6 +27,10 @@ Pull: bullseye-backports
 UDebComponents: main contrib non-free
 Version: 7.0
 Suite: bullseye-backports
+Update: bullseye-backports
+DebOverride: override
+UDebOverride: override
+DscOverride: srcoverride
 
 Origin: BeLin
 Label: BeLin package repository
@@ -36,6 +44,10 @@ Pull: bullseye-updates
 UDebComponents: main contrib non-free
 Version: 7.0
 Suite: bullseye-updates
+Update: bullseye-updates
+DebOverride: override
+UDebOverride: override
+DscOverride: srcoverride
 
 Origin: BeLin
 Label: BeLin package repository
@@ -49,12 +61,8 @@ Pull: bullseye-security
 UDebComponents: main contrib non-free
 Version: 7.0
 Suite: bullseye-security
+DebOverride: override
+UDebOverride: override
+DscOverride: srcoverride
+Update: bullseye-security
 
-DebOverride: override.testing
-DscOverride: override.testing
-DscOverride: override.unstable
-DebOverride: override.unstable
-DebOverride: override.hirsute
-DscOverride: override.hirsute
-DebOverride: override.impish
-DscOverride: override.hirsute
