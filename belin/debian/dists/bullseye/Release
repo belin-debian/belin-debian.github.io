@@ -3,7 +3,7 @@ Label: BeLin package repository
 Suite: stable
 Codename: bullseye
 Version: 7.0
-Date: Sat, 21 Aug 2021 20:31:19 UTC
+Date: Sun, 22 Aug 2021 09:22:40 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: BeLin package repository for Debian derivative (stable repository)

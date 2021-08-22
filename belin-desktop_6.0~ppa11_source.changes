@@ -1,3 +1,43 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:be4ed3d6eeb1f1898f4df942f2bf6b0517eef110eeb45a0f1498455b2a696eed
-size 1931
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 16 May 2018 10:04:00 +0200
+Source: belin-desktop
+Binary: belin-desktop belin-mate-desktop belin-desktop-oem belin-minimal
+Architecture: source
+Version: 6.0~ppa11
+Distribution: bionic
+Urgency: high
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Changed-By: Attila Hammer <hammera@pickup.hu>
+Description:
+ belin-desktop - BeLin alkalmazás telepítő
+ belin-desktop-oem - BeLin alkalmazás telepítő
+ belin-mate-desktop - BeLin alkalmazás telepítő
+ belin-minimal - BeLin alkalmazás telepítő
+Changes:
+ belin-desktop (6.0~ppa11) bionic; urgency=high
+ .
+   * A belin-desktop metacsomaghoz hozzá lett adva a gnome-control-center, és a gnome-online-accounts csomag.
+   A belin-mate-desktop csomaghoz hozzá lett adva a gnome-control-center, gnome-online-accounts csomag
+Checksums-Sha1:
+ dc35d45fc80862b6ff9a04b13ac951781aa6c132 1045 belin-desktop_6.0~ppa11.dsc
+ 97e7576fd26b5f1b7594dd51523ed89c5079b03d 2579 belin-desktop_6.0~ppa11.tar.gz
+ 5e0958874001515cb96c6726a7eb991e985845ac 6447 belin-desktop_6.0~ppa11_source.buildinfo
+Checksums-Sha256:
+ 1ec88264274bfb70cf101f6d4d57bd1b9c21c33118c2d90beeea288faadcd691 1045 belin-desktop_6.0~ppa11.dsc
+ 9cb015d50c353b425e41faf7ba72af039f7d748dd225803f5e2c7120d00c3339 2579 belin-desktop_6.0~ppa11.tar.gz
+ 53462ec09c2bea79abf8728e95fd7775d3b7a6f93c621e4a4dd0a20c8a1c4436 6447 belin-desktop_6.0~ppa11_source.buildinfo
+Files:
+ e507e95c4cb44c758f9799f46d0873a4 1045 metapackages extra belin-desktop_6.0~ppa11.dsc
+ e339f1266976942feb5450e0f4595621 2579 metapackages extra belin-desktop_6.0~ppa11.tar.gz
+ 07713c2995e8204dd82e9bffb5ce6100 6447 metapackages extra belin-desktop_6.0~ppa11_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iHAEARECADAWIQQrXsDO30pUA0lsCnKPYfcgpwUzugUCYHB8OhIcaGFtbWVyYUBw
+aWNrdXAuaHUACgkQj2H3IKcFM7r5RwCeLq7bCkD+ISmigs+PvErdsCkWhDwAniF0
++k3PWogNrxGmK2/vusHY7XX1
+=tWWH
+-----END PGP SIGNATURE-----

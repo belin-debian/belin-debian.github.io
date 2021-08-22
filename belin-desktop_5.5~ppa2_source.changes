@@ -1,3 +1,42 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e8efeba3f5c9dfdddae8508c4c61135199499a80065e69cdd140f7bb3927447d
-size 1767
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 16 May 2018 10:04:00 +0200
+Source: belin-desktop
+Binary: belin-desktop belin-mate-desktop belin-desktop-oem belin-minimal
+Architecture: source
+Version: 5.5~ppa2
+Distribution: bionic
+Urgency: high
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Changed-By: Attila Hammer <hammera@pickup.hu>
+Description:
+ belin-desktop - BeLin alkalmazás telepítő
+ belin-desktop-oem - BeLin alkalmazás telepítő
+ belin-mate-desktop - BeLin alkalmazás telepítő
+ belin-minimal - BeLin alkalmazás telepítő
+Changes:
+ belin-desktop (5.5~ppa2) bionic; urgency=high
+ .
+   * Minimális módosítás történt a metacsomag fájlokban
+Checksums-Sha1:
+ cdec291ded2f8d7b7d0c52dba1bb234886f2849a 1041 belin-desktop_5.5~ppa2.dsc
+ 5107d3aa1b55836215a906ff93fdc97d8f441094 3001 belin-desktop_5.5~ppa2.tar.gz
+ 51fc8561cd27843963da85eb1b4793ece18270e7 6443 belin-desktop_5.5~ppa2_source.buildinfo
+Checksums-Sha256:
+ 18d060eedfab6d793d27eda975de7d365cea62044a2ac4d5ced12f646d83db5e 1041 belin-desktop_5.5~ppa2.dsc
+ ff082f3beb09959383f6b17d2fac410f343c9710afab0e5e78e49dfe52850cdb 3001 belin-desktop_5.5~ppa2.tar.gz
+ 3ef7352f73f7574ab057015263bb884f8f131a7bc5e002843384d7b70257835e 6443 belin-desktop_5.5~ppa2_source.buildinfo
+Files:
+ 2963966a42421107b14e133b49ce7519 1041 metapackages extra belin-desktop_5.5~ppa2.dsc
+ 7ba76a6ef6db7221bf4bafd3468de927 3001 metapackages extra belin-desktop_5.5~ppa2.tar.gz
+ 831dbcd0978ef78f9e9e31c9002330b4 6443 metapackages extra belin-desktop_5.5~ppa2_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iHAEARECADAWIQQrXsDO30pUA0lsCnKPYfcgpwUzugUCYHCY6hIcaGFtbWVyYUBw
+aWNrdXAuaHUACgkQj2H3IKcFM7q2PwCgqg/EFy/hBOE6UavZqdl2WV5VKx4An2d1
+EhM0zXwZrU7SIcPnM83uCJ+E
+=AcRs
+-----END PGP SIGNATURE-----
