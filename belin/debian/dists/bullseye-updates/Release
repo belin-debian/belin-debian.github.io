@@ -3,7 +3,7 @@ Label: BeLin package repository
 Suite: bullseye-updates
 Codename: bullseye-updates
 Version: 7.0
-Date: Sun, 22 Aug 2021 09:22:45 UTC
+Date: Mon, 23 Aug 2021 20:12:04 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: BeLin package repository for Debian derivative (official updates packages repository)

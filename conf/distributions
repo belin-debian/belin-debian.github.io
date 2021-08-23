@@ -1,7 +1,6 @@
 Origin: BeLin
 Label: BeLin package repository
 Codename: bullseye
-AlsoAcceptFor: testing, sid, unstable
 Architectures: i386 amd64 source
 Components: main contrib non-free
 Description: BeLin package repository for Debian derivative (stable repository)
@@ -10,6 +9,7 @@ Pull: bullseye
 UDebComponents: main contrib non-free
 Version: 7.0
 Suite: stable
+AlsoAcceptFor: bullseye, stable, stable-backports, testing, sid, unstable, focal, hirsute, impish
 Update: bullseye
 DebOverride: override
 UDebOverride: override
@@ -18,7 +18,7 @@ DscOverride: srcoverride
 Origin: BeLin
 Label: BeLin package repository
 Codename: bullseye-backports
-AlsoAcceptFor: bullseye, stable, stable-backports, testing, sid, unstable
+AlsoAcceptFor: bullseye, stable, stable-backports, testing, sid, unstable, focal, hirsute, impish
 Architectures: i386 amd64 source
 Components: main contrib non-free
 Description: BeLin package repository for Debian derivative (backported packages repository)
@@ -35,7 +35,7 @@ DscOverride: srcoverride
 Origin: BeLin
 Label: BeLin package repository
 Codename: bullseye-updates
-AlsoAcceptFor: bullseye, bullseye-updates, stable-updates, stable, testing, sid, unstable
+AlsoAcceptFor: bullseye, bullseye-updates, stable-updates, stable, testing, sid, unstable, focal, hirsute, impish
 Architectures: i386 amd64 source
 Components: main contrib non-free
 Description: BeLin package repository for Debian derivative (official updates packages repository)
@@ -52,7 +52,7 @@ DscOverride: srcoverride
 Origin: BeLin
 Label: BeLin package repository
 Codename: bullseye-security
-AlsoAcceptFor: bullseye, bullseye-security, stable, stable-security, testing, unstable, sid
+AlsoAcceptFor: bullseye, bullseye-security, stable, stable-security, testing, unstable, sid, focal, hirsute, impish
 Architectures: i386 amd64 source
 Components: main contrib non-free
 Description: BeLin package repository for Debian derivative (security packages repository)
@@ -65,4 +65,38 @@ DebOverride: override
 UDebOverride: override
 DscOverride: srcoverride
 Update: bullseye-security
+
+Origin: BeLin
+Label: BeLin package repository
+Codename: belin-testing
+Architectures: i386 amd64 source
+Components: main contrib non-free
+Description: BeLin package repository for Debian derivative (testing repository)
+SignWith: 160D573FA5CB60C9
+Pull: testing
+UDebComponents: main contrib non-free
+Version: 7.0
+Suite: testing
+AlsoAcceptFor: bullseye, stable, stable-backports, testing, sid, unstable, focal, hirsute, impish
+Update: testing
+DebOverride: override
+UDebOverride: override
+DscOverride: srcoverride
+
+Origin: BeLin
+Label: BeLin package repository
+Codename: belin-devel
+Architectures: i386 amd64 source
+Components: main contrib non-free
+Description: BeLin package repository for Debian derivative (development repository)
+SignWith: 160D573FA5CB60C9
+Pull: sid
+UDebComponents: main contrib non-free
+Version: 7.0
+Suite: sid
+AlsoAcceptFor: bullseye, stable, stable-backports, testing, sid, unstable, focal, hirsute, impish
+Update: sid
+DebOverride: override
+UDebOverride: override
+DscOverride: srcoverride
 

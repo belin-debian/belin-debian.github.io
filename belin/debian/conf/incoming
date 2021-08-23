@@ -1,5 +1,5 @@
 Name: default
 IncomingDir: incoming
 TempDir: tmp
-Allow: bullseye, stable, testing, sid, unstable, bullseye-backports, stable-backports, bullseye-updates, stable-updates, stable-security, bullseye-security
+Allow: bullseye, stable, testing, sid, unstable, bullseye-backports, stable-backports, bullseye-updates, stable-updates, stable-security, bullseye-security, hirsute, impish, focal
 

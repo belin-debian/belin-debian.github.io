@@ -1,0 +1,7 @@
+Archive: testing
+Version: 7.0
+Component: contrib
+Origin: BeLin
+Label: BeLin package repository
+Architecture: amd64
+Description: BeLin package repository for Debian derivative (testing repository)

@@ -3,7 +3,7 @@ Label: BeLin package repository
 Suite: bullseye-security
 Codename: bullseye-security
 Version: 7.0
-Date: Sun, 22 Aug 2021 09:22:46 UTC
+Date: Mon, 23 Aug 2021 20:12:05 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: BeLin package repository for Debian derivative (security packages repository)

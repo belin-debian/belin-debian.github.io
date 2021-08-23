@@ -1,3 +1,128 @@
+Package: apport
+Version: 2.20.11-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2204
+Depends: python3, python3-apport (>= 2.20.11-1), lsb-base (>= 3.0-6), python3-gi, python3-ndg-httpsclient, gir1.2-glib-2.0 (>= 1.29.17)
+Recommends: apport-symptoms, python3-systemd
+Suggests: apport-gtk | apport-kde, policykit-1
+Conflicts: core-dump-handler
+Breaks: python-apport (<< 2.2-0ubuntu1)
+Replaces: core-dump-handler, python-apport (<< 2.2-0ubuntu1)
+Provides: core-dump-handler
+Homepage: https://wiki.ubuntu.com/Apport
+Priority: optional
+Section: utils
+Filename: pool/main/a/apport/apport_2.20.11-1_all.deb
+Size: 508160
+SHA256: 3736d7145978da795f16d51bc248360876c50e17773c59552defd2a4121c5854
+SHA1: a486a3e42298638ea42e6c922fb284fd30907153
+MD5sum: 32a9e42b26a18dd5c77472c506cfe27c
+Description: automatically generate crash reports for debugging
+ apport automatically collects data from crashed processes and
+ compiles a problem report in /var/crash/. This utilizes the crashdump
+ helper hook provided by the Ubuntu kernel.
+ .
+ This package also provides a command line frontend for browsing and
+ handling the crash reports. For desktops, you should consider
+ installing the GTK+ or Qt user interface (apport-gtk or apport-kde).
+
+Package: apport-gtk
+Source: apport
+Version: 2.20.11-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 208
+Depends: python3, python3-apport (>= 2.20.11-1), gir1.2-gtk-3.0 (>= 3.1.90), gir1.2-wnck-3.0, python3-gi, apport (>= 0.41), procps, gnome-terminal | x-terminal-emulator, whoopsie-preferences
+Recommends: update-notifier, gdb | gdb-minimal
+Homepage: https://wiki.ubuntu.com/Apport
+Priority: optional
+Section: gnome
+Filename: pool/main/a/apport/apport-gtk_2.20.11-1_all.deb
+Size: 155928
+SHA256: 7469bdb004134c9128a2b092378571bd2a20e1bae8d84eddf1954c1293ba3dfe
+SHA1: 4f8a26328efc57a31a0635c82589d9358ac531b2
+MD5sum: d231f7c38f83becc32f47dc821b747b7
+Description: GTK+ frontend for the apport crash report system
+ apport automatically collects data from crashed processes and
+ compiles a problem report in /var/crash/. This utilizes the crashdump
+ helper hook provided by the Ubuntu kernel.
+ .
+ This package provides a GTK+ frontend for browsing and handling the
+ crash reports.
+
+Package: apport-noui
+Source: apport
+Version: 2.20.11-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 152
+Depends: python3, python3-apport (>= 2.20.11-1), apport (>= 2.20.10-0ubuntu4), procps, gdb-minimal | gdb, whoopsie
+Homepage: https://wiki.ubuntu.com/Apport
+Priority: optional
+Section: utils
+Filename: pool/main/a/apport/apport-noui_2.20.11-1_all.deb
+Size: 145636
+SHA256: 8fae53005f58dc82a23f2a365ec2f1cac9f31446895259782aadb85b900c59e8
+SHA1: 4d2f38ef1a59bf3f6678eca01e309f5add796cf8
+MD5sum: 50182c7ad6b6525d24cddb1ac6a8f4f5
+Description: tools for automatically reporting Apport crash reports
+ apport automatically collects data from crashed processes and
+ compiles a problem report in /var/crash/. This utilizes the crashdump
+ helper hook provided by the Ubuntu kernel.
+ .
+ Installing this package will configure your system to automatically submit
+ all new Apport crash reports.
+
+Package: apport-retrace
+Source: apport
+Version: 2.20.11-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 185
+Depends: python3, python3-apport (>= 2.20.11-1), python3-launchpadlib, apt, binutils, dpkg-dev, gdb, libc6-dbg | libc6-dbgsym | libc-dbg
+Suggests: gdb-multiarch
+Homepage: https://wiki.ubuntu.com/Apport
+Priority: optional
+Section: devel
+Filename: pool/main/a/apport/apport-retrace_2.20.11-1_all.deb
+Size: 156776
+SHA256: 8c516a99ac7c4320a0680cab8359f5819fa9acdae1eb31e18e1b3a885fd68cc1
+SHA1: ce72497063c517647bc5ef4038f712e457a0d4a8
+MD5sum: ab5f1852f3d34b65a650b2701cb35de9
+Description: tools for reprocessing Apport crash reports
+ apport-retrace recombines an Apport crash report (either a file or a
+ Launchpad bug) and debug symbol packages (.ddebs) into fully symbolic
+ stack traces. This can optionally use a sandbox for installing debug symbol
+ packages and doing the processing, so that entire process of retracing crashes
+ can happen with normal user privileges without changing the system.
+ .
+ You need to install gdb-multiarch if you want to be able to retrace crash
+ reports which happened on a different architecture than the one you run
+ apport-retrace on.
+
+Package: apport-valgrind
+Source: apport
+Version: 2.20.11-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 158
+Depends: python3, python3-apport (>= 2.20.11-1), apt, binutils, valgrind (>= 3.8.1-1ubuntu1~), dpkg-dev, libc6-dbg | libc6-dbgsym | libc-dbg
+Homepage: https://wiki.ubuntu.com/Apport
+Priority: optional
+Section: devel
+Filename: pool/main/a/apport/apport-valgrind_2.20.11-1_all.deb
+Size: 148860
+SHA256: ed62a0e823d5c5baed40fcd797c3bbf0745c66bd402c00c5c564ef1faf2a30d9
+SHA1: 6ab94c2247997ee0cde2f3a77415ad9cb7293021
+MD5sum: 89c8effeaf5c55b1c8ebdfc82c079db6
+Description: valgrind wrapper that first downloads debug symbols
+ apport-valgrind is a valgrind wrapper that automatically downloads related
+ available debug symbols and provides them to valgrind's memcheck tool, which
+ is executed. The output is a valgrind log file ("valgrind.log") that contains
+ stack traces (with as many symbols resolved as available) and that shows
+ memory leaks.
+
 Package: apt-btrfs-snapshot
 Version: 3.5.5
 Architecture: all
@@ -17,6 +142,67 @@ Description: Automatically create snapshot on apt operations
  .
  A commandline tool called "apt-btrfs-snapshot" is also provided
  for easy access create/list/delete snapshots.
+
+Package: aptdaemon
+Version: 1.1.1+bzr982-0ubuntu36
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2374
+Depends: python3:any (>= 3.2~), gir1.2-glib-2.0, python3-aptdaemon (= 1.1.1+bzr982-0ubuntu36), python3-gi, policykit-1
+Breaks: python3-aptdaemon.pkcompat, software-center (<< 1.1.21)
+Replaces: python3-aptdaemon.pkcompat
+Homepage: https://launchpad.net/aptdaemon
+Priority: extra
+Section: admin
+Filename: pool/main/a/aptdaemon/aptdaemon_1.1.1+bzr982-0ubuntu36_all.deb
+Size: 311056
+SHA256: 229f035cf579683166dccdd1de1a5087e7638cc72e60fd165a8f7a6b343a0fca
+SHA1: ea4634a53d0a63fa486d50487df81dca2d65e12d
+MD5sum: 7944b0bcf633adc38e750de1aec49460
+Description: transaction based package management service
+ Aptdaemon allows normal users to perform package management tasks, e.g.
+ refreshing the cache, upgrading the system, installing or removing software
+ packages.
+ .
+ Currently it comes with the following main features:
+ .
+  - Programming language independent D-Bus interface, which allows one to
+    write clients in several languages
+  - Runs only if required (D-Bus activation)
+  - Fine grained privilege management using PolicyKit, e.g. allowing all
+    desktop user to query for updates without entering a password
+  - Support for media changes during installation from DVD/CDROM
+  - Support for debconf (Debian's package configuration system)
+  - Support for attaching a terminal to the underlying dpkg call
+ .
+ This package contains the aptd script and all the data files required to run
+ the daemon. Moreover it contains the aptdcon script, which is a command
+ line client for aptdaemon. The API is not stable yet.
+Original-Maintainer: Julian Andres Klode <jak@debian.org>
+
+Package: aptdaemon-data
+Source: aptdaemon
+Version: 1.1.1+bzr982-0ubuntu36
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 248
+Replaces: python-aptdaemon-gtk (<= 0.41+bzr580-0ubuntu1)
+Homepage: https://launchpad.net/aptdaemon
+Priority: extra
+Section: admin
+Filename: pool/main/a/aptdaemon/aptdaemon-data_1.1.1+bzr982-0ubuntu36_all.deb
+Size: 200444
+SHA256: dc0ab951ed19fc182b48f4ae8440bc22dcc109bc23ebcc5f1c717b5e6add37b5
+SHA1: 6a846808f8792c116ca08b1fe65b7dc67bb20c4d
+MD5sum: b8a05431984e03083b7bdc15d9ed794a
+Description: data files for clients
+ Aptdaemon is a transaction based package management daemon. It allows
+ normal users to perform package management tasks, e.g. refreshing the
+ cache, upgrading the system, installing or removing software packages.
+ .
+ This package provides common data files (e.g. icons) for aptdaemon
+ clients.
+Original-Maintainer: Julian Andres Klode <jak@debian.org>
 
 Package: base-files
 Version: 11.3
@@ -95,6 +281,78 @@ Description: Ubuntu Core Pre-Ownership Configurator
  .
  This package provides the setup routines for pre-ownership configuration of
  a system.
+
+Package: dh-apport
+Source: apport
+Version: 2.20.11-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 160
+Depends: perl:any
+Multi-Arch: foreign
+Homepage: https://wiki.ubuntu.com/Apport
+Priority: optional
+Section: devel
+Filename: pool/main/a/apport/dh-apport_2.20.11-1_all.deb
+Size: 148744
+SHA256: d7b07684e056862a804e16a9229cf2381f8bb7fa27d95dc2c5c9c3bd63ffa219
+SHA1: f226a839e1d3fcef030bd7fc8ee53dbff34233f7
+MD5sum: 7babe63ad8ba78684e857dec3054f6f2
+Description: debhelper extension for the apport crash report system
+ apport automatically collects data from crashed processes and
+ compiles a problem report in /var/crash/. This utilizes the crashdump
+ helper hook provided by the Ubuntu kernel.
+ .
+ This package provides a debhelper extension to make it easier for other
+ packages to include apport hooks.
+
+Package: dh-translations
+Source: pkgbinarymangler
+Version: 147
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 46
+Depends: debhelper, intltool, jq, libfile-which-perl
+Provides: dh-sequence-translations
+Priority: optional
+Section: devel
+Filename: pool/main/p/pkgbinarymangler/dh-translations_147_all.deb
+Size: 25060
+SHA256: cde953e6ca24929d30e541a4f37ad29e82594bcf6769168f466658afc6150f66
+SHA1: 74ab20872474a0fd433ec70c6236c8d038afd9e7
+MD5sum: 88442374664b2c6c813737f5d8a32857
+Description: debhelper extension for translation support
+ This package provides a debhelper extension to perform common translation
+ related operations during package build:
+ .
+  * Try to build a current PO template.
+ .
+  * Remove inline translations from *.desktop, *.server, *.schemas, and
+    *.policy files and replace them with a link to the gettext domain, so that
+    strings in them will get translated at runtime from *.mo files. This allows
+    language packs to ship updated translations.
+
+Package: finalrd
+Version: 7
+Architecture: all
+Maintainer: Dimitri John Ledkov <xnox@ubuntu.com>
+Installed-Size: 29
+Recommends: initramfs-tools-core
+Homepage: https://launchpad.net/finalrd
+Priority: optional
+Section: utils
+Filename: pool/main/f/finalrd/finalrd_7_all.deb
+Size: 6856
+SHA256: f89911e8106b545669758694168b950379d48f7dfaaf7526af2198564437fd57
+SHA1: 48d098fc44695fdb9d1e9c7da774ed7779dc95a2
+MD5sum: aee949a89358fdf5ab34a76e4f0ee92e
+Description: final runtime directory for shutdown
+ Generates a systemd compatible shutdown runtime directory. This
+ enables to execute scripts and binaries to clean up shutdown.
+ .
+ Also supports hookless operation, to simply facilitate clean shutdowns.
+ .
+ Approximate tmpfs RAM requirement is 14MB on shutdown.
 
 Package: libatk1.0-data
 Source: atk1.0
@@ -194,6 +452,160 @@ Description: Scriptable screen reader
  This package containing always the latest Orca Screen Reader version
 Original-Maintainer: Debian Accessibility Team <pkg-a11y-devel@lists.alioth.debian.org>
 
+Package: pkgbinarymangler
+Version: 147
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 79
+Depends: lockfile-progs, advancecomp, optipng
+Priority: optional
+Section: devel
+Filename: pool/main/p/pkgbinarymangler/pkgbinarymangler_147_all.deb
+Size: 31712
+SHA256: b96b2695869b7ee86cb48b970c20de41bad6236525e10272c93e8b1ddf6fed10
+SHA1: 64da89b48f5aab623ba24cad8212173869032b79
+MD5sum: d1fdd4cebc87736b95bf270965e23b2a
+Description: strips translations and alters maintainers during build
+ pkgbinarymangler consists of a dpkg-deb wrapper that calls the following
+ helper applications while building a debian binary package:
+ .
+ pkgstriptranslations removes all *.mo files in /usr/share/locale from
+ all package build directories. It is used to strip off gettext translations
+ from generated binary packages, because translations are already shipped
+ in the language packs.  Its behaviour (which is disabled by default) is
+ configured in /etc/pkgbinarymangler/striptranslations.conf.
+ .
+ pkgmaintainermangler adjusts the maintainer field in binary packages to
+ match a set of rules (including whitelists, mass renames by component,
+ maintainer name, etc) defined in the pkgmaintainermangler configuration
+ file at /etc/pkgbinarymangler/maintainermangler.conf.
+
+Package: python3-apport
+Source: apport
+Version: 2.20.11-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 585
+Depends: python3:any (>= 3.0~), python3-apt (>= 0.7.9), python3-httplib2, python3-ndg-httpsclient, python3-problem-report (>= 0.94), lsb-release, python3-launchpadlib
+Recommends: apport
+Homepage: https://wiki.ubuntu.com/Apport
+Priority: optional
+Section: python
+Filename: pool/main/a/apport/python3-apport_2.20.11-1_all.deb
+Size: 229216
+SHA256: 92644caf3e71fa3d6ba47c1f8f3dbc8943fbbac5be7dda2a4001e0f52aab0fbd
+SHA1: 93107fc3487a6728721615b49289ef5bbc5bed6d
+MD5sum: ff50e3dc5df2b98bc3fc5cae3111c822
+Description: Python 3 library for Apport crash report handling
+ This Python package provides high-level functions for creating and
+ handling apport crash reports:
+ .
+  * Query available and new reports.
+  * Add OS, packaging, and process runtime information to a report.
+  * Various frontend utility functions.
+  * Python hook to generate crash reports when Python scripts fail.
+
+Package: python3-aptdaemon
+Source: aptdaemon
+Version: 1.1.1+bzr982-0ubuntu36
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 500
+Depends: python3:any (>= 3.2~), aptdaemon, gir1.2-glib-2.0, gir1.2-packagekitglib-1.0 (>= 1.1.1), python3-apt (>= 0.8.5~ubuntu1), python3-defer (>= 1.0.6), python3-dbus, python3-gi, python3-pkg-resources, iso-codes
+Homepage: https://launchpad.net/aptdaemon
+Priority: extra
+Section: python
+Filename: pool/main/a/aptdaemon/python3-aptdaemon_1.1.1+bzr982-0ubuntu36_all.deb
+Size: 97220
+SHA256: dfb22095ecaae7cc44a680283ac5fd9ea18283967f4ac8ba98e42c86b1064978
+SHA1: aecc1cf9f110ecdfb6fa4ab117e2e3ddbcc28ab5
+MD5sum: 02b9ff52b859197b671688443557bbf0
+Description: Python 3 module for the server and client of aptdaemon
+ Aptdaemon is a transaction based package management service. It allows
+ normal users to perform package management tasks, e.g. refreshing the
+ cache, upgrading the system, installing or removing software packages.
+ .
+ This package provides the Python 3 modules required to run aptdaemon
+ and to implement a client. The API is not stable yet.
+Original-Maintainer: Julian Andres Klode <jak@debian.org>
+
+Package: python3-aptdaemon.gtk3widgets
+Source: aptdaemon
+Version: 1.1.1+bzr982-0ubuntu36
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 92
+Depends: python3:any (>= 3.2~), python3-aptdaemon (= 1.1.1+bzr982-0ubuntu36), python3-gi, gir1.2-gtk-3.0, gir1.2-vte-2.91, aptdaemon-data
+Conflicts: python-aptdaemon-gtk (<< 0.41+bzr582-0ubuntu1)
+Replaces: python-aptdaemon-gtk (<< 0.41+bzr582-0ubuntu1)
+Homepage: https://launchpad.net/aptdaemon
+Priority: extra
+Section: python
+Filename: pool/main/a/aptdaemon/python3-aptdaemon.gtk3widgets_1.1.1+bzr982-0ubuntu36_all.deb
+Size: 35088
+SHA256: a811439c62a128e7fb5d7d02d6c0e537950129d2f5cfafdc47c2f49dd779bf47
+SHA1: aaa84bf38bdf5d43d88bbbf21448f868477e36f3
+MD5sum: 03d710f7bb7abac876aa55fd1391e5c4
+Description: Python 3 GTK+ 3 widgets to run an aptdaemon client
+ Aptdaemon is a transaction based package management daemon. It allows
+ normal users to perform package management tasks, e.g. refreshing the
+ cache, upgrading the system, installing or removing software packages.
+ .
+ This package provides the Python 3 GTK+ 3 widgets to implement a fully
+ working graphical client. The widgets can be used to initiate, to
+ monitor and to control a transaction. The API is not stable yet.
+Original-Maintainer: Julian Andres Klode <jak@debian.org>
+
+Package: python3-aptdaemon.test
+Source: aptdaemon
+Version: 1.1.1+bzr982-0ubuntu36
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 155
+Depends: python3:any (>= 3.2~), python3-aptdaemon (= 1.1.1+bzr982-0ubuntu36)
+Breaks: python-aptdaemon.test
+Replaces: python-aptdaemon.test
+Homepage: https://launchpad.net/aptdaemon
+Priority: extra
+Section: python
+Filename: pool/main/a/aptdaemon/python3-aptdaemon.test_1.1.1+bzr982-0ubuntu36_all.deb
+Size: 106800
+SHA256: dbb7c5d07c058d0fecb678f94dbacc7133981270f353e184146d0cefa71e8385
+SHA1: d492361ac6be46ace0830259e1faa5b41240c388
+MD5sum: 4323c4984e24e444a560d3f8b3a56483
+Description: Test environment for aptdaemon clients
+ Aptdaemon is a transaction based package management daemon. It allows
+ normal users to perform package management tasks, e.g. refreshing the
+ cache, upgrading the system, installing or removing software packages.
+ .
+ This package provides the aptdaemon.test module and several helper
+ scripts and a test repository to write unittests for aptdaemon
+ clients.
+Original-Maintainer: Julian Andres Klode <jak@debian.org>
+
+Package: python3-problem-report
+Source: apport
+Version: 2.20.11-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 178
+Depends: python3:any (>= 3.0~)
+Homepage: https://wiki.ubuntu.com/Apport
+Priority: optional
+Section: python
+Filename: pool/main/a/apport/python3-problem-report_2.20.11-1_all.deb
+Size: 151624
+SHA256: 92a05df06dda165050bc07a046513ea933e03a20000a370d21c87df919dd16af
+SHA1: 39e32abbd07fabad30b6013bbf2906ac97817d78
+MD5sum: 4fc7a504ae9dd1d57926c58313bdbd5d
+Description: Python 3 library to handle problem reports
+ This Python library provides an interface for creating, modifying,
+ and accessing standardized problem reports for program and kernel
+ crashes and packaging bugs.
+ .
+ These problem reports use standard Debian control format syntax
+ (RFC822).
+
 Package: qtbase5-doc
 Source: qtbase-opensource-src
 Version: 5.15.2+dfsg-10
@@ -285,6 +697,29 @@ Description: Ubuntu Server Installer - core libraries
  .
  This package provides the installer routines for bootstrapping a system
  with the Subiquity the server installer UI.
+
+Package: ubiquity-casper
+Source: casper
+Version: 1.461
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 104
+Depends: laptop-detect, sudo
+Enhances: ubiquity
+Breaks: casper (<< 1.318)
+Replaces: casper (<< 1.318)
+Priority: optional
+Section: misc
+Filename: pool/main/c/casper/ubiquity-casper_1.461_all.deb
+Size: 66988
+SHA256: 447978d30421f474047c9c42ec4b1ba818d683cf687ec4f11c05301a6908d7b3
+SHA1: 00c7980cd848f4cfbdb35fb1aaf75922094f83bc
+MD5sum: 0daffa79e89deef42fa83aee7ae20711
+Description: Configuration hooks for live installer
+ This package provides hook scripts for the Ubiquity live installer that
+ repeat some pieces of configuration done by the live system boot process in
+ the system installed by Ubiquity.
+Tag: admin::boot, admin::filesystem, implemented-in::shell, protocol::smb, role::plugin, scope::utility, special::completely-tagged, works-with-format::iso9660
 
 Package: ubiquity-ubuntu-artwork
 Source: ubiquity
