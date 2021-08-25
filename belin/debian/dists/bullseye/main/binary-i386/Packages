@@ -480,6 +480,26 @@ Description: strips translations and alters maintainers during build
  maintainer name, etc) defined in the pkgmaintainermangler configuration
  file at /etc/pkgbinarymangler/maintainermangler.conf.
 
+Package: python-xkit
+Source: x-kit
+Version: 0.5.0
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 120
+Depends: python2:any (<< 2.8), python2:any (>= 2.7~)
+Priority: optional
+Section: python
+Filename: pool/main/x/x-kit/python-xkit_0.5.0_all.deb
+Size: 25820
+SHA256: c8401b17e27eaaf86f9cb3bece2fb73bc64f03523e7fb87f5f184db131bcb70e
+SHA1: 92877c3e9e728f924e43d2318050b7e754d814f0
+MD5sum: c8211835100575911708f98d8d4ed58f
+Description: library for the manipulation of xorg.conf files (Python 2)
+ X-Kit is library for the manipulation of xorg.conf files.
+ .
+ This is the Python 2 version of the package.
+Original-Maintainer: Alberto Milone (tseliot) <albertomilone@alice.it>
+
 Package: python3-apport
 Source: apport
 Version: 2.20.11-1
@@ -605,6 +625,26 @@ Description: Python 3 library to handle problem reports
  .
  These problem reports use standard Debian control format syntax
  (RFC822).
+
+Package: python3-xkit
+Source: x-kit
+Version: 0.5.0
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 113
+Depends: python3:any (>= 3.2~)
+Priority: optional
+Section: python
+Filename: pool/main/x/x-kit/python3-xkit_0.5.0_all.deb
+Size: 20288
+SHA256: ec674283aa88784901a53c0325428edeec0194e09d937c5723e329e3561cdbb7
+SHA1: 8cda36507ecf6d5a53aa363a89107687c07c6679
+MD5sum: 30a52a9e127d2313c16942b156e26f52
+Description: library for the manipulation of xorg.conf files (Python 3)
+ X-Kit is library for the manipulation of xorg.conf files.
+ .
+ This is the Python 3 version of the package.
+Original-Maintainer: Alberto Milone (tseliot) <albertomilone@alice.it>
 
 Package: qtbase5-doc
 Source: qtbase-opensource-src

@@ -3,7 +3,7 @@ Label: BeLin package repository
 Suite: testing
 Codename: belin-testing
 Version: 7.0
-Date: Mon, 23 Aug 2021 20:12:06 UTC
+Date: Wed, 25 Aug 2021 12:15:48 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: BeLin package repository for Debian derivative (testing repository)
