@@ -1,0 +1,30 @@
+Package: orca
+Version: 48.1-1belin2
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 15832
+Depends: python3:any, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, gir1.2-wnck-3.0, gir1.2-gstreamer-1.0, gstreamer1.0-plugins-good, gir1.2-atspi-2.0 (>= 2.50.0~), python3-brlapi, python3-cairo, python3-gi, python3-louis, at-spi2-core (>= 2.50.0~), python3-speechd, python3-dbus, speech-dispatcher, gsettings-desktop-schemas, xkbset
+Recommends: xbrlapi
+Suggests: brltty
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/Orca
+Priority: optional
+Section: gnome
+Filename: pool/main/o/orca/orca_48.1-1belin2_all.deb
+Size: 1988516
+SHA256: ea98c87da60dd649b62cd059d6dc41613a9bd7dc4b41a25544e7091d4a5f2f52
+SHA1: 423e187b0369702cf747a241188c1be3d0b192ec
+MD5sum: 78e323208480ff0da587cbd028507223
+Description: Scriptable screen reader
+ A flexible, extensible, and powerful assistive technology that
+ provides end-user access to applications and toolkits that support the
+ AT-SPI (e.g., the GNOME desktop).
+ .
+ Orca defines a set of default behaviors (reactions to application events) and
+ key bindings (reaction to user key presses). These default behaviors and key
+ bindings can be overwritten on a per-application basis. Orca creates a script
+ object for each running application, which merges both the default behaviors
+ and key bindings, and the application specific ones. Orca provides the
+ infrastructure to activate and deactivate scripts, as well as a host of
+ services accessible from within the scripts.
+
