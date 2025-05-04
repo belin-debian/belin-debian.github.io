@@ -2,18 +2,18 @@ Name: debian
 Method: http://ftp.hu.debian.org/debian
 VerifyRelease: blindtrust
 
-Name: bullseye
+Name: bookworm
 Method: http://ftp.hu.debian.org/debian
 VerifyRelease: blindtrust
 
-Name: bullseye-security
+Name: bookworm-security
 Method: http://security.debian.org/
 VerifyRelease: blindtrust
 
-Name: bullseye-updates
+Name: bookworm-updates
 Method: http://ftp.hu.debian.org/debian
 VerifyRelease: blindtrust
 
-Name: bullseye-backports
+Name: bookworm-backports
 Method: http://ftp.hu.debian.org/debian
 VerifyRelease: blindtrust
