@@ -18,17 +18,17 @@ Description: Assistive Technology Service Provider Interface (D-Bus core for d-i
 
 Package: espeak-ng-data-udeb
 Source: espeak-ng
-Version: 1.52.0-2~belin1
+Version: 1.52.0+dfsg-6~belin1
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 24007
 Priority: optional
 Section: debian-installer
-Filename: pool/main/e/espeak-ng/espeak-ng-data-udeb_1.52.0-2~belin1_amd64.udeb
-Size: 8635252
-SHA256: 80810b4b8c57bdc42fce6e54895e75ef0669d30e360d5d8282a74d272d36a68c
-SHA1: a1097235faa4e1ddecea983e190a9a27d42ba908
-MD5sum: 1cb1a2d9ebadc5f3ef509fc5e5e10b26
+Filename: pool/main/e/espeak-ng/espeak-ng-data-udeb_1.52.0+dfsg-6~belin1_amd64.udeb
+Size: 8635256
+SHA256: f23c71d6cd35a58a529b58ece6fc1b792be29d97b8f61e19714688e6730cdc1f
+SHA1: 7fd71448ada4ae365ca4468008402804c0108b1b
+MD5sum: 730ca984b160914b338246767cb80642
 Description: Multi-lingual software speech synthesizer: data for d-i
  eSpeak NG is a software speech synthesizer for English, and some other
  languages.

@@ -69,7 +69,7 @@ Description: Common Lisp interface to Speech Dispatcher
 
 Package: espeak-ng-espeak
 Source: espeak-ng
-Version: 1.52.0-2~belin1
+Version: 1.52.0+dfsg-6~belin1
 Architecture: all
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 27
@@ -80,11 +80,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/espeak-ng/espeak-ng
 Priority: optional
 Section: sound
-Filename: pool/main/e/espeak-ng/espeak-ng-espeak_1.52.0-2~belin1_all.deb
+Filename: pool/main/e/espeak-ng/espeak-ng-espeak_1.52.0+dfsg-6~belin1_all.deb
 Size: 13004
-SHA256: 3322bcf317e8a880148082935178af6099db352738411f7df2ac4813331ee022
-SHA1: 41afd85cbe8de94aad9fc75fb2e8b57a7da35887
-MD5sum: e98d11a45296a2b53cb8a69888110604
+SHA256: 2ca82dc3f81b2de3720e6c57a3501ecb6233b850ca632ab6d1e782db8cd0be86
+SHA1: 1e072333ba44203a546c09065623128a66a05e8e
+MD5sum: b9d51dbc2a0832354a8bed0db272b7f2
 Description: Multi-lingual software speech synthesizer
  eSpeak NG is a software speech synthesizer for English, and some other
  languages.
