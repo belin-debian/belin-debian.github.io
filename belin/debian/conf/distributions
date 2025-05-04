@@ -1,83 +1,83 @@
 Origin: BeLin
 Label: BeLin package repository
-Codename: bullseye
-Architectures: i386 amd64 source
-Components: main contrib non-free
+Codename: bookworm
+Architectures: i386 amd64 armhf arm64 source
+Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (stable repository)
 SignWith: 160D573FA5CB60C9
-Pull: bullseye
-UDebComponents: main contrib non-free
-Version: 7.0
+Pull: bookworm
+UDebComponents: main contrib non-free non-free-firmware
+Version: 8.0
 Suite: stable
-AlsoAcceptFor: bullseye, stable, stable-backports, testing, sid, unstable, focal, hirsute, impish
-Update: bullseye
+AlsoAcceptFor: bookworm, stable, stable-backports, testing, sid, unstable, focal, hirsute, impish
+Update: bookworm
 DebOverride: override
 UDebOverride: override
 DscOverride: srcoverride
 
 Origin: BeLin
 Label: BeLin package repository
-Codename: bullseye-backports
-AlsoAcceptFor: bullseye, stable, stable-backports, testing, sid, unstable, focal, hirsute, impish
-Architectures: i386 amd64 source
-Components: main contrib non-free
+Codename: bookworm-backports
+AlsoAcceptFor: bookworm, stable, stable-backports, testing, sid, unstable, focal, hirsute, impish
+Architectures: i386 amd64 armhf arm64 source
+Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (backported packages repository)
 SignWith: 160D573FA5CB60C9
-Pull: bullseye-backports
-UDebComponents: main contrib non-free
-Version: 7.0
-Suite: bullseye-backports
-Update: bullseye-backports
+Pull: bookworm-backports
+UDebComponents: main contrib non-free non-free-firmware
+Version: 8.0
+Suite: bookworm-backports
+Update: bookworm-backports
 DebOverride: override
 UDebOverride: override
 DscOverride: srcoverride
 
 Origin: BeLin
 Label: BeLin package repository
-Codename: bullseye-updates
-AlsoAcceptFor: bullseye, bullseye-updates, stable-updates, stable, testing, sid, unstable, focal, hirsute, impish
-Architectures: i386 amd64 source
-Components: main contrib non-free
+Codename: bookworm-updates
+AlsoAcceptFor: bookworm, bookworm-updates, stable-updates, stable, testing, sid, unstable, focal, hirsute, impish
+Architectures: i386 amd64 armhf arm64 source
+Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (official updates packages repository)
 SignWith: 160D573FA5CB60C9
-Pull: bullseye-updates
-UDebComponents: main contrib non-free
-Version: 7.0
-Suite: bullseye-updates
-Update: bullseye-updates
+Pull: bookworm-updates
+UDebComponents: main contrib non-free non-free-firmware
+Version: 8.0
+Suite: bookworm-updates
+Update: bookworm-updates
 DebOverride: override
 UDebOverride: override
 DscOverride: srcoverride
 
 Origin: BeLin
 Label: BeLin package repository
-Codename: bullseye-security
-AlsoAcceptFor: bullseye, bullseye-security, stable, stable-security, testing, unstable, sid, focal, hirsute, impish
-Architectures: i386 amd64 source
-Components: main contrib non-free
+Codename: bookworm-security
+AlsoAcceptFor: bookworm, bookworm-security, stable, stable-security, testing, unstable, sid, focal, hirsute, impish
+Architectures: i386 amd64 armhf arm64 source
+Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (security packages repository)
 SignWith: 160D573FA5CB60C9
-Pull: bullseye-security
-UDebComponents: main contrib non-free
-Version: 7.0
-Suite: bullseye-security
+Pull: bookworm-security
+UDebComponents: main contrib non-free non-free-firmware
+Version: 8.0
+Suite: bookworm-security
 DebOverride: override
 UDebOverride: override
 DscOverride: srcoverride
-Update: bullseye-security
+Update: bookworm-security
 
 Origin: BeLin
 Label: BeLin package repository
 Codename: belin-testing
-Architectures: i386 amd64 source
-Components: main contrib non-free
+Architectures: i386 amd64 armhf arm64 source
+Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (testing repository)
 SignWith: 160D573FA5CB60C9
 Pull: testing
-UDebComponents: main contrib non-free
-Version: 7.0
+UDebComponents: main contrib non-free non-free-firmware
+Version: 8.5
 Suite: testing
-AlsoAcceptFor: bullseye, stable, stable-backports, testing, sid, unstable, focal, hirsute, impish
+AlsoAcceptFor: bookworm, stable, stable-backports, testing, sid, unstable, focal, hirsute, impish
 Update: testing
 DebOverride: override
 UDebOverride: override
@@ -86,15 +86,15 @@ DscOverride: srcoverride
 Origin: BeLin
 Label: BeLin package repository
 Codename: belin-devel
-Architectures: i386 amd64 source
-Components: main contrib non-free
+Architectures: i386 amd64 armhf arm64 source
+Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (development repository)
 SignWith: 160D573FA5CB60C9
 Pull: sid
 UDebComponents: main contrib non-free
-Version: 7.0
+Version: 8.5
 Suite: sid
-AlsoAcceptFor: bullseye, stable, stable-backports, testing, sid, unstable, focal, hirsute, impish
+AlsoAcceptFor: bookworm, stable, stable-backports, testing, sid, unstable, focal, hirsute, impish
 Update: sid
 DebOverride: override
 UDebOverride: override
