@@ -1,3 +1,27 @@
+Package: base-files
+Version: 12.4+deb12u11
+Architecture: amd64
+Essential: yes
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 341
+Pre-Depends: awk
+Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
+Replaces: base, dpkg (<= 1.15.0), miscutils
+Provides: base
+Multi-Arch: foreign
+Priority: required
+Section: admin
+Filename: pool/main/b/base-files/base-files_12.4+deb12u11_amd64.deb
+Size: 70952
+SHA256: 4e82576a5e885816e26ea6bea7b59513560df035101bde4fe22b36f4928b36d4
+SHA1: 905ac16e1789853b1c68cb6c653eee889fe76f92
+MD5sum: ed896f460da5c3a5bd652c2ea03fe37a
+Description: Debian base system miscellaneous files
+ This package contains the basic filesystem hierarchy of a Debian system, and
+ several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
+ and the text of several common licenses in use on Debian systems.
+
 Package: orca
 Version: 48.1-1belin2
 Architecture: all
