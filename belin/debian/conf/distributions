@@ -9,7 +9,7 @@ Pull: bookworm
 UDebComponents: main contrib non-free non-free-firmware
 Version: 8.0
 Suite: stable
-AlsoAcceptFor: bookworm, stable, stable-backports, testing, sid, unstable, focal, hirsute, impish
+AlsoAcceptFor: stable, stable-backports, testing, sid, unstable, focal, hirsute, impish
 Update: bookworm
 DebOverride: override
 UDebOverride: override
