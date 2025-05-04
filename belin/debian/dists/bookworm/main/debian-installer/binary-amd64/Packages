@@ -1,0 +1,93 @@
+Package: at-spi2-core-udeb
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 1489
+Depends: libatspi0-udeb (>= 2.9.90), libc6-udeb (>= 2.36), libdbus-1-3-udeb (>= 1.14.10), libglib2.0-udeb (>= 2.74.6), libsystemd0 (>= 254.22), libx11-6-udeb (>= 2:1.6.0), libxtst6-udeb
+Priority: optional
+Section: debian-installer
+Filename: pool/main/a/at-spi2-core/at-spi2-core-udeb_2.56.2-3~bpo12+1_amd64.udeb
+Size: 194908
+SHA256: 064b1b019c28339e676bb62446ea41e003acff2e8fc251b2cb7e1a0d9c7bd759
+SHA1: b3473736f2e6f86838040d08628fb59ef5c386e5
+MD5sum: 85194bbd79c9a97c7bd0e69023c87ebf
+Description: Assistive Technology Service Provider Interface (D-Bus core for d-i)
+ This package contains the core components of GNOME Accessibility for the Debian
+ installer.
+
+Package: libatk-adaptor-udeb
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 24
+Depends: libatk-bridge-2.0-0-udeb (>= 2.56.2), libglib2.0-udeb (>= 2.74.6)
+Priority: optional
+Section: debian-installer
+Filename: pool/main/a/at-spi2-core/libatk-adaptor-udeb_2.56.2-3~bpo12+1_amd64.udeb
+Size: 2612
+SHA256: 122fe5c47cd6a86739a4c10df5f769236b300ee393f4de1e23cab23680efefc7
+SHA1: 87fd7737ec72811f2d868bc330a1aca8f502b47b
+MD5sum: 057d3f2d7bbcc3740c023df1537a9977
+Description: AT-SPI 2 toolkit bridge - module for d-i
+ This package includes the gtk-module for the Debian installer.
+
+Package: libatk-bridge-2.0-0-udeb
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 248
+Depends: libatk1.0-udeb (>= 2.56.2), libatspi0-udeb (>= 2.9.90), libc6-udeb (>= 2.36), libdbus-1-3-udeb (>= 1.14.10), libglib2.0-udeb (>= 2.74.6)
+Priority: optional
+Section: debian-installer
+Filename: pool/main/a/at-spi2-core/libatk-bridge-2.0-0-udeb_2.56.2-3~bpo12+1_amd64.udeb
+Size: 58836
+SHA256: 619c3438218283f21fb7abd3e99823cf8be4261c5b7e527a2dff18f3a42354e7
+SHA1: 9feb0fc5f2d66694e2a89f5fcddc8b20c9b73456
+MD5sum: 242d7696e70a021deb6ecc05bb68994c
+Description: AT-SPI 2 toolkit bridge - shared library for d-i
+ This package contains the ATK bridge shared library, for the Debian installer.
+
+Package: libatk1.0-udeb
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 168
+Depends: libc6-udeb (>= 2.36), libglib2.0-udeb (>= 2.74.6)
+Priority: optional
+Section: debian-installer
+Filename: pool/main/a/at-spi2-core/libatk1.0-udeb_2.56.2-3~bpo12+1_amd64.udeb
+Size: 41896
+SHA256: 7a6c4d3302206b0f119ba9c50db30803a823f5107ece930bd56d297a9bcf7480
+SHA1: bff02e48b872a9d97373c8655133e213fb0c7183
+MD5sum: d5f051024db72924e2bfb97f832af0ff
+Description: ATK accessibility toolkit
+ This is a udeb, or a microdeb, for the Debian installer.
+ .
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ This is a stripped down version of the runtime part of ATK.
+
+Package: libatspi0-udeb
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 253
+Depends: libc6-udeb (>= 2.36), libdbus-1-3-udeb (>= 1.14.10), libglib2.0-udeb (>= 2.74.6), libx11-6-udeb (>= 2:1.6.0), libxi6-udeb (>= 2:1.6.99.1)
+Priority: optional
+Section: debian-installer
+Filename: pool/main/a/at-spi2-core/libatspi0-udeb_2.56.2-3~bpo12+1_amd64.udeb
+Size: 72716
+SHA256: 88e9b88ff677181cdc2435d9bdd79ccee5179326627cda4f1053b9be363c940c
+SHA1: bfce6faa76135e02454e6ef5d8471850867e0b4e
+MD5sum: 98ded574057ad7ba83b7008fce59269b
+Description: Assistive Technology Service Provider Interface - module for d-i
+ This package contains the AT-SPI shared library, for the Debian installer.
+

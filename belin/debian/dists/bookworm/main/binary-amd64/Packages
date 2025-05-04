@@ -1,3 +1,78 @@
+Package: at-spi2-common
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 1348
+Breaks: at-spi2-core (<< 2.46.0-2~)
+Replaces: at-spi2-core (<< 2.46.0-2~)
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: misc
+Filename: pool/main/a/at-spi2-core/at-spi2-common_2.56.2-3~bpo12+1_all.deb
+Size: 170824
+SHA256: 5979b2f6bafebafc9d5614655b8684e203d8dc0c761649e4d9d34993570ec6d6
+SHA1: e962d41e299f98f37351c7106898aefbe30f365e
+MD5sum: 1f88dbd93a549370c5e5c90b4ec2bbc1
+Description: Assistive Technology Service Provider Interface (common files)
+ This package contains the common resource files of GNOME Accessibility.
+
+Package: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 210
+Depends: libatspi2.0-0 (= 2.56.2-3~bpo12+1), libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.67.4), libsystemd0, libx11-6, libxtst6, at-spi2-common, gsettings-desktop-schemas
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: misc
+Filename: pool/main/a/at-spi2-core/at-spi2-core_2.56.2-3~bpo12+1_amd64.deb
+Size: 60548
+SHA256: 0f1028cb35527c82bfc2e452ed9195cded81ffbf0c01bc13bac904e0929f0ede
+SHA1: 5aba8b35e5e25f4a3c6fefedff510ba9c85e1bcd
+MD5sum: 1616e10e69c77b97b2281be4c27f496d
+Description: Assistive Technology Service Provider Interface (D-Bus core)
+ This package contains the core components of GNOME Accessibility.
+
+Package: at-spi2-core-dbgsym
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 145
+Depends: at-spi2-core (= 2.56.2-3~bpo12+1)
+Priority: optional
+Section: debug
+Filename: pool/main/a/at-spi2-core/at-spi2-core-dbgsym_2.56.2-3~bpo12+1_amd64.deb
+Size: 110024
+SHA256: a65b6d72d33c47469f0718ebffc08ea4d3ab6bf044e7c51d9418f3df14b689e7
+SHA1: 3276cf5e2955e7a4d17fea68f55b73bed32873f1
+MD5sum: d425505ce95bf1e989f7a8e0b07887ec
+Description: debug symbols for at-spi2-core
+Build-Ids: a05fb1ac8db2a55ae61d1dbc482a8ff159376fd7 f05d7482798a0db55aba3d500b01c5667ec0af0a
+
+Package: at-spi2-doc
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 3739
+Suggests: devhelp
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: doc
+Filename: pool/main/a/at-spi2-core/at-spi2-doc_2.56.2-3~bpo12+1_all.deb
+Size: 194136
+SHA256: 8ec8d7d42490ca201036b0924c6b382eeedfe39c35c7f9d3ab595b1f9494cea2
+SHA1: 1b08c13ef4585c30f155e5fe7e76c1271464ac88
+MD5sum: 43ace317057de54a9b704ee184bf8d8d
+Description: Assistive Technology Service Provider Interface (Documentation)
+ This package contains documentation for the at-spi2 interface.
+
 Package: base-files
 Version: 12.4+deb12u11
 Architecture: amd64
@@ -21,6 +96,465 @@ Description: Debian base system miscellaneous files
  several important miscellaneous files, such as /etc/debian_version,
  /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
  and the text of several common licenses in use on Debian systems.
+
+Package: cl-speech-dispatcher
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: all
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 54
+Depends: cl-regex
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: lisp
+Filename: pool/main/s/speech-dispatcher/cl-speech-dispatcher_0.12.0-4~bpo12+1_all.deb
+Size: 15244
+SHA256: ff47ac9d733a590d232e4ddcd3d3e3ca5967792b7683d9667135c608d3de6e6d
+SHA1: 0f04c35a22ed9b2e59ceb67c2831680e69733956
+MD5sum: c1d53b7f68c0ea7174b2019fb226b8a8
+Description: Common Lisp interface to Speech Dispatcher
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains a Common Lisp library for communication with Speech
+ Dispatcher.
+
+Package: gir1.2-atk-1.0
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 102
+Depends: gir1.2-glib-2.0, libatk1.0-0 (= 2.56.2-3~bpo12+1)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: introspection
+Filename: pool/main/a/at-spi2-core/gir1.2-atk-1.0_2.56.2-3~bpo12+1_amd64.deb
+Size: 25996
+SHA256: 3d0f508ec11536e928dc3ba817e3f45007c84882e956e588bfdb7c8847696ac6
+SHA1: e499d9d267e3c92e45efdb2e87a19ba53d1e87ba
+MD5sum: 710e1c1431cd4245b6a9ff8761dfe3f5
+Description: ATK accessibility toolkit (GObject introspection)
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings
+
+Package: gir1.2-atspi-2.0
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 86
+Depends: gir1.2-freedesktop, gir1.2-glib-2.0, libatspi2.0-0 (= 2.56.2-3~bpo12+1)
+Replaces: gir1.0-gtk-2.0 (<< 2.22), gobject-introspection-repository
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: introspection
+Filename: pool/main/a/at-spi2-core/gir1.2-atspi-2.0_2.56.2-3~bpo12+1_amd64.deb
+Size: 23844
+SHA256: 8b7f6ab02244d934408f819d5b53a68a86b9748621334d535eb3e46086edd898
+SHA1: 50ab07a88598894140ac89b77dda57488289ccad
+MD5sum: e069c7712b3f3d029895b0a316905dd6
+Description: Assistive Technology Service Provider (GObject introspection)
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings
+
+Package: libatk-adaptor
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 58
+Depends: libatk-bridge2.0-0 (= 2.56.2-3~bpo12+1), libglib2.0-0 (>= 2.12.0)
+Conflicts: at-spi
+Replaces: at-spi
+Provides: at-spi
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: misc
+Filename: pool/main/a/at-spi2-core/libatk-adaptor_2.56.2-3~bpo12+1_amd64.deb
+Size: 11748
+SHA256: 7d5980027b9843ce1e5817e9b64b413e5b997b55cef70a2417f1dfde8807a91e
+SHA1: 53f4c248f62d38654e2a467e0f9e3cf0c2bd6980
+MD5sum: 6663e2a5b15a7c1ac160fd76d98b792d
+Description: AT-SPI 2 toolkit bridge
+ This package includes a gtk-module that bridges ATK to the new
+ D-Bus based AT-SPI.
+
+Package: libatk-adaptor-dbgsym
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 16
+Depends: libatk-adaptor (= 2.56.2-3~bpo12+1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/a/at-spi2-core/libatk-adaptor-dbgsym_2.56.2-3~bpo12+1_amd64.deb
+Size: 3400
+SHA256: 238f51bff486f7bd735dd83fa9511c23a5f1a895affc6bf9ad60634d87edd103
+SHA1: 04e43e5dd6a684ca28e3e75319a8605b45a890be
+MD5sum: bd28828860b9a9cc0b62792fb8bd870b
+Description: debug symbols for libatk-adaptor
+Build-Ids: 4748944f8cb8ec9a9c291bef706fcfa5525a9633
+
+Package: libatk-bridge2.0-0
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 280
+Depends: libatk1.0-0 (= 2.56.2-3~bpo12+1), libatspi2.0-0 (= 2.56.2-3~bpo12+1), libc6 (>= 2.7), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.41.1)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: libs
+Filename: pool/main/a/at-spi2-core/libatk-bridge2.0-0_2.56.2-3~bpo12+1_amd64.deb
+Size: 68376
+SHA256: bfda077f91597f449ef5815f5b3399105bb161ff1e81b7200d8c48b3681e2e97
+SHA1: df69c5e90e56d8407b99f35989c19ea7a3c27be1
+MD5sum: ec52adb2b5de096f88c72b212554340d
+Description: AT-SPI 2 toolkit bridge - shared library
+ This package contains the ATK bridge shared library.
+
+Package: libatk-bridge2.0-0-dbgsym
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 234
+Depends: libatk-bridge2.0-0 (= 2.56.2-3~bpo12+1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/a/at-spi2-core/libatk-bridge2.0-0-dbgsym_2.56.2-3~bpo12+1_amd64.deb
+Size: 192476
+SHA256: c7a128983fbb76f8def41a957a3b9bb3006032297b51dbe364eb3d0c632e1855
+SHA1: 62192a5b7d99b597343085bfd732a69cfa2a602e
+MD5sum: 9e1a8b1eb244572f8f39ea4d64f4fb8d
+Description: debug symbols for libatk-bridge2.0-0
+Build-Ids: a1d5219af6d8e2569d7dc59fb419f3e797665955
+
+Package: libatk-bridge2.0-dev
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 34
+Depends: libatk-bridge2.0-0 (= 2.56.2-3~bpo12+1), libatk1.0-dev, libglib2.0-dev, libatspi2.0-dev (= 2.56.2-3~bpo12+1)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: libdevel
+Filename: pool/main/a/at-spi2-core/libatk-bridge2.0-dev_2.56.2-3~bpo12+1_amd64.deb
+Size: 10252
+SHA256: e4d0b18d23ea29d49526471af144ee7c0d99d6b36639520bfcb6eb4b7fd863d0
+SHA1: 77cb075796453141bfb356271eb3a6f56eb138ec
+MD5sum: fe32e0e338610802d3f98ab2a7585b3c
+Description: Development files for the AT-SPI 2 toolkit bridge
+ These are the development files for libatk-bridge2.0, needed for
+ compilation of programs which use it.
+
+Package: libatk1.0-0
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 206
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.55.2), at-spi2-common
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: libs
+Filename: pool/main/a/at-spi2-core/libatk1.0-0_2.56.2-3~bpo12+1_amd64.deb
+Size: 52392
+SHA256: 15ad72be16569bce1beba04de2c0a095fd8bcc04e7c32347287c8e5c28474b69
+SHA1: cf8d8818a3da94cb16e7e018ef831140bdc359ae
+MD5sum: 5aceceff6343696f98de9aaf3aa29f2f
+Description: ATK accessibility toolkit
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ This is the runtime part of ATK, needed to run applications built with it.
+
+Package: libatk1.0-0-dbgsym
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 180
+Depends: libatk1.0-0 (= 2.56.2-3~bpo12+1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/a/at-spi2-core/libatk1.0-0-dbgsym_2.56.2-3~bpo12+1_amd64.deb
+Size: 142108
+SHA256: 7cb8e36e330c1bfc96b0c0daea2afeac3d86565923021ba105aa4d00fefa095b
+SHA1: 99f7ff6a9d379d222cd6d544774d6ac91ea13a7e
+MD5sum: 4db343c0f7db19c3d68b842efd9c0b98
+Description: debug symbols for libatk1.0-0
+Build-Ids: f9b928758a04f25b26d9fabbeb08a131159c07df
+
+Package: libatk1.0-dev
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 1346
+Depends: libatk1.0-0 (= 2.56.2-3~bpo12+1), gir1.2-atk-1.0 (= 2.56.2-3~bpo12+1), pkgconf, libglib2.0-dev
+Replaces: gir-repository-dev
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: libdevel
+Filename: pool/main/a/at-spi2-core/libatk1.0-dev_2.56.2-3~bpo12+1_amd64.deb
+Size: 105460
+SHA256: f730f7fe226ecb8fdef01e0f97db38ffcf6127548750efc819d1ad33a2373274
+SHA1: 534476922b034c794b714f24323f97a8e8054100
+MD5sum: f97cddf7cd2f73b5805e766391b3f4b4
+Description: Development files for the ATK accessibility toolkit
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ These are the development files for ATK, needed for compilation of
+ programs or toolkits which use it.
+
+Package: libatk1.0-doc
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 4957
+Suggests: libglib2.0-doc, libgtk-3-doc, devhelp
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: doc
+Filename: pool/main/a/at-spi2-core/libatk1.0-doc_2.56.2-3~bpo12+1_all.deb
+Size: 206588
+SHA256: bb8d18a917626f9c33e3ea9ffcdacd3e563da0da32b8df6e4be5448019f00e0b
+SHA1: 261e64c71895e02b334ec92501e167cf8382a444
+MD5sum: a6b74ed471f1da232f2cb950d2d1f45c
+Description: Documentation files for the ATK toolkit
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ This contains the HTML documentation for the ATK library in
+ /usr/share/doc/libatk1.0-doc/ .
+
+Package: libatspi2.0-0
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 279
+Depends: libc6 (>= 2.7), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.37.3), libx11-6 (>= 2:1.2.99.901), libxi6 (>= 2:1.2.99.4)
+Recommends: at-spi2-core (= 2.56.2-3~bpo12+1)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: libs
+Filename: pool/main/a/at-spi2-core/libatspi2.0-0_2.56.2-3~bpo12+1_amd64.deb
+Size: 81296
+SHA256: 9704c2c0be7c961403c56c20d2838709ca7438c63bffe788fc75b41ce587b453
+SHA1: 889ed0197650bd777f3ade1a1e0eae93ca262c8e
+MD5sum: 6e193e4158c5743bba99dcc0572453b1
+Description: Assistive Technology Service Provider Interface - shared library
+ This package contains the shared library for applications that wish to use
+ the at-spi interface.
+
+Package: libatspi2.0-0-dbgsym
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 279
+Depends: libatspi2.0-0 (= 2.56.2-3~bpo12+1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/a/at-spi2-core/libatspi2.0-0-dbgsym_2.56.2-3~bpo12+1_amd64.deb
+Size: 227568
+SHA256: 152a3235e6400b75d448f6ff82979242f86d9c36126c6dee1ff64b5b6a0447f6
+SHA1: 2523541efb242cad66049c9da49d012f540f34b1
+MD5sum: ee81a8db2f50a189282c23afb73cad97
+Description: debug symbols for libatspi2.0-0
+Build-Ids: 9ba0a10078d49e3333dbf18af4a38bc4ec8243e1
+
+Package: libatspi2.0-dev
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 868
+Depends: gir1.2-atspi-2.0 (= 2.56.2-3~bpo12+1), libatspi2.0-0 (= 2.56.2-3~bpo12+1), libglib2.0-dev, libdbus-1-dev, libxtst-dev
+Replaces: gir-repository-dev
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: libdevel
+Filename: pool/main/a/at-spi2-core/libatspi2.0-dev_2.56.2-3~bpo12+1_amd64.deb
+Size: 83684
+SHA256: 0c0ec87ef1eaf4bdba8f027fce3ce521b4b26b94f36c03f8381b59a4481137fe
+SHA1: f9de5924c5959f149790e0debed45a15abcc32c6
+MD5sum: 94fd25fa757e44d6873e4c464bd86ec1
+Description: Development files for the assistive technology service provider
+ These are the development files for at-spi2, needed for compilation of
+ programs which use it.
+
+Package: libspeechd-dev
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 146
+Depends: libspeechd2 (= 0.12.0-4~bpo12+1), libglib2.0-dev
+Suggests: speech-dispatcher
+Multi-Arch: same
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: libdevel
+Filename: pool/main/s/speech-dispatcher/libspeechd-dev_0.12.0-4~bpo12+1_amd64.deb
+Size: 31500
+SHA256: 18216f6762837d47e10120eee5f733115d783075909fc984df70cdcdf2c4bb2f
+SHA1: f8e1865abfc1b46f01491786b7b86a4be42ab8b9
+MD5sum: 49e176197526cec4304f6fddc66ab54a
+Description: Speech Dispatcher: Development libraries and header files
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains static library, and C headers needed for programs
+ linked with the shared or static library.
+
+Package: libspeechd-module0
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 45
+Depends: libc6 (>= 2.15)
+Multi-Arch: same
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: libs
+Filename: pool/main/s/speech-dispatcher/libspeechd-module0_0.12.0-4~bpo12+1_amd64.deb
+Size: 14660
+SHA256: 092c8108fcdc8fc08875be6715ea31c51a6a88df16e99cdee9a9f06579e8c52b
+SHA1: 22b9c45a82c0bf8210b12f84e727c80ea9e6380f
+MD5sum: d8bebe95a5e8069b656ee1984f2d6125
+Description: Speech Dispatcher: Shared libraries for modules
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains a shared library that speech-dispatcher modules can use
+ for the ground support.
+
+Package: libspeechd-module0-dbgsym
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 31
+Depends: libspeechd-module0 (= 0.12.0-4~bpo12+1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/libspeechd-module0-dbgsym_0.12.0-4~bpo12+1_amd64.deb
+Size: 16100
+SHA256: 851d9fc59657c2b4faaf8b2663642162ec5b7cab396d664486f9b65efafd78b2
+SHA1: a8f1c07067a554c3a6b8b92f916fac742042754e
+MD5sum: 256541c5313822fac7db9c96ef5fe51d
+Description: debug symbols for libspeechd-module0
+Build-Ids: 1ed67e492d40d09ea1f5d06adbcf701d5aa48f8f
+
+Package: libspeechd2
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 71
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.36)
+Multi-Arch: same
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: libs
+Filename: pool/main/s/speech-dispatcher/libspeechd2_0.12.0-4~bpo12+1_amd64.deb
+Size: 21868
+SHA256: 1d4d11df31f8c933ea7c6486575290ec307bdc2f7bcb804be5573d34bbf861be
+SHA1: 3275c11c4204adfee3f345af363b0dbeaaa8a414
+MD5sum: 3a2bf0e985c5687683542378c0b78914
+Description: Speech Dispatcher: Shared libraries
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains a shared library needed for C programs linked with it.
+
+Package: libspeechd2-dbgsym
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 59
+Depends: libspeechd2 (= 0.12.0-4~bpo12+1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/libspeechd2-dbgsym_0.12.0-4~bpo12+1_amd64.deb
+Size: 42032
+SHA256: 73b0738d22c52c2f8fb7b88501c6dc27fe3b4b0b9cb337558116576e3d7d7ca4
+SHA1: 44df362e832c6713c71d2b8c2469570d19a02a3c
+MD5sum: fca5cf7a17a86edf745b0e3234a71677
+Description: debug symbols for libspeechd2
+Build-Ids: ce3c31972d26c780ab9a94ca5b99ac2abc91d7a4
 
 Package: orca
 Version: 48.1-1belin2
@@ -51,4 +585,447 @@ Description: Scriptable screen reader
  and key bindings, and the application specific ones. Orca provides the
  infrastructure to activate and deactivate scripts, as well as a host of
  services accessible from within the scripts.
+
+Package: python3-speechd
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: all
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 141
+Depends: python3-xdg, python3:any
+Breaks: python-speechd
+Replaces: python-speechd
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: python
+Filename: pool/main/s/speech-dispatcher/python3-speechd_0.12.0-4~bpo12+1_all.deb
+Size: 44592
+SHA256: 6760b7c2c1a14fb637f249cbcdfff14b529880a1427d8c74721206ab3ab49300
+SHA1: c9a97aa7ee1c0202800de580e619b1332866c1e5
+MD5sum: 126394180c65a083e27efa8726d43f6c
+Description: Python interface to Speech Dispatcher
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains a Python library for communication with Speech
+ Dispatcher.
+
+Package: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 28492
+Depends: adduser, speech-dispatcher-audio-plugins (= 0.12.0-4~bpo12+1), init-system-helpers (>= 1.52), libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libglib2.0-0 (>= 2.67.3), libltdl7 (>= 2.4.7), libsndfile1 (>= 1.0.20), libspeechd-module0 (>= 0.12.0), libspeechd2 (>= 0.12.0~), libsystemd0
+Recommends: speech-dispatcher-espeak-ng, sound-icons
+Suggests: libttspico-utils, espeak, mbrola, speech-dispatcher-doc-cs, speech-dispatcher-festival, speech-dispatcher-cicero, speech-dispatcher-flite, speech-dispatcher-espeak
+Breaks: cl-speech-dispatcher (<< 0.9~), libspeechd2 (<< 0.9~), python-speechd (<< 0.9~), python3-speechd (<< 0.9~), speech-dispatcher-baratinoo (<< 0.10.2-1~), speech-dispatcher-ibmtts (<< 0.10.2-1~), speech-dispatcher-kali (<< 0.10.2-1~)
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: sound
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher_0.12.0-4~bpo12+1_amd64.deb
+Size: 3981812
+SHA256: 3369dc703d686fe7660900637964d742bd66d072edd31eb03c55ff2c5ed2ea85
+SHA1: 5ad5499fc621ccd652a80180a2603a7f52a566f5
+MD5sum: f1814870c5c020303b67cd88dbf45b31
+Description: Common interface to speech synthesizers
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains Speech Dispatcher itself.
+
+Package: speech-dispatcher-audio-plugins
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 150
+Depends: libao4 (>= 1.1.0), libasound2 (>= 1.0.18), libaudio2, libc6 (>= 2.34), libglib2.0-0 (>= 2.36), libpipewire-0.3-0 (>= 0.3.6), libpulse0 (>= 0.99.1)
+Multi-Arch: same
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: sound
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-audio-plugins_0.12.0-4~bpo12+1_amd64.deb
+Size: 35820
+SHA256: 895266401a26cd16df26b1d0f0d80dcf2cc192de0b55c105d9a0e4c4dd6d79c9
+SHA1: 689ad2a35c61260328c00342e2de5caf5445da6f
+MD5sum: 45b4d6a7cc1051055e4367959bf5df70
+Description: Speech Dispatcher: Audio output plugins
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains all the speech-dispatcher audio output plugins.
+
+Package: speech-dispatcher-audio-plugins-dbgsym
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 143
+Depends: speech-dispatcher-audio-plugins (= 0.12.0-4~bpo12+1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-audio-plugins-dbgsym_0.12.0-4~bpo12+1_amd64.deb
+Size: 92972
+SHA256: 27e3cf23bae74512d08b3c134444b07d0aab42c1acaf2cf9dce246fbbb9bdc21
+SHA1: a92c8accbb2bbecb1cc5ad4e2088928fdb712acf
+MD5sum: 6ea8337cf6a412c0d5c8a383efb9b64b
+Description: debug symbols for speech-dispatcher-audio-plugins
+Build-Ids: 2172a6ec0d1405fbf7fec666c295b2df4e10f92b 3b57c2edae889bfec95172f75f67b301f7784ee6 7aec9697e1d75b785c00493359d70e547ed4ecb2 90eda18b90acd4036eaee5d54833b3b399bba85c cb956ccbe3fd1e29760c809741a50b441bbf26ec f5885d79adb9691dca9c805e626c693727c24970
+
+Package: speech-dispatcher-cicero
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 66
+Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.0), speech-dispatcher (= 0.12.0-4~bpo12+1)
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: sound
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-cicero_0.12.0-4~bpo12+1_amd64.deb
+Size: 24108
+SHA256: d1928dfc190f16281427407ffb3158cc2ec724b9cd3d85f15aca8255db2af180
+SHA1: 8b936754acfea7265db96644c6ab8e1b052fe02d
+MD5sum: 6b83434e9f543e951022e4d0d20c5b45
+Description: Speech Dispatcher: Cicero output module
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains the output module for the cicero speech synthesizer.
+
+Package: speech-dispatcher-cicero-dbgsym
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 56
+Depends: speech-dispatcher-cicero (= 0.12.0-4~bpo12+1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-cicero-dbgsym_0.12.0-4~bpo12+1_amd64.deb
+Size: 37712
+SHA256: 5d598cb6db57e3725c18f12b23df5915103d0e8b89c2edd5e832c8f6de69504c
+SHA1: e7a90f8feb1aab5a94888835c8ee5f6a9ebe2e7e
+MD5sum: 127c2e5dd33be9fe34a517b088da07ad
+Description: debug symbols for speech-dispatcher-cicero
+Build-Ids: 1e3cc9a54dcdbbab9a823cdfb7dfd3a18c7383c2
+
+Package: speech-dispatcher-dbgsym
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 359
+Depends: speech-dispatcher (= 0.12.0-4~bpo12+1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-dbgsym_0.12.0-4~bpo12+1_amd64.deb
+Size: 281892
+SHA256: 0d0a20962e8cb237c0eca40a1e996d439b304a558b03c33e6496418a1996221c
+SHA1: f460337c69adff1092618b9dc6641a4e9ec35b3c
+MD5sum: e61cd7c75dbc527ca59886c7ba8b0df9
+Description: debug symbols for speech-dispatcher
+Build-Ids: 0c3e7fa02295432b19bdb79b7c467969f0a6bcd8 0d87d6de848d89f71b39b44e888615ddf6fa168e 14c6230e1d6e9f98759df875dcf58b58ef80cb24 d0fcd1e722dad5a09097b7fbbb60bfabb2140934 fc8967cdefc3590f7a6308605a9c42d86a315353
+
+Package: speech-dispatcher-doc-cs
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: all
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 44
+Suggests: speech-dispatcher
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: doc
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-doc-cs_0.12.0-4~bpo12+1_all.deb
+Size: 34824
+SHA256: 9b5bcf92cba00c683e9b287cebeb6adcd965545116f8360fdfe7fb7d62ec567f
+SHA1: 64f75653a24081394b80edaa45ecff238699e7e6
+MD5sum: d200be1fdb38265260b1ef1f6ed1b9c0
+Description: Speech Dispatcher documentation in Czech
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains Czech documentation of Speech Dispatcher.
+
+Package: speech-dispatcher-espeak
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 70
+Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libespeak-ng1 (>= 1.52.0+dfsg), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.0), speech-dispatcher (= 0.12.0-4~bpo12+1)
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: sound
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-espeak_0.12.0-4~bpo12+1_amd64.deb
+Size: 25680
+SHA256: fce474ae89d73b794ddeade86bcfe54b7504a3873756567617db85b10296f898
+SHA1: 8bc3664c96b306203d0dc7111180b4970be4b727
+MD5sum: ef7232be08ea382cf9edb588588eeb8c
+Description: Speech Dispatcher: Espeak output module
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains the output module for the espeak speech synthesizer.
+
+Package: speech-dispatcher-espeak-dbgsym
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 61
+Depends: speech-dispatcher-espeak (= 0.12.0-4~bpo12+1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-espeak-dbgsym_0.12.0-4~bpo12+1_amd64.deb
+Size: 42024
+SHA256: 638cb01884b47e0626957140e80ad73af24dd313a27894ac5ec8393db65aa147
+SHA1: 24752bf1291d5f60dd4c8b9385002abb4a5fef1e
+MD5sum: 64d441b42c69032b282b87428ff24ed8
+Description: debug symbols for speech-dispatcher-espeak
+Build-Ids: 05fdc6cc4046f3eb250eae73ecc816e013541bc3
+
+Package: speech-dispatcher-espeak-ng
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 75
+Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libespeak-ng1 (>= 1.52.0+dfsg), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.0), speech-dispatcher (= 0.12.0-4~bpo12+1)
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: sound
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-espeak-ng_0.12.0-4~bpo12+1_amd64.deb
+Size: 26796
+SHA256: e775e8337169d84a8238859f212884ba9ba821b4f57ae4ef6d0132506676a5f5
+SHA1: 70f13bf68bafceb616a139b39cb7396548759f70
+MD5sum: aab034a3539c506c8b618483180228e0
+Description: Speech Dispatcher: Espeak-ng output module
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains the output module for the espeak-ng speech synthesizer.
+
+Package: speech-dispatcher-espeak-ng-dbgsym
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 64
+Depends: speech-dispatcher-espeak-ng (= 0.12.0-4~bpo12+1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-espeak-ng-dbgsym_0.12.0-4~bpo12+1_amd64.deb
+Size: 44512
+SHA256: 8015157eca51eefaa78acc1286ae7015836d4814a90d6cd46920453eaec9065b
+SHA1: a218bfcfc758012659ce1586d0f19c500de56ab0
+MD5sum: 0cba8d6dc3f23d27ba5c4ad7b2351af7
+Description: debug symbols for speech-dispatcher-espeak-ng
+Build-Ids: 9c514d0962cbc939ce8de49dde315b0052092eff
+
+Package: speech-dispatcher-festival
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 93
+Depends: festival, festival-freebsoft-utils, speech-dispatcher (= 0.12.0-4~bpo12+1), libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.0)
+Recommends: sound-icons
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: sound
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-festival_0.12.0-4~bpo12+1_amd64.deb
+Size: 33652
+SHA256: 338b55f6edacc4eebe409b6dca3c05d405490e6ca215033565a792c0a2ae5e33
+SHA1: 6a4df29cb891cbee73b6105af016cc97b10221fa
+MD5sum: 8151cc0f3b6c996961ce446fb348eedf
+Description: Festival support for Speech Dispatcher
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains dependencies on packages necessary for running Speech
+ Dispatcher with Festival.
+
+Package: speech-dispatcher-festival-dbgsym
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 80
+Depends: speech-dispatcher-festival (= 0.12.0-4~bpo12+1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-festival-dbgsym_0.12.0-4~bpo12+1_amd64.deb
+Size: 58952
+SHA256: ebf2108f1b82cb343595e4b10bc076e741fb103de00fac9841c377ecdb6a261f
+SHA1: f88121e7578cb371e77453589c40249745df7e8a
+MD5sum: 6414ba9c85504d53b3004c0fbf213435
+Description: debug symbols for speech-dispatcher-festival
+Build-Ids: 37fd79c8a7ee2b27ad1342f5bcf7327f7a0e7aff
+
+Package: speech-dispatcher-flite
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 58
+Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libflite1 (>= 1.4-release-9~), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.0), speech-dispatcher (= 0.12.0-4~bpo12+1)
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: sound
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-flite_0.12.0-4~bpo12+1_amd64.deb
+Size: 22384
+SHA256: 20101c4ad970766b1ba4b184586b78829650166a54b5a89373bcbab3202204cf
+SHA1: 439b6e23b861beade7397cfdb886c1eb8972f554
+MD5sum: ad28390c09f47660725e606d88f3ce12
+Description: Speech Dispatcher: Flite output module
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains the output module for the flite speech synthesizer.
+
+Package: speech-dispatcher-flite-dbgsym
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 51
+Depends: speech-dispatcher-flite (= 0.12.0-4~bpo12+1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-flite-dbgsym_0.12.0-4~bpo12+1_amd64.deb
+Size: 33204
+SHA256: d3141bfc4a1beed0a0f23ff616a6aafefef8b0eecfd2be3a3cb6f57164e97d9d
+SHA1: f68268edd536e783b70727f395008ed3e75d62d6
+MD5sum: ce52accda36b122555d28e4bfab12592
+Description: debug symbols for speech-dispatcher-flite
+Build-Ids: 3d79848c4a35e796a7e3e679a411d953f38d8da2
+
+Package: speech-dispatcher-openjtalk
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 58
+Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.0), open-jtalk, speech-dispatcher (= 0.12.0-4~bpo12+1)
+Recommends: open-jtalk-mecab-naist-jdic, hts-voice-nitech-jp-atr503-m001
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: sound
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-openjtalk_0.12.0-4~bpo12+1_amd64.deb
+Size: 22436
+SHA256: da3f9432d8636e62d782e4b816781c69a17aee90a680b9629e5e3d55b9faaae4
+SHA1: 75aa9735c44cc5bd7d4eb39a4df2736e622de10e
+MD5sum: 6a19f72ae2df3cbb49439b0ccf72e1e0
+Description: Speech Dispatcher: Espeak-ng output module
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains the output module for the openjtalk speech synthesizer.
+
+Package: speech-dispatcher-openjtalk-dbgsym
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 52
+Depends: speech-dispatcher-openjtalk (= 0.12.0-4~bpo12+1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-openjtalk-dbgsym_0.12.0-4~bpo12+1_amd64.deb
+Size: 34052
+SHA256: 5fa021daad2b8c3bad148250237b2643659624aad2cdcfceeef851f663551e61
+SHA1: 17cb176041d5389b53235447e4dbce9c489aebbe
+MD5sum: add3bc79e7cd04760b7420e64d8cdc6a
+Description: debug symbols for speech-dispatcher-openjtalk
+Build-Ids: 845fb9143eacde9ef7842e78fb94a1f3af634b17
 

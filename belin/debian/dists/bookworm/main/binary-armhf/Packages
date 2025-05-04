@@ -1,3 +1,97 @@
+Package: at-spi2-common
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 1348
+Breaks: at-spi2-core (<< 2.46.0-2~)
+Replaces: at-spi2-core (<< 2.46.0-2~)
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: misc
+Filename: pool/main/a/at-spi2-core/at-spi2-common_2.56.2-3~bpo12+1_all.deb
+Size: 170824
+SHA256: 5979b2f6bafebafc9d5614655b8684e203d8dc0c761649e4d9d34993570ec6d6
+SHA1: e962d41e299f98f37351c7106898aefbe30f365e
+MD5sum: 1f88dbd93a549370c5e5c90b4ec2bbc1
+Description: Assistive Technology Service Provider Interface (common files)
+ This package contains the common resource files of GNOME Accessibility.
+
+Package: at-spi2-doc
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 3739
+Suggests: devhelp
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: doc
+Filename: pool/main/a/at-spi2-core/at-spi2-doc_2.56.2-3~bpo12+1_all.deb
+Size: 194136
+SHA256: 8ec8d7d42490ca201036b0924c6b382eeedfe39c35c7f9d3ab595b1f9494cea2
+SHA1: 1b08c13ef4585c30f155e5fe7e76c1271464ac88
+MD5sum: 43ace317057de54a9b704ee184bf8d8d
+Description: Assistive Technology Service Provider Interface (Documentation)
+ This package contains documentation for the at-spi2 interface.
+
+Package: cl-speech-dispatcher
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: all
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 54
+Depends: cl-regex
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: lisp
+Filename: pool/main/s/speech-dispatcher/cl-speech-dispatcher_0.12.0-4~bpo12+1_all.deb
+Size: 15244
+SHA256: ff47ac9d733a590d232e4ddcd3d3e3ca5967792b7683d9667135c608d3de6e6d
+SHA1: 0f04c35a22ed9b2e59ceb67c2831680e69733956
+MD5sum: c1d53b7f68c0ea7174b2019fb226b8a8
+Description: Common Lisp interface to Speech Dispatcher
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains a Common Lisp library for communication with Speech
+ Dispatcher.
+
+Package: libatk1.0-doc
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 4957
+Suggests: libglib2.0-doc, libgtk-3-doc, devhelp
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: doc
+Filename: pool/main/a/at-spi2-core/libatk1.0-doc_2.56.2-3~bpo12+1_all.deb
+Size: 206588
+SHA256: bb8d18a917626f9c33e3ea9ffcdacd3e563da0da32b8df6e4be5448019f00e0b
+SHA1: 261e64c71895e02b334ec92501e167cf8382a444
+MD5sum: a6b74ed471f1da232f2cb950d2d1f45c
+Description: Documentation files for the ATK toolkit
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ This contains the HTML documentation for the ATK library in
+ /usr/share/doc/libatk1.0-doc/ .
+
 Package: orca
 Version: 48.1-1belin2
 Architecture: all
@@ -27,4 +121,65 @@ Description: Scriptable screen reader
  and key bindings, and the application specific ones. Orca provides the
  infrastructure to activate and deactivate scripts, as well as a host of
  services accessible from within the scripts.
+
+Package: python3-speechd
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: all
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 141
+Depends: python3-xdg, python3:any
+Breaks: python-speechd
+Replaces: python-speechd
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: python
+Filename: pool/main/s/speech-dispatcher/python3-speechd_0.12.0-4~bpo12+1_all.deb
+Size: 44592
+SHA256: 6760b7c2c1a14fb637f249cbcdfff14b529880a1427d8c74721206ab3ab49300
+SHA1: c9a97aa7ee1c0202800de580e619b1332866c1e5
+MD5sum: 126394180c65a083e27efa8726d43f6c
+Description: Python interface to Speech Dispatcher
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains a Python library for communication with Speech
+ Dispatcher.
+
+Package: speech-dispatcher-doc-cs
+Source: speech-dispatcher
+Version: 0.12.0-4~bpo12+1
+Architecture: all
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 44
+Suggests: speech-dispatcher
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: doc
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-doc-cs_0.12.0-4~bpo12+1_all.deb
+Size: 34824
+SHA256: 9b5bcf92cba00c683e9b287cebeb6adcd965545116f8360fdfe7fb7d62ec567f
+SHA1: 64f75653a24081394b80edaa45ecff238699e7e6
+MD5sum: d200be1fdb38265260b1ef1f6ed1b9c0
+Description: Speech Dispatcher documentation in Czech
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains Czech documentation of Speech Dispatcher.
 
