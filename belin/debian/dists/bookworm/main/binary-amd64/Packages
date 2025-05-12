@@ -97,6 +97,63 @@ Description: Debian base system miscellaneous files
  /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
  and the text of several common licenses in use on Debian systems.
 
+Package: belin-settings
+Version: 8.0~belin1
+Architecture: all
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Installed-Size: 8294
+Depends: libglib2.0-bin, dconf-cli, dconf-gsettings-backend, debconf, python3-feedparser, python3-lxml
+Conflicts: belin-settings-mate
+Breaks: belin-settings-mate
+Replaces: belin-settings-mate
+Priority: extra
+Section: base
+Filename: pool/main/b/belin-settings/belin-settings_8.0~belin1_all.deb
+Size: 848012
+SHA256: ab902bdb5615e8ac4d91ccc215b837b2814abb65085f1754a0e8be8d8c694107
+SHA1: 0159aad5bd0daff29faf9a6f9ce8b99b3f474ac4
+MD5sum: 03554fc665729da6fbc8406ba31c23d8
+Description: BeLin Beállítás telepítő
+ Ez a csomag telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
+
+Package: belin-settings-mate
+Source: belin-settings
+Version: 8.0~belin1
+Architecture: all
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Installed-Size: 8290
+Pre-Depends: lightdm
+Depends: libglib2.0-bin, dconf-cli, dconf-gsettings-backend, debconf, python3-lxml
+Conflicts: belin-settings
+Breaks: belin-settings
+Replaces: belin-settings
+Priority: extra
+Section: base
+Filename: pool/main/b/belin-settings/belin-settings-mate_8.0~belin1_all.deb
+Size: 847788
+SHA256: 4799dfc1a4aa9419e9581a9fc6485834bd3cece685e0beb1ca0ac818f57f80b5
+SHA1: f82d38043ef293f45ab9f0234f6e7b645c01182d
+MD5sum: fc754b90d128eac76b438d974d78b811
+Description: BeLin Beállítás telepítő
+ Ez a csomag a BeLin Mate asztali környezetet használó változatához telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
+
+Package: belin-settings-oem
+Source: belin-settings
+Version: 8.0~belin1
+Architecture: all
+Maintainer: Attila Hammer <hammera@pickup.hu>
+Installed-Size: 8284
+Depends: libglib2.0-bin, dconf-cli, dconf-gsettings-backend, debconf, python3-lxml
+Priority: extra
+Section: base
+Filename: pool/main/b/belin-settings/belin-settings-oem_8.0~belin1_all.deb
+Size: 847436
+SHA256: 14163d5809506360a7dd0ee88705bde328273774deb187cec953ba5885324a6d
+SHA1: f94532ce8b578de7a77d14dda8f0a29d95d9a59e
+MD5sum: 6e8534de0f31390dfd18cf8637202aa8
+Description: BeLin Beállítás telepítő
+ Ez a csomag egy már létező Ubuntu alapú rendszerre telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
+
 Package: cl-speech-dispatcher
 Source: speech-dispatcher
 Version: 0.12.1-1belin1
