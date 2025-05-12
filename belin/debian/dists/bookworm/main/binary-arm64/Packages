@@ -39,7 +39,7 @@ Description: Assistive Technology Service Provider Interface (Documentation)
 
 Package: cl-speech-dispatcher
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: all
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 54
@@ -48,11 +48,11 @@ Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: lisp
-Filename: pool/main/s/speech-dispatcher/cl-speech-dispatcher_0.12.0-5~bpo12+1_all.deb
-Size: 15248
-SHA256: a5f448611498db0dacf430cd4fabf182028f1b1a7022399b5fcc3d455a4fffc4
-SHA1: 87b69be14220ce50b039d9d558cfea9b3c58b271
-MD5sum: 92ff2574a09be3bffd4bc7c5eddc8ea9
+Filename: pool/main/s/speech-dispatcher/cl-speech-dispatcher_0.12.1-1belin1_all.deb
+Size: 15272
+SHA256: a9e49e0b0fce06a809ce2895bd6c6ffc339f18394bc86a059e817b5eff60066b
+SHA1: aed54a0ce9dd9803a019d0b2ccbd0561bf35a53c
+MD5sum: f2934d9e315ac944224b4e5d4e0d665f
 Description: Common Lisp interface to Speech Dispatcher
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -151,7 +151,7 @@ Description: Scriptable screen reader
 
 Package: python3-speechd
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: all
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 141
@@ -162,11 +162,11 @@ Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: python
-Filename: pool/main/s/speech-dispatcher/python3-speechd_0.12.0-5~bpo12+1_all.deb
-Size: 44584
-SHA256: b4beb8b9c8d6901d3648793fe97d1fef6caa225dec4e7c5684ab159956eced3e
-SHA1: 5d22ceb70c281e6955c99829db6f39e0a276e72b
-MD5sum: 7fc56e3903bd82455c88ce16095d24eb
+Filename: pool/main/s/speech-dispatcher/python3-speechd_0.12.1-1belin1_all.deb
+Size: 44612
+SHA256: 38111e0f507c5c0f901e35d20a52e647a4b1af69e13dc389a1606f9a01b8eccd
+SHA1: e23045996f58a09d1c93d17a872b5df8b4b1113a
+MD5sum: b9e934ba4327a45d5994a27127d1f05e
 Description: Python interface to Speech Dispatcher
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -183,20 +183,20 @@ Description: Python interface to Speech Dispatcher
 
 Package: speech-dispatcher-doc-cs
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: all
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
-Installed-Size: 44
+Installed-Size: 45
 Suggests: speech-dispatcher
 Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: doc
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-doc-cs_0.12.0-5~bpo12+1_all.deb
-Size: 34824
-SHA256: 60da4e2d87c8d8cad9f0250241bc0c4dc141aa04a58e43bd3a9b0f60d797a227
-SHA1: cb49d20c16703afd76cb13865b0bae8ea84e22c7
-MD5sum: 664eda2e1a7e2d00c7c4c5cc5317b421
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-doc-cs_0.12.1-1belin1_all.deb
+Size: 35576
+SHA256: 3ebb87e48a0bdc9e1278a5edb82899c77d792bcbc6418db23b14c62fe902add3
+SHA1: 3447db55b5b7f4cabc43d9448921b12719b2a2a2
+MD5sum: c054e4e608a43686cf0c7f7d99c8c81a
 Description: Speech Dispatcher documentation in Czech
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as

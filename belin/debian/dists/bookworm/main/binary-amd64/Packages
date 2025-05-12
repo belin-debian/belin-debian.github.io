@@ -99,7 +99,7 @@ Description: Debian base system miscellaneous files
 
 Package: cl-speech-dispatcher
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: all
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 54
@@ -108,11 +108,11 @@ Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: lisp
-Filename: pool/main/s/speech-dispatcher/cl-speech-dispatcher_0.12.0-5~bpo12+1_all.deb
-Size: 15248
-SHA256: a5f448611498db0dacf430cd4fabf182028f1b1a7022399b5fcc3d455a4fffc4
-SHA1: 87b69be14220ce50b039d9d558cfea9b3c58b271
-MD5sum: 92ff2574a09be3bffd4bc7c5eddc8ea9
+Filename: pool/main/s/speech-dispatcher/cl-speech-dispatcher_0.12.1-1belin1_all.deb
+Size: 15272
+SHA256: a9e49e0b0fce06a809ce2895bd6c6ffc339f18394bc86a059e817b5eff60066b
+SHA1: aed54a0ce9dd9803a019d0b2ccbd0561bf35a53c
+MD5sum: f2934d9e315ac944224b4e5d4e0d665f
 Description: Common Lisp interface to Speech Dispatcher
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -648,21 +648,21 @@ Build-Ids: a06755681dcee6a0b8bb98505448c53e15d46e8a
 
 Package: libspeechd-dev
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 146
-Depends: libspeechd2 (= 0.12.0-5~bpo12+1), libglib2.0-dev
+Depends: libspeechd2 (= 0.12.1-1belin1), libglib2.0-dev
 Suggests: speech-dispatcher
 Multi-Arch: same
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: libdevel
-Filename: pool/main/s/speech-dispatcher/libspeechd-dev_0.12.0-5~bpo12+1_amd64.deb
-Size: 31500
-SHA256: 603c78814cf1ea42f6792d4e708420594af3bfecb9401c284fafa91ba5e026ed
-SHA1: 4a3aac052b387438bfa9176cbe323d289c894f56
-MD5sum: 6caf6880f247208c3d3d405cf84e0c30
+Filename: pool/main/s/speech-dispatcher/libspeechd-dev_0.12.1-1belin1_amd64.deb
+Size: 32036
+SHA256: 14f350592fb7df2390205289d8ec098cbeefdb7ee275d3b6d1f3d4bf63ba5800
+SHA1: 447eea69a5c7c72e6ba53f409ac9f709dda999bf
+MD5sum: cc551297b06040c9d983022578fa7297
 Description: Speech Dispatcher: Development libraries and header files
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -679,7 +679,7 @@ Description: Speech Dispatcher: Development libraries and header files
 
 Package: libspeechd-module0
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 45
@@ -688,11 +688,11 @@ Multi-Arch: same
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: libs
-Filename: pool/main/s/speech-dispatcher/libspeechd-module0_0.12.0-5~bpo12+1_amd64.deb
-Size: 14660
-SHA256: 9d15a1c886d08181075451ce86abb32928dc3f9494e3e391876748007b8e4bce
-SHA1: e1b925f7dc23ae16aa975d9c3d3f6082ac1aa6a9
-MD5sum: 51c2eb5067ededfb9fa4755463e54597
+Filename: pool/main/s/speech-dispatcher/libspeechd-module0_0.12.1-1belin1_amd64.deb
+Size: 14716
+SHA256: 8b677cac58dc56a6e8f35a021fc2b930b1f8bb2d031061441d114eba95fbf060
+SHA1: d3de8b9a5f81c3930293587cc67229876e7ab3a4
+MD5sum: fef4a478c12448962cbc86fcc486ed42
 Description: Speech Dispatcher: Shared libraries for modules
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -709,26 +709,26 @@ Description: Speech Dispatcher: Shared libraries for modules
 
 Package: libspeechd-module0-dbgsym
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 31
-Depends: libspeechd-module0 (= 0.12.0-5~bpo12+1)
+Depends: libspeechd-module0 (= 0.12.1-1belin1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/s/speech-dispatcher/libspeechd-module0-dbgsym_0.12.0-5~bpo12+1_amd64.deb
-Size: 16100
-SHA256: 029023a01f3116dc9485d43ed48d19d13767c2f44b91706e66f1027b219edbc8
-SHA1: cc17b46d751b363bf9754076114285d8e880eaa0
-MD5sum: f83ddbf694bea6d9adcc6a9a9735fbe8
+Filename: pool/main/s/speech-dispatcher/libspeechd-module0-dbgsym_0.12.1-1belin1_amd64.deb
+Size: 16136
+SHA256: a0b6040df77492e7a6fffcfc46d08b5cfd29243deb7778ec373d20479a993cc9
+SHA1: 9e220f87bdb9955e8711c468afcd12071e955022
+MD5sum: 2f91ad291e4844dbeaec14ce3fd56e7e
 Description: debug symbols for libspeechd-module0
-Build-Ids: 1ed67e492d40d09ea1f5d06adbcf701d5aa48f8f
+Build-Ids: 28f47db19d6e803700debb5d671ebf36fb5bc0b4
 
 Package: libspeechd2
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 71
@@ -737,11 +737,11 @@ Multi-Arch: same
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: libs
-Filename: pool/main/s/speech-dispatcher/libspeechd2_0.12.0-5~bpo12+1_amd64.deb
-Size: 21868
-SHA256: 7ab205f2bfb93cd0b54e11870fa1464dc2647e6bc52dd674be70b9a4c8d819c6
-SHA1: bee06da1aec48cb5800706c4c1a8fc86876aae4d
-MD5sum: f0b939ffacb790af499425a13248399e
+Filename: pool/main/s/speech-dispatcher/libspeechd2_0.12.1-1belin1_amd64.deb
+Size: 21944
+SHA256: d95a50eb90ca848ee4914a321200390e99a37c3fbb01cf5eb93d1b4aff5eaacb
+SHA1: 9594e3f23cce68b11b974a3eb7a78e7932c984bc
+MD5sum: 8d863b8c81c5b27e9b21da1438fe1d9a
 Description: Speech Dispatcher: Shared libraries
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -757,22 +757,22 @@ Description: Speech Dispatcher: Shared libraries
 
 Package: libspeechd2-dbgsym
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 59
-Depends: libspeechd2 (= 0.12.0-5~bpo12+1)
+Depends: libspeechd2 (= 0.12.1-1belin1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/s/speech-dispatcher/libspeechd2-dbgsym_0.12.0-5~bpo12+1_amd64.deb
-Size: 42032
-SHA256: 024ef08d7d55c35aac6f705f4abadd22dcdc33640b8866a0f032dbf8ebf4d705
-SHA1: ab3fb88b94e36b2cb0e52ce5c14ae334d714dc9a
-MD5sum: d239db56d5411209f10bdd4675d1b789
+Filename: pool/main/s/speech-dispatcher/libspeechd2-dbgsym_0.12.1-1belin1_amd64.deb
+Size: 42080
+SHA256: 6316adee5d13e879a19bfc40011efc3999feb8f942c3c3e39b8d24c586da0c6f
+SHA1: d15b7ed1a17567218b268816fe44aefaaac7521a
+MD5sum: 06e0a60e2f872a87c4718b30222c2861
 Description: debug symbols for libspeechd2
-Build-Ids: ce3c31972d26c780ab9a94ca5b99ac2abc91d7a4
+Build-Ids: 56e359e3aec8ecf69db119b6e64e432253f181b0
 
 Package: orca
 Version: 48.1-1belin3
@@ -806,7 +806,7 @@ Description: Scriptable screen reader
 
 Package: python3-speechd
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: all
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 141
@@ -817,11 +817,11 @@ Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: python
-Filename: pool/main/s/speech-dispatcher/python3-speechd_0.12.0-5~bpo12+1_all.deb
-Size: 44584
-SHA256: b4beb8b9c8d6901d3648793fe97d1fef6caa225dec4e7c5684ab159956eced3e
-SHA1: 5d22ceb70c281e6955c99829db6f39e0a276e72b
-MD5sum: 7fc56e3903bd82455c88ce16095d24eb
+Filename: pool/main/s/speech-dispatcher/python3-speechd_0.12.1-1belin1_all.deb
+Size: 44612
+SHA256: 38111e0f507c5c0f901e35d20a52e647a4b1af69e13dc389a1606f9a01b8eccd
+SHA1: e23045996f58a09d1c93d17a872b5df8b4b1113a
+MD5sum: b9e934ba4327a45d5994a27127d1f05e
 Description: Python interface to Speech Dispatcher
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -837,11 +837,11 @@ Description: Python interface to Speech Dispatcher
  Dispatcher.
 
 Package: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
-Installed-Size: 28492
-Depends: adduser, speech-dispatcher-audio-plugins (= 0.12.0-5~bpo12+1), init-system-helpers (>= 1.52), libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libglib2.0-0 (>= 2.67.3), libltdl7 (>= 2.4.7), libsndfile1 (>= 1.0.20), libspeechd-module0 (>= 0.12.0), libspeechd2 (>= 0.12.0~), libsystemd0
+Installed-Size: 28493
+Depends: adduser, speech-dispatcher-audio-plugins (= 0.12.1-1belin1), init-system-helpers (>= 1.52), libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libglib2.0-0 (>= 2.67.3), libltdl7 (>= 2.4.7), libsndfile1 (>= 1.0.20), libspeechd-module0 (>= 0.12.1), libspeechd2 (>= 0.12.0~), libsystemd0
 Recommends: speech-dispatcher-espeak-ng, sound-icons
 Suggests: libttspico-utils, espeak, mbrola, speech-dispatcher-doc-cs, speech-dispatcher-festival, speech-dispatcher-cicero, speech-dispatcher-flite, speech-dispatcher-espeak
 Breaks: cl-speech-dispatcher (<< 0.9~), libspeechd2 (<< 0.9~), python-speechd (<< 0.9~), python3-speechd (<< 0.9~), speech-dispatcher-baratinoo (<< 0.10.2-1~), speech-dispatcher-ibmtts (<< 0.10.2-1~), speech-dispatcher-kali (<< 0.10.2-1~)
@@ -849,11 +849,11 @@ Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: sound
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher_0.12.0-5~bpo12+1_amd64.deb
-Size: 3991600
-SHA256: 31b1115837e4608d8311c7351bbc581b1f63b110c1d7f16c9a088ae6e18295e7
-SHA1: 6751ba45bfd375fab372b0513d5029deaeb1061d
-MD5sum: 0f06828cd87865aaaaac43abbc9f59ef
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher_0.12.1-1belin1_amd64.deb
+Size: 3982104
+SHA256: 275a5e9c153f2d5bb42ceb7d698af99445d5cdd86ad8d714b4c7ae2c10fc32d9
+SHA1: 02db9f56be724def5658bcf98a05e3835095809c
+MD5sum: 637b518bcd0885745214dc9adb278544
 Description: Common interface to speech synthesizers
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -869,20 +869,20 @@ Description: Common interface to speech synthesizers
 
 Package: speech-dispatcher-audio-plugins
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
-Installed-Size: 150
+Installed-Size: 154
 Depends: libao4 (>= 1.1.0), libasound2 (>= 1.0.18), libaudio2, libc6 (>= 2.34), libglib2.0-0 (>= 2.36), libpipewire-0.3-0 (>= 0.3.6), libpulse0 (>= 0.99.1)
 Multi-Arch: same
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: sound
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-audio-plugins_0.12.0-5~bpo12+1_amd64.deb
-Size: 35820
-SHA256: 761e23ba7080387ee54a48062b2fc1f76247388e03b0a3f0c4c8ff64cd351c1f
-SHA1: 1db1fa0dafc1932ff28242bd6904b9af2c224ea9
-MD5sum: 39ab946e3f8a0b06866ca57191c2fc90
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-audio-plugins_0.12.1-1belin1_amd64.deb
+Size: 37460
+SHA256: 451d9c97757978dd413a3d1fcc88150a54b396bc68154c2ce4234251cab64ac6
+SHA1: 900d0255ea440e6ad21fb20974e052d031d3c8f1
+MD5sum: 90d7096b82b64c530318d8503259035a
 Description: Speech Dispatcher: Audio output plugins
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -898,39 +898,39 @@ Description: Speech Dispatcher: Audio output plugins
 
 Package: speech-dispatcher-audio-plugins-dbgsym
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
-Installed-Size: 143
-Depends: speech-dispatcher-audio-plugins (= 0.12.0-5~bpo12+1)
+Installed-Size: 154
+Depends: speech-dispatcher-audio-plugins (= 0.12.1-1belin1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-audio-plugins-dbgsym_0.12.0-5~bpo12+1_amd64.deb
-Size: 92972
-SHA256: 84a502edb9bd3e5285bb8462e324074684596f944d45a0ba7366d61dcc30645f
-SHA1: bdb341230ef0adfd5322c717b43822e7cc9d6148
-MD5sum: b200296aa75b0b2b4c6997f66e2991f2
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-audio-plugins-dbgsym_0.12.1-1belin1_amd64.deb
+Size: 103948
+SHA256: 7981c903465d88fb7b09a2d780be8edf581b7c7fbf14fba8805ac9b975dd17db
+SHA1: f67545636c1cb0b913c3f870a86e5df8e396f79a
+MD5sum: e0692e1b68ab5aff051bf69d58986620
 Description: debug symbols for speech-dispatcher-audio-plugins
-Build-Ids: 2172a6ec0d1405fbf7fec666c295b2df4e10f92b 3b57c2edae889bfec95172f75f67b301f7784ee6 7aec9697e1d75b785c00493359d70e547ed4ecb2 90eda18b90acd4036eaee5d54833b3b399bba85c cb956ccbe3fd1e29760c809741a50b441bbf26ec f5885d79adb9691dca9c805e626c693727c24970
+Build-Ids: 2172a6ec0d1405fbf7fec666c295b2df4e10f92b 3b57c2edae889bfec95172f75f67b301f7784ee6 7aec9697e1d75b785c00493359d70e547ed4ecb2 90eda18b90acd4036eaee5d54833b3b399bba85c ab9741e24af1e00fbd67dd5f5001d92c14aec00b f5885d79adb9691dca9c805e626c693727c24970
 
 Package: speech-dispatcher-cicero
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 66
-Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.0), speech-dispatcher (= 0.12.0-5~bpo12+1)
+Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.1), speech-dispatcher (= 0.12.1-1belin1)
 Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: sound
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-cicero_0.12.0-5~bpo12+1_amd64.deb
-Size: 24108
-SHA256: 847bb863dc8573b599ae96da67ea0ec2920633ba6db91a5261fd905ccfb54e5c
-SHA1: 14626d58cd343fd165d832f27a5e757f12c334ff
-MD5sum: 5001aefd66d845648ee5bde35751b026
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-cicero_0.12.1-1belin1_amd64.deb
+Size: 24104
+SHA256: 9f478af2c2b6781f61b1bbbf409707bbeb84c497d1ecdfd23b5163e483888684
+SHA1: 2e865cacf2025aa3833a6f540006b6ac23e7072b
+MD5sum: e2bc5fbd1ab7f329cab5ab93ba306f0a
 Description: Speech Dispatcher: Cicero output module
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -946,56 +946,56 @@ Description: Speech Dispatcher: Cicero output module
 
 Package: speech-dispatcher-cicero-dbgsym
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 56
-Depends: speech-dispatcher-cicero (= 0.12.0-5~bpo12+1)
+Depends: speech-dispatcher-cicero (= 0.12.1-1belin1)
 Priority: optional
 Section: debug
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-cicero-dbgsym_0.12.0-5~bpo12+1_amd64.deb
-Size: 37712
-SHA256: fdaa5a50cc774591e0e8ca5fb24900c29e3b62239dce65d37951b48959311c32
-SHA1: 8b83a3c665bde920fc163c07eceb5fe1df26b516
-MD5sum: 0a09857e6df4c53c35367020a60aae41
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-cicero-dbgsym_0.12.1-1belin1_amd64.deb
+Size: 37748
+SHA256: 9cb3acf905fc0cc3c42c5854a554f2c64bc7667394ee989f1584991a8ab6cb60
+SHA1: 343e7a3d95e56baf392bd8e1a44e0bc8694bb0fa
+MD5sum: 8569ee8f704625f0582362cd87d87bf0
 Description: debug symbols for speech-dispatcher-cicero
-Build-Ids: 1e3cc9a54dcdbbab9a823cdfb7dfd3a18c7383c2
+Build-Ids: 87cf862d0a09968dd6016423838be2cf1b87036a
 
 Package: speech-dispatcher-dbgsym
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
-Installed-Size: 359
-Depends: speech-dispatcher (= 0.12.0-5~bpo12+1)
+Installed-Size: 360
+Depends: speech-dispatcher (= 0.12.1-1belin1)
 Priority: optional
 Section: debug
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-dbgsym_0.12.0-5~bpo12+1_amd64.deb
-Size: 281892
-SHA256: 7eda720da48ec19d1d1916068096eea4f8c5966ba88c25888afc0f879cc49b0f
-SHA1: 2b6814ed362f9258d7b9d61e31e8e7da03b3d263
-MD5sum: 0e90374f70f7a2d6b718c6c6688aa017
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-dbgsym_0.12.1-1belin1_amd64.deb
+Size: 283164
+SHA256: c4171643059eaf84ab839c8299466a07298b56c319663e121670137e11e5d962
+SHA1: 0bb099fdbf789dc7c9f4def837dbde78076aa826
+MD5sum: 578b976e07b353cb4c51148f37b6e370
 Description: debug symbols for speech-dispatcher
-Build-Ids: 0c3e7fa02295432b19bdb79b7c467969f0a6bcd8 0d87d6de848d89f71b39b44e888615ddf6fa168e 14c6230e1d6e9f98759df875dcf58b58ef80cb24 d0fcd1e722dad5a09097b7fbbb60bfabb2140934 fc8967cdefc3590f7a6308605a9c42d86a315353
+Build-Ids: 0b14e35843a96f122fcc87c15748bef19d6c102b 0d87d6de848d89f71b39b44e888615ddf6fa168e 4c2d2775e15b938a0c6382c7061388a28d9bae4a 94ab2fbd1ca0c2764074f5dc4e4af68487031968 97c2d10b03963e1d674281b9b6a5a80d36547e7e
 
 Package: speech-dispatcher-doc-cs
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: all
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
-Installed-Size: 44
+Installed-Size: 45
 Suggests: speech-dispatcher
 Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: doc
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-doc-cs_0.12.0-5~bpo12+1_all.deb
-Size: 34824
-SHA256: 60da4e2d87c8d8cad9f0250241bc0c4dc141aa04a58e43bd3a9b0f60d797a227
-SHA1: cb49d20c16703afd76cb13865b0bae8ea84e22c7
-MD5sum: 664eda2e1a7e2d00c7c4c5cc5317b421
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-doc-cs_0.12.1-1belin1_all.deb
+Size: 35576
+SHA256: 3ebb87e48a0bdc9e1278a5edb82899c77d792bcbc6418db23b14c62fe902add3
+SHA1: 3447db55b5b7f4cabc43d9448921b12719b2a2a2
+MD5sum: c054e4e608a43686cf0c7f7d99c8c81a
 Description: Speech Dispatcher documentation in Czech
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -1011,20 +1011,20 @@ Description: Speech Dispatcher documentation in Czech
 
 Package: speech-dispatcher-espeak
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 70
-Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libespeak-ng1 (>= 1.52.0+dfsg), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.0), speech-dispatcher (= 0.12.0-5~bpo12+1)
+Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libespeak-ng1 (>= 1.52.0+dfsg), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.1), speech-dispatcher (= 0.12.1-1belin1)
 Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: sound
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-espeak_0.12.0-5~bpo12+1_amd64.deb
-Size: 25680
-SHA256: 7b1d73aaeaefb2b1d73b313cc219cd447b8740857ffe3b639f3d821c5f2d99c7
-SHA1: 05fa5738e0f98627398158ad5897c80d6bb00ce6
-MD5sum: d12c7f2793bfd4cce15e81392288c69d
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-espeak_0.12.1-1belin1_amd64.deb
+Size: 25808
+SHA256: 102dee4f645438c184320863198a626d44070536e5efaeaa5c8b65529654cd5b
+SHA1: ea2a44b0c1c4b6615c946bdc0dc83a6cb3983535
+MD5sum: 170f3bffc76c687d84f473222abbbad7
 Description: Speech Dispatcher: Espeak output module
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -1040,38 +1040,38 @@ Description: Speech Dispatcher: Espeak output module
 
 Package: speech-dispatcher-espeak-dbgsym
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 61
-Depends: speech-dispatcher-espeak (= 0.12.0-5~bpo12+1)
+Depends: speech-dispatcher-espeak (= 0.12.1-1belin1)
 Priority: optional
 Section: debug
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-espeak-dbgsym_0.12.0-5~bpo12+1_amd64.deb
-Size: 42024
-SHA256: 864d19358249f308de6c5cd52ea9c1a913047e238f5a80d6ed589274262e4ddb
-SHA1: 7915f9882c3bb89be164918ea3dcadac52440cf2
-MD5sum: e1300f2e264c0c1ac182741b686e5a38
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-espeak-dbgsym_0.12.1-1belin1_amd64.deb
+Size: 42232
+SHA256: 56ec1347b071c742d1713e62b45854f0da8d912c7d217bd98aa1cee11ac8739c
+SHA1: 41f470f4d84a61c9c0ed9691779e2dcf2599de63
+MD5sum: 7786f8d17d592c1b65edd01c2953be81
 Description: debug symbols for speech-dispatcher-espeak
-Build-Ids: 05fdc6cc4046f3eb250eae73ecc816e013541bc3
+Build-Ids: 9f9b58614a6d79d2a599f75c54a66fe8b1a13423
 
 Package: speech-dispatcher-espeak-ng
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 75
-Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libespeak-ng1 (>= 1.52.0+dfsg), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.0), speech-dispatcher (= 0.12.0-5~bpo12+1)
+Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libespeak-ng1 (>= 1.52.0+dfsg), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.1), speech-dispatcher (= 0.12.1-1belin1)
 Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: sound
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-espeak-ng_0.12.0-5~bpo12+1_amd64.deb
-Size: 26800
-SHA256: 82f5dac62959141f8dbc458e903803a5b871931d8886f0c550ebc21d9a6c022b
-SHA1: 95c7998b577795c77657264379106f8796a591be
-MD5sum: 5a674c6671a60911b91009a0101f5368
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-espeak-ng_0.12.1-1belin1_amd64.deb
+Size: 26896
+SHA256: dd182aaa819bda33fd13106d6a8b9689033f969dbb8ff0e02473ecc4a4d17ef0
+SHA1: c00a032e85118b934edb8f15887f579de8fe18e6
+MD5sum: 74954c95e7f38eb7a35b30951178e784
 Description: Speech Dispatcher: Espeak-ng output module
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -1087,39 +1087,39 @@ Description: Speech Dispatcher: Espeak-ng output module
 
 Package: speech-dispatcher-espeak-ng-dbgsym
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 64
-Depends: speech-dispatcher-espeak-ng (= 0.12.0-5~bpo12+1)
+Depends: speech-dispatcher-espeak-ng (= 0.12.1-1belin1)
 Priority: optional
 Section: debug
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-espeak-ng-dbgsym_0.12.0-5~bpo12+1_amd64.deb
-Size: 44512
-SHA256: b42a91e926db9a9006fdddc98d0c9a39409fb484ff1c1dd5a030188fd9cea955
-SHA1: 1dce95aa444551ae906fc147fe1b6b1d08945de6
-MD5sum: 506ccb7829d32b19f8ef370bb1d87af0
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-espeak-ng-dbgsym_0.12.1-1belin1_amd64.deb
+Size: 44736
+SHA256: b81c4f0c2263616d12edc5023aeaac6641967f5635fbd6dd1fe064b14d49a126
+SHA1: b875cf5331acb8c4588f2e9832d96729ee53a715
+MD5sum: fae6c1bc65d29970e4e703508aa338da
 Description: debug symbols for speech-dispatcher-espeak-ng
-Build-Ids: 9c514d0962cbc939ce8de49dde315b0052092eff
+Build-Ids: f162b3c392c729168015c3836383cc8b89602ab4
 
 Package: speech-dispatcher-festival
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 93
-Depends: festival, festival-freebsoft-utils, speech-dispatcher (= 0.12.0-5~bpo12+1), libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.0)
+Depends: festival, festival-freebsoft-utils, speech-dispatcher (= 0.12.1-1belin1), libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.1)
 Recommends: sound-icons
 Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: sound
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-festival_0.12.0-5~bpo12+1_amd64.deb
-Size: 33652
-SHA256: 4d89b178eaa0c3eee73477703f001c8b24665811be44e832717eb70c3b75262c
-SHA1: b7eb1e98d4a50ee786cc4795135e25bd65b93343
-MD5sum: 4d4881eeea768750eac4dc62b76a9544
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-festival_0.12.1-1belin1_amd64.deb
+Size: 33572
+SHA256: 1f95471bd944141fe40cdddb52a3a2ab864fea5c171ee02372c9e3dd05060b98
+SHA1: 68ae82751b693895d7b96abdbb2c29d9fbec56c8
+MD5sum: 3c9078dde6d73177be2c5cb91a41f2fb
 Description: Festival support for Speech Dispatcher
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -1136,38 +1136,38 @@ Description: Festival support for Speech Dispatcher
 
 Package: speech-dispatcher-festival-dbgsym
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 80
-Depends: speech-dispatcher-festival (= 0.12.0-5~bpo12+1)
+Depends: speech-dispatcher-festival (= 0.12.1-1belin1)
 Priority: optional
 Section: debug
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-festival-dbgsym_0.12.0-5~bpo12+1_amd64.deb
-Size: 58952
-SHA256: b8058a74380a5016197bbf352d8074cbc1fa1dce03b9af443683daed6b57c508
-SHA1: 8a014e428416a0ecf8e229fb9a9cf28909b87850
-MD5sum: 6a6914c45b95dcd91180946cf4343329
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-festival-dbgsym_0.12.1-1belin1_amd64.deb
+Size: 58988
+SHA256: 16e924c1142537c0706a8893b5650d501c177dd39c2283e206bebe0b9c0336e0
+SHA1: acdb6c3f557247ba3e838bfef6e1ae6dd659a2c5
+MD5sum: 78d5b61e0dbec5f89dbc5652e71334f8
 Description: debug symbols for speech-dispatcher-festival
-Build-Ids: 37fd79c8a7ee2b27ad1342f5bcf7327f7a0e7aff
+Build-Ids: e2b94f9e400e0064086b957497cfa7dbdd0a65a7
 
 Package: speech-dispatcher-flite
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 58
-Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libflite1 (>= 1.4-release-9~), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.0), speech-dispatcher (= 0.12.0-5~bpo12+1)
+Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libflite1 (>= 1.4-release-9~), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.1), speech-dispatcher (= 0.12.1-1belin1)
 Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: sound
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-flite_0.12.0-5~bpo12+1_amd64.deb
-Size: 22384
-SHA256: 994b65840611f22dcba5b46711f6673954328ce7384d68802baae9fff6bfc0e6
-SHA1: 148895e395b4767440d91e6844a0de0675be72cf
-MD5sum: 1fa9d104b13ebefdfcdb312b48eaf38b
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-flite_0.12.1-1belin1_amd64.deb
+Size: 22396
+SHA256: a446b3c2bab47cdec36bf610370d6277e926a180a9b0b029ae613e67e0956e66
+SHA1: e918049608de4556d9b2c0f593a19385d1ddab05
+MD5sum: f44fd0bdf2fc4bb688adadaa1d436a9f
 Description: Speech Dispatcher: Flite output module
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -1183,39 +1183,39 @@ Description: Speech Dispatcher: Flite output module
 
 Package: speech-dispatcher-flite-dbgsym
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 51
-Depends: speech-dispatcher-flite (= 0.12.0-5~bpo12+1)
+Depends: speech-dispatcher-flite (= 0.12.1-1belin1)
 Priority: optional
 Section: debug
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-flite-dbgsym_0.12.0-5~bpo12+1_amd64.deb
-Size: 33204
-SHA256: a91d9ce23355defb1637014dd993e87821c11c6b5e3cd716bfb0fd44a4066cc7
-SHA1: 733e7802eb70c15f607736a55d96697a90f84dd7
-MD5sum: 61bdaf6a1cbd68b93eeeb90f2834b06c
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-flite-dbgsym_0.12.1-1belin1_amd64.deb
+Size: 33232
+SHA256: a4a708f34f4f46fd8bd5245de16fe83b4f634da41c66c9be0a4044b42f858c72
+SHA1: 82429d65b463db9578f64dc4409382a33c2e6c8c
+MD5sum: 6b86c99c2698318503a16548249e34c5
 Description: debug symbols for speech-dispatcher-flite
-Build-Ids: 3d79848c4a35e796a7e3e679a411d953f38d8da2
+Build-Ids: c22d65bc3ab688ceb0de38114682a9938118623d
 
 Package: speech-dispatcher-openjtalk
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 58
-Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.0), open-jtalk, speech-dispatcher (= 0.12.0-5~bpo12+1)
+Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.1), open-jtalk, speech-dispatcher (= 0.12.1-1belin1)
 Recommends: open-jtalk-mecab-naist-jdic, hts-voice-nitech-jp-atr503-m001
 Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: sound
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-openjtalk_0.12.0-5~bpo12+1_amd64.deb
-Size: 22436
-SHA256: 0da07564b6e85c1bce62af91f1418768ac2e9f600231a841407600329ed47a43
-SHA1: 4644947e464cf238f33456276a898f2510b839b7
-MD5sum: f5c622bb163b3849ee794ca3efc5cf64
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-openjtalk_0.12.1-1belin1_amd64.deb
+Size: 22472
+SHA256: 942f4f79b4d3f6bc5b790ebaa6fdf0a14cd15a13e5cb4641b0079a6921a6ff76
+SHA1: 6b3f1d2aaa2c3d3f78fe4e7f21f941528b6dd938
+MD5sum: 6b84c47663dbb9ddc063c4172220100c
 Description: Speech Dispatcher: Espeak-ng output module
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -1231,19 +1231,19 @@ Description: Speech Dispatcher: Espeak-ng output module
 
 Package: speech-dispatcher-openjtalk-dbgsym
 Source: speech-dispatcher
-Version: 0.12.0-5~bpo12+1
+Version: 0.12.1-1belin1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 52
-Depends: speech-dispatcher-openjtalk (= 0.12.0-5~bpo12+1)
+Depends: speech-dispatcher-openjtalk (= 0.12.1-1belin1)
 Priority: optional
 Section: debug
-Filename: pool/main/s/speech-dispatcher/speech-dispatcher-openjtalk-dbgsym_0.12.0-5~bpo12+1_amd64.deb
-Size: 34052
-SHA256: fed1d5048585d7dfb2bc86b2be8a3e5df7103f41fa10d44672ba1a30c37afd43
-SHA1: 570e75bcebb07f3c5efe436014185d3426fd0afb
-MD5sum: c688080fc1eabc20e3351a0b5f4dbc81
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-openjtalk-dbgsym_0.12.1-1belin1_amd64.deb
+Size: 34044
+SHA256: 05235ed575cfd31f46a1b65499c42ea60dc2f927628c96558948769961d1a9e8
+SHA1: c7bdbe2488b84a022d447a5db9d3a694610f2e87
+MD5sum: 353624b13ae75a080884c00e22774a6e
 Description: debug symbols for speech-dispatcher-openjtalk
-Build-Ids: 845fb9143eacde9ef7842e78fb94a1f3af634b17
+Build-Ids: 72d9097921bbd7dfcf6c83b91f85c2213d6fa37c
 
