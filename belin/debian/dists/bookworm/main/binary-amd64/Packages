@@ -775,10 +775,10 @@ Description: debug symbols for libspeechd2
 Build-Ids: ce3c31972d26c780ab9a94ca5b99ac2abc91d7a4
 
 Package: orca
-Version: 48.1-1belin2
+Version: 48.1-1belin3
 Architecture: all
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 15832
+Installed-Size: 15834
 Depends: python3:any, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, gir1.2-wnck-3.0, gir1.2-gstreamer-1.0, gstreamer1.0-plugins-good, gir1.2-atspi-2.0 (>= 2.50.0~), python3-brlapi, python3-cairo, python3-gi, python3-louis, at-spi2-core (>= 2.50.0~), python3-speechd, python3-dbus, speech-dispatcher, gsettings-desktop-schemas, xkbset
 Recommends: xbrlapi
 Suggests: brltty
@@ -786,11 +786,11 @@ Multi-Arch: foreign
 Homepage: https://wiki.gnome.org/Projects/Orca
 Priority: optional
 Section: gnome
-Filename: pool/main/o/orca/orca_48.1-1belin2_all.deb
-Size: 1988516
-SHA256: ea98c87da60dd649b62cd059d6dc41613a9bd7dc4b41a25544e7091d4a5f2f52
-SHA1: 423e187b0369702cf747a241188c1be3d0b192ec
-MD5sum: 78e323208480ff0da587cbd028507223
+Filename: pool/main/o/orca/orca_48.1-1belin3_all.deb
+Size: 1988144
+SHA256: bbbb32045edc03c86040a8faa0facb99b7b917aa959a93c8e2c17ab790a0a504
+SHA1: 9e6beb7a8e032f943fb5df19a5afcef8aec0dfe7
+MD5sum: 17ce79f23301c3d0ce23db2e37845eab
 Description: Scriptable screen reader
  A flexible, extensible, and powerful assistive technology that
  provides end-user access to applications and toolkits that support the
