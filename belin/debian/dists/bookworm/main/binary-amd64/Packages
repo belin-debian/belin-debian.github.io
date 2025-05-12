@@ -775,7 +775,7 @@ Description: debug symbols for libspeechd2
 Build-Ids: 56e359e3aec8ecf69db119b6e64e432253f181b0
 
 Package: orca
-Version: 48.1-1belin3
+Version: 48.1-1belin4
 Architecture: all
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 15834
@@ -786,11 +786,11 @@ Multi-Arch: foreign
 Homepage: https://wiki.gnome.org/Projects/Orca
 Priority: optional
 Section: gnome
-Filename: pool/main/o/orca/orca_48.1-1belin3_all.deb
-Size: 1988144
-SHA256: bbbb32045edc03c86040a8faa0facb99b7b917aa959a93c8e2c17ab790a0a504
-SHA1: 9e6beb7a8e032f943fb5df19a5afcef8aec0dfe7
-MD5sum: 17ce79f23301c3d0ce23db2e37845eab
+Filename: pool/main/o/orca/orca_48.1-1belin4_all.deb
+Size: 1989728
+SHA256: f5a3e835634b949ca947d80892f3efa18e95080b70f55f947016bf8f336967c0
+SHA1: 094c2dc681380105c89c9203f5a5051cfdb49625
+MD5sum: 30a411460c1ae02c6cf243b4a009a43f
 Description: Scriptable screen reader
  A flexible, extensible, and powerful assistive technology that
  provides end-user access to applications and toolkits that support the
