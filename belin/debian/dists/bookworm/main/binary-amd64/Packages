@@ -98,30 +98,30 @@ Description: Debian base system miscellaneous files
  and the text of several common licenses in use on Debian systems.
 
 Package: belin-settings
-Version: 8.0~belin2
+Version: 8.0~belin3
 Architecture: all
 Maintainer: Attila Hammer <hammera@pickup.hu>
-Installed-Size: 8294
+Installed-Size: 8295
 Depends: libglib2.0-bin, dconf-cli, dconf-gsettings-backend, debconf, python3-feedparser, python3-lxml
 Conflicts: belin-settings-mate
 Breaks: belin-settings-mate
 Replaces: belin-settings-mate
 Priority: extra
 Section: base
-Filename: pool/main/b/belin-settings/belin-settings_8.0~belin2_all.deb
-Size: 846972
-SHA256: c22d3444c213a1f800a049b3447b2cebb45d96a0c8d4057c86258518f4e743fc
-SHA1: 4980a4d2487878e1b9e342a89f3bb8c5e1b70f95
-MD5sum: fd1c6ec51f7841d70c2842bbbb0d073e
+Filename: pool/main/b/belin-settings/belin-settings_8.0~belin3_all.deb
+Size: 847580
+SHA256: 407a24e025e753ae27bdab2a5710eb446138bfcab787bf07447360cca1b69f9d
+SHA1: e450378866acacba6b7a6824585f5b893a85c23b
+MD5sum: 3009c1038ace239375696be470fed5e7
 Description: BeLin Beállítás telepítő
  Ez a csomag telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
 
 Package: belin-settings-mate
 Source: belin-settings
-Version: 8.0~belin2
+Version: 8.0~belin3
 Architecture: all
 Maintainer: Attila Hammer <hammera@pickup.hu>
-Installed-Size: 8290
+Installed-Size: 8291
 Pre-Depends: lightdm
 Depends: libglib2.0-bin, dconf-cli, dconf-gsettings-backend, debconf, python3-lxml
 Conflicts: belin-settings
@@ -129,28 +129,28 @@ Breaks: belin-settings
 Replaces: belin-settings
 Priority: extra
 Section: base
-Filename: pool/main/b/belin-settings/belin-settings-mate_8.0~belin2_all.deb
-Size: 847504
-SHA256: 8bf23cd8c7e2ce5712257dc29ac67399774c5a1c8ff09cc05248b231318855dd
-SHA1: 7a5164a0d245e4d303a718a4fd80c6e34eddb10e
-MD5sum: e63af094c3a0eccdd01e12d4ad9278f8
+Filename: pool/main/b/belin-settings/belin-settings-mate_8.0~belin3_all.deb
+Size: 847764
+SHA256: ac9ea5b44faf3b71aea4be36a1f7d0856466bd0042c4c79b97600adc3aa3074f
+SHA1: a11e8c6fb15c078f5ab6c64fc2e9a2382cdbb478
+MD5sum: 4175af278470e272646626d9427840e9
 Description: BeLin Beállítás telepítő
  Ez a csomag a BeLin Mate asztali környezetet használó változatához telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
 
 Package: belin-settings-oem
 Source: belin-settings
-Version: 8.0~belin2
+Version: 8.0~belin3
 Architecture: all
 Maintainer: Attila Hammer <hammera@pickup.hu>
 Installed-Size: 8284
 Depends: libglib2.0-bin, dconf-cli, dconf-gsettings-backend, debconf, python3-lxml
 Priority: extra
 Section: base
-Filename: pool/main/b/belin-settings/belin-settings-oem_8.0~belin2_all.deb
-Size: 846880
-SHA256: 61e058f6314a0d0b19e835467181697665a99c8954f8db9a2bd8ecebe6831e6f
-SHA1: 3ab9cc6cfe297c738e91fb7ee38f65a4b60026b0
-MD5sum: 9100c90326a7b661c6577ca8aed2a679
+Filename: pool/main/b/belin-settings/belin-settings-oem_8.0~belin3_all.deb
+Size: 847388
+SHA256: ea4feda4788dcc469bec294ddb1c66a4e3f6c1eef90f685d931194c1e81bc272
+SHA1: 7bff01b398d033a736240732ca3dd1957e43f33f
+MD5sum: 756bb9a4ba1278257308d225dbfcabb0
 Description: BeLin Beállítás telepítő
  Ez a csomag egy már létező Ubuntu alapú rendszerre telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
 
