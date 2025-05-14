@@ -154,6 +154,30 @@ MD5sum: 756bb9a4ba1278257308d225dbfcabb0
 Description: BeLin Beállítás telepítő
  Ez a csomag egy már létező Ubuntu alapú rendszerre telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
 
+Package: calamares-settings-debian
+Version: 12.0.10-1
+Architecture: all
+Maintainer: Jonathan Carter <jcc@debian.org>
+Installed-Size: 316
+Depends: calamares, cryptsetup, libglib2.0-bin, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
+Provides: calamares-settings
+Homepage: https://salsa.debian.org/live-team/calamares-settings-debian
+Priority: optional
+Section: utils
+Filename: pool/main/c/calamares-settings-debian/calamares-settings-debian_12.0.10-1_all.deb
+Size: 226664
+SHA256: 8f645e394390e770d0f5384db9a7cd7b74072dc973d2b3e6ffaa6edb1e27bc0a
+SHA1: 3cc24ce855baea1cb6516f4fac798025ab46dce5
+MD5sum: cf5398fcce6f39473eb58dd84fe8192b
+Description: Debian theme and settings for the Calamares Installer
+ Calamares is a generic installer framework for Linux distributions.
+ By default, it contains a set of boilerplate wording and images. This
+ package provides the latest Debian artwork as well as scripts that
+ supports EFI installations.
+ .
+ It also serves as an example for how derivatives can create their own
+ calamares-settings packages.
+
 Package: cl-speech-dispatcher
 Source: speech-dispatcher
 Version: 0.12.1-1belin1
