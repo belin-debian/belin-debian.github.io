@@ -220,7 +220,7 @@ Description: Documentation files for the ATK toolkit
  /usr/share/doc/libatk1.0-doc/ .
 
 Package: orca
-Version: 48.1-1belin4
+Version: 48.1-1belin5
 Architecture: all
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 15834
@@ -231,11 +231,11 @@ Multi-Arch: foreign
 Homepage: https://wiki.gnome.org/Projects/Orca
 Priority: optional
 Section: gnome
-Filename: pool/main/o/orca/orca_48.1-1belin4_all.deb
-Size: 1989728
-SHA256: f5a3e835634b949ca947d80892f3efa18e95080b70f55f947016bf8f336967c0
-SHA1: 094c2dc681380105c89c9203f5a5051cfdb49625
-MD5sum: 30a411460c1ae02c6cf243b4a009a43f
+Filename: pool/main/o/orca/orca_48.1-1belin5_all.deb
+Size: 1987448
+SHA256: 521b5e55270fd9040077c798cb0d557fc58d3ada08e25d122923f73585dd385b
+SHA1: a0051a018c4cb7cedcc5b450f4492f932ff1f56b
+MD5sum: b1906cf528e77f8da2e5c515bd0a1be5
 Description: Scriptable screen reader
  A flexible, extensible, and powerful assistive technology that
  provides end-user access to applications and toolkits that support the
