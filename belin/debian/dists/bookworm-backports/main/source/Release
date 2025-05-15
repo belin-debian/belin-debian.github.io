@@ -1,0 +1,7 @@
+Archive: bookworm-backports
+Version: 8.0
+Component: main
+Origin: BeLin
+Label: BeLin package repository
+Architecture: source
+Description: BeLin package repository for Debian derivative (backported packages repository)

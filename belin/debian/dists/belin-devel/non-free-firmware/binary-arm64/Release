@@ -1,0 +1,7 @@
+Archive: sid
+Version: 8.5
+Component: non-free-firmware
+Origin: BeLin
+Label: BeLin package repository
+Architecture: arm64
+Description: BeLin package repository for Debian derivative (development repository)

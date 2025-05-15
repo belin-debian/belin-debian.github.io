@@ -1,0 +1,7 @@
+Archive: testing
+Version: 8.5
+Component: main
+Origin: BeLin
+Label: BeLin package repository
+Architecture: arm64
+Description: BeLin package repository for Debian derivative (testing repository)

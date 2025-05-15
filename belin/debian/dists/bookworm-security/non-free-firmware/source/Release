@@ -1,0 +1,7 @@
+Archive: bookworm-security
+Version: 8.0
+Component: non-free-firmware
+Origin: BeLin
+Label: BeLin package repository
+Architecture: source
+Description: BeLin package repository for Debian derivative (security packages repository)

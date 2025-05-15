@@ -1,0 +1,7 @@
+Archive: bookworm-updates
+Version: 8.0
+Component: contrib
+Origin: BeLin
+Label: BeLin package repository
+Architecture: amd64
+Description: BeLin package repository for Debian derivative (official updates packages repository)

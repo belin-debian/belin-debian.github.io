@@ -3,7 +3,7 @@ Label: BeLin package repository
 Suite: testing
 Codename: belin-testing
 Version: 8.5
-Date: Mon, 12 May 2025 10:12:17 UTC
+Date: Thu, 15 May 2025 10:30:47 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (testing repository)

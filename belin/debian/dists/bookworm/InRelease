@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: stable
 Codename: bookworm
 Version: 8.0
-Date: Thu, 15 May 2025 07:29:00 UTC
+Date: Thu, 15 May 2025 10:30:41 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (stable repository)
@@ -291,17 +291,17 @@ SHA256:
  97498238ffc94f76320b964bdb55d8ad838a769497f8b662a0ecdd8b9a377d66 205 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmgll8QACgkQFg1XP6XL
-YMnCNg//bBu75uwewzLm7xw1z5oW4ThFEJPBD4uSpUMpy9MbU86t/Tth6Fl0SWEd
-q73dGI3zpMGCZ5eDkVZsDlXHkSOTIdVU++a1bYJcV1gOQk4TWDFlqfkFpeXGrBLw
-P0wp/GmuxYWZ42SPjkSEeuX853B2/h/Q4EqpPraFBsqLrPSMuk0MJ4XndYwkhax+
-w7UFAkgGDrG4oB86hGM5Gl8VQdDb3nrGnGYYmDXQbjfTi3eXGWE9NL1+RpwSQ3iD
-UMn7Idc8Gr1RXOTiKVTXBstRUkWuu0tA37m3uteLBPgl3QRPhjva0hq0B6db1X+A
-1VFvU0FmiUDdXEgyhfHznZRh8PdassEy4qSUhKgwf7pv5fywRarM0524IXT0qBwT
-+zW1yP+kDh4AEvhrQKBB3D5kYRZXBXomDya8m3ARaDH46pFRUBCZ+Gij//c0w07/
-JRPNxLI9kXfu1SN10Sx0Vb+ATfyEjOr4Tf/YClHv9gNrjyFmnVEUyV9oxi4I3Hz9
-OYGOzKHprGl2US7pG2qi9VPujpr+J5EXFoaZvgJTFKr9EmnT2vA7lmq4COxuNlqb
-yjctMSV/tzmV8tH0TdySs9sMm77+OQ0C2S4Rxavblvsq8M9WU71+b4f1RljcyhFK
-KOhYs26akfsVIpCVpVTizI64YPRXF0A6tlUU1eXSuNyCz0E9Qtg=
-=eVk/
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmglwlUACgkQFg1XP6XL
+YMl/wA/6AqbuwyT7eTTWel1Pj3PeLGV0GM2uSCzK0Z4eXjgPoko7lGDT781/mYt3
+gkEhBErguyVZ4tDpOBhjxq3KeK4tD/kB9qsXFz0a/dTAfSEGO2mWUmOjROkUy+b1
+sug8KkCCOnWEITl27RwMCnoMqRkXv/fE+9bOswqBhLw9Slw+3v9QBF8XdUoQVm2K
+OY9Rw1Z2073xTP/8j3qJsZ+NY/Qku5anadNf1LKT4l6AkKqeUjTVqEYpT8WjtHBl
+T0bSZX4a1LgcBwmpPaWg+R3hbHs5TfLWaaw6MswfiCdFAayboAXRD8hUQklJS3rk
+oxKkc5gWY60NSUnZ3SA+Cqf2jUrJUQ6WucYFrGGVNowH8NQ+NmAf4ekY8HCzl6gq
+e2egQXZRfLczk4zpWbsHU40YGbo2Ka/Z3dy7AnFtX8WHCaCcZMpxPmmvLnKAYTEt
+RRxI0+dcO5zlC51NkHa7EvwaTJHBOf01GY00QO4G8iHlCJJxI94lb0Ahmnl/RRAc
+UUGTAIbvhQb1dnTj7L35KkP7NIS68S0yDwzQ7v17ALU8Q4ieiDRCQda5B9rRiDVC
+l0sNhU60bXJcCavGR8pLIjYskhG9fT+xGCstTuInISGUSsehEkLCftKLvKtPzjne
+nG8nrA0ISflVLpXwvc52+MNFUSV80sIJjSSSgpdV48elan1MOl8=
+=qKkk
 -----END PGP SIGNATURE-----

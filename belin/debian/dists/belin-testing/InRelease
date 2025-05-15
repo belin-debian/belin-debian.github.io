@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: testing
 Codename: belin-testing
 Version: 8.5
-Date: Mon, 12 May 2025 10:12:17 UTC
+Date: Thu, 15 May 2025 10:30:47 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (testing repository)
@@ -291,17 +291,17 @@ SHA256:
  36acc300eb2e01cd6f3605d65772aeacdeb6301d3ec26cf708be3984a7c78105 207 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmghyYEACgkQFg1XP6XL
-YMnyChAAuMFDpqQ+Tm2tBYKi6Rg/Srh7aKqu1Q4aWJLdgGqj1UwDpTnV4t3ZNQXm
-n/jK49GMwG8381IxQ73UR5GvemRna4k4f+GyafXkpW1ziQ9th3K97gHoxh2Y7Xnv
-RNZ8HrsUsxSu6HS66H6YHyXKKQq5uo5KBvYDEzh2z/PjeFLpGLP2sIcNs7gSQLfZ
-bu1bMdLr+Bt1BAPElV1fVxECg77mg6FbhW9o6jANBvivNIx2FAcQC7rdI7P92ztk
-eE6I3otdUTST0MquP26rcn1SNc+wp6lVgZxLFw9/+yQ3WdeTs1kQ95Yh4JdvjNXC
-2F3sSKXkA7NgOQbZdoX2qovFzdPkMuV2dyZRpeZjqHa4pEyB/jKnGmw6kqZ4nquB
-wDzNOUtWIw9i+cKQEhYBRNTTJg0KXnGaxK6kToOVNTQXDzUgplywfZBxWIs7BT9B
-z7c6ubg72gHz4MhxqeIjXS1wHU0uMzrst9xX4QN6ZRlaSjpJ+iE1Z3P+9sAe1UNE
-/pK04DQYzoHqSt/UQb9E21cORO3HqqYnz56LwPPlge9uUhMs7pUPQw10YsJvt2uR
-Z9SH/bRwYfqncSb8d82VQIF968DKJGuZ/67X1kJZ5OsIX0RvYSW1sz4CGK2K/JzP
-UEyHRaHevWxOZa9fKreBKes7HmR5mB2W6fOMLwN7YikD/3uZg/8=
-=N0H3
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmglwlcACgkQFg1XP6XL
+YMlhAw//dcx9QivnOeATuOfOq7UKMrVRy/wb4Pqd2WaL7TslnLzrjqqkcJIeJXqB
+dOPKBukIq0i7/AFBrX4QuDTjchcD+Oa2eZQhkyOOpX1JNJGTufuMu/1LzJ5SdPjo
+q5yBX7Mvaa21ZiBHv0JeG/c3IGFT/SMVxPHw5jwbpCiNzQ+EYzaWQNmjXWmy7ZNt
+3Qf1ubbWQnVcUGS7keTyRX0l2wbuVzsKZ1gaUfpkVgAJAgVPjhOWIrZi6FO+gFvD
+B0CHWMAODtHqQf7HSh3C/keAqA+yi1WFw3LPb7ygSiBJIkIe/svyQsJkBmMDx+Oz
+1Vlem9jXLge0Y8GMuSFUd32eLHNqup58ixgifqgleTxsjXsn71GJmtSvy0vtDDUA
+QUqFcQMEjnpK3fucbFwzXyZqiHHKsYOh37tARds+etpfFY9I24pDuYLABDPxbz02
+xW2ONWrHODvkzxF/CFvqHVjqPamh1HyQR80L8CeNYnqgsi0vFM5NWqZbIM1zZqto
+wITY6HW+IEq5WVkVFU1kI4HZygjfrzRHRippN4IH5WYWPHZ6Gdq2edIzKbix+NPy
+6BTTSgzLAldS8nnssadX0+EMOHBAM5r4782y1MeCa6p4qXkCkoLDpG34+xTOd389
+xMUIe5++YnqZ5Tzqvpuz2tKyxtz597+CLoKBYg+LajV/xIqhOGA=
+=Ofon
 -----END PGP SIGNATURE-----

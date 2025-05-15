@@ -3,7 +3,7 @@ Label: BeLin package repository
 Suite: sid
 Codename: belin-devel
 Version: 8.5
-Date: Mon, 12 May 2025 10:12:18 UTC
+Date: Thu, 15 May 2025 10:30:48 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (development repository)

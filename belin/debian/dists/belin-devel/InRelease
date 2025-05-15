@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: sid
 Codename: belin-devel
 Version: 8.5
-Date: Mon, 12 May 2025 10:12:18 UTC
+Date: Thu, 15 May 2025 10:30:48 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (development repository)
@@ -267,17 +267,17 @@ SHA256:
  27d2fa4b889b30874b214137cb157aee82eee18974f0f2f28b602e6ef149293d 207 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmghyYIACgkQFg1XP6XL
-YMm+dA//UkzMfEDN3pgZGjeI/IHSqYgKKTn69/B8gXxukX+x0kq+K9KL5CUVLXjn
-ZiNXdQPs3huC/nnlSBGw9+bvDW3hLWg9Yuk2HotTIghLbRG9n/zMS9h97vogdY6U
-ujwDV7H/VLk2EyyNkoraPVr8V+9tOMUPTSq7gq+Po4MIoFunYBR3ofemvEcs8eEx
-4SjeX2oq7dVxKhNcU8MSCVlRQH+K6PeriTd+PzLOdO/zObXlgkeTGMSnORsADD86
-mI0JTirkbz20QMwU//QrmfmYstcFzLtLaZytSGv3M2TOdPYPWZuVjizRrLsSAKk+
-eDy11WgvOOR4TGAGuicxRJ6sVEhvRM86E2x+/KRJht7y9NZTfsgYCbUgSxi2JdXN
-3TPBJVDf3OdGjBR+ILcM5hN2CleQpANFbEEUWK4Ri+FOKHa9cQGKs8po8nbjmXUl
-aqQnk2UfFm4WI6lDH72/cqKEcbsMM/27dplMpFOqe7TKO2u94AaRh/wKeXHitbdj
-bKOy6DBAefVHxiz0SZSgbOmYVTId0A1dwwoEW5YJ2ta+U9femKOY/mZ3Oy8rO83x
-beQvdVNX1N2ckFBregU/mPh6DpPUuoTNMCmFo/n0ios/DNC/uAKWFsoP15/8LNh3
-UBBwLMC2y2iKzpC3ugJlOrXPh+Ti0BOBaQw37+jlDy9eIlxXzCI=
-=2kM8
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmglwlgACgkQFg1XP6XL
+YMlM/g//W5T1nLrHsxtty948sQxY7fX2aoQkEfmIIU0OIoSgQu+tgdfaIXFdq2Eo
+Sns5YWKapckls7K18fHSEqtWTV63X8Kv97NqRj2RosYNL7oau69dN4MsmhwM3j9B
+lS+kWwDXM+Qo+QSLE5yHUPKVnMrGKq+XBdTscHp0dbdXYc4ckGEsyJX3AXVDBQ/e
+SkD9GvFHf6j5POa5cIEw6mfBE+V3XTj9m+vj07x45ZySjd8T23kma5MdphEojgOF
+28cmw8BHjdOmctuIoTxiNHfAoh+1IvCFWXgWGol1w/+IdHhV81ucjZcTBR8IYrIC
+psy9d47rcO78TQDW9nkf6TLfTsuuyqt+U8WWYmkaptx6dRqLKuGNnmGJ6TMSvwRL
+8bqCRCzBFEn2ubTlOnhCQ+o+KtxS7e59i16Mg7K34+ZAi+Be7Jv4pU4Rey3zaefN
+VmgB50LySufYKPJBccPta/4qdpAAujdi792gmgbEHDu+iT9smUfe/MY4Cs2ydW3t
+vh8nyE7wmcwXn732ocgYNx6VcU1wBZ02szV6DcXcXQPQs0uMuWkjrxn/F47baolF
+M6VmIXzCZQpTZ0UbQ1zfMjx4yetmcLqab0CYifhJBF2sVHkZU1UOUA/MITcyPdw2
+Chnhu19soCuP1Gl2ORxTNCo53O6o9E0aB0+4bpecwc4UkiVwgBc=
+=z7Xf
 -----END PGP SIGNATURE-----
