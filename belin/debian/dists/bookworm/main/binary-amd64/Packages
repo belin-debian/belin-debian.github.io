@@ -247,16 +247,16 @@ Source: espeak
 Version: 1.48.15+dfsg-4
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 2326
+Installed-Size: 2353
 Multi-Arch: same
 Homepage: http://espeak.sourceforge.net/
 Priority: optional
 Section: sound
 Filename: pool/main/e/espeak/espeak-data_1.48.15+dfsg-4_amd64.deb
-Size: 1007440
-SHA256: 51a464f5b74c2a9befc06ef761684a8d087e63111b1f3660c7de75e911bc1b20
-SHA1: 3a11d51e3eb86dcfea9e5337819ae1828f0886f1
-MD5sum: 3cfae9d7fa0e66efd8405502a951c980
+Size: 1015552
+SHA256: e1c0008c1c80faf8c8b169159d1e80c7c844a76c887c952fe4f8051676b33750
+SHA1: 9d53a386108a75070e5bb52be26821e8c949e38f
+MD5sum: a04d14de1ba0d18c32d5837f711b7d08
 Description: Multi-lingual software speech synthesizer: speech data files
  eSpeak is a software speech synthesizer for English, and some other
  languages.
