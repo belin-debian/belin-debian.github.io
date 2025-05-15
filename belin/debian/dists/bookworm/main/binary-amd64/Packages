@@ -209,7 +209,7 @@ Description: Common Lisp interface to Speech Dispatcher
  Dispatcher.
 
 Package: espeak
-Version: 1.48.15+dfsg-4
+Version: 1.48.15+dfsg-5
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 215
@@ -218,11 +218,11 @@ Multi-Arch: foreign
 Homepage: http://espeak.sourceforge.net/
 Priority: optional
 Section: sound
-Filename: pool/main/e/espeak/espeak_1.48.15+dfsg-4_amd64.deb
-Size: 68776
-SHA256: 567e201da7162a12e33a774310c4ee69c632508dd37aae8000c12079f3c9faf6
-SHA1: 43a73c58f18840270aed2a9d17809177ec48e835
-MD5sum: 956a1fe3c3bd4dcdce4484d60c3a7ede
+Filename: pool/main/e/espeak/espeak_1.48.15+dfsg-5_amd64.deb
+Size: 68768
+SHA256: 87e0f857137c5bc66901cb5cc3e17cb68147b13cec32504e5e7e22bd3bc37ed2
+SHA1: ae7c0e6ea4e21cb506dacfc107c05e78e89f18d2
+MD5sum: 8713e052147e46d42efb099dc124c8e4
 Description: Multi-lingual software speech synthesizer
  eSpeak is a software speech synthesizer for English, and some other
  languages.
@@ -244,7 +244,7 @@ Description: Multi-lingual software speech synthesizer
 
 Package: espeak-data
 Source: espeak
-Version: 1.48.15+dfsg-4
+Version: 1.48.15+dfsg-5
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 2353
@@ -252,11 +252,11 @@ Multi-Arch: same
 Homepage: http://espeak.sourceforge.net/
 Priority: optional
 Section: sound
-Filename: pool/main/e/espeak/espeak-data_1.48.15+dfsg-4_amd64.deb
-Size: 1015552
-SHA256: e1c0008c1c80faf8c8b169159d1e80c7c844a76c887c952fe4f8051676b33750
-SHA1: 9d53a386108a75070e5bb52be26821e8c949e38f
-MD5sum: a04d14de1ba0d18c32d5837f711b7d08
+Filename: pool/main/e/espeak/espeak-data_1.48.15+dfsg-5_amd64.deb
+Size: 1015548
+SHA256: bcf437e6be6f4b33e122f5110af2f6671e4e1517266fd1765bd3429e5d313445
+SHA1: 78730e72236d5ef6ce21937a56101665a5445ff5
+MD5sum: cb2b1fa6f9f0eb47e051e3e9c51af179
 Description: Multi-lingual software speech synthesizer: speech data files
  eSpeak is a software speech synthesizer for English, and some other
  languages.
@@ -266,19 +266,19 @@ Description: Multi-lingual software speech synthesizer: speech data files
 
 Package: espeak-dbgsym
 Source: espeak
-Version: 1.48.15+dfsg-4
+Version: 1.48.15+dfsg-5
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 33
-Depends: espeak (= 1.48.15+dfsg-4)
+Depends: espeak (= 1.48.15+dfsg-5)
 Priority: optional
 Section: debug
-Filename: pool/main/e/espeak/espeak-dbgsym_1.48.15+dfsg-4_amd64.deb
+Filename: pool/main/e/espeak/espeak-dbgsym_1.48.15+dfsg-5_amd64.deb
 Size: 17820
-SHA256: e861e58920935be09d8a757e09a235897007949b556e39f4c27763b41d196145
-SHA1: 4ec38d7b10a4b3f913da0b8ca64a3b91687c9490
-MD5sum: 5e1b0ddcbe254d5e5741764194204a49
+SHA256: 003608aa8031906efbf7b00a833740087bf98affac0686ab7c3b7ef38a78b690
+SHA1: 74259847a65cc8eac61bbcf6f22090b9bad30084
+MD5sum: f8ddfd90b7fe3dfde72ebed877592bf6
 Description: debug symbols for espeak
 Build-Ids: ee9cc43b1290140debaafbb9c14d9973068c1d63
 
@@ -705,20 +705,20 @@ Description: Development files for the assistive technology service provider
 
 Package: libespeak-dev
 Source: espeak
-Version: 1.48.15+dfsg-4
+Version: 1.48.15+dfsg-5
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 615
-Depends: libespeak1 (= 1.48.15+dfsg-4)
+Depends: libespeak1 (= 1.48.15+dfsg-5)
 Multi-Arch: same
 Homepage: http://espeak.sourceforge.net/
 Priority: optional
 Section: libdevel
-Filename: pool/main/e/espeak/libespeak-dev_1.48.15+dfsg-4_amd64.deb
-Size: 184724
-SHA256: 6fdab6096d0b73d8272f187ffb842cb981dbeec2f846ce02fbff6ff2de7f9ef5
-SHA1: bfbc141c4ab7c9af3635dbc3c025f14f9901437d
-MD5sum: 7b62092523eb5825d11d54ac89489e0c
+Filename: pool/main/e/espeak/libespeak-dev_1.48.15+dfsg-5_amd64.deb
+Size: 184732
+SHA256: 230fdddbe3069bdb44bad0ace9d714ca0cfcc48ce2ed38b61a5aafa9cd6ab8f1
+SHA1: 2985c4ae27ee8c63c3c511bdef6a8b71b6b3a1f3
+MD5sum: 9bb9e5c3c94fcacd5f6be1882752da89
 Description: Multi-lingual software speech synthesizer: development files
  eSpeak is a software speech synthesizer for English, and some other
  languages.
@@ -845,20 +845,20 @@ Build-Ids: a06755681dcee6a0b8bb98505448c53e15d46e8a
 
 Package: libespeak1
 Source: espeak
-Version: 1.48.15+dfsg-4
+Version: 1.48.15+dfsg-5
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 323
-Depends: libc6 (>= 2.34), libportaudio2 (>= 19+svn20101113), libpulse0 (>= 0.99.1), libsonic0 (>= 0.1.10), espeak-data (= 1.48.15+dfsg-4)
+Depends: libc6 (>= 2.34), libportaudio2 (>= 19+svn20101113), libpulse0 (>= 0.99.1), libsonic0 (>= 0.1.10), espeak-data (= 1.48.15+dfsg-5)
 Multi-Arch: same
 Homepage: http://espeak.sourceforge.net/
 Priority: optional
 Section: libs
-Filename: pool/main/e/espeak/libespeak1_1.48.15+dfsg-4_amd64.deb
-Size: 155180
-SHA256: 59bc7229a7d7bf0539e845e5b7bc518dee87d36cb4ef3855c8bd85744450f9e9
-SHA1: 5b03cb307a95f7c1fca546b6286387515f470134
-MD5sum: e27431975904b3dee7299788599d067b
+Filename: pool/main/e/espeak/libespeak1_1.48.15+dfsg-5_amd64.deb
+Size: 155184
+SHA256: a4c301dee3489333fce55df31d47ff073f3e11ae340e813eb571edf734b827b0
+SHA1: 2915b85f6f78e7218d1cdd69ac03a95b73c4706e
+MD5sum: 67e3b724ac0721e3507855acb22d5b9e
 Description: Multi-lingual software speech synthesizer: shared library
  eSpeak is a software speech synthesizer for English, and some other
  languages.
@@ -867,20 +867,20 @@ Description: Multi-lingual software speech synthesizer: shared library
 
 Package: libespeak1-dbgsym
 Source: espeak
-Version: 1.48.15+dfsg-4
+Version: 1.48.15+dfsg-5
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 445
-Depends: libespeak1 (= 1.48.15+dfsg-4)
+Depends: libespeak1 (= 1.48.15+dfsg-5)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/e/espeak/libespeak1-dbgsym_1.48.15+dfsg-4_amd64.deb
+Filename: pool/main/e/espeak/libespeak1-dbgsym_1.48.15+dfsg-5_amd64.deb
 Size: 402300
-SHA256: 41ab590876627ddf23fe488f621d6d94de1422b9f6a6301127acfc19768a36be
-SHA1: 6701c70134084d7524d9332d6d7e53f9e17d7c7b
-MD5sum: d0f45363054e2c7379e0c7b760098ee5
+SHA256: ca45a42408e5e2101370230598e0cbd3722691d4ef2a8ce81f509a9dd884295b
+SHA1: 445fe47d037e7ea446b6bb5ecc60275fed6442cd
+MD5sum: d6ad36bc8883c89d0305903102c895bb
 Description: debug symbols for libespeak1
 Build-Ids: 2964a8f4165bffdb481e419805e56013a11b0671
 

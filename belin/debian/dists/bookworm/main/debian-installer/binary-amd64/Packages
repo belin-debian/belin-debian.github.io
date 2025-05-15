@@ -18,17 +18,17 @@ Description: Assistive Technology Service Provider Interface (D-Bus core for d-i
 
 Package: espeak-data-udeb
 Source: espeak
-Version: 1.48.15+dfsg-4
+Version: 1.48.15+dfsg-5
 Architecture: amd64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 2338
 Priority: optional
 Section: debian-installer
-Filename: pool/main/e/espeak/espeak-data-udeb_1.48.15+dfsg-4_amd64.udeb
+Filename: pool/main/e/espeak/espeak-data-udeb_1.48.15+dfsg-5_amd64.udeb
 Size: 1000896
-SHA256: f1e2d93a8a2f2c5645003efa132587b4cf56dc815f54b73e25c90050d0d11e24
-SHA1: d89082326946adae663cfd0a1078a7e380d9eec3
-MD5sum: be9023d217eed2c3ca6baf4b62ec187e
+SHA256: 3a8428098ed1b8e2d7b11df59a57dda50cc49425e0be76f3e2ca1ad2346e7bd8
+SHA1: 58b74003d3325507f417349023d98a9afee7b8bd
+MD5sum: c1efe4f4a7e32c07c3d32a1dace87e50
 Description: Multi-lingual software speech synthesizer: data for d-i
  eSpeak is a software speech synthesizer for English, and some other
  languages.
