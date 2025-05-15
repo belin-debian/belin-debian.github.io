@@ -208,6 +208,80 @@ Description: Common Lisp interface to Speech Dispatcher
  This package contains a Common Lisp library for communication with Speech
  Dispatcher.
 
+Package: espeak
+Version: 1.48.15+dfsg-4
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 215
+Depends: libc6 (>= 2.34), libespeak1 (>= 1.48.15+dfsg)
+Multi-Arch: foreign
+Homepage: http://espeak.sourceforge.net/
+Priority: optional
+Section: sound
+Filename: pool/main/e/espeak/espeak_1.48.15+dfsg-4_amd64.deb
+Size: 68776
+SHA256: 567e201da7162a12e33a774310c4ee69c632508dd37aae8000c12079f3c9faf6
+SHA1: 43a73c58f18840270aed2a9d17809177ec48e835
+MD5sum: 956a1fe3c3bd4dcdce4484d60c3a7ede
+Description: Multi-lingual software speech synthesizer
+ eSpeak is a software speech synthesizer for English, and some other
+ languages.
+ .
+ eSpeak produces good quality English speech. It uses a different synthesis
+ method from other open source text to speech (TTS) engines, and sounds quite
+ different. It's perhaps not as natural or "smooth", but some find the
+ articulation clearer and easier to listen to for long periods.
+ .
+ It can run as a command line program to speak text from a file or from stdin.
+ .
+   * Includes different Voices, whose characteristics can be altered.
+   * Can produce speech output as a WAV file.
+   * Can translate text to phoneme codes, so it could be adapted as a front end
+     for another speech synthesis engine.
+   * Potential for other languages. More than 40 languages are included.
+   * Compact size. The program and its data total about 350 kbytes.
+   * Written in C++.
+
+Package: espeak-data
+Source: espeak
+Version: 1.48.15+dfsg-4
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 2326
+Multi-Arch: same
+Homepage: http://espeak.sourceforge.net/
+Priority: optional
+Section: sound
+Filename: pool/main/e/espeak/espeak-data_1.48.15+dfsg-4_amd64.deb
+Size: 1007440
+SHA256: 51a464f5b74c2a9befc06ef761684a8d087e63111b1f3660c7de75e911bc1b20
+SHA1: 3a11d51e3eb86dcfea9e5337819ae1828f0886f1
+MD5sum: 3cfae9d7fa0e66efd8405502a951c980
+Description: Multi-lingual software speech synthesizer: speech data files
+ eSpeak is a software speech synthesizer for English, and some other
+ languages.
+ .
+ This package contains necessary synthesizer data files needed
+ for the espeak program, and the shared library.
+
+Package: espeak-dbgsym
+Source: espeak
+Version: 1.48.15+dfsg-4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 33
+Depends: espeak (= 1.48.15+dfsg-4)
+Priority: optional
+Section: debug
+Filename: pool/main/e/espeak/espeak-dbgsym_1.48.15+dfsg-4_amd64.deb
+Size: 17820
+SHA256: e861e58920935be09d8a757e09a235897007949b556e39f4c27763b41d196145
+SHA1: 4ec38d7b10a4b3f913da0b8ca64a3b91687c9490
+MD5sum: 5e1b0ddcbe254d5e5741764194204a49
+Description: debug symbols for espeak
+Build-Ids: ee9cc43b1290140debaafbb9c14d9973068c1d63
+
 Package: espeak-ng
 Version: 1.52.0+dfsg-6~belin1
 Architecture: amd64
@@ -629,6 +703,29 @@ Description: Development files for the assistive technology service provider
  These are the development files for at-spi2, needed for compilation of
  programs which use it.
 
+Package: libespeak-dev
+Source: espeak
+Version: 1.48.15+dfsg-4
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 615
+Depends: libespeak1 (= 1.48.15+dfsg-4)
+Multi-Arch: same
+Homepage: http://espeak.sourceforge.net/
+Priority: optional
+Section: libdevel
+Filename: pool/main/e/espeak/libespeak-dev_1.48.15+dfsg-4_amd64.deb
+Size: 184724
+SHA256: 6fdab6096d0b73d8272f187ffb842cb981dbeec2f846ce02fbff6ff2de7f9ef5
+SHA1: bfbc141c4ab7c9af3635dbc3c025f14f9901437d
+MD5sum: 7b62092523eb5825d11d54ac89489e0c
+Description: Multi-lingual software speech synthesizer: development files
+ eSpeak is a software speech synthesizer for English, and some other
+ languages.
+ .
+ This package contains the eSpeak development files needed to
+ build against the espeak shared library.
+
 Package: libespeak-ng-dev
 Source: espeak-ng
 Version: 1.52.0+dfsg-6~belin1
@@ -745,6 +842,47 @@ SHA1: e3c6e51bb1aafbb935acc72ef491ca81d8be7e7d
 MD5sum: 123372cc756c801cb76cae2ab87f4ae1
 Description: debug symbols for libespeak-ng1
 Build-Ids: a06755681dcee6a0b8bb98505448c53e15d46e8a
+
+Package: libespeak1
+Source: espeak
+Version: 1.48.15+dfsg-4
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 323
+Depends: libc6 (>= 2.34), libportaudio2 (>= 19+svn20101113), libpulse0 (>= 0.99.1), libsonic0 (>= 0.1.10), espeak-data (= 1.48.15+dfsg-4)
+Multi-Arch: same
+Homepage: http://espeak.sourceforge.net/
+Priority: optional
+Section: libs
+Filename: pool/main/e/espeak/libespeak1_1.48.15+dfsg-4_amd64.deb
+Size: 155180
+SHA256: 59bc7229a7d7bf0539e845e5b7bc518dee87d36cb4ef3855c8bd85744450f9e9
+SHA1: 5b03cb307a95f7c1fca546b6286387515f470134
+MD5sum: e27431975904b3dee7299788599d067b
+Description: Multi-lingual software speech synthesizer: shared library
+ eSpeak is a software speech synthesizer for English, and some other
+ languages.
+ .
+ This package contains the espeak program in a shared library.
+
+Package: libespeak1-dbgsym
+Source: espeak
+Version: 1.48.15+dfsg-4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 445
+Depends: libespeak1 (= 1.48.15+dfsg-4)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/e/espeak/libespeak1-dbgsym_1.48.15+dfsg-4_amd64.deb
+Size: 402300
+SHA256: 41ab590876627ddf23fe488f621d6d94de1422b9f6a6301127acfc19768a36be
+SHA1: 6701c70134084d7524d9332d6d7e53f9e17d7c7b
+MD5sum: d0f45363054e2c7379e0c7b760098ee5
+Description: debug symbols for libespeak1
+Build-Ids: 2964a8f4165bffdb481e419805e56013a11b0671
 
 Package: libspeechd-dev
 Source: speech-dispatcher

@@ -16,6 +16,27 @@ Description: Assistive Technology Service Provider Interface (D-Bus core for d-i
  This package contains the core components of GNOME Accessibility for the Debian
  installer.
 
+Package: espeak-data-udeb
+Source: espeak
+Version: 1.48.15+dfsg-4
+Architecture: amd64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 2311
+Priority: optional
+Section: debian-installer
+Filename: pool/main/e/espeak/espeak-data-udeb_1.48.15+dfsg-4_amd64.udeb
+Size: 992984
+SHA256: 2259f48930a07af840ae67fdb428dc8cf056da4222dc06a508ad8ef2db22df64
+SHA1: ab3eed52d7cd1c38645e194e12e571a6bd6bc14d
+MD5sum: 70367af49f1e0bc44fdfa9048c65b991
+Description: Multi-lingual software speech synthesizer: data for d-i
+ eSpeak is a software speech synthesizer for English, and some other
+ languages.
+ .
+ This package contains necessary synthesizer data files needed
+ for the espeak program, and the shared library, packed for the Debian
+ Installer.
+
 Package: espeak-ng-data-udeb
 Source: espeak-ng
 Version: 1.52.0+dfsg-6~belin1
