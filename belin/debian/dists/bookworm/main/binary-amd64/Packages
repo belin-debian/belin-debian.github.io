@@ -98,7 +98,7 @@ Description: Debian base system miscellaneous files
  and the text of several common licenses in use on Debian systems.
 
 Package: belin-settings
-Version: 8.0~belin6
+Version: 8.0~belin7
 Architecture: all
 Maintainer: Attila Hammer <hammera@pickup.hu>
 Installed-Size: 8300
@@ -108,17 +108,17 @@ Breaks: belin-settings-mate
 Replaces: belin-settings-mate
 Priority: extra
 Section: base
-Filename: pool/main/b/belin-settings/belin-settings_8.0~belin6_all.deb
-Size: 848668
-SHA256: 5ad39c9cf62f80d1aba84ab3d2b060fa3cc8fe34e53078fa011664fcce2c4cdc
-SHA1: 4724471fbd5d0723221e4a62596cc10788947b43
-MD5sum: a103700e60b3c4748af9212cdcc636fb
+Filename: pool/main/b/belin-settings/belin-settings_8.0~belin7_all.deb
+Size: 848908
+SHA256: e4575b92e89fc6cd3570f22484360f05e865bb3cad476822c069de2af6368409
+SHA1: b017dd549a9d5021ae21fbc3723a0dc0aea75b16
+MD5sum: 92f57119d840eb13b6d1428085485dae
 Description: BeLin Beállítás telepítő
  Ez a csomag telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
 
 Package: belin-settings-mate
 Source: belin-settings
-Version: 8.0~belin6
+Version: 8.0~belin7
 Architecture: all
 Maintainer: Attila Hammer <hammera@pickup.hu>
 Installed-Size: 8296
@@ -129,33 +129,33 @@ Breaks: belin-settings
 Replaces: belin-settings
 Priority: extra
 Section: base
-Filename: pool/main/b/belin-settings/belin-settings-mate_8.0~belin6_all.deb
-Size: 848652
-SHA256: 57f36699f28e3c4089a96aa96f6e3ca062b265ce5d09c4ba252b05e40b8adcc9
-SHA1: dfffbaddeac6cf4c51d5bc3bb0c8a30c51aed47c
-MD5sum: ba45094fa354f7fddb012f1ca7a360e5
+Filename: pool/main/b/belin-settings/belin-settings-mate_8.0~belin7_all.deb
+Size: 848696
+SHA256: 8b9ddfa26451167e5d963a58687dc9f40cbfa2df7bdc3756dbb63fd04d76baf7
+SHA1: d6048c8dd31315dd6180ad5a27235cf588099d3d
+MD5sum: cc3dbe82cf950c54cb6e608d195b3d59
 Description: BeLin Beállítás telepítő
  Ez a csomag a BeLin Mate asztali környezetet használó változatához telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
 
 Package: belin-settings-oem
 Source: belin-settings
-Version: 8.0~belin6
+Version: 8.0~belin7
 Architecture: all
 Maintainer: Attila Hammer <hammera@pickup.hu>
 Installed-Size: 8289
 Depends: libglib2.0-bin, dconf-cli, dconf-gsettings-backend, debconf, python3-lxml
 Priority: extra
 Section: base
-Filename: pool/main/b/belin-settings/belin-settings-oem_8.0~belin6_all.deb
-Size: 847996
-SHA256: 6ccfb1e6866e6bb29346ababb368d25e962f47e910c4ec73ea054c2ff7578bc6
-SHA1: e35a71f383382e49651b3b7e384959de415f2238
-MD5sum: 8f692a5000cf7493341cf2c3acbd8e1b
+Filename: pool/main/b/belin-settings/belin-settings-oem_8.0~belin7_all.deb
+Size: 848028
+SHA256: 6b2acb02a1786f77f01cf40f1e3dd326bf54b6cf99230b022cfec88be7969f08
+SHA1: ae56fd660d907697935a232a60989a93e3448ab7
+MD5sum: e64e515749c5c454247fcc00fc277147
 Description: BeLin Beállítás telepítő
  Ez a csomag egy már létező Ubuntu alapú rendszerre telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
 
 Package: calamares-settings-debian
-Version: 12.0.10-10
+Version: 12.0.10-12
 Architecture: all
 Maintainer: Jonathan Carter <jcc@debian.org>
 Installed-Size: 319
@@ -164,11 +164,11 @@ Provides: calamares-settings
 Homepage: https://salsa.debian.org/live-team/calamares-settings-debian
 Priority: optional
 Section: utils
-Filename: pool/main/c/calamares-settings-debian/calamares-settings-debian_12.0.10-10_all.deb
-Size: 227792
-SHA256: e69480b4158b525033fa2d2b2339968f7f5d528f5c04107cd5c77be7ebf147aa
-SHA1: 49e8d77e94d47f0f23b031f23ef0f721bab9411c
-MD5sum: 583721da40ab888aeb649a4b9ebdc32d
+Filename: pool/main/c/calamares-settings-debian/calamares-settings-debian_12.0.10-12_all.deb
+Size: 227988
+SHA256: f8c7d1038872d7faa7553c0e342f8b166f379d9d68f157c5793c38228c14503c
+SHA1: 73eb71c4dfcbb052265f4a33ad4cb538cc57b592
+MD5sum: 2ada6d66f600e24e151b230be3d885fd
 Description: Debian theme and settings for the Calamares Installer
  Calamares is a generic installer framework for Linux distributions.
  By default, it contains a set of boilerplate wording and images. This
