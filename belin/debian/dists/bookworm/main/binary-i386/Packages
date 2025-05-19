@@ -37,25 +37,6 @@ MD5sum: 43ace317057de54a9b704ee184bf8d8d
 Description: Assistive Technology Service Provider Interface (Documentation)
  This package contains documentation for the at-spi2 interface.
 
-Package: belin-settings
-Version: 8.0~belin7
-Architecture: all
-Maintainer: Attila Hammer <hammera@pickup.hu>
-Installed-Size: 8300
-Depends: libglib2.0-bin, dconf-cli, dconf-gsettings-backend, debconf, python3-feedparser, python3-lxml
-Conflicts: belin-settings-mate
-Breaks: belin-settings-mate
-Replaces: belin-settings-mate
-Priority: extra
-Section: base
-Filename: pool/main/b/belin-settings/belin-settings_8.0~belin7_all.deb
-Size: 848908
-SHA256: e4575b92e89fc6cd3570f22484360f05e865bb3cad476822c069de2af6368409
-SHA1: b017dd549a9d5021ae21fbc3723a0dc0aea75b16
-MD5sum: 92f57119d840eb13b6d1428085485dae
-Description: BeLin Beállítás telepítő
- Ez a csomag telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
-
 Package: belin-settings-mate
 Source: belin-settings
 Version: 8.0~belin7
