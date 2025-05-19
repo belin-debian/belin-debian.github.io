@@ -76,7 +76,7 @@ Description: BeLin Beállítás telepítő
  Ez a csomag egy már létező Ubuntu alapú rendszerre telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
 
 Package: calamares-settings-debian
-Version: 12.0.10-16
+Version: 12.0.10-17
 Architecture: all
 Maintainer: Jonathan Carter <jcc@debian.org>
 Installed-Size: 321
@@ -85,11 +85,11 @@ Provides: calamares-settings
 Homepage: https://salsa.debian.org/live-team/calamares-settings-debian
 Priority: optional
 Section: utils
-Filename: pool/main/c/calamares-settings-debian/calamares-settings-debian_12.0.10-16_all.deb
-Size: 228580
-SHA256: a904fa8a8f18c2d5e700d96adc64fdd1c1d27847f7243fedfd371fa8e0251130
-SHA1: bcae51e3c269dac96f5ffa43722eb95164a9cd02
-MD5sum: dc7f81cb0945454f54fa7446ac1055ab
+Filename: pool/main/c/calamares-settings-debian/calamares-settings-debian_12.0.10-17_all.deb
+Size: 228584
+SHA256: 71f80713184c3cd7409e2ecba742fe1aceda431d8d54c97c1d8506a528f0d3aa
+SHA1: 0e6c40fa87cf3a56a1d6f0050b4787891b2c3866
+MD5sum: 4de4143018e1551237e444fbd6542d78
 Description: Debian theme and settings for the Calamares Installer
  Calamares is a generic installer framework for Linux distributions.
  By default, it contains a set of boilerplate wording and images. This
