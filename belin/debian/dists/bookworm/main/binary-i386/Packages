@@ -37,44 +37,6 @@ MD5sum: 43ace317057de54a9b704ee184bf8d8d
 Description: Assistive Technology Service Provider Interface (Documentation)
  This package contains documentation for the at-spi2 interface.
 
-Package: belin-settings-mate
-Source: belin-settings
-Version: 8.0~belin7
-Architecture: all
-Maintainer: Attila Hammer <hammera@pickup.hu>
-Installed-Size: 8296
-Pre-Depends: lightdm
-Depends: libglib2.0-bin, dconf-cli, dconf-gsettings-backend, debconf, python3-lxml
-Conflicts: belin-settings
-Breaks: belin-settings
-Replaces: belin-settings
-Priority: extra
-Section: base
-Filename: pool/main/b/belin-settings/belin-settings-mate_8.0~belin7_all.deb
-Size: 848696
-SHA256: 8b9ddfa26451167e5d963a58687dc9f40cbfa2df7bdc3756dbb63fd04d76baf7
-SHA1: d6048c8dd31315dd6180ad5a27235cf588099d3d
-MD5sum: cc3dbe82cf950c54cb6e608d195b3d59
-Description: BeLin Beállítás telepítő
- Ez a csomag a BeLin Mate asztali környezetet használó változatához telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
-
-Package: belin-settings-oem
-Source: belin-settings
-Version: 8.0~belin7
-Architecture: all
-Maintainer: Attila Hammer <hammera@pickup.hu>
-Installed-Size: 8289
-Depends: libglib2.0-bin, dconf-cli, dconf-gsettings-backend, debconf, python3-lxml
-Priority: extra
-Section: base
-Filename: pool/main/b/belin-settings/belin-settings-oem_8.0~belin7_all.deb
-Size: 848028
-SHA256: 6b2acb02a1786f77f01cf40f1e3dd326bf54b6cf99230b022cfec88be7969f08
-SHA1: ae56fd660d907697935a232a60989a93e3448ab7
-MD5sum: e64e515749c5c454247fcc00fc277147
-Description: BeLin Beállítás telepítő
- Ez a csomag egy már létező Ubuntu alapú rendszerre telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
-
 Package: calamares-settings-debian
 Version: 12.0.10-17
 Architecture: all
