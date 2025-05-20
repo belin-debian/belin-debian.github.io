@@ -38,7 +38,7 @@ Description: Assistive Technology Service Provider Interface (Documentation)
  This package contains documentation for the at-spi2 interface.
 
 Package: calamares-settings-debian
-Version: 12.0.10-19
+Version: 12.0.10-20
 Architecture: all
 Maintainer: Jonathan Carter <jcc@debian.org>
 Installed-Size: 328
@@ -47,11 +47,11 @@ Provides: calamares-settings
 Homepage: https://salsa.debian.org/live-team/calamares-settings-debian
 Priority: optional
 Section: utils
-Filename: pool/main/c/calamares-settings-debian/calamares-settings-debian_12.0.10-19_all.deb
-Size: 230712
-SHA256: 32ce4c27e1fbcd757e847c1622be4c5e5b77d04a2ef5442c46abda33de474d8d
-SHA1: 01df76c0e812b0b8c9534e62fc04086e937a9b73
-MD5sum: 0e784d8f916ff3df883ba98fe70f4579
+Filename: pool/main/c/calamares-settings-debian/calamares-settings-debian_12.0.10-20_all.deb
+Size: 230716
+SHA256: 23525282fb3f9389fc05ac0fa27bf2c7f0d279be054f1b11b504341fa024ecf9
+SHA1: cf9aa4044004e3f07735584cd0a86e1bfb67b46b
+MD5sum: 4986cc05397583cbcf0d69f7e098676d
 Description: Debian theme and settings for the Calamares Installer
  Calamares is a generic installer framework for Linux distributions.
  By default, it contains a set of boilerplate wording and images. This
