@@ -808,6 +808,75 @@ MD5sum: d6ad36bc8883c89d0305903102c895bb
 Description: debug symbols for libespeak1
 Build-Ids: 2964a8f4165bffdb481e419805e56013a11b0671
 
+Package: libkpmcore-dev
+Source: kpmcore
+Version: 22.12.3-2
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 303
+Depends: libkpmcore12 (= 22.12.3-2)
+Multi-Arch: same
+Homepage: https://invent.kde.org/system/kpmcore
+Priority: optional
+Section: libdevel
+Filename: pool/main/k/kpmcore/libkpmcore-dev_22.12.3-2_amd64.deb
+Size: 37536
+SHA256: 4ef8bb3c7788040a9b0cb117260e53fb1f8a067a35b847b8707d8a3a20e42d09
+SHA1: ea95121bfac97e8c32d3ead6c0618a4e105ec78e
+MD5sum: 8ce43a54bbeeaa2d07a4f54856fe4067
+Description: KDE Partition Manager Core development files
+ KDE Parition Partition Manager Core (KPM core) allows
+ software to re-use common partitioning GUI tasks.
+ .
+ It is used in the generic system installer called Calamares
+ and may be used in more interfaces in the future. Right now it
+ is unlikely to be useful installed on its own.
+ .
+ This package contains development files for kpmcore.
+
+Package: libkpmcore12
+Source: kpmcore
+Version: 22.12.3-2
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3952
+Depends: libblkid1 (>= 2.33.2), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf5coreaddons5 (>= 5.96.0), libkf5i18n5 (>= 5.90~), libkf5widgetsaddons5 (>= 5.90~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.2~), libqt5dbus5 (>= 5.15.2~), libqt5gui5 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~), libqt5widgets5 (>= 5.15.2~), libstdc++6 (>= 11)
+Breaks: libkpmcore10, libkpmcore11, libkpmcore9
+Replaces: libkmpcore11, libkpmcore10, libkpmcore9
+Homepage: https://invent.kde.org/system/kpmcore
+Priority: optional
+Section: libs
+Filename: pool/main/k/kpmcore/libkpmcore12_22.12.3-2_amd64.deb
+Size: 618656
+SHA256: b353353adc79a25f604e844c2d46dc5ac889468a2598f88447df517d63886c68
+SHA1: 143a201a08b8d4d78f23f66919cb3838907a18b7
+MD5sum: 47cdbb176a9238cd8c1f3212fdbd7643
+Description: KDE Partition Manager Core
+ KDE Parition Partition Manager Core (KPM core) allows
+ software to re-use common partitioning GUI tasks.
+ .
+ It is used in the generic system installer called Calamares
+ and may be used in more interfaces in the future. Right now it
+ is unlikely to be useful installed on its own.
+
+Package: libkpmcore12-dbgsym
+Source: kpmcore
+Version: 22.12.3-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 9930
+Depends: libkpmcore12 (= 22.12.3-2)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kpmcore/libkpmcore12-dbgsym_22.12.3-2_amd64.deb
+Size: 9768964
+SHA256: 4c9f602126725de40b181e1f47e33baa16025f5c7a628ebf761809cd41c9a80d
+SHA1: c3c7fd3f40fa6ab0887bf677a6b4f10283b60293
+MD5sum: 9a3719c67fd655e980a2a05888dfbe4d
+Description: debug symbols for libkpmcore12
+Build-Ids: 18896fbc26f309bbd300d4e7d2773cef3c7ceaf9 228d2a1a19e07b3575d04b24107f6037cf929c78 4384e9d9205c66b94275c2dff24581dfe5307aa3 cdd78c1543c7ed963013509af346f535f63fc97d
+
 Package: libspeechd-dev
 Source: speech-dispatcher
 Version: 0.12.1-1belin1
