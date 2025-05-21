@@ -98,20 +98,20 @@ Description: Debian base system miscellaneous files
  and the text of several common licenses in use on Debian systems.
 
 Package: calamares-settings-debian
-Version: 12.0.10-21
+Version: 12.0.10-22
 Architecture: all
 Maintainer: Jonathan Carter <jcc@debian.org>
-Installed-Size: 328
+Installed-Size: 329
 Depends: calamares, cryptsetup, libglib2.0-bin, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
 Provides: calamares-settings
 Homepage: https://salsa.debian.org/live-team/calamares-settings-debian
 Priority: optional
 Section: utils
-Filename: pool/main/c/calamares-settings-debian/calamares-settings-debian_12.0.10-21_all.deb
-Size: 230712
-SHA256: a3a3483b99dba83e5e7a552e6e42ce3a976fa1149f9dfd09d9c995995695f626
-SHA1: 1250c6166de7b7d357da9ded18ef7946a2ffaa13
-MD5sum: 7bbcab7b74ffcf7369a2020a73d6a9db
+Filename: pool/main/c/calamares-settings-debian/calamares-settings-debian_12.0.10-22_all.deb
+Size: 230772
+SHA256: 4068dabab3935529f1544284765f8d3c4a42b076edfb138b730fd104539b44ca
+SHA1: 1ad055c396edc671301aa8d59a079f25dc03e005
+MD5sum: 6d1c29f5a9fbc3a3811bc579558f8c53
 Description: Debian theme and settings for the Calamares Installer
  Calamares is a generic installer framework for Linux distributions.
  By default, it contains a set of boilerplate wording and images. This
