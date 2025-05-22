@@ -97,51 +97,6 @@ Description: Debian base system miscellaneous files
  /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
  and the text of several common licenses in use on Debian systems.
 
-Package: calamares
-Version: 3.3.8-1~bpo12+1
-Architecture: amd64
-Maintainer: Jonathan Carter <jcc@debian.org>
-Installed-Size: 10619
-Depends: os-prober, kpackagetool5, libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.96.0), libkf5package5 (>= 5.5.0+git), libkf5parts5 (>= 4.96.0), libkpmcore12 (>= 22.04.3), libparted2 (>= 3.1), libpwquality1 (>= 1.1.0), libpython3.11 (>= 3.11.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5quickwidgets5 (>= 5.3.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0)
-Recommends: btrfs-progs, squashfs-tools
-Homepage: https://github.com/calamares/calamares
-Priority: optional
-Section: utils
-Filename: pool/main/c/calamares/calamares_3.3.8-1~bpo12+1_amd64.deb
-Size: 4185032
-SHA256: 2a0be1ae4ac69a90f828a079f7c207505fa8a5e607cad5151834876e73ef6ad9
-SHA1: c6225050e36efbebc83966a42a716957423ada85
-MD5sum: 916c166fc3464577419bc57ee4f6d108
-Description: distribution-independent installer framework
- Calamares is a distribution-independent installer framework.
- .
- It provides a graphical installer that can be used with nearly
- any distribution. This package is suitable for live media on
- Debian-based systems, and won't be of any particular use on
- an already installed system.
- .
- You will likely want to provide your own config files to match
- your distribution, reading the Calamares documentation will guide
- you through that process.
-
-Package: calamares-dbgsym
-Source: calamares
-Version: 3.3.8-1~bpo12+1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Jonathan Carter <jcc@debian.org>
-Installed-Size: 36782
-Depends: calamares (= 3.3.8-1~bpo12+1)
-Priority: optional
-Section: debug
-Filename: pool/main/c/calamares/calamares-dbgsym_3.3.8-1~bpo12+1_amd64.deb
-Size: 36048712
-SHA256: a0a428787a20690352cb7aac2f019cecba59a497980ea041938bcb5b02cc72c0
-SHA1: def05c482475fccae1c3dbd83d79231969ca8036
-MD5sum: e2eb8ee785182ef8d3242c25dfb22679
-Description: debug symbols for calamares
-Build-Ids: 0ba6bbcf2378832473ac782ad9d9583638e6149b 120dec7fc556cba1634f44addc00764731b514ca 13c09e9f6a7ac3ee6bc4a230951485be1db621ed 17ef75360203675a0798444cb1a85a4a00e25bb6 27515f6c126a9d84cb43ada768b17c77bfde9d60 343d4daa73553ad0cda5275ef1253b6de99039c3 3a4caaef1dc4fa798f21449bc8da9eaac97dede2 3e7f1bed43786cd64e2a1a9be9734f8f8cecdaa2 3eda190bdf242d189316b6f3f0ed2262f68885fb 48a3eff5cdac80fd514012ccb221878778026396 517a5531bdea9667dbfc441067a1732eac7becea 574815a8a50605b1d4f5f0d5ca2bf3b003f554ac 63005fe9424f3698d307bed25b0ca607d4a608b0 69d0eca6911b3c15ae57e79862db0756afc953b9 6d077c88e89895ddb0bebeca3b80844ed4401799 6f045fa3e1afb607d58040b3962d19aa08879834 72d10d0634021a65038f1f89a3b4e47179232155 78aa290c43757d23337049da3b3c8d32b849ef9b 89906e340c52706d8ca5770302eab03e8183a060 8ab84f00f6f470713312fb05d29200826d995fb8 8b52d00db8847fba7f241def7ee30d21fffa61f5 8d4fb81b778acd0e2eb6b6054e57fc5c651de9f5 8d8afdc7d8e32b8bb7b999a1ab9bb6540715ca68 94db09dc323630c5bf4ad9d2e18de8d1a13fb76d 971a51faf7c0ffe7e1fef35f8b18f9b29714be6a 97ca546856d93e6002d3a37344f0befb7689b2d9 addb1e7b4bfaece6880f0224327ea9e6a65772b6 b14b5cadbc2899cd20f75a5ef26595ab73b82940 b873c22543e692f2d9780a718310d1eb0237171f c10c3bc10070c6b92867e94fbb6ec7231691b255 c1c11675b38639c38f6bd5ec2ff54004aa355c8b c881ef0fec450987a8a74d1d6067a479392e21ab cefa4ac3bb688931d5b0ad8214dc5dc07dfddeae d168e7be506571f34dd359e3641d2e146bbc8e58 d59b7004cf5a60c101ddf7e1021f3af9d3016454 d95cc6343559e7a0629024450423feebac3e591a f431842ed1a614896c759188a2174f3d1e145f3b fb11859b8b88fae88cc9ff7a20730b305a50cdf1 fce25c22a41b8f7b91adf2e33830a86c20dab272 fd993b9956e22082312bd6b192076c4bf28b6302
-
 Package: calamares-settings-debian
 Version: 12.0.10-27
 Architecture: all
