@@ -97,6 +97,33 @@ Description: Debian base system miscellaneous files
  /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
  and the text of several common licenses in use on Debian systems.
 
+Package: calamares
+Version: 3.3.8-1~bpo12+1
+Architecture: amd64
+Maintainer: Jonathan Carter <jcc@debian.org>
+Installed-Size: 10619
+Depends: os-prober, kpackagetool5, libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 5.96.0), libkf5package5 (>= 5.5.0+git), libkf5parts5 (>= 4.96.0), libkpmcore12 (>= 22.04.3), libparted2 (>= 3.1), libpwquality1 (>= 1.1.0), libpython3.11 (>= 3.11.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5quickwidgets5 (>= 5.3.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0)
+Recommends: btrfs-progs, squashfs-tools
+Homepage: https://github.com/calamares/calamares
+Priority: optional
+Section: utils
+Filename: pool/main/c/calamares/calamares_3.3.8-1~bpo12+1_amd64.deb
+Size: 4185224
+SHA256: 3209081550c93303a7db5205b7376e5829609e4bc3218fef2b7bdf23c279519d
+SHA1: 8a79d95fbbc4e55cd2212b540af037175bf1b91a
+MD5sum: 148c4cdbbbcd5262f474807f48f0e387
+Description: distribution-independent installer framework
+ Calamares is a distribution-independent installer framework.
+ .
+ It provides a graphical installer that can be used with nearly
+ any distribution. This package is suitable for live media on
+ Debian-based systems, and won't be of any particular use on
+ an already installed system.
+ .
+ You will likely want to provide your own config files to match
+ your distribution, reading the Calamares documentation will guide
+ you through that process.
+
 Package: calamares-dbgsym
 Source: calamares
 Version: 3.3.8-1~bpo12+1
