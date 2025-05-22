@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: stable
 Codename: bookworm
 Version: 8.0
-Date: Thu, 22 May 2025 17:06:31 UTC
+Date: Thu, 22 May 2025 17:11:17 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (stable repository)
@@ -291,17 +291,17 @@ SHA256:
  97498238ffc94f76320b964bdb55d8ad838a769497f8b662a0ecdd8b9a377d66 205 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmgvWZcACgkQFg1XP6XL
-YMmM6Q//TYmTlh7ImnTfnv8H9vOZn154YbpKaoQWaxeOr3GVckZ8Zp7z8B3Ovm8r
-wKZSXwNru55h1xqUG1+tokMg9jwaus+vYIYbx2OTwQtiYqBwe42sRk3QDHT+Ct2h
-9jeHQqRDBUlL3VlImxRb4mjrjpVkHpg6yulRIXz49yE6+zl1wRm5AUwfMTDI+RhW
-7l8IPbbzfY/FSg/AfzyTp2dzlK7pjKh550K0uHX99pDeYI/HYW+Lz+kDefJyapy5
-9Hf8Dkktocuub3ll/nXDP80gEjvBM4d/jFIiuGiLSN4UAuS9kGugOG8v6PCNZsRa
-MwOczi7GVjnkESS1ycwjgN1olQLjxJhMZ4RbJaEi1fZ4fLhZXosbUsvuheoGnRYX
-x8gGmlkgWxD719ONu4DY9xPCyG2IpEGMNBmjRgcT93CKxCeWstgpSII/YtuLejFO
-0DOGaCNhNLURdgApMOYnOLVRJEcsvM4UwWzpbwMCjQuth8M7lRnI+X0CekLZMCq0
-W/Zxhxhj4Ck9gY455hnGmX/aVwazS2qv5FrsDxQmCyzoQ2CV3Ar0vQEOXX5Bvcrd
-lSgokCwFki6v8omKYkM7Oegj57BIm+E80Km1JZ3Ne3jyTI1vldPRHZLzVk5WKzCZ
-X+RMf/UPQmKa90CDsDp3Gw4yLaz9iIJUf7dP+iyxUTEt6TQ7Y+Y=
-=KU04
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmgvWrYACgkQFg1XP6XL
+YMnU5w/6A1DHRUqjaMEk1NTu3oEksPB4CWP8TUrMTjdmVzlV2MCfzVA0jbRpZgI9
+2VD89IfJ6h1p2wNtbyH94Mu/z3VQOHpDjho/lOn1/Yz1hZnJkaT2t/Sn3SdW72Dx
+3AF6LTm+WVc/QMGv3TS1hn/e5vThAXfZiEKIpgzcQ8q6HMRDw5+aZbkaVaRUjN7S
+eYJGanouaYLbx9zk8WPSQ06U+ibtbkZA6C3ZomQ//zYOBsLiuDfymHrf+1sTPzUX
+c02Em3PP/swkOqPjyruETP28ETX6XbDuxxVKo+XNDqxoEjRciFGZig1gSobmUKJo
+B/nhFcaLMAvUoQuc+xkZpc+l9zlrkm6t5G+MoBq54QsHeakEHdkE3a5qt/1+NFEo
+YpkDqSv6j1lhDNEdNdy65QP1JpypQZrQWrMa/G4VTLd6P0v3DC1CH0yINgI16582
+c66PbqoW6qtWcG9fp0wKJwNxQ4gyl0AqxB6+LeOhgTddW6jAI0zhJvZQ+nOT9y19
+/aoGAsgDFWCX5kpOAM2UOET1Lh5scAX11Q9bsBoTW+ie7R/pOJmtFqs3Vfd3D3UZ
+hFayYSMrmzJFIIhuQOGTPEZYx7ObFbb0umdJTNRcioH3rslA2WCT0nGxuuo4QK1o
+xSDDuefHDpTwr9kn8X8+ZU0aYyafNO+8gIclA1aKR11+2ODI/ts=
+=epVI
 -----END PGP SIGNATURE-----
