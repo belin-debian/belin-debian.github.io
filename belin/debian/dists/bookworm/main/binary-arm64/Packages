@@ -38,20 +38,20 @@ Description: Assistive Technology Service Provider Interface (Documentation)
  This package contains documentation for the at-spi2 interface.
 
 Package: calamares-settings-debian
-Version: 12.0.10-27
+Version: 13.0.12-2
 Architecture: all
 Maintainer: Jonathan Carter <jcc@debian.org>
-Installed-Size: 331
-Depends: calamares, cryptsetup, libglib2.0-bin, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
+Installed-Size: 224
+Depends: calamares, rsync, cryptsetup, libglib2.0-bin, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
 Provides: calamares-settings
 Homepage: https://salsa.debian.org/live-team/calamares-settings-debian
 Priority: optional
 Section: utils
-Filename: pool/main/c/calamares-settings-debian/calamares-settings-debian_12.0.10-27_all.deb
-Size: 230896
-SHA256: 250ffd5ea2b8b5998e063aea595a659a83d92cdf34101b2f446adf0108a0c04d
-SHA1: e81f9918415316d4aac3530ecdad41654bca7f6f
-MD5sum: c26cc4c0e1821cb1d2d19a4404ad3fd3
+Filename: pool/main/c/calamares-settings-debian/calamares-settings-debian_13.0.12-2_all.deb
+Size: 128272
+SHA256: 91ee0b0d37135de7754f86c8659d95c4303aaa1d7d888068e925c15bea50b927
+SHA1: 0cbb23ecd158e5b2687368090abb72acdbd67d9e
+MD5sum: cde74ac280714134666f91aba4e89d85
 Description: Debian theme and settings for the Calamares Installer
  Calamares is a generic installer framework for Linux distributions.
  By default, it contains a set of boilerplate wording and images. This
