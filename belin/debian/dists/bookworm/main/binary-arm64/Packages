@@ -37,6 +37,30 @@ MD5sum: 43ace317057de54a9b704ee184bf8d8d
 Description: Assistive Technology Service Provider Interface (Documentation)
  This package contains documentation for the at-spi2 interface.
 
+Package: calamares-settings-debian
+Version: 12.0.10-28
+Architecture: all
+Maintainer: Jonathan Carter <jcc@debian.org>
+Installed-Size: 331
+Depends: calamares, cryptsetup, libglib2.0-bin, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
+Provides: calamares-settings
+Homepage: https://salsa.debian.org/live-team/calamares-settings-debian
+Priority: optional
+Section: utils
+Filename: pool/main/c/calamares-settings-debian/calamares-settings-debian_12.0.10-28_all.deb
+Size: 230892
+SHA256: d197974b92694a867f63d3bbf2328bbe0359833a381822577cfa2eca3a2fc6af
+SHA1: 00e8053c1e450de84bd866a608ed9c98874d23c7
+MD5sum: 6876dff6f86bba2bfe3e1b7b0cb26c5d
+Description: Debian theme and settings for the Calamares Installer
+ Calamares is a generic installer framework for Linux distributions.
+ By default, it contains a set of boilerplate wording and images. This
+ package provides the latest Debian artwork as well as scripts that
+ supports EFI installations.
+ .
+ It also serves as an example for how derivatives can create their own
+ calamares-settings packages.
+
 Package: cl-speech-dispatcher
 Source: speech-dispatcher
 Version: 0.12.1-1belin1
