@@ -1,6 +1,6 @@
 Package: speech-dispatcher-baratinoo
 Source: speech-dispatcher-contrib
-Version: 0.12.1-1belin1
+Version: 0.12.1-2belin1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 88
@@ -12,11 +12,11 @@ Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: contrib/sound
-Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-baratinoo_0.12.1-1belin1_amd64.deb
-Size: 28412
-SHA256: 9671cd3d00daa4e7aaeb1dcd653913db606b9356f8eeed19bbc5b58681b59743
-SHA1: ed42359c29ea880ed9791c965d7b008f98b0d80c
-MD5sum: adc781355891eb7fccc844ed802ae61e
+Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-baratinoo_0.12.1-2belin1_amd64.deb
+Size: 28364
+SHA256: 9e17127b01650a975dce35b981ba6cde41c4f3d7820c380dd4664b26f2401095
+SHA1: bd592f42591b025292273d0c43fdbd60dac30a2d
+MD5sum: 85991fc3cbbb832713bb2854aff18885
 Description: Speech Dispatcher: Baratinoo (VoxyGen) output module
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -33,25 +33,25 @@ Description: Speech Dispatcher: Baratinoo (VoxyGen) output module
 
 Package: speech-dispatcher-baratinoo-dbgsym
 Source: speech-dispatcher-contrib
-Version: 0.12.1-1belin1
+Version: 0.12.1-2belin1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 66
-Depends: speech-dispatcher-baratinoo (= 0.12.1-1belin1)
+Depends: speech-dispatcher-baratinoo (= 0.12.1-2belin1)
 Priority: optional
 Section: contrib/debug
-Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-baratinoo-dbgsym_0.12.1-1belin1_amd64.deb
-Size: 46576
-SHA256: 5cce3deb654bf47bac2c6926f3a6b66aa9944a5966b3b7c2be3dde2041287eef
-SHA1: 7ada98a1d6f54b4cbdf97750fe460cd44a73aa90
-MD5sum: 2a4f8346108e7812e1eb73187b9a555d
+Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-baratinoo-dbgsym_0.12.1-2belin1_amd64.deb
+Size: 46584
+SHA256: 06bae9495f33e10521faeb2a9091fbe14eb64ef47dde1ef10320e5279074e2e1
+SHA1: 34f6784c52f632f916a8f143b60432e9aef50885
+MD5sum: 13c89a2f49f0289a444b041472072f54
 Description: debug symbols for speech-dispatcher-baratinoo
-Build-Ids: 075783aa607104e3d72f05ecf1db48818284306e
+Build-Ids: 0c39a16a81a01df18c05d348725d37648d5c85cd
 
 Package: speech-dispatcher-ivona
 Source: speech-dispatcher-contrib
-Version: 0.12.1-1belin1
+Version: 0.12.1-2belin1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 85
@@ -62,11 +62,11 @@ Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: contrib/sound
-Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-ivona_0.12.1-1belin1_amd64.deb
-Size: 27128
-SHA256: 5204a5770e28ed28d13c8df650f92cd4bf44778717fae7c8c3e07af93f326cb5
-SHA1: 8eb93d65635dc63f767264f48afa4ac264688c37
-MD5sum: a52d3fcfbefee9e0108dff41e18ece24
+Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-ivona_0.12.1-2belin1_amd64.deb
+Size: 27124
+SHA256: b740da7c2c10887ddacbaea677cc3e00756475f56bd399f8f42302eab16e6260
+SHA1: 86a575707ae40fcfd2dd255ceeaad114649074a2
+MD5sum: 205722dedb113082fdd305f6b0ba74de
 Description: Speech Dispatcher: Ivona output module
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -83,25 +83,25 @@ Description: Speech Dispatcher: Ivona output module
 
 Package: speech-dispatcher-ivona-dbgsym
 Source: speech-dispatcher-contrib
-Version: 0.12.1-1belin1
+Version: 0.12.1-2belin1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 65
-Depends: speech-dispatcher-ivona (= 0.12.1-1belin1)
+Depends: speech-dispatcher-ivona (= 0.12.1-2belin1)
 Priority: optional
 Section: contrib/debug
-Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-ivona-dbgsym_0.12.1-1belin1_amd64.deb
-Size: 46168
-SHA256: 0c0c0ba83440bb86296cc63766f7d736bd82f6c0763555a825d7e0e4c78e7aa0
-SHA1: 2c654a1a831479f82074bc3603601db7c3ed7db6
-MD5sum: 3d11c06e2946f5e177e27ba5f8f6b9ec
+Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-ivona-dbgsym_0.12.1-2belin1_amd64.deb
+Size: 46164
+SHA256: 9f74051abc5a0c6b6e7bd1b8f59fbe452bbdaa9b11a4c6d379d7c8181fe51eb9
+SHA1: 0ea6d628b4f6c501f3935fbc8bd35fab88802546
+MD5sum: 5fb0b76b1df4da46167d3709521c6357
 Description: debug symbols for speech-dispatcher-ivona
-Build-Ids: 905d764154ce5e34b4f0c3dca0ab6ca41935f919
+Build-Ids: 0a9a7091630302bcc77071d9065f63c05b41ad32
 
 Package: speech-dispatcher-kali
 Source: speech-dispatcher-contrib
-Version: 0.12.1-1belin1
+Version: 0.12.1-2belin1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 82
@@ -113,11 +113,11 @@ Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: contrib/sound
-Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-kali_0.12.1-1belin1_amd64.deb
-Size: 24452
-SHA256: af4c7c1c98707eedfe2ae6562f1f0cc09de213d944657d86f93e7b8aaca58967
-SHA1: baed1391fe4424de1cd40d49aa40068d1ec1247a
-MD5sum: dfac185d2760b372003f6ae6d7aec8d0
+Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-kali_0.12.1-2belin1_amd64.deb
+Size: 24456
+SHA256: 3f81b5d92c7419f3eb0dbf0663aa0bc2dfc0d7fea9053fc8e201a78d3865c126
+SHA1: 5b1178a7f29d48578e800117d0032fbc46277a4b
+MD5sum: 0cfbf4cf34fcf95941063b357b9d084b
 Description: Speech Dispatcher: Kali output module
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -134,25 +134,25 @@ Description: Speech Dispatcher: Kali output module
 
 Package: speech-dispatcher-kali-dbgsym
 Source: speech-dispatcher-contrib
-Version: 0.12.1-1belin1
+Version: 0.12.1-2belin1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 60
-Depends: speech-dispatcher-kali (= 0.12.1-1belin1)
+Depends: speech-dispatcher-kali (= 0.12.1-2belin1)
 Priority: optional
 Section: contrib/debug
-Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-kali-dbgsym_0.12.1-1belin1_amd64.deb
-Size: 40456
-SHA256: 88c6f72713faa7f39a76b5947fa3972387a1a6416b6d3ecf86cac601350c0059
-SHA1: 63fb26a511c4bc0abce96ec9a18cca1601cbab38
-MD5sum: 79aac57ee61d901e43c6b9105183ac65
+Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-kali-dbgsym_0.12.1-2belin1_amd64.deb
+Size: 40452
+SHA256: 476873ba771d6a93716d87d38b5d4e0349ed7166e1f52797c1068dc87fd27021
+SHA1: c85765f3b00fe7ae991a78bb44bf3bad3dcba149
+MD5sum: 250ef33a31f77a9c82b1432ff46774b8
 Description: debug symbols for speech-dispatcher-kali
-Build-Ids: 9c2c1f7f6db5b84ca185f3a9ede20e494471ba8f
+Build-Ids: b93dbff5a18bc5d99be04169a1aeceaba9a78535
 
 Package: speech-dispatcher-pico
 Source: speech-dispatcher-contrib
-Version: 0.12.1-1belin1
+Version: 0.12.1-2belin1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 78
@@ -163,11 +163,11 @@ Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: contrib/sound
-Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-pico_0.12.1-1belin1_amd64.deb
-Size: 25312
-SHA256: 7998cd6aa1d8eb597d0a2a0b19a20a50ca333806a029d8ceb2f0580965332f38
-SHA1: 7ae6bfd4f2547807377a2f390b38582c8e4619d5
-MD5sum: d1b2d314ca6a95ff030013b8cab8ea9c
+Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-pico_0.12.1-2belin1_amd64.deb
+Size: 25244
+SHA256: e46bfd11f58034486eb977dfdbecf947010fd9e9c233b59904c2d3c79f15b6ba
+SHA1: 9852045c1016d77460ede5e8da3e7e0ae0b03f06
+MD5sum: 38d18c433095294fde5e540713beb6c1
 Description: Speech Dispatcher: Pico output module
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -183,25 +183,25 @@ Description: Speech Dispatcher: Pico output module
 
 Package: speech-dispatcher-pico-dbgsym
 Source: speech-dispatcher-contrib
-Version: 0.12.1-1belin1
+Version: 0.12.1-2belin1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 54
-Depends: speech-dispatcher-pico (= 0.12.1-1belin1)
+Depends: speech-dispatcher-pico (= 0.12.1-2belin1)
 Priority: optional
 Section: contrib/debug
-Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-pico-dbgsym_0.12.1-1belin1_amd64.deb
-Size: 36248
-SHA256: 42a93f204ae51ef1ed3774b8b5493aa4301a41b988216ace1503e99686037c26
-SHA1: fe598542c1c709bbb402e6ce51852cd293988eba
-MD5sum: 5897d28523d513e97679fde62aa1c3fc
+Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-pico-dbgsym_0.12.1-2belin1_amd64.deb
+Size: 36264
+SHA256: eb0bdd33ae9bc0617b0b5f03bb7197e08146c08eb92e1133b6631e0523996b48
+SHA1: 74f30974db8777d3543e6501ebdf2598db0c862f
+MD5sum: 068d927f222b567a4f52335ba3c9195c
 Description: debug symbols for speech-dispatcher-pico
-Build-Ids: 5f3e4574a628657ab43f74a79b311ffb063eb8ea
+Build-Ids: 06ae68ac0c156af32c0a2dd5e93bf686d983ef7d
 
 Package: speech-dispatcher-voxin
 Source: speech-dispatcher-contrib
-Version: 0.12.1-1belin1
+Version: 0.12.1-2belin1
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 108
@@ -212,11 +212,11 @@ Multi-Arch: foreign
 Homepage: http://devel.freebsoft.org/speechd
 Priority: optional
 Section: contrib/sound
-Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-voxin_0.12.1-1belin1_amd64.deb
-Size: 33924
-SHA256: f17e149b4867278809e9f2b17592adcbade7c832904acc046b800fdeeecaac38
-SHA1: c7b2f80f93be824b03cc8711c7004cb733b258e8
-MD5sum: f3a6ef34f70c95d6aaf563c0d4def916
+Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-voxin_0.12.1-2belin1_amd64.deb
+Size: 33872
+SHA256: a4efdeacb651adb7e8e4f5881f9f578ad215557dddeaaf2cbe90ed4d22b6821e
+SHA1: 5a6b75f2b0ef9fb9b025b16356d3c2eb701e6cc4
+MD5sum: ea619570faac2c071ac8295826fe341b
 Description: Speech Dispatcher: Voxin output module
  Speech Dispatcher provides a device independent layer for speech synthesis.
  It supports various software and hardware speech synthesizers as
@@ -234,19 +234,19 @@ Description: Speech Dispatcher: Voxin output module
 
 Package: speech-dispatcher-voxin-dbgsym
 Source: speech-dispatcher-contrib
-Version: 0.12.1-1belin1
+Version: 0.12.1-2belin1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Installed-Size: 76
-Depends: speech-dispatcher-voxin (= 0.12.1-1belin1)
+Depends: speech-dispatcher-voxin (= 0.12.1-2belin1)
 Priority: optional
 Section: contrib/debug
-Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-voxin-dbgsym_0.12.1-1belin1_amd64.deb
-Size: 54952
-SHA256: b813fd3de50a13851b0280d24792facd3b50e8873f2724879a3753293a8582c9
-SHA1: 06400c0abfbacb44078d4cdcf93aa61178d8534a
-MD5sum: 2094e2c8f6c043c7346ff01ecd0f7d65
+Filename: pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-voxin-dbgsym_0.12.1-2belin1_amd64.deb
+Size: 54960
+SHA256: 304df7a7a767e4f7e28b8f9123091bdc1d25bb10676a26aa4c6f129827d129ea
+SHA1: 639a6e53583876c350a6dd3847bc46eeb2362445
+MD5sum: c7aac9b5ef2219f30d65316764a79518
 Description: debug symbols for speech-dispatcher-voxin
-Build-Ids: 61437a8a821dee18aa61e2038039ed969dadd676
+Build-Ids: d09396c7d69dc86a563700f51ea3e805d2785c2b
 
