@@ -74,7 +74,7 @@ Description: Assistive Technology Service Provider Interface (Documentation)
  This package contains documentation for the at-spi2 interface.
 
 Package: base-files
-Version: 12.4+deb12u11
+Version: 12.4+deb12u12belin1
 Architecture: amd64
 Essential: yes
 Maintainer: Santiago Vila <sanvila@debian.org>
@@ -86,11 +86,11 @@ Provides: base
 Multi-Arch: foreign
 Priority: required
 Section: admin
-Filename: pool/main/b/base-files/base-files_12.4+deb12u11_amd64.deb
-Size: 70952
-SHA256: 4e82576a5e885816e26ea6bea7b59513560df035101bde4fe22b36f4928b36d4
-SHA1: 905ac16e1789853b1c68cb6c653eee889fe76f92
-MD5sum: ed896f460da5c3a5bd652c2ea03fe37a
+Filename: pool/main/b/base-files/base-files_12.4+deb12u12belin1_amd64.deb
+Size: 70960
+SHA256: e3e7d13a95ba1fb1d97418de8b277a8451927526626e2fba3ed40ad7eb45514f
+SHA1: be07087cb957974318d3f95aef4c8544d7bc6251
+MD5sum: 7fe5087839d97c69c44e4e7da701d4ad
 Description: Debian base system miscellaneous files
  This package contains the basic filesystem hierarchy of a Debian system, and
  several important miscellaneous files, such as /etc/debian_version,
