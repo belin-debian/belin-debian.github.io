@@ -37,65 +37,6 @@ MD5sum: 43ace317057de54a9b704ee184bf8d8d
 Description: Assistive Technology Service Provider Interface (Documentation)
  This package contains documentation for the at-spi2 interface.
 
-Package: belin-settings
-Version: 8.0~belin14
-Architecture: all
-Maintainer: Attila Hammer <hammera@pickup.hu>
-Installed-Size: 8303
-Pre-Depends: espeakup, lightdm, slick-greeter
-Depends: libglib2.0-bin, dconf-cli, dconf-gsettings-backend, debconf, python3-feedparser, python3-lxml
-Conflicts: belin-settings-mate
-Breaks: belin-settings-mate
-Replaces: belin-settings-mate
-Priority: extra
-Section: base
-Filename: pool/main/b/belin-settings/belin-settings_8.0~belin14_all.deb
-Size: 848776
-SHA256: 7a99d230218203a25e93abea9de3e5088366c3f29db12a67ecbbf0e9b0286446
-SHA1: ce00660454efe265763745c17677728b753be800
-MD5sum: 44ba66272e9fe1b95b0ea4171c2555d1
-Description: BeLin Beállítás telepítő
- Ez a csomag telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
-
-Package: belin-settings-mate
-Source: belin-settings
-Version: 8.0~belin14
-Architecture: all
-Maintainer: Attila Hammer <hammera@pickup.hu>
-Installed-Size: 8299
-Pre-Depends: lightdm, espeakup, slick-greeter
-Depends: libglib2.0-bin, dconf-cli, dconf-gsettings-backend, debconf, python3-lxml
-Conflicts: belin-settings
-Breaks: belin-settings
-Replaces: belin-settings
-Priority: extra
-Section: base
-Filename: pool/main/b/belin-settings/belin-settings-mate_8.0~belin14_all.deb
-Size: 848516
-SHA256: b9209885cd9858f273525c3ac9a4ed259a79218062444ec535af0755aea761df
-SHA1: 7a524aae2d6d3973b512e21df15f859ce06f928a
-MD5sum: 3e7d09ab045c1f57a064d2df5c479870
-Description: BeLin Beállítás telepítő
- Ez a csomag a BeLin Mate asztali környezetet használó változatához telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
-
-Package: belin-settings-oem
-Source: belin-settings
-Version: 8.0~belin14
-Architecture: all
-Maintainer: Attila Hammer <hammera@pickup.hu>
-Installed-Size: 8289
-Pre-Depends: espeakup, lightdm, slick-greeter
-Depends: libglib2.0-bin, dconf-cli, dconf-gsettings-backend, debconf, python3-lxml
-Priority: extra
-Section: base
-Filename: pool/main/b/belin-settings/belin-settings-oem_8.0~belin14_all.deb
-Size: 847916
-SHA256: 43b1a941fd8e4983931efb5503684f8175ac293d30f085b68e3a48f3daa43067
-SHA1: 61b41258a2c80aac3c82bf27595adf0e73054104
-MD5sum: fff373e6a1c2e8bcb8c8ad5b110d2f91
-Description: BeLin Beállítás telepítő
- Ez a csomag egy már létező Ubuntu alapú rendszerre telepít minden olyan kiegészítő beállítást, melyet a BeLin változatok használnak.
-
 Package: calamares-settings-debian
 Version: 12.0.10-29
 Architecture: all
