@@ -1,0 +1,22 @@
+Package: rhvoice-english
+Source: rhvoice
+Version: 1.14.0-3~belin1
+Architecture: all
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 62939
+Provides: rhvoice-voice
+Multi-Arch: foreign
+Homepage: https://github.com/Olga-Yakovleva/RHVoice
+Priority: optional
+Section: non-free/sound
+Filename: pool/non-free/r/rhvoice/rhvoice-english_1.14.0-3~belin1_all.deb
+Size: 33027280
+SHA256: 9f53e4c26942a377e2db5553449e375d616a54cbaae759d3b1a24bb279db1703
+SHA1: 7b8d1b5cc4c4a0a4a587e0739201b26c79dbc100
+MD5sum: 2dc314c54db1b898833c264934929509
+Description: RHVoice speech synthesizer - English voice
+ RHVoice uses statistical parametric synthesis. It relies on existing open
+ source speech technologies (mainly HTS and related software).
+ .
+ This package provides the English voice
+
