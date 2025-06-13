@@ -143,6 +143,30 @@ Description: Documentation files for the ATK toolkit
  This contains the HTML documentation for the ATK library in
  /usr/share/doc/libatk1.0-doc/ .
 
+Package: mate-calc-common
+Source: mate-calc
+Version: 1.26.0-2
+Architecture: all
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 8176
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: mate-calc (<< 1.17.0)
+Replaces: mate-calc (<< 1.17.0)
+Homepage: http://www.mate-desktop.org/
+Priority: optional
+Section: math
+Filename: pool/main/m/mate-calc/mate-calc-common_1.26.0-2_all.deb
+Size: 554444
+SHA256: bd0bf5c1f6758cd7c054f77600da60372f6d318eecf1b6195d09547b5e48f01c
+SHA1: 8de4fe51bd86c987e624aea629c9acf96c63bba1
+MD5sum: 47fa79f1d591ef56e5c9d05bc6668cbf
+Description: MATE desktop calculator (common files)
+ mate-calc is a powerful graphical calculator with financial, logical and
+ scientific modes. It uses a multiple precision package to do its arithmetic
+ to give a high degree of accuracy.
+ .
+ This package contains the architecture independent files.
+
 Package: python3-speechd
 Source: speech-dispatcher
 Version: 0.12.1-2belin1

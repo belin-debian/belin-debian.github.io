@@ -1050,6 +1050,67 @@ MD5sum: 54b0da999afe81685a508e470760b3ca
 Description: debug symbols for libspeechd2
 Build-Ids: a157107d5be8a7b70c6784ebc38a43bb4662f74d
 
+Package: mate-calc
+Version: 1.26.0-2
+Architecture: amd64
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 509
+Depends: mate-calc-common (>= 1.26.0-2), mate-calc-common (<< 1.26.0-2.1~), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libglib2.0-0 (>= 2.39.91), libgtk-3-0 (>= 3.21.5), libmpc3 (>= 1.1.0), libmpfr6 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0), libxml2 (>= 2.7.4)
+Homepage: http://www.mate-desktop.org/
+Priority: optional
+Section: math
+Filename: pool/main/m/mate-calc/mate-calc_1.26.0-2_amd64.deb
+Size: 138100
+SHA256: 8555dd8e0ae9c6a1e6d9ce5d5775d6316f6c4e27736af831c722d3a2b8996f6b
+SHA1: 942023c8592dbf57de83f883d1340027ccf00ad2
+MD5sum: a837258ec4cf21a31e622bd42d3b2e4e
+Description: MATE desktop calculator
+ mate-calc is a powerful graphical calculator with financial, logical and
+ scientific modes. It uses a multiple precision package to do its arithmetic
+ to give a high degree of accuracy.
+
+Package: mate-calc-common
+Source: mate-calc
+Version: 1.26.0-2
+Architecture: all
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 8176
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: mate-calc (<< 1.17.0)
+Replaces: mate-calc (<< 1.17.0)
+Homepage: http://www.mate-desktop.org/
+Priority: optional
+Section: math
+Filename: pool/main/m/mate-calc/mate-calc-common_1.26.0-2_all.deb
+Size: 554444
+SHA256: bd0bf5c1f6758cd7c054f77600da60372f6d318eecf1b6195d09547b5e48f01c
+SHA1: 8de4fe51bd86c987e624aea629c9acf96c63bba1
+MD5sum: 47fa79f1d591ef56e5c9d05bc6668cbf
+Description: MATE desktop calculator (common files)
+ mate-calc is a powerful graphical calculator with financial, logical and
+ scientific modes. It uses a multiple precision package to do its arithmetic
+ to give a high degree of accuracy.
+ .
+ This package contains the architecture independent files.
+
+Package: mate-calc-dbgsym
+Source: mate-calc
+Version: 1.26.0-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 466
+Depends: mate-calc (= 1.26.0-2)
+Priority: optional
+Section: debug
+Filename: pool/main/m/mate-calc/mate-calc-dbgsym_1.26.0-2_amd64.deb
+Size: 396668
+SHA256: 301c92cde7ce90664ac788a5a7713aa3f655ceee6b22f6c1dc04d2f47f274308
+SHA1: 6490710d51c1b41e5151c2c88e03cbd8318391e9
+MD5sum: 7d2629d9f8871fe22736e8f43a24d234
+Description: debug symbols for mate-calc
+Build-Ids: 9a65b441b2f1a6da15eca9fbedcff4078f8aa34b ca4e3a970a8ac825c37ac6787d236a9ed6ce2ac2
+
 Package: python3-speechd
 Source: speech-dispatcher
 Version: 0.12.1-2belin1
