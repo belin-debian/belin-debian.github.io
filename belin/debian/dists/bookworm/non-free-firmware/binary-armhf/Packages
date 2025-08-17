@@ -1,0 +1,25 @@
+Package: raspi-firmware
+Version: 1.20220830+ds-2
+Architecture: all
+Maintainer: pkg-raspi <pkg-raspi-maintainers@lists.alioth.debian.org>
+Installed-Size: 22278
+Pre-Depends: dpkg (>= 1.17.14)
+Depends: dosfstools
+Suggests: firmware-brcm80211, firmware-misc-nonfree, bluez-firmware
+Breaks: linux-firmware-raspi3 (<< 1.20161123-2), raspi3-firmware (<< 1.20190718-1~)
+Replaces: linux-firmware-raspi3 (<< 1.20161123-2), raspi3-firmware (<< 1.20190718-1~)
+Homepage: https://github.com/raspberrypi/firmware
+Priority: optional
+Section: non-free-firmware/misc
+Filename: pool/non-free-firmware/r/raspi-firmware/raspi-firmware_1.20220830+ds-2_all.deb
+Size: 4813264
+SHA256: ce39b0b4a9ebf9d5726752a6dd5b5cfb27438eebbf2ddefc8092d53c28a2af30
+SHA1: a293439bf029ebf06b615597e6077b09e2750c46
+MD5sum: 031f6a5821c978d9e09d14abd4d0c278
+Description: Raspberry Pi family GPU firmware and bootloaders
+ This package contains all the proprietary files necessary to boot a
+ Raspberry Pi board. This should work with all models in the 0, 1, 2, 3 and
+ 4 families.
+ .
+ Raspberry Pi is a trademark of the Raspberry Pi Foundation.
+
