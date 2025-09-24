@@ -1,3 +1,21 @@
+Package: at-spi2-core-udeb
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 1544
+Depends: libatspi0-udeb (>= 2.9.90), libc6-udeb (>= 2.36), libdbus-1-3-udeb (>= 1.14.10), libglib2.0-udeb (>= 2.74.6), libsystemd0 (>= 254.26), libx11-6-udeb (>= 2:1.6.0), libxtst6-udeb
+Priority: optional
+Section: debian-installer
+Filename: pool/main/a/at-spi2-core/at-spi2-core-udeb_2.56.2-3~bpo12+1_arm64.udeb
+Size: 192216
+SHA256: a8b1f140f7f23d691f955a363d3cd2f26cb1f0c1e0941365aac55e18bd15c748
+SHA1: 6b6d4e26033332c4cb17a8ff34d5cb8f96cccf71
+MD5sum: e0a5816afbb5fec13071cc61afa377ae
+Description: Assistive Technology Service Provider Interface (D-Bus core for d-i)
+ This package contains the core components of GNOME Accessibility for the Debian
+ installer.
+
 Package: espeak-data-udeb
 Source: espeak
 Version: 1.48.15+dfsg-5
@@ -39,4 +57,79 @@ Description: Multi-lingual software speech synthesizer: data for d-i
  This package contains necessary synthesizer data files needed
  for the espeak-ng program, and the shared library, packed for the Debian
  Installer.
+
+Package: libatk-adaptor-udeb
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 76
+Depends: libatk-bridge-2.0-0-udeb (>= 2.56.2), libglib2.0-udeb (>= 2.74.6)
+Priority: optional
+Section: debian-installer
+Filename: pool/main/a/at-spi2-core/libatk-adaptor-udeb_2.56.2-3~bpo12+1_arm64.udeb
+Size: 2680
+SHA256: 7232902a101b0e8d39c318d211b128d50dda6ec4762a9ac939ef7c8aaad6ca29
+SHA1: 0cbe4a3867cc1ab9500b099987c8ff776c0e37e8
+MD5sum: 9e3f165687173d2152aded5a60ecde54
+Description: AT-SPI 2 toolkit bridge - module for d-i
+ This package includes the gtk-module for the Debian installer.
+
+Package: libatk-bridge-2.0-0-udeb
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 268
+Depends: libatk1.0-udeb (>= 2.56.2), libatspi0-udeb (>= 2.9.90), libc6-udeb (>= 2.36), libdbus-1-3-udeb (>= 1.14.10), libglib2.0-udeb (>= 2.74.6)
+Priority: optional
+Section: debian-installer
+Filename: pool/main/a/at-spi2-core/libatk-bridge-2.0-0-udeb_2.56.2-3~bpo12+1_arm64.udeb
+Size: 55236
+SHA256: 66e4e9598f40f6407834f02ea8306ccbd8b64ab01cc33e3d6bf7954c9d4e4ae0
+SHA1: faef79b698d7c9fcf7e2a5c115a7a179b51677db
+MD5sum: 12b3467342dd99c19bd4ab68567a1b9e
+Description: AT-SPI 2 toolkit bridge - shared library for d-i
+ This package contains the ATK bridge shared library, for the Debian installer.
+
+Package: libatk1.0-udeb
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 200
+Depends: libc6-udeb (>= 2.36), libglib2.0-udeb (>= 2.74.6)
+Priority: optional
+Section: debian-installer
+Filename: pool/main/a/at-spi2-core/libatk1.0-udeb_2.56.2-3~bpo12+1_arm64.udeb
+Size: 39856
+SHA256: 5a9f041d35b56c8aeb5606d9184f00546e51a5fa24003d9459c9e62766d033d9
+SHA1: 8f4387d3c4e72cd51d723a48eb16297413dff4e9
+MD5sum: 88b2d2202bdcee02885232a72b26af0a
+Description: ATK accessibility toolkit
+ This is a udeb, or a microdeb, for the Debian installer.
+ .
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ This is a stripped down version of the runtime part of ATK.
+
+Package: libatspi0-udeb
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 265
+Depends: libc6-udeb (>= 2.36), libdbus-1-3-udeb (>= 1.14.10), libglib2.0-udeb (>= 2.74.6), libx11-6-udeb (>= 2:1.6.0), libxi6-udeb (>= 2:1.6.99.1)
+Priority: optional
+Section: debian-installer
+Filename: pool/main/a/at-spi2-core/libatspi0-udeb_2.56.2-3~bpo12+1_arm64.udeb
+Size: 68312
+SHA256: d84e099334f008f3b6dd81ca59682636088c125d77cbd47bec205225ba8d8a28
+SHA1: 4f1de0614b2c776a50f7f09ebb93de5d58459254
+MD5sum: 58baf16b7f482034f54c2c8fa74a3b30
+Description: Assistive Technology Service Provider Interface - module for d-i
+ This package contains the AT-SPI shared library, for the Debian installer.
 

@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: bookworm-updates
 Codename: bookworm-updates
 Version: 8.0
-Date: Thu, 15 May 2025 10:30:46 UTC
+Date: Wed, 24 Sep 2025 15:06:27 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (official updates packages repository)
@@ -291,17 +291,17 @@ SHA256:
  d72d7816d1485ec50c06b33dba5d29b3dea6a3ff6c08fa4b0317fb9e69c0dc47 234 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmglwlYACgkQFg1XP6XL
-YMnyHg//Ya1YOgljrKXpEmcy6A8fEnSs4/CoiY8/uGdLhou2lEB3lqHyF816UayL
-if21VWal1AfvOj8e1H9ZhSEqzbPkWYK5Dit6X07Zsc6fwOq5C7bGULYP1byDJzUt
-KPJAOu7jYVTtj7+kW2GQJoko1cKBatmCzEB3SV29+0zG6l/bGKILo08jY/b8ttsi
-qX5oYxSC2MKtX4v9l3Yhauu/KakboRsavQb9GeYfEa8EfuWE7ajbB+NvuB4x1jE/
-dKbs9W2hLdGnOb2jcZPwSjZaCdbMaps8Fiscq5PbRLQmdlR3wJy9z+rqhmOTxE/4
-R/ZZWGixUfDGtP0Fh+//zqV+QZchVGD+EgCGg5HqfR2mFOk3LNNb134kFhyP2YXP
-BbEmUVWaQkMG235ADnT1DET01L9x0u79h/QsL2aOm3aAo/2oK+7JaXfquNIyNKg8
-Q8dGsmPsxa4/zZwimQ4aAnEj2qq3UmrEIG5fCqeOR1IJWx4Us+XTpykXNBm6vpjB
-wQu4lwJOuVXeFGZIKNbJuL67t0TzHsn2stnUTiIcyuY1QsSbP+NwTe3kJg1zpghL
-ZOQ6voH70TS0m4oWL4g9TRRvOSiNGG1iMKFVo820m6tcD2D82ko/GOmSIgGTq3hs
-rpVKCdCeucxYZyiYzFv3BUQYqIhuotYiBurTOtlqh+0e8RyTLYQ=
-=4rpJ
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjUCPMACgkQFg1XP6XL
+YMnddA//ZeGjReRE6kDyt3u9PQ5mNASwIO+tNkr0cwUz1Vl1j5mzSrGNsTZntwZc
+ZWE13W7Vtf6risGRAcPZhyzTWAL456hEvovsIc4Tsn+nsjU7PKFZ4k/lkwaJMhuS
+hMLJondJZ6X1vj5hmH0GrE3MT9JQX4jGWfvhufmx+MnmCY4fti4VE33Zr79XXC4n
+tKf3f5phVVVo4k5p0dcW7OFTh6HM1W6+YlV04I2NvjOkb/DcraRibmiphpX5fuKv
+wVhU3iF06DbQO698XsVBZPPEVciQ3qwyo0M3ilUgR6HMOS4Cnsvw5JMZNKFnt9pl
+CR6WOlbmH9DG3oBIT461HJtPc7MaWijP/tXg0EfSNRbTMjsolPjwmrZVhiFrpCM7
+71fhIilSvlOJbJJtDkThLFKV8ZVOlaO0K/p4m7e62ah8+1ZBRaI/XHJJXPCCvxz2
+os7joljdfF3ZfpKQZehf+WKuL/IXHpG28Id1eAYM/PqUCJPoPPNAqltIL+D3fhEP
+xdRJ0nE9cN7tQE6LAilUVatkmuGTDFxr13DVTcpYen52pXzVpopPzoDY+kgvhRcT
+9B3XHa0/RHQFoeik2PduS2s36t66FF2ZaIuuD6Hsa4/hF5ITggnt6qLa023by91w
+YwgQmgM1ckRszr8sJFxBRjEj0atV1kXJ6imsnXlxVOPS3sRiyAE=
+=yLEh
 -----END PGP SIGNATURE-----

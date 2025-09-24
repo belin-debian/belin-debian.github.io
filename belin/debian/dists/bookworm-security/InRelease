@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: bookworm-security
 Codename: bookworm-security
 Version: 8.0
-Date: Thu, 15 May 2025 10:30:47 UTC
+Date: Wed, 24 Sep 2025 15:06:27 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (security packages repository)
@@ -291,17 +291,17 @@ SHA256:
  959e491024c725d068796b637b08689dcf5993d338d28dc4934108f69c9e1f7b 227 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmglwlcACgkQFg1XP6XL
-YMnp+A//dhzZQlIeVIw1cRxvZe7VBzu60isAxcXIwscFuzwj3MQS2Vf4hErF06cL
-aybLIH3pqp4tzctTr1HEqV8x0JZzuOXxbfuIjkhxyzTDTTL8TD2oOPMQc/35Rbmw
-qscvYnaGicMoKyskIj6r8ClicBMpZ6wsZBQwJVyEN+R0z0WHugtoq2QJlEaGY4+I
-wigWHMoIl9vl4ScxJmqwjROyfVOusfiLzLsGgah6rkieSsznS31aSScqXldTAiEV
-z/x5nbcc52591cCr0zAN6os38AG+zg4u8XNR36N8n6AJq+QPsmcwtNF5zjo7xX8O
-hFRoit0hWCDDwj1GtsI/TZ90dWuqNfsYXz2ARa+KBvQABGA8Xcj3VI/Xrb85f+7+
-kwMnuhWAukYn+R0pbqKO0QigIH2LbEi6UiMRFBFGFJvVB9brFeQt01/t+Y+sPfCO
-IvKj3imVgGXH5rAQY0Qf1X1UYZ43MwCP/mLlvosTp+9f5cTPamnX2uXllz+YHh8B
-FmoWo13CSTvBMO2vg1bXtrCCE1CjJO3y6LSMXaL8RTH3DF0IEVizLfom5Oaryxoc
-8WyNBz1IEUkxjUh1y36kxtEjvHy/nLlL4FOjtUzH6y+yf60CYMtVt5yh8456adBG
-0HlP+92LK7pCTwZ6cEBH+0FhJ80cur3Qv+CmI944WdYCRs1JAv8=
-=tEnO
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjUCPMACgkQFg1XP6XL
+YMlP7g//ZxksquR/TaImeGbb0Tdc/FgYWAw6ZD6OIeffS/K3Lsx0lI4OAfo5YIOi
+BDycmQXDtWVL6GUKs0dQ9fTVG0hlLzXRtX4VKfrQqUN86OL5oaaDM7A2IytpOwzv
+aUAUAITwWpdEOV5dvEyRQJaK0gRVSZzDgEOfOqwK7IpkmhfPQVpv9zHcTpIURJ8f
+jozq9SIEjSNmhh1aqrYQfWtl8S+R0hlWEVBQHJfoJMvkCQa1JDJeZU6FBDiT4W6q
+V7yInWmQcWrLyIThUgTz+wZHWxmpANg0gi1FfPwfmbS1Iz46XAhTVosYdu+wTofS
+5d4td8b2IK/z07SnYIttvFk7aqByiLfwM4Ay8bTAYlHye8F86aA6cDRt2CgdlzwN
+YHt5PSL53878Uc618nFZ55Gb1ws2B5Tzx6J2AqOczJb+lm+rMFMmFRAhgRGQYUci
+pzG6cQDNgwb/CsTFCPIrhg51iiEMMWrmVEwLOP8+D0fhhrqNr+YynKSDLAOyfZhJ
+lWVwyvxpBA0uxQ9FOfOe0W5/X1kmfvD5ojikITe0UN5AbTJVXpc9rFd+fKRQwgOO
+Imfyf2Na2tpefx6st2f43za6C1MipUKLAfPoCK8miSEB6OabtEfje6+unfmONeUA
+g86Febag0Bm+01vQJ0K+bv6w4+2ww2H1afvK5lTNz1jQs1GNvDw=
+=sIrs
 -----END PGP SIGNATURE-----

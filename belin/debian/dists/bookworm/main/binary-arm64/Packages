@@ -18,6 +18,42 @@ MD5sum: 1f88dbd93a549370c5e5c90b4ec2bbc1
 Description: Assistive Technology Service Provider Interface (common files)
  This package contains the common resource files of GNOME Accessibility.
 
+Package: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 266
+Depends: libatspi2.0-0 (= 2.56.2-3~bpo12+1), libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.67.4), libsystemd0, libx11-6, libxtst6, at-spi2-common, gsettings-desktop-schemas
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: misc
+Filename: pool/main/a/at-spi2-core/at-spi2-core_2.56.2-3~bpo12+1_arm64.deb
+Size: 58680
+SHA256: aba4abab990063fa9a37b753050c64d5af843664ce0c7318f94620249c953217
+SHA1: 4f30b31dc9bcedb3e353ac98fabbe46606479276
+MD5sum: ef9ed19a3ad4fa2b26eb5f8245ec8254
+Description: Assistive Technology Service Provider Interface (D-Bus core)
+ This package contains the core components of GNOME Accessibility.
+
+Package: at-spi2-core-dbgsym
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 148
+Depends: at-spi2-core (= 2.56.2-3~bpo12+1)
+Priority: optional
+Section: debug
+Filename: pool/main/a/at-spi2-core/at-spi2-core-dbgsym_2.56.2-3~bpo12+1_arm64.deb
+Size: 109836
+SHA256: 6e8618fdff532c4b188b0e1fc8ffa162e491cfb4f941f0a2792effe5ec4c15e2
+SHA1: d3fe55c56d51c3011002ea954c852302e299e87f
+MD5sum: 83cba30ff28fd599e538b7c0b5918189
+Description: debug symbols for at-spi2-core
+Build-Ids: 7af42954e1abfa31536310112a66e28d9fc77dc4 94c31cf8b4e40618403c0fbb173167905835ae08
+
 Package: at-spi2-doc
 Source: at-spi2-core
 Version: 2.56.2-3~bpo12+1
@@ -36,6 +72,30 @@ SHA1: 1b08c13ef4585c30f155e5fe7e76c1271464ac88
 MD5sum: 43ace317057de54a9b704ee184bf8d8d
 Description: Assistive Technology Service Provider Interface (Documentation)
  This package contains documentation for the at-spi2 interface.
+
+Package: base-files
+Version: 12.4+deb12u12belin1
+Architecture: arm64
+Essential: yes
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 341
+Pre-Depends: awk
+Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
+Replaces: base, dpkg (<= 1.15.0), miscutils
+Provides: base
+Multi-Arch: foreign
+Priority: required
+Section: admin
+Filename: pool/main/b/base-files/base-files_12.4+deb12u12belin1_arm64.deb
+Size: 70960
+SHA256: 7327f97a2856e49b7d347dca2ed634786fc8afe7235ad80955373982fbd8c64e
+SHA1: 17032c5bda0062620c6349784cd608d6b24c1b95
+MD5sum: efcf57c40bfac89256e8385cc726edb8
+Description: Debian base system miscellaneous files
+ This package contains the basic filesystem hierarchy of a Debian system, and
+ several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
+ and the text of several common licenses in use on Debian systems.
 
 Package: calamares-settings-debian
 Version: 12.0.10-30
@@ -248,6 +308,221 @@ Description: Multi-lingual software speech synthesizer
  applications calling the /usr/bin/espeak program use eSpeak NG without any
  modification or rebuild.
 
+Package: gir1.2-atk-1.0
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 102
+Depends: gir1.2-glib-2.0, libatk1.0-0 (= 2.56.2-3~bpo12+1)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: introspection
+Filename: pool/main/a/at-spi2-core/gir1.2-atk-1.0_2.56.2-3~bpo12+1_arm64.deb
+Size: 25976
+SHA256: 0c91d0b03bd8fe8b8199da94af03394664dbd8ef324b03e9661df861aadce84f
+SHA1: 7911483332026b922a7d816fa459a77f7b6a9d03
+MD5sum: c1fcf019762aef5ff0bcf33953985501
+Description: ATK accessibility toolkit (GObject introspection)
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings
+
+Package: gir1.2-atspi-2.0
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 86
+Depends: gir1.2-freedesktop, gir1.2-glib-2.0, libatspi2.0-0 (= 2.56.2-3~bpo12+1)
+Replaces: gir1.0-gtk-2.0 (<< 2.22), gobject-introspection-repository
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: introspection
+Filename: pool/main/a/at-spi2-core/gir1.2-atspi-2.0_2.56.2-3~bpo12+1_arm64.deb
+Size: 23832
+SHA256: 044e038ef3f7743cbe425c8e6faa65953abc11336dc351b60b0e156d345ca461
+SHA1: d225f2e196c3ab92f8ba887b7bc0ea3e3ac86533
+MD5sum: 4e11a0f14839d80fda2746c0caa8cb13
+Description: Assistive Technology Service Provider (GObject introspection)
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings
+
+Package: libatk-adaptor
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 110
+Depends: libatk-bridge2.0-0 (= 2.56.2-3~bpo12+1), libglib2.0-0 (>= 2.12.0)
+Conflicts: at-spi
+Replaces: at-spi
+Provides: at-spi
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: misc
+Filename: pool/main/a/at-spi2-core/libatk-adaptor_2.56.2-3~bpo12+1_arm64.deb
+Size: 11872
+SHA256: e26f2630221123efc94d2f9e04b2a80c010baa7eb3945b0e7f2bff75ce12baab
+SHA1: 86af07be2edf64a8cce5326be3fa8ca946618118
+MD5sum: 83c773fb70e715a3b5c5822563024854
+Description: AT-SPI 2 toolkit bridge
+ This package includes a gtk-module that bridges ATK to the new
+ D-Bus based AT-SPI.
+
+Package: libatk-adaptor-dbgsym
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 17
+Depends: libatk-adaptor (= 2.56.2-3~bpo12+1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/a/at-spi2-core/libatk-adaptor-dbgsym_2.56.2-3~bpo12+1_arm64.deb
+Size: 3584
+SHA256: 1c29f93459cfab0fdbb09269f51d26035505073721daa59106d2c050672ad4af
+SHA1: 492df59421a42bc408de726f693c46e9adbafa73
+MD5sum: 2be69c0a886671955a34522b92b9d470
+Description: debug symbols for libatk-adaptor
+Build-Ids: 016aaacc0ab8b8973040e8ea5592fbd8e67c3416
+
+Package: libatk-bridge2.0-0
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 300
+Depends: libatk1.0-0 (= 2.56.2-3~bpo12+1), libatspi2.0-0 (= 2.56.2-3~bpo12+1), libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.41.1)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: libs
+Filename: pool/main/a/at-spi2-core/libatk-bridge2.0-0_2.56.2-3~bpo12+1_arm64.deb
+Size: 64764
+SHA256: be619f2c89ffb5f7706f6b87e19fd75f4e4de981e416c4bd3c78b77c5d4a41ec
+SHA1: f866f94afeb7cc0a9b007603d6adfab99833d61d
+MD5sum: ec170ad8b54597d7a503314cd13e91ba
+Description: AT-SPI 2 toolkit bridge - shared library
+ This package contains the ATK bridge shared library.
+
+Package: libatk-bridge2.0-0-dbgsym
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 237
+Depends: libatk-bridge2.0-0 (= 2.56.2-3~bpo12+1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/a/at-spi2-core/libatk-bridge2.0-0-dbgsym_2.56.2-3~bpo12+1_arm64.deb
+Size: 190848
+SHA256: 6f678539758c760de4a880d1aaf239add47b51d52337c7bda75181f2ac0ee602
+SHA1: 6179a3b26b5bb9c8f0c8b610bbffe5480cf43a62
+MD5sum: 7307291da14b1b32d0e30ba09dbeed13
+Description: debug symbols for libatk-bridge2.0-0
+Build-Ids: c2e6be11057fd665ad58f8a79fd996bf962b2781
+
+Package: libatk-bridge2.0-dev
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 34
+Depends: libatk-bridge2.0-0 (= 2.56.2-3~bpo12+1), libatk1.0-dev, libglib2.0-dev, libatspi2.0-dev (= 2.56.2-3~bpo12+1)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: libdevel
+Filename: pool/main/a/at-spi2-core/libatk-bridge2.0-dev_2.56.2-3~bpo12+1_arm64.deb
+Size: 10248
+SHA256: bd79f8ae9eb27d78c89361a4977758fe6122937c6f7e8b9405d5fbc3f43e840b
+SHA1: 94b37f111b9b3276475e1ef5026e5bd5a7e85a83
+MD5sum: a110ef4e8b7cb16036171b7268b36e41
+Description: Development files for the AT-SPI 2 toolkit bridge
+ These are the development files for libatk-bridge2.0, needed for
+ compilation of programs which use it.
+
+Package: libatk1.0-0
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 238
+Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.55.2), at-spi2-common
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: libs
+Filename: pool/main/a/at-spi2-core/libatk1.0-0_2.56.2-3~bpo12+1_arm64.deb
+Size: 50264
+SHA256: cd52d1c10032026f814674010ff9d0699543f792e212892f5bc2d2a7e93fc7f3
+SHA1: 3cda659a4234aa44e9a74f59c317cfb19726c4f6
+MD5sum: 22678c720f696770799a1ef80342b6e6
+Description: ATK accessibility toolkit
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ This is the runtime part of ATK, needed to run applications built with it.
+
+Package: libatk1.0-0-dbgsym
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 186
+Depends: libatk1.0-0 (= 2.56.2-3~bpo12+1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/a/at-spi2-core/libatk1.0-0-dbgsym_2.56.2-3~bpo12+1_arm64.deb
+Size: 143132
+SHA256: 6ee09b077e7c3d0f48dcae5423a95c00d87e586273dacf8a75ee67c9d20b392a
+SHA1: 00b0d762c72d5cd30012a3d24fd65d0aaf92d1ef
+MD5sum: ff0bc3f20805ce3b065205b7ed90ef60
+Description: debug symbols for libatk1.0-0
+Build-Ids: fed0d3d989b2a9368898fda007d928466d28672e
+
+Package: libatk1.0-dev
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 1346
+Depends: libatk1.0-0 (= 2.56.2-3~bpo12+1), gir1.2-atk-1.0 (= 2.56.2-3~bpo12+1), pkgconf, libglib2.0-dev
+Replaces: gir-repository-dev
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: libdevel
+Filename: pool/main/a/at-spi2-core/libatk1.0-dev_2.56.2-3~bpo12+1_arm64.deb
+Size: 105444
+SHA256: 3183dd81df270b8d0661d0b0558b97556a03b21c6c1dd133e3eff567522401d2
+SHA1: cf95876ef89144ae0db7948402d3aec630d4b957
+MD5sum: de2da190ce72db5798414d14e88bbb14
+Description: Development files for the ATK accessibility toolkit
+ ATK is a toolkit providing accessibility interfaces for applications or
+ other toolkits. By implementing these interfaces, those other toolkits or
+ applications can be used with tools such as screen readers, magnifiers, and
+ other alternative input devices.
+ .
+ These are the development files for ATK, needed for compilation of
+ programs or toolkits which use it.
+
 Package: libatk1.0-doc
 Source: at-spi2-core
 Version: 2.56.2-3~bpo12+1
@@ -272,6 +547,67 @@ Description: Documentation files for the ATK toolkit
  .
  This contains the HTML documentation for the ATK library in
  /usr/share/doc/libatk1.0-doc/ .
+
+Package: libatspi2.0-0
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 291
+Depends: libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.37.3), libx11-6 (>= 2:1.2.99.901), libxi6 (>= 2:1.2.99.4)
+Recommends: at-spi2-core (= 2.56.2-3~bpo12+1)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: libs
+Filename: pool/main/a/at-spi2-core/libatspi2.0-0_2.56.2-3~bpo12+1_arm64.deb
+Size: 76696
+SHA256: 2c88e192e726bd11f2052103286b3ba9248cfafbff59b041243615037f14d3cc
+SHA1: 143532ffc67bcfed6a0ed0783bf0b2196f439776
+MD5sum: 42fc321c1d0d076eecf93bbb80eb5e81
+Description: Assistive Technology Service Provider Interface - shared library
+ This package contains the shared library for applications that wish to use
+ the at-spi interface.
+
+Package: libatspi2.0-0-dbgsym
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 281
+Depends: libatspi2.0-0 (= 2.56.2-3~bpo12+1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/a/at-spi2-core/libatspi2.0-0-dbgsym_2.56.2-3~bpo12+1_arm64.deb
+Size: 225548
+SHA256: cc01ed6ee0ef12565d83dad7911cfb9943d2cdebb5e56fa139deba7e9909dcee
+SHA1: d3eead6722f401a57d5841b2b2d894f6ef423857
+MD5sum: a030b4f8589422019f18295bef0a3ad9
+Description: debug symbols for libatspi2.0-0
+Build-Ids: 144b7945910192deddf671d954673433a083a63b
+
+Package: libatspi2.0-dev
+Source: at-spi2-core
+Version: 2.56.2-3~bpo12+1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 868
+Depends: gir1.2-atspi-2.0 (= 2.56.2-3~bpo12+1), libatspi2.0-0 (= 2.56.2-3~bpo12+1), libglib2.0-dev, libdbus-1-dev, libxtst-dev
+Replaces: gir-repository-dev
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Accessibility
+Priority: optional
+Section: libdevel
+Filename: pool/main/a/at-spi2-core/libatspi2.0-dev_2.56.2-3~bpo12+1_arm64.deb
+Size: 83696
+SHA256: 226cb9a6e0397e529d1c0f086901e38799870ab4690baf3bf658d27ac0ad38a5
+SHA1: 7596e3a3db81358d3b9afc3908b50b4ac479aa98
+MD5sum: c9de8a95c083b4b95e714231e19dd443
+Description: Development files for the assistive technology service provider
+ These are the development files for at-spi2, needed for compilation of
+ programs which use it.
 
 Package: libespeak-dev
 Source: espeak
@@ -582,6 +918,25 @@ MD5sum: 9d9e360ff3b0ecb82b5aa00b9c0700e0
 Description: debug symbols for libspeechd2
 Build-Ids: 5ed22db13554dff61ee944e13f32f1a763193729
 
+Package: mate-calc
+Version: 1.26.0-2
+Architecture: arm64
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 595
+Depends: mate-calc-common (>= 1.26.0-2), mate-calc-common (<< 1.26.0-2.1~), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libglib2.0-0 (>= 2.39.91), libgtk-3-0 (>= 3.21.5), libmpc3 (>= 1.1.0), libmpfr6 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0), libxml2 (>= 2.7.4)
+Homepage: http://www.mate-desktop.org/
+Priority: optional
+Section: math
+Filename: pool/main/m/mate-calc/mate-calc_1.26.0-2_arm64.deb
+Size: 132092
+SHA256: c4c1ed87ae6edefe32a01511f02ade8ebc2dc634f217eb96852de0ff3de23bab
+SHA1: 192f41449578ff565da4b3abaafd5fc5e6348572
+MD5sum: 55fe3a9c33b8f05e0ce7f48ac0b38e66
+Description: MATE desktop calculator
+ mate-calc is a powerful graphical calculator with financial, logical and
+ scientific modes. It uses a multiple precision package to do its arithmetic
+ to give a high degree of accuracy.
+
 Package: mate-calc-common
 Source: mate-calc
 Version: 1.26.0-2
@@ -605,6 +960,24 @@ Description: MATE desktop calculator (common files)
  to give a high degree of accuracy.
  .
  This package contains the architecture independent files.
+
+Package: mate-calc-dbgsym
+Source: mate-calc
+Version: 1.26.0-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 470
+Depends: mate-calc (= 1.26.0-2)
+Priority: optional
+Section: debug
+Filename: pool/main/m/mate-calc/mate-calc-dbgsym_1.26.0-2_arm64.deb
+Size: 394804
+SHA256: 9fb4b57bf938cc5fc326de54e19a400adb7c5243600d01894bb8dd71e60825a9
+SHA1: df8d1a10980def873727bcd1d5d077bdcb837dfc
+MD5sum: d0569b7e79cbd47115aeeb3a88268390
+Description: debug symbols for mate-calc
+Build-Ids: 27c2087d7ee95027b9fc5cd69d542e9a6862e1c6 7cab2bb156fa9d64df260e609caa258239886170
 
 Package: python3-speechd
 Source: speech-dispatcher

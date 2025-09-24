@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: testing
 Codename: belin-testing
 Version: 8.5
-Date: Thu, 15 May 2025 10:30:47 UTC
+Date: Wed, 24 Sep 2025 15:06:27 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (testing repository)
@@ -291,17 +291,17 @@ SHA256:
  36acc300eb2e01cd6f3605d65772aeacdeb6301d3ec26cf708be3984a7c78105 207 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmglwlcACgkQFg1XP6XL
-YMlhAw//dcx9QivnOeATuOfOq7UKMrVRy/wb4Pqd2WaL7TslnLzrjqqkcJIeJXqB
-dOPKBukIq0i7/AFBrX4QuDTjchcD+Oa2eZQhkyOOpX1JNJGTufuMu/1LzJ5SdPjo
-q5yBX7Mvaa21ZiBHv0JeG/c3IGFT/SMVxPHw5jwbpCiNzQ+EYzaWQNmjXWmy7ZNt
-3Qf1ubbWQnVcUGS7keTyRX0l2wbuVzsKZ1gaUfpkVgAJAgVPjhOWIrZi6FO+gFvD
-B0CHWMAODtHqQf7HSh3C/keAqA+yi1WFw3LPb7ygSiBJIkIe/svyQsJkBmMDx+Oz
-1Vlem9jXLge0Y8GMuSFUd32eLHNqup58ixgifqgleTxsjXsn71GJmtSvy0vtDDUA
-QUqFcQMEjnpK3fucbFwzXyZqiHHKsYOh37tARds+etpfFY9I24pDuYLABDPxbz02
-xW2ONWrHODvkzxF/CFvqHVjqPamh1HyQR80L8CeNYnqgsi0vFM5NWqZbIM1zZqto
-wITY6HW+IEq5WVkVFU1kI4HZygjfrzRHRippN4IH5WYWPHZ6Gdq2edIzKbix+NPy
-6BTTSgzLAldS8nnssadX0+EMOHBAM5r4782y1MeCa6p4qXkCkoLDpG34+xTOd389
-xMUIe5++YnqZ5Tzqvpuz2tKyxtz597+CLoKBYg+LajV/xIqhOGA=
-=Ofon
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjUCPQACgkQFg1XP6XL
+YMkoZw//YNqBL6ETc4dXacOzFYwDgX+KhAXjbnZqYy0cfYSsZGP3q4OSLwbFLJvG
+8Ia1ghT7/iRuTNwkLXqkDY++hkEvvQGcrtEerNf5GLd3B/8apt5fXjXTX49FatCf
+aQnWMGl61v+TcpoBaljtv1aaNXGHnqWIzbjm02Or1lrSroCBefuKGmHIIiOW0ILP
+He1gQv6tk+9b/ZKWQywToVzmbejNDcg0ojZeeMSF1e9MG7YIWWBIe7eufmGtNnrs
+KPYZ9Ft8I1oMB7G8L5TjXVHwf0vkPk3+klC8ZvMzjqThcrhc3767oTtTISqUDTsI
+QJZOGCsKQMQvJ+qrJPgXVt3zK1+1xzdEeDmxMZyD7zgnn/jOiJ5dUrJcN9K7IENd
+ZwxXt70pIBFv/ADiBB8exrPfyQKzA740u/Bn2l9re9USCMQ0uW89ios7D2xkcpLV
+gV4+CHioOF+SemsIoMPG+NfU99MgjOU93BG7CNozXu/5MgBa7jDTUJXUDtLfUWSv
+5ME3zFJ2ufXwQPpb/iXSUOU0RHS24r0mCjPvkLqSezdg9oSz3aPZYJkVh2K9hKYO
+H6c8kQ4Pl+SqqWvF1ifUYl80STcFXuUPjnltb4PsOoD3fgjL58LE9x0+juVU93k2
+47bStzvYfL1VbuNhlTUYmO0FyskYrRY2JrKCxSFqQxxAnzGr+Ag=
+=pqXB
 -----END PGP SIGNATURE-----

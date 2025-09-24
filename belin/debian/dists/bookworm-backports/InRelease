@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: bookworm-backports
 Codename: bookworm-backports
 Version: 8.0
-Date: Thu, 15 May 2025 10:30:46 UTC
+Date: Wed, 24 Sep 2025 15:06:27 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (backported packages repository)
@@ -291,17 +291,17 @@ SHA256:
  4683eb5c359b35b6eb0e0fbe4d8f909a71a55ee13670f21fdd0ee39ef16a524b 230 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmglwlYACgkQFg1XP6XL
-YMkcnA//bKMz78Isyubllh8fqtOmhE5AYbHWqIaFL0AShYLU11sSUXJzcYIci6Xi
-zrXB5EiGmPSBIPXb9x6tIn9cNBoZG90NTydUrEngwuE28swqAMHF1vAsZ7OWWuAZ
-DhmeUJ37fjRLVHr6rwrriL0x4dGbSuP8MA7OUtfD9TvLdJ+kbfgoLuSoSBTkqRqR
-xphkc2hPIubzQPLOofb8MQmTqANYmn+aekyhMzSnTRE7hA+NpEZcK+drVYbV+VJA
-eGsUwsuU+avWfbF7SSeNjdrUf3o37r6mdvxH7sSkDI0B88VIpMtOmquj9xv6WyBc
-5ANnzd8FBbtxM2pemKuFA4fB3tKqygfzgC+FD6x2EUCbb8WVOOEIjt8+JXtQmJTQ
-1sBUGEqdXh66WDikyrs8RJlLk0FRb7Jg3OVhv+gQ7zYxc9vHS+a1muoJnTd6WU0N
-t7X0catf1KLRYawXsx5F4nWxWHM5vbA5tuG/k1yIsEWltId73TKBOuy9bAFZZEJE
-+ndMwVysZf6PJ8oQA9A0jgubYo4GVq4ekwh04mKDkdjbWDL47bFyPLq80QExSH8U
-fAFdlT88fzMmV26V2EVyN1Yy+8Mh2PTqllVTiO92lZNZZFX6wxUx4f1s8+YRTJtV
-sPapRnV+5/bi0YSMlhhXOMzzHBihh29W07HJVtHKZOKhNfyqGKg=
-=k0F6
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjUCPMACgkQFg1XP6XL
+YMmDWg//dUTWcpQEW+NeV52Qz+n/VsJFUbGKJtykeBaXhmjUIO5gzupu3s4kWvSM
+uhXEm2VlAicJ725O3ork4XKChVrDvWGVq0TFG+SWlAov8Ef0xjVxbi7Bwpfa7FTs
+rniGMrpKChCeZlB4AbAS0MXAyGMsQp4wa1fHNdftfWTOo36rU98xIN8xGafGNl/P
+gJ/G8YqkrvQ4+cvFKEbbil0Ns1O4oxRuQMGJ1mVq64KssYW7KGzbtvZsJkWK1Cmh
+XaDJFc5EbaBZPI1ZPm1rt62mH+kGlbiGaHmoQSDNyCIRqkZ3r254N0wrJAqgYLVa
+HrGXPNxbuxuy/tQYCs1zT2X/Lnme0mmlo66Z01IvZ4JtCqwQ+s+/JqpO/oiejjjx
+aqGQBkvxif3xoyR4dV1OEmR32lB9/KiruQhd2g17cdlOSCXBya/GzrB0UCDC+nna
+dI+EoUhE4St+0vrT8uAtLlZUj4bWyC6WKOWUFEZqRV+gmyQyJFBDbbwF1jCwqJx7
+QeGc+JTDMeBMoFK75Pfkjqal75jWoTkcmf0R2MFKFaqkl4sXfHmamhOaUQMMePl/
+LMDmheLZI44Ls37SqTj81WZRB0O91q3aFZ4H8UIpl0XaQ7cZbfdP8pZoW0QrVgsH
+JZf+HBmQjKxkZr2VvSuMPC2ifx6Yl/Rpa7k1ayqVCyBIu/I9OEE=
+=NXal
 -----END PGP SIGNATURE-----

@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: sid
 Codename: belin-devel
 Version: 8.5
-Date: Thu, 15 May 2025 10:30:48 UTC
+Date: Wed, 24 Sep 2025 15:06:28 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (development repository)
@@ -267,17 +267,17 @@ SHA256:
  27d2fa4b889b30874b214137cb157aee82eee18974f0f2f28b602e6ef149293d 207 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmglwlgACgkQFg1XP6XL
-YMlM/g//W5T1nLrHsxtty948sQxY7fX2aoQkEfmIIU0OIoSgQu+tgdfaIXFdq2Eo
-Sns5YWKapckls7K18fHSEqtWTV63X8Kv97NqRj2RosYNL7oau69dN4MsmhwM3j9B
-lS+kWwDXM+Qo+QSLE5yHUPKVnMrGKq+XBdTscHp0dbdXYc4ckGEsyJX3AXVDBQ/e
-SkD9GvFHf6j5POa5cIEw6mfBE+V3XTj9m+vj07x45ZySjd8T23kma5MdphEojgOF
-28cmw8BHjdOmctuIoTxiNHfAoh+1IvCFWXgWGol1w/+IdHhV81ucjZcTBR8IYrIC
-psy9d47rcO78TQDW9nkf6TLfTsuuyqt+U8WWYmkaptx6dRqLKuGNnmGJ6TMSvwRL
-8bqCRCzBFEn2ubTlOnhCQ+o+KtxS7e59i16Mg7K34+ZAi+Be7Jv4pU4Rey3zaefN
-VmgB50LySufYKPJBccPta/4qdpAAujdi792gmgbEHDu+iT9smUfe/MY4Cs2ydW3t
-vh8nyE7wmcwXn732ocgYNx6VcU1wBZ02szV6DcXcXQPQs0uMuWkjrxn/F47baolF
-M6VmIXzCZQpTZ0UbQ1zfMjx4yetmcLqab0CYifhJBF2sVHkZU1UOUA/MITcyPdw2
-Chnhu19soCuP1Gl2ORxTNCo53O6o9E0aB0+4bpecwc4UkiVwgBc=
-=z7Xf
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjUCPQACgkQFg1XP6XL
+YMnfog//Ubjrtlt1Anzp8lZPrg1BifxXFx5T3mq2b6Whcpie8SiRQfMC3J4fvA/K
+mAO/jzgiUKgUxIUr7jIiKWZPVvWI2PDNctue34TZzBg9OgrC31DWY/Z9ZVrPPdqP
+B4xtNCw5Zg6ktuCf7qMAseVyRp3i8r+YzHVYkZN5Gonkh6yudPtzx7UfB91afEua
+HShjOulD/KRLulzJqGs/WLUZ8F1v6hICFXPO8sULim4A0ENjxpww7hWNAJ8XBjb7
+cv5TOsmSOucycxaZw17Rn3R2JJffcbLWshexY9MReO/nq+uMvwNuI9IZ2uB4Pr9/
+zJkIXRgOMv3zi72mRcgD4LMPHeE9Qb8yeBRZU+Ph0zC71uFlqO1fHDh3dqsMpH/H
+oLR6szFc6S33gXNbkCI33cds3VAAKQV9bq/17L3IFeMpnVydc7kGslZ26A8VojMk
+dXB1nTWRxqs8pjyZhrguM6/ffuyw143UnO+ZVOPs/s7LmSRD3pfDMLMCBFk3AcnR
+7RBqzknzIlL0wevov06IqEfzQruMokjVfu0NR0V0HNuAIDBXRP4yK6ojVd1PgvxY
+HTtvFjPFOvYogTJwuvruzoB9zDwHVY0zgsHte5PEk6/5Ot6HY34BKw2DpI4ECNhB
+p57VNpDCs9sW6f29rcIn4M+vVbYeQgHVxsdtoaPQhG7t8lVKOjw=
+=PYkJ
 -----END PGP SIGNATURE-----
