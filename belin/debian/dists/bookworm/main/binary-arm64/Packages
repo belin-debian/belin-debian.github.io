@@ -91,6 +91,136 @@ Description: Common Lisp interface to Speech Dispatcher
  This package contains a Common Lisp library for communication with Speech
  Dispatcher.
 
+Package: espeak
+Version: 1.48.15+dfsg-5
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 254
+Depends: libc6 (>= 2.34), libespeak1 (>= 1.48.15+dfsg)
+Multi-Arch: foreign
+Homepage: http://espeak.sourceforge.net/
+Priority: optional
+Section: sound
+Filename: pool/main/e/espeak/espeak_1.48.15+dfsg-5_arm64.deb
+Size: 68748
+SHA256: 7b9b7c707963fcb1573269887828f8d94a9395045a2a9d3500985f0e166218dc
+SHA1: ee7e36bf9c12e1d8e3ccf8e9edcdc60f69c50750
+MD5sum: 3a1339f882ca299e1081deea1c71b697
+Description: Multi-lingual software speech synthesizer
+ eSpeak is a software speech synthesizer for English, and some other
+ languages.
+ .
+ eSpeak produces good quality English speech. It uses a different synthesis
+ method from other open source text to speech (TTS) engines, and sounds quite
+ different. It's perhaps not as natural or "smooth", but some find the
+ articulation clearer and easier to listen to for long periods.
+ .
+ It can run as a command line program to speak text from a file or from stdin.
+ .
+   * Includes different Voices, whose characteristics can be altered.
+   * Can produce speech output as a WAV file.
+   * Can translate text to phoneme codes, so it could be adapted as a front end
+     for another speech synthesis engine.
+   * Potential for other languages. More than 40 languages are included.
+   * Compact size. The program and its data total about 350 kbytes.
+   * Written in C++.
+
+Package: espeak-data
+Source: espeak
+Version: 1.48.15+dfsg-5
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 2353
+Multi-Arch: same
+Homepage: http://espeak.sourceforge.net/
+Priority: optional
+Section: sound
+Filename: pool/main/e/espeak/espeak-data_1.48.15+dfsg-5_arm64.deb
+Size: 1015544
+SHA256: 9831d292f53b0a882e021581b901f25b6b8999a4f432510d0d06e81b9210b4ac
+SHA1: 56ddbe9a51d84d0318421b469d8bf27c26c1a8e7
+MD5sum: 9a16afc94b51ed9fc8f6dcb73fb257d5
+Description: Multi-lingual software speech synthesizer: speech data files
+ eSpeak is a software speech synthesizer for English, and some other
+ languages.
+ .
+ This package contains necessary synthesizer data files needed
+ for the espeak program, and the shared library.
+
+Package: espeak-ng
+Version: 1.52.0+dfsg-6~belin1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 3879
+Depends: libc6 (>= 2.34), libespeak-ng1 (>= 1.52.0+dfsg), libpcaudio0 (>= 1.2), libsonic0 (>= 0.1.10)
+Multi-Arch: foreign
+Homepage: https://github.com/espeak-ng/espeak-ng
+Priority: optional
+Section: sound
+Filename: pool/main/e/espeak-ng/espeak-ng_1.52.0+dfsg-6~belin1_arm64.deb
+Size: 2368032
+SHA256: 1662884123092aa1b6761cd1382e5101a71ecea02f6025319a5f7a34e646626d
+SHA1: ee779540dd8771f7865b0d9dbc7ff920cb50712f
+MD5sum: 1bc55c9d6e5ad91fd7da8aac35cd7865
+Description: Multi-lingual software speech synthesizer
+ eSpeak NG is a software speech synthesizer for English, and some other
+ languages.
+ .
+ eSpeak NG produces good quality English speech. It uses a different synthesis
+ method from other open source text to speech (TTS) engines, and sounds quite
+ different. It's perhaps not as natural or "smooth", but some find the
+ articulation clearer and easier to listen to for long periods.
+ .
+ It can run as a command line program to speak text from a file or from stdin.
+ .
+   * Includes different Voices, whose characteristics can be altered.
+   * Can produce speech output as a WAV file.
+   * Can translate text to phoneme codes, so it could be adapted as a front end
+     for another speech synthesis engine.
+   * Potential for other languages. More than 80 languages are included.
+   * Compact size.
+   * Written in C.
+
+Package: espeak-ng-data
+Source: espeak-ng
+Version: 1.52.0+dfsg-6~belin1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 24037
+Multi-Arch: same
+Homepage: https://github.com/espeak-ng/espeak-ng
+Priority: optional
+Section: sound
+Filename: pool/main/e/espeak-ng/espeak-ng-data_1.52.0+dfsg-6~belin1_arm64.deb
+Size: 8654656
+SHA256: e9ef0bc7e1d12ae511a84424ad64cc46c4c7f630f6ba1940f992b4d9d3b77579
+SHA1: 7e7e267ea5b923802bb1fab326b962ccf6b16b84
+MD5sum: 9d6784d4c07dc332a0a3b854683417cb
+Description: Multi-lingual software speech synthesizer: speech data files
+ eSpeak NG is a software speech synthesizer for English, and some other
+ languages.
+ .
+ This package contains necessary synthesizer data files needed
+ for the espeak-ng program and the shared library.
+
+Package: espeak-ng-dbgsym
+Source: espeak-ng
+Version: 1.52.0+dfsg-6~belin1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 521
+Depends: espeak-ng (= 1.52.0+dfsg-6~belin1)
+Priority: optional
+Section: debug
+Filename: pool/main/e/espeak-ng/espeak-ng-dbgsym_1.52.0+dfsg-6~belin1_arm64.deb
+Size: 465480
+SHA256: 8c04fd4058ce9c82fdc40f577ad7a29b39d9d7255836d5790d103da1eb30bb72
+SHA1: 320167c2e049022b4f66e04b025b88a407784e37
+MD5sum: 9c4756e4901fcd8f49089ffd51d9826c
+Description: debug symbols for espeak-ng
+Build-Ids: 054e5bead5c18d32022815d99d3373714461cdd7 5b7f60f05903751fdffbe0edd9551496e52db6be
+
 Package: espeak-ng-espeak
 Source: espeak-ng
 Version: 1.52.0+dfsg-6~belin1
@@ -142,6 +272,315 @@ Description: Documentation files for the ATK toolkit
  .
  This contains the HTML documentation for the ATK library in
  /usr/share/doc/libatk1.0-doc/ .
+
+Package: libespeak-dev
+Source: espeak
+Version: 1.48.15+dfsg-5
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 587
+Depends: libespeak1 (= 1.48.15+dfsg-5)
+Multi-Arch: same
+Homepage: http://espeak.sourceforge.net/
+Priority: optional
+Section: libdevel
+Filename: pool/main/e/espeak/libespeak-dev_1.48.15+dfsg-5_arm64.deb
+Size: 177044
+SHA256: fd9039835c5ab3e0290bae26705c772f1d19baa019b18553eab442341c6cdd46
+SHA1: 0a01f1ced56d0e789b03399e2c1715d2166557b0
+MD5sum: 3478bedbd36cebd2c90e54899d4b0b08
+Description: Multi-lingual software speech synthesizer: development files
+ eSpeak is a software speech synthesizer for English, and some other
+ languages.
+ .
+ This package contains the eSpeak development files needed to
+ build against the espeak shared library.
+
+Package: libespeak-ng-dev
+Source: espeak-ng
+Version: 1.52.0+dfsg-6~belin1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 901
+Depends: libespeak-ng1 (= 1.52.0+dfsg-6~belin1)
+Multi-Arch: same
+Homepage: https://github.com/espeak-ng/espeak-ng
+Priority: optional
+Section: libdevel
+Filename: pool/main/e/espeak-ng/libespeak-ng-dev_1.52.0+dfsg-6~belin1_arm64.deb
+Size: 227020
+SHA256: e0d9ad6a427c29fc19c2ef822b9f3d29e3f0801151f69ff991279a58be05ba48
+SHA1: 7d1da6776493666035f69259c61c75cba59d0989
+MD5sum: 3b1e19fbbed6fc298b50720875541129
+Description: Multi-lingual software speech synthesizer: development files
+ eSpeak NG is a software speech synthesizer for English, and some other
+ languages.
+ .
+ This package contains the eSpeak NG development files needed to
+ build against the espeak-ng shared library.
+
+Package: libespeak-ng-libespeak-dev
+Source: espeak-ng
+Version: 1.52.0+dfsg-6~belin1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 52
+Depends: libespeak-ng-dev (= 1.52.0+dfsg-6~belin1)
+Conflicts: libespeak-dev
+Provides: libespeak-dev (= 1.48.04+dfsg)
+Multi-Arch: same
+Homepage: https://github.com/espeak-ng/espeak-ng
+Priority: optional
+Section: libdevel
+Filename: pool/main/e/espeak-ng/libespeak-ng-libespeak-dev_1.52.0+dfsg-6~belin1_arm64.deb
+Size: 20092
+SHA256: ca4244ce7eff3c839d8cbd0946ac43e1b0048eb89a1bec482bc12b88acc9746e
+SHA1: d0c0bfc22ea96473584ddf8cf5301ebc950ef4c1
+MD5sum: 0c7073e20b761346ab917e9172c26523
+Description: Multi-lingual software speech synthesizer: development files
+ eSpeak NG is a software speech synthesizer for English, and some other
+ languages.
+ .
+ This package contains compatibility links that makes it a drop-in replacement
+ for the libespeak-dev package.  Building against this package thus allows one
+ to migrate to using eSpeak NG without any source code change.
+
+Package: libespeak-ng-libespeak1
+Source: espeak-ng
+Version: 1.52.0+dfsg-6~belin1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 23
+Depends: libespeak-ng1 (= 1.52.0+dfsg-6~belin1)
+Conflicts: libespeak1
+Provides: libespeak1 (= 1.48.04+dfsg)
+Multi-Arch: same
+Homepage: https://github.com/espeak-ng/espeak-ng
+Priority: optional
+Section: libs
+Filename: pool/main/e/espeak-ng/libespeak-ng-libespeak1_1.52.0+dfsg-6~belin1_arm64.deb
+Size: 12988
+SHA256: a4720ed4282b9dc8873078546e3ec493d2adb80d29324c6ebf889a36294e36ab
+SHA1: e4466a5e565c60c38251be5950fca42765d5da2a
+MD5sum: e388e35bfebff960fa26909a427970d6
+Description: Multi-lingual software speech synthesizer: shared library
+ eSpeak NG is a software speech synthesizer for English, and some other
+ languages.
+ .
+ This package contains compatibility links that makes it a drop-in replacement
+ for the libespeak1 package.  Installing this package thus allows one to make
+ applications linked against libespeak1 use eSpeak NG without any modification
+ or rebuild.
+
+Package: libespeak-ng1
+Source: espeak-ng
+Version: 1.52.0+dfsg-6~belin1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 605
+Depends: libc6 (>= 2.34), libpcaudio0 (>= 1.2), libsonic0 (>= 0.1.10), espeak-ng-data (= 1.52.0+dfsg-6~belin1)
+Multi-Arch: same
+Homepage: https://github.com/espeak-ng/espeak-ng
+Priority: optional
+Section: libs
+Filename: pool/main/e/espeak-ng/libespeak-ng1_1.52.0+dfsg-6~belin1_arm64.deb
+Size: 185588
+SHA256: 3124f9e07e5739d79e34b9f3eec2e6e294083bb21f9e8ee6f6a860f361aeaeac
+SHA1: cda046011fa344f854e019897d2ac8a100154ef0
+MD5sum: ef638a1fcbeab0a64ee3deafb167592d
+Description: Multi-lingual software speech synthesizer: shared library
+ eSpeak NG is a software speech synthesizer for English, and some other
+ languages.
+ .
+ This package contains the espeak NG program in a shared library.
+
+Package: libespeak-ng1-dbgsym
+Source: espeak-ng
+Version: 1.52.0+dfsg-6~belin1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 489
+Depends: libespeak-ng1 (= 1.52.0+dfsg-6~belin1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/e/espeak-ng/libespeak-ng1-dbgsym_1.52.0+dfsg-6~belin1_arm64.deb
+Size: 441520
+SHA256: 8ce5f225813beaf05dd984f9df309af1305f1e00905343fe4ce106dbfb5ebe6b
+SHA1: 80aae8c20d79377882c928e785f5151697c65d16
+MD5sum: cdbed6e67550a3692c933b8f14db7e8a
+Description: debug symbols for libespeak-ng1
+Build-Ids: a533ce49911f3e387fda64d1c9058bc1a768711f
+
+Package: libespeak1
+Source: espeak
+Version: 1.48.15+dfsg-5
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 359
+Depends: libc6 (>= 2.34), libportaudio2 (>= 19+svn20101113), libpulse0 (>= 0.99.1), libsonic0 (>= 0.1.10), espeak-data (= 1.48.15+dfsg-5)
+Multi-Arch: same
+Homepage: http://espeak.sourceforge.net/
+Priority: optional
+Section: libs
+Filename: pool/main/e/espeak/libespeak1_1.48.15+dfsg-5_arm64.deb
+Size: 142964
+SHA256: 74d9a548b174345d878c780f3d80c84c59365e88b85f5d3a25f5180f0d1957e0
+SHA1: 50cfec87fc8890f1f18efb76b407ca4dac2d0600
+MD5sum: 6bdba3c74418b03bfa90f0fc3f03a354
+Description: Multi-lingual software speech synthesizer: shared library
+ eSpeak is a software speech synthesizer for English, and some other
+ languages.
+ .
+ This package contains the espeak program in a shared library.
+
+Package: libespeak1-dbgsym
+Source: espeak
+Version: 1.48.15+dfsg-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 441
+Depends: libespeak1 (= 1.48.15+dfsg-5)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/e/espeak/libespeak1-dbgsym_1.48.15+dfsg-5_arm64.deb
+Size: 394816
+SHA256: 6299663aca86651e1d59dde0cacf4e51939fd6d8ce0d2ba4e890f98e58fb3feb
+SHA1: 4c2f772d2ce77a493da832e18bb0d80ec990f7e5
+MD5sum: 1ec7a2b3ecfdf9bda0016936f3ba6ff4
+Description: debug symbols for libespeak1
+Build-Ids: 678e352d90c99f1b0b5e0308502d934c2b49d6a9
+
+Package: libspeechd-dev
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 161
+Depends: libspeechd2 (= 0.12.1-2belin1), libglib2.0-dev
+Suggests: speech-dispatcher
+Multi-Arch: same
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: libdevel
+Filename: pool/main/s/speech-dispatcher/libspeechd-dev_0.12.1-2belin1_arm64.deb
+Size: 33300
+SHA256: 547b0262445e055742dd8517be9807b5aad2561f9100e1360608768b02090407
+SHA1: 1426bb90f5dddc59064c62680076dd10622139ac
+MD5sum: 330a31dd502348b2c3e9c0928de19260
+Description: Speech Dispatcher: Development libraries and header files
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains static library, and C headers needed for programs
+ linked with the shared or static library.
+
+Package: libspeechd-module0
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 90
+Depends: libc6 (>= 2.17)
+Multi-Arch: same
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: libs
+Filename: pool/main/s/speech-dispatcher/libspeechd-module0_0.12.1-2belin1_arm64.deb
+Size: 14912
+SHA256: 0f2f38299144f0955cbb87eeda72323ec791a182fb33371d2c3576ea61ecbb8b
+SHA1: 8ec4617b517f5eb25aa63a5dc605b94741876465
+MD5sum: 63c3e4a8c7eb22b08969f305abdfccb1
+Description: Speech Dispatcher: Shared libraries for modules
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains a shared library that speech-dispatcher modules can use
+ for the ground support.
+
+Package: libspeechd-module0-dbgsym
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 32
+Depends: libspeechd-module0 (= 0.12.1-2belin1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/libspeechd-module0-dbgsym_0.12.1-2belin1_arm64.deb
+Size: 16184
+SHA256: 3f7a5628a7890cc9f89ec42cd03016849d1a8683acc5fbfb92ed59af87cb237b
+SHA1: 7b83b9cd8e42471192a17e00e79a32204076cb7b
+MD5sum: cc5f610e20a95e8640ee3729bae195b9
+Description: debug symbols for libspeechd-module0
+Build-Ids: ff93bc21ede2a02b27faad3fb765fd4e7d38975c
+
+Package: libspeechd2
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 92
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.36)
+Multi-Arch: same
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: libs
+Filename: pool/main/s/speech-dispatcher/libspeechd2_0.12.1-2belin1_arm64.deb
+Size: 21652
+SHA256: 7120fc7f873abc9ca0594add08045298e4bf6f4aeac30e5593cebcc4a7e9d4ed
+SHA1: 46be715e966c8c6367414b2d86571e8b15a8ab9d
+MD5sum: 3737e691da968d660f418917c61e036b
+Description: Speech Dispatcher: Shared libraries
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains a shared library needed for C programs linked with it.
+
+Package: libspeechd2-dbgsym
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 61
+Depends: libspeechd2 (= 0.12.1-2belin1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/libspeechd2-dbgsym_0.12.1-2belin1_arm64.deb
+Size: 42884
+SHA256: 4710bce775c03a811ce406bbb2958ec6d7f4c75dce83e34b543fb965ea59be31
+SHA1: 7ceb0a3d92ed813bd14d2eaad8eaa758c85554ee
+MD5sum: 9d9e360ff3b0ecb82b5aa00b9c0700e0
+Description: debug symbols for libspeechd2
+Build-Ids: 5ed22db13554dff61ee944e13f32f1a763193729
 
 Package: mate-calc-common
 Source: mate-calc
@@ -199,6 +638,150 @@ Description: Python interface to Speech Dispatcher
  This package contains a Python library for communication with Speech
  Dispatcher.
 
+Package: speech-dispatcher
+Version: 0.12.1-2belin1
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 28608
+Depends: adduser, speech-dispatcher-audio-plugins (= 0.12.1-2belin1), init-system-helpers (>= 1.52), libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libglib2.0-0 (>= 2.67.3), libltdl7 (>= 2.4.7), libsndfile1 (>= 1.0.20), libspeechd-module0 (>= 0.12.1), libspeechd2 (>= 0.12.0~), libsystemd0
+Recommends: speech-dispatcher-espeak-ng, sound-icons
+Suggests: libttspico-utils, espeak, mbrola, speech-dispatcher-doc-cs, speech-dispatcher-festival, speech-dispatcher-cicero, speech-dispatcher-flite, speech-dispatcher-espeak
+Breaks: cl-speech-dispatcher (<< 0.9~), libspeechd2 (<< 0.9~), python-speechd (<< 0.9~), python3-speechd (<< 0.9~), speech-dispatcher-baratinoo (<< 0.10.2-1~), speech-dispatcher-ibmtts (<< 0.10.2-1~), speech-dispatcher-kali (<< 0.10.2-1~)
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: sound
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher_0.12.1-2belin1_arm64.deb
+Size: 3986448
+SHA256: a12a728983e7ff79de257d3f8c024fc84a42ddb6e6f90965fedacf360157ae82
+SHA1: ee86a61aa00e1609c8c979dace33393e1dd15fb0
+MD5sum: 826cdaa32a25f281aeb952602b122b02
+Description: Common interface to speech synthesizers
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains Speech Dispatcher itself.
+
+Package: speech-dispatcher-audio-plugins
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 422
+Depends: libao4 (>= 1.1.0), libasound2 (>= 1.0.18), libaudio2, libc6 (>= 2.34), libglib2.0-0 (>= 2.36), libpipewire-0.3-0 (>= 0.3.6), libpulse0 (>= 0.99.1)
+Multi-Arch: same
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: sound
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-audio-plugins_0.12.1-2belin1_arm64.deb
+Size: 36296
+SHA256: f394fbbe6ca8900614ca4cf1975d3fd15f3acfd65a7fef41e2838993fb2897e8
+SHA1: f8208936634b14058a69e106d1c7700eeaea4c25
+MD5sum: 0a71d89a301024f6ae7a14785035156a
+Description: Speech Dispatcher: Audio output plugins
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains all the speech-dispatcher audio output plugins.
+
+Package: speech-dispatcher-audio-plugins-dbgsym
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 159
+Depends: speech-dispatcher-audio-plugins (= 0.12.1-2belin1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-audio-plugins-dbgsym_0.12.1-2belin1_arm64.deb
+Size: 103044
+SHA256: 67abfbdc0f7bff57447bdad62dfa7a652202f74ebb404d15283ec86a7c739d49
+SHA1: e9f2b3d3f45f9f199abc3f5e9ff066c578fb34e4
+MD5sum: 0887031cf9bea6a416f7bde7a5be3711
+Description: debug symbols for speech-dispatcher-audio-plugins
+Build-Ids: 1a14b448808aa98df1cc6da32c5524883573356e 431bec6f5d9c6666a5497a1bfcede4b442746108 8541c46a38db86ed62745c20b5d2bc58554003d2 c1bf9092b119c4d85af650ee2a59218a5b95f651 dcd6de9dc407f1f8738603fa744c40f6b7af1297 f4131b5cccee2162b372b595e0ab6ec26a2aa0d2
+
+Package: speech-dispatcher-cicero
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 87
+Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.1), speech-dispatcher (= 0.12.1-2belin1)
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: sound
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-cicero_0.12.1-2belin1_arm64.deb
+Size: 24272
+SHA256: d8da30f5d882fbbc7be8159e6f1b205522a9960417bcf82f9e0ca3ac195fa88d
+SHA1: c2da32f9782b968aded9ac83674e55dba3096670
+MD5sum: da0ef135bcc86bcb0a260ca7ebdbb035
+Description: Speech Dispatcher: Cicero output module
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains the output module for the cicero speech synthesizer.
+
+Package: speech-dispatcher-cicero-dbgsym
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 58
+Depends: speech-dispatcher-cicero (= 0.12.1-2belin1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-cicero-dbgsym_0.12.1-2belin1_arm64.deb
+Size: 38140
+SHA256: cb74560201084dd872425ce28d1b40409323f20785a0c4ec9551681b5fc3655e
+SHA1: f4c87f077b218a46a9c5b6b4be0b70be532f19a9
+MD5sum: 01dfb6046820b865ddfca5716a25fee1
+Description: debug symbols for speech-dispatcher-cicero
+Build-Ids: 62a0b131fe44f11af8f70d3c5da5b5974314134b
+
+Package: speech-dispatcher-dbgsym
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 367
+Depends: speech-dispatcher (= 0.12.1-2belin1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-dbgsym_0.12.1-2belin1_arm64.deb
+Size: 282000
+SHA256: d59b5992d750c95534fad400bedfaef74dd4512e510be32ee386708cfda11aef
+SHA1: a9dd64247610938224e0304fc0471d04b10e903c
+MD5sum: a75411be2f52e2d5444b54d766d43518
+Description: debug symbols for speech-dispatcher
+Build-Ids: 006c23872ba6f42ed8cd863c2f06f0ad5d7a74b2 10155eb95c3554db6412449f7c2ffe16cdd330b3 1f5923e673b83eb51341f443e05e5209d8cc7120 49d841ef74d0532ded30a55ac0305c15397df1e3 7b67a96f333553ad09fb3f5eb5204526e007c465
+
 Package: speech-dispatcher-doc-cs
 Source: speech-dispatcher
 Version: 0.12.1-2belin1
@@ -227,4 +810,242 @@ Description: Speech Dispatcher documentation in Czech
  having to yet again reinvent the wheel.
  .
  This package contains Czech documentation of Speech Dispatcher.
+
+Package: speech-dispatcher-espeak
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 87
+Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libespeak-ng1 (>= 1.52.0+dfsg), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.1), speech-dispatcher (= 0.12.1-2belin1)
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: sound
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-espeak_0.12.1-2belin1_arm64.deb
+Size: 25572
+SHA256: 1c436244d54fd81730f6a14149ec172d1c407775907267fa0b5f4281981ab9fe
+SHA1: 6d2f80ac033861d84e9bbae92b720e0fafb4500c
+MD5sum: 6920592117819b04f8c577363df0dea7
+Description: Speech Dispatcher: Espeak output module
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains the output module for the espeak speech synthesizer.
+
+Package: speech-dispatcher-espeak-dbgsym
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 63
+Depends: speech-dispatcher-espeak (= 0.12.1-2belin1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-espeak-dbgsym_0.12.1-2belin1_arm64.deb
+Size: 42616
+SHA256: d2dab6b7ebd7a44d46d7bc2cee1a756bc902a92938768662408ce0d66247250e
+SHA1: 0c3b46d60c1e79f32dd9ccda8a2311004be13ae2
+MD5sum: b5a447f8a14fe6c945f680e9815cb3fd
+Description: debug symbols for speech-dispatcher-espeak
+Build-Ids: 2359b92412e244a03208512e5f7543eaae47bed8
+
+Package: speech-dispatcher-espeak-ng
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 88
+Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libespeak-ng1 (>= 1.52.0+dfsg), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.1), speech-dispatcher (= 0.12.1-2belin1)
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: sound
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-espeak-ng_0.12.1-2belin1_arm64.deb
+Size: 26532
+SHA256: e86886ffe8e7880a4f6ee9e5b9aa99d3ac26938dab9798dc7e8e35cef360366c
+SHA1: 80632a94c318b54dbc9c9846401d96d7272d2db6
+MD5sum: 5c1b673721fdfbc688e0be980234810a
+Description: Speech Dispatcher: Espeak-ng output module
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains the output module for the espeak-ng speech synthesizer.
+
+Package: speech-dispatcher-espeak-ng-dbgsym
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 66
+Depends: speech-dispatcher-espeak-ng (= 0.12.1-2belin1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-espeak-ng-dbgsym_0.12.1-2belin1_arm64.deb
+Size: 45208
+SHA256: 36a63ac3a108666fc51a1de3d5f22b3c920a553e8658dc9c14d58fdca4f1056e
+SHA1: 84ebe2cb11ca11142f406e2869216113625ddb7b
+MD5sum: c1286d7d370e09f8eb24555aaad6ee00
+Description: debug symbols for speech-dispatcher-espeak-ng
+Build-Ids: 3edf0dff6d02855fc5121480701a814c8db9eb14
+
+Package: speech-dispatcher-festival
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 89
+Depends: festival, festival-freebsoft-utils, speech-dispatcher (= 0.12.1-2belin1), libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.1)
+Recommends: sound-icons
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: sound
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-festival_0.12.1-2belin1_arm64.deb
+Size: 33240
+SHA256: 0f748134aa47d685aba8e36fd247072a222fc0672ceda1c1d87ed499fe60b71e
+SHA1: 563e05df22bd3575cc33a344df91dc2d6206ad1d
+MD5sum: b9af22283c938ff2bb7d92fa5217a877
+Description: Festival support for Speech Dispatcher
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains dependencies on packages necessary for running Speech
+ Dispatcher with Festival.
+
+Package: speech-dispatcher-festival-dbgsym
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 82
+Depends: speech-dispatcher-festival (= 0.12.1-2belin1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-festival-dbgsym_0.12.1-2belin1_arm64.deb
+Size: 59776
+SHA256: a215d8b2e12a0043600f2c8ee6c686620b2885ab806186e31d412d7de7c25de9
+SHA1: c8b71a992b5c7c520dfb93d38a24a8a880435981
+MD5sum: 8f9845bd1ac4ed04b56277a0c13d257e
+Description: debug symbols for speech-dispatcher-festival
+Build-Ids: 3bc54dc4693671ecc58cf6ac6e40bfbb26dfdc83
+
+Package: speech-dispatcher-flite
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 87
+Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libflite1 (>= 1.4-release-9~), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.1), speech-dispatcher (= 0.12.1-2belin1)
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: sound
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-flite_0.12.1-2belin1_arm64.deb
+Size: 22572
+SHA256: c99f813bb9047b9b7da891a53db7469ef8f5e3dd4b601b2c2ac526593cda7ebf
+SHA1: f99ac702692c67717a0d6a8313d22f2f77473239
+MD5sum: 502a54b0afab3de1d35eaabd3281931a
+Description: Speech Dispatcher: Flite output module
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains the output module for the flite speech synthesizer.
+
+Package: speech-dispatcher-flite-dbgsym
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 53
+Depends: speech-dispatcher-flite (= 0.12.1-2belin1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-flite-dbgsym_0.12.1-2belin1_arm64.deb
+Size: 33668
+SHA256: a1cfb9c7795bca91d8852910dc8b00332934512c7a2d29b39e8b777cd5ea1fd4
+SHA1: 97697c185c706d99258eb5e5fc2c6687a66d35f4
+MD5sum: c5b9313b91a9d0775f798ef45d09bd59
+Description: debug symbols for speech-dispatcher-flite
+Build-Ids: 1a854da003725fd08635fbb25de197236c39b5d1
+
+Package: speech-dispatcher-openjtalk
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 87
+Depends: libc6 (>= 2.34), libdotconf0 (>= 1.0.13), libglib2.0-0 (>= 2.36), libltdl7 (>= 2.4.7), libspeechd-module0 (>= 0.12.1), open-jtalk, speech-dispatcher (= 0.12.1-2belin1)
+Recommends: open-jtalk-mecab-naist-jdic, hts-voice-nitech-jp-atr503-m001
+Multi-Arch: foreign
+Homepage: http://devel.freebsoft.org/speechd
+Priority: optional
+Section: sound
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-openjtalk_0.12.1-2belin1_arm64.deb
+Size: 22644
+SHA256: 71d18d5f66c41f5183b5637cb1ed3253752ddcdc47f58d23abb46084943317ac
+SHA1: 5e1c1c0feef1d6d2c83677a77e4883fff455eb04
+MD5sum: fa7335b9aa1c0083d39f2d6dc32c80a6
+Description: Speech Dispatcher: Espeak-ng output module
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains the output module for the openjtalk speech synthesizer.
+
+Package: speech-dispatcher-openjtalk-dbgsym
+Source: speech-dispatcher
+Version: 0.12.1-2belin1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Installed-Size: 54
+Depends: speech-dispatcher-openjtalk (= 0.12.1-2belin1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/speech-dispatcher/speech-dispatcher-openjtalk-dbgsym_0.12.1-2belin1_arm64.deb
+Size: 34356
+SHA256: 1125d823bc28cd1960d648a7ce190a3af9af76350c6b708843d22b045d64c344
+SHA1: ec7e390e227aa17ece6742c563a74146647912ed
+MD5sum: 408ba7a4c97a0cafd43608feafdc0f19
+Description: debug symbols for speech-dispatcher-openjtalk
+Build-Ids: b52c0464f198c2b73fbcbab6fa47f4abf40dd1f8
 

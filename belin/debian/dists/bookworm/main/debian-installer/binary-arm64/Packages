@@ -1,0 +1,42 @@
+Package: espeak-data-udeb
+Source: espeak
+Version: 1.48.15+dfsg-5
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 2338
+Priority: optional
+Section: debian-installer
+Filename: pool/main/e/espeak/espeak-data-udeb_1.48.15+dfsg-5_arm64.udeb
+Size: 1000720
+SHA256: 68ffe2829a13c1a6981fc65a45a3ebabccc81421fddb8ad98fc631f825757b44
+SHA1: f158ef0fd8575e7b5495188fcde54fef3a67223f
+MD5sum: 2b041f039711a73e2b78a861d80b4cb9
+Description: Multi-lingual software speech synthesizer: data for d-i
+ eSpeak is a software speech synthesizer for English, and some other
+ languages.
+ .
+ This package contains necessary synthesizer data files needed
+ for the espeak program, and the shared library, packed for the Debian
+ Installer.
+
+Package: espeak-ng-data-udeb
+Source: espeak-ng
+Version: 1.52.0+dfsg-6~belin1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 24007
+Priority: optional
+Section: debian-installer
+Filename: pool/main/e/espeak-ng/espeak-ng-data-udeb_1.52.0+dfsg-6~belin1_arm64.udeb
+Size: 8635452
+SHA256: 841fa4a52cd13471b9d4e8f5164449e4e77217b1a8287f761be71a1a20d93ddb
+SHA1: a9a46af4e13cbd859f01e29c98bb7bb3a9e36c92
+MD5sum: f0ffb4b84230e7efd522fa62a3c07268
+Description: Multi-lingual software speech synthesizer: data for d-i
+ eSpeak NG is a software speech synthesizer for English, and some other
+ languages.
+ .
+ This package contains necessary synthesizer data files needed
+ for the espeak-ng program, and the shared library, packed for the Debian
+ Installer.
+
