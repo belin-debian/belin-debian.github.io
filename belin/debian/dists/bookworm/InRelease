@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: stable
 Codename: bookworm
 Version: 8.0
-Date: Wed, 24 Sep 2025 15:24:36 UTC
+Date: Thu, 25 Sep 2025 10:39:47 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (stable repository)
@@ -26,13 +26,13 @@ MD5Sum:
  2335f8e0e56a143713bbe2967f817f50 191 main/binary-armhf/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-armhf/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-armhf/Packages.gz
- a186777e77f9b24c694e0c96c9c49b2a 59451 main/binary-arm64/Packages
- 06cb739b8866b14e22c9ff9c3101c5ca 12868 main/binary-arm64/Packages.gz
+ c2796f6198ab41ef797b81f25274f375 61141 main/binary-arm64/Packages
+ 55151fd53ee30a396a09ad031a5516d1 13565 main/binary-arm64/Packages.gz
  b611c311805ab9fc5cd3c2271a7dd163 191 main/binary-arm64/Release
  2bafa06e84224dc406bc3104d20a56bb 5681 main/debian-installer/binary-arm64/Packages
  c15c252f76b2c09760617ebd49164496 1777 main/debian-installer/binary-arm64/Packages.gz
- 24057079e97446b2aef4fd6191f8a37e 17180 main/source/Sources
- bbf622f2db8f02807f17bfbef7cb3a49 5259 main/source/Sources.gz
+ e701ac43e4415ad35c199f0b3996f8de 17989 main/source/Sources
+ d078d8eaeb1bf4ddf2e3d87fbd31314b 5547 main/source/Sources.gz
  598a413cc8bf719e36f23851d7f239ea 192 main/source/Release
  37e7ba1a2f2c8f79e5fbdb86aacd2b92 2229 contrib/binary-i386/Packages
  6cd04acb7492880e47b14c522252c387 858 contrib/binary-i386/Packages.gz
@@ -119,13 +119,13 @@ SHA1:
  7b3696047e1b2686fa525de630889559f413c8e4 191 main/binary-armhf/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-armhf/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-armhf/Packages.gz
- 97b075cfbc9d4028d116cbbed2d791ddb3a126c2 59451 main/binary-arm64/Packages
- 7e7264217ad4b80d98452d4ce1a6d634818bf264 12868 main/binary-arm64/Packages.gz
+ 95237c92b65fc6fef4ed29f9ccb438b4af363544 61141 main/binary-arm64/Packages
+ 5afd8371ded4b5914f59a07b4c9291818e78161b 13565 main/binary-arm64/Packages.gz
  8df18dfe122a02b7244ba9aa2badf5d48524d2ae 191 main/binary-arm64/Release
  f0c79e812a149cccd1339cf6f84c0ab47d10352a 5681 main/debian-installer/binary-arm64/Packages
  1ff9c282dff4357f326534a9f48aae7f53abc80d 1777 main/debian-installer/binary-arm64/Packages.gz
- dfadc63ea913fae005240134e6e6bd3c1f331e37 17180 main/source/Sources
- d662e5b095902e4e92a34a90d730fde6cc2b7944 5259 main/source/Sources.gz
+ 1ef377f9761bb0915ef669a7faf11f92e4f138b3 17989 main/source/Sources
+ b183b2792ac000ca5dab3ed83466c4b0e44b0350 5547 main/source/Sources.gz
  8c17fec3e233d993a668ed4695b95a0a894389fc 192 main/source/Release
  42bd48f000a42e5b76bf1b0661ff6af471e6a414 2229 contrib/binary-i386/Packages
  b0b04bc974841165c031394e562a53f0f8242393 858 contrib/binary-i386/Packages.gz
@@ -212,13 +212,13 @@ SHA256:
  f7ad382edb9cb2c0371be062c58c4cd856f0e9b00dea905121bd7c3a5681dcee 191 main/binary-armhf/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-armhf/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-armhf/Packages.gz
- 5a809901c75acd1932d70a7bc9c73d035f5c4c4369bb2df3cd0ae4c90274b127 59451 main/binary-arm64/Packages
- c2cf44146dc844ffabd784d95bee28e0cdc19c54ba17e327ce4548103bbe0534 12868 main/binary-arm64/Packages.gz
+ cd094d6a56fc3fb09a1b66202c7e9feadfd7c860b03c52996254b12470694818 61141 main/binary-arm64/Packages
+ 15e6391263c10af54e216bc2c04af24fb50e080aead7d821815eca01446a2954 13565 main/binary-arm64/Packages.gz
  970cc490b84987a3fb5076b5c6cd15f272c5d5afecc3da42935f1e6ec32a3120 191 main/binary-arm64/Release
  3443e5b3e5d9ce1b1dfb25d663ab7ec34aafdbf90d7e9c1ab49eb693a798f50d 5681 main/debian-installer/binary-arm64/Packages
  2a0eab1ee3e698bbfd162c017457466268ee1e279af7d469887b33e1687b1f3d 1777 main/debian-installer/binary-arm64/Packages.gz
- c2342c067e0943d36e21f39436e0333e72908f7e94dcc14949058f538388aafd 17180 main/source/Sources
- 7c494e7ca7e74d086b53703a455463ae96db9e6022d38196fd8eaa26ff3de1b5 5259 main/source/Sources.gz
+ 3753519f1eb00fb0db6e21a8627fe5ab786da974b8ef4852737c68c9407eca29 17989 main/source/Sources
+ ee0cb35ce7f8a4a4d2e78705d5f7a08c8fe2646bb013623127e47a6e620d1c11 5547 main/source/Sources.gz
  ccf9377cd8b81ab9198757e963a494af9bc9e58d9cf5af3979b57f5b034a60c9 192 main/source/Release
  d3a49e4f2fdd012ee70e64c8253ff1ccb2476c96482fea86adcf07e1f938f659 2229 contrib/binary-i386/Packages
  be57db321116a12cab9e814b4b06d647d2fbe502faf9be50e5b997fd0e8909a1 858 contrib/binary-i386/Packages.gz
@@ -291,17 +291,17 @@ SHA256:
  97498238ffc94f76320b964bdb55d8ad838a769497f8b662a0ecdd8b9a377d66 205 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjUDTkACgkQFg1XP6XL
-YMmeSQ/7BssYNejZ11Axjy/UwygO8f5IDQpUrLt/orMvC7QsyAroSvKgQGlp47Lb
-xoXHz/cWmT9b3+DuBb7A6/wzWTwSF7oTi/fUGNWrZHZ4F7b9IX4hFi/djurBAPuA
-zwg8HDT2FbSzX8Q+MGGPntfW8cKtpW5CDST/7CMtv84art1bAVxE3bgYY0d7ToWC
-k+NWLX2xR37y/eei8T1/Cbniei59MwFI0cgU0U9Qag3wBD84026sS/1c4GCak7gF
-PHDgEdsI5ZlBC+hKNu+QYX8PfY1dIfmJC71KYQ4QnJ/5JpCkPAAVy3WQVdwUUM3s
-RKRlKVQYIiczvmyEzBAYvyEroioX5uMEZeYYxsm/weObRa581KqqNCfO2AhnFqDL
-1FohAjAZB+ou706aaili0NwFrFtDGGFGhYPIZ4a3AwKNP4sa3Ffbf/WoVwxLrcc4
-rsaKTKHso6uUrrp6w+RUq1VbzTEMt7jHVmRdYtoPQ+gSmugikVwBHki54ujtWQO0
-HqETVXJnkj44TUVfvObdT/gsGrO3DeEKyqehMChgIQi3muUvsRhO/+TGfy7/hL7O
-qSuLS0f449IKXuBL2cnCCdkDtsyXowsF8SOe6qfVv9x/MnjLOrKfwjnpo16ECDdB
-k5mWVqtkRlE+q4EZJ1j9LMIopuG2bUEKSmECVu3HtyfY5niPV/k=
-=LnNA
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjVG/4ACgkQFg1XP6XL
+YMkS+RAAtShDpHttirTxF40pzsNktbeXnqEV6YVGhtXHM9ifUBdFRb4Hh59wcsT/
+lbrZw/vaTaX64mwy9M49SEue228BVGDriY8j5XmulaHlQkbKD7tnSRe63oEeWGkG
+V+d+GK+1AK9mOM3LB/QjjalnltCZ/5x/joMJzng5dViRLT/JkNXMv/I2hu+KE/uC
+A7KjIvcS49wtcugBxktZUohrlZu7yIDxHjKgAwecqncNxqQJ6cEiUsUJjcO3+Hnp
+Fj5aB3zvNLqOeNzu+0oPbMOxRb/j45c2wwwVKaXCF4Z5wfy/WTVFU0hsY0CUZypx
+qb5FVoH72/BragBYi15g1LujZA9xJ/aoH7iqnj5w7XZKz2EuV3pEmlAV/Lw/gxf8
+IO+ruOOVrEfukQF3JdUf+4nU2JWQbKNm5DIf1uHRK4bGuvXEpEkBud3pXsD6TLtj
+A27S9hCYPoAH9VkpcXoCWCPGs41GcqaIeSBERWSu5VCkhivvFeiy5rxVlwDQHtLQ
+NMfaFlAsFiq2Rn4Y8RTfVMRtK9hTmFGx+bug6RO/3rhqHNzO3iof6I+bpY1jZnV8
+1pCBXcS3Vqn2dV6pTB2ZwD5T9DL5WoR3ZW43WwXksvElRkCsCJUUd6YwHzyKgINs
+hyXnT61ONcJtc+bwGBT9ZWrhAV0Ipcgs4exx51yoS3nNGajS5tA=
+=uc7y
 -----END PGP SIGNATURE-----
