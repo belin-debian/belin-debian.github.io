@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: sid
 Codename: belin-devel
 Version: 8.5
-Date: Wed, 24 Sep 2025 15:06:28 UTC
+Date: Thu, 25 Sep 2025 11:08:41 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (development repository)
@@ -267,17 +267,17 @@ SHA256:
  27d2fa4b889b30874b214137cb157aee82eee18974f0f2f28b602e6ef149293d 207 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjUCPQACgkQFg1XP6XL
-YMnfog//Ubjrtlt1Anzp8lZPrg1BifxXFx5T3mq2b6Whcpie8SiRQfMC3J4fvA/K
-mAO/jzgiUKgUxIUr7jIiKWZPVvWI2PDNctue34TZzBg9OgrC31DWY/Z9ZVrPPdqP
-B4xtNCw5Zg6ktuCf7qMAseVyRp3i8r+YzHVYkZN5Gonkh6yudPtzx7UfB91afEua
-HShjOulD/KRLulzJqGs/WLUZ8F1v6hICFXPO8sULim4A0ENjxpww7hWNAJ8XBjb7
-cv5TOsmSOucycxaZw17Rn3R2JJffcbLWshexY9MReO/nq+uMvwNuI9IZ2uB4Pr9/
-zJkIXRgOMv3zi72mRcgD4LMPHeE9Qb8yeBRZU+Ph0zC71uFlqO1fHDh3dqsMpH/H
-oLR6szFc6S33gXNbkCI33cds3VAAKQV9bq/17L3IFeMpnVydc7kGslZ26A8VojMk
-dXB1nTWRxqs8pjyZhrguM6/ffuyw143UnO+ZVOPs/s7LmSRD3pfDMLMCBFk3AcnR
-7RBqzknzIlL0wevov06IqEfzQruMokjVfu0NR0V0HNuAIDBXRP4yK6ojVd1PgvxY
-HTtvFjPFOvYogTJwuvruzoB9zDwHVY0zgsHte5PEk6/5Ot6HY34BKw2DpI4ECNhB
-p57VNpDCs9sW6f29rcIn4M+vVbYeQgHVxsdtoaPQhG7t8lVKOjw=
-=PYkJ
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjVIroACgkQFg1XP6XL
+YMnbjA/+KjyFMnVD/Qe07NJRUxlA9ygGrK1zICjwgnoI32pPid82qNQMv3aezx0e
+QYbRLXNnxxMvNxfIsA/NIxfoF5BiLvI8yoXhOzo+cJLq55ycF9xxEehZUgtdEXcA
+oIfjysVVk7i4Jhs2Ex4y3LUy2PAbiEljGOLHo56b7SHzIVpe1w6a27LaD3LQ+2RE
+oWDfJx04BT81korPKjo+YdwzUxr130BjySaugoNPc5mq+J+xHgX8Lnwef+O48ELM
+5mhQsklggaOarhQYTDvFfm2vkww2SuUr+ZXgWuw+rH8nptpCJzbzrF78FPc2/BYJ
+5virMUMsKO1vLe6xrpB74IXC1SGP4q3DgFF1F9gq+3Oe38eV9IVIjrHukLwkRQNl
+VNK2iPL0Nw/pV28NoIvy0T8oDj794NRC6LHtnYQeWMja/1oI3eYB3RcyJjwnHPle
+DTIgXRAVSGy2rHX9eTG6zhYH/2kWG+JEwP+CSrz+fHg0UgzjFW2Tw4fMIiV6fkd4
+NhcKbR4dD/YDj9BkTfSplXMUIgzn9mJ6sI+QaaTeyz55ZJLtJHQAVnuDgVDOGUb5
+A8f0whjgaDAOhYIUhXKFcswVZfofzMd2/NHnI0srUJ9H1YjT+0j5bYQxhKngcG4r
+HgPgI+KxM6c1EmAS1lqKfTpGWTM4tNuWSVl6UNyUSHBegP2nPPI=
+=ZMUB
 -----END PGP SIGNATURE-----

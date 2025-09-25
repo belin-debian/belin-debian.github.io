@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: bookworm-updates
 Codename: bookworm-updates
 Version: 8.0
-Date: Wed, 24 Sep 2025 15:06:27 UTC
+Date: Thu, 25 Sep 2025 11:08:40 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (official updates packages repository)
@@ -291,17 +291,17 @@ SHA256:
  d72d7816d1485ec50c06b33dba5d29b3dea6a3ff6c08fa4b0317fb9e69c0dc47 234 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjUCPMACgkQFg1XP6XL
-YMnddA//ZeGjReRE6kDyt3u9PQ5mNASwIO+tNkr0cwUz1Vl1j5mzSrGNsTZntwZc
-ZWE13W7Vtf6risGRAcPZhyzTWAL456hEvovsIc4Tsn+nsjU7PKFZ4k/lkwaJMhuS
-hMLJondJZ6X1vj5hmH0GrE3MT9JQX4jGWfvhufmx+MnmCY4fti4VE33Zr79XXC4n
-tKf3f5phVVVo4k5p0dcW7OFTh6HM1W6+YlV04I2NvjOkb/DcraRibmiphpX5fuKv
-wVhU3iF06DbQO698XsVBZPPEVciQ3qwyo0M3ilUgR6HMOS4Cnsvw5JMZNKFnt9pl
-CR6WOlbmH9DG3oBIT461HJtPc7MaWijP/tXg0EfSNRbTMjsolPjwmrZVhiFrpCM7
-71fhIilSvlOJbJJtDkThLFKV8ZVOlaO0K/p4m7e62ah8+1ZBRaI/XHJJXPCCvxz2
-os7joljdfF3ZfpKQZehf+WKuL/IXHpG28Id1eAYM/PqUCJPoPPNAqltIL+D3fhEP
-xdRJ0nE9cN7tQE6LAilUVatkmuGTDFxr13DVTcpYen52pXzVpopPzoDY+kgvhRcT
-9B3XHa0/RHQFoeik2PduS2s36t66FF2ZaIuuD6Hsa4/hF5ITggnt6qLa023by91w
-YwgQmgM1ckRszr8sJFxBRjEj0atV1kXJ6imsnXlxVOPS3sRiyAE=
-=yLEh
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjVIrgACgkQFg1XP6XL
+YMlEChAAicQP8aVtbiCworOdE11bq/ZN+DGNivJfaFtUjNhrIfAiSH3NT1CMXxsI
+rOIU1PMJ/fh9SdEJs8qppRSLDAoFTxIIJ3GeEODUqeYkO5Przkz+dFHMbmUGtcUC
+SArUXh6VzaX/WLfJBjlThP3kv6DOCb/0TqR9Mn7j5Z1dptandsiRWt23rn6Lp98J
+ZP/p77rnlFjsT+7mCkneJ4QPMS3qy+qW+aOGUw+HtB4yi3mxguzq34fxtvRTMEge
+0HaAQqieLsUx1ugq552Naa4cSMzPVCh5k1eTgHvkEumyF8ak7xl8kfvZeK0Vc3Jg
+V2CHPFPBlFNY1/FNELtRmh9a9UPj7qc4HpjvrbNKbDNMjeA9u5mZplRn0j4ckiCu
+JTVlDx22edxzG22oKMEsrr8/w8plRM4wUQlr38OsXvMRjkMWqaNW5hQZdtXMqxAb
+IsPMFHwEttcnOB9j1bUTjLw3w/Gy43XLsHAI8gCf+eZm0jUXIEJPjmRDZBRv+fXP
+r8tp6P/zud4tj6kFD5clDN25kmPTcH1pp9NuYVaqUI2n8X4sP5LuG+Fm4Vl9IV1q
+SPeHk6wTFBbTH6s2buK556aYV37RrJEzbNZwl31rSJcl4awDO/KTphwOB3BoKHBV
+mEJzfLtimU/T6BYjHMf28QfVPRLiyAP2V1XZKaZS3jaCm/pbyYM=
+=+f0c
 -----END PGP SIGNATURE-----

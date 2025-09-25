@@ -3,7 +3,7 @@ Label: BeLin package repository
 Suite: bookworm-security
 Codename: bookworm-security
 Version: 8.0
-Date: Wed, 24 Sep 2025 15:06:27 UTC
+Date: Thu, 25 Sep 2025 11:08:40 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (security packages repository)

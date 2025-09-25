@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: bookworm-backports
 Codename: bookworm-backports
 Version: 8.0
-Date: Wed, 24 Sep 2025 15:06:27 UTC
+Date: Thu, 25 Sep 2025 11:08:39 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (backported packages repository)
@@ -291,17 +291,17 @@ SHA256:
  4683eb5c359b35b6eb0e0fbe4d8f909a71a55ee13670f21fdd0ee39ef16a524b 230 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjUCPMACgkQFg1XP6XL
-YMmDWg//dUTWcpQEW+NeV52Qz+n/VsJFUbGKJtykeBaXhmjUIO5gzupu3s4kWvSM
-uhXEm2VlAicJ725O3ork4XKChVrDvWGVq0TFG+SWlAov8Ef0xjVxbi7Bwpfa7FTs
-rniGMrpKChCeZlB4AbAS0MXAyGMsQp4wa1fHNdftfWTOo36rU98xIN8xGafGNl/P
-gJ/G8YqkrvQ4+cvFKEbbil0Ns1O4oxRuQMGJ1mVq64KssYW7KGzbtvZsJkWK1Cmh
-XaDJFc5EbaBZPI1ZPm1rt62mH+kGlbiGaHmoQSDNyCIRqkZ3r254N0wrJAqgYLVa
-HrGXPNxbuxuy/tQYCs1zT2X/Lnme0mmlo66Z01IvZ4JtCqwQ+s+/JqpO/oiejjjx
-aqGQBkvxif3xoyR4dV1OEmR32lB9/KiruQhd2g17cdlOSCXBya/GzrB0UCDC+nna
-dI+EoUhE4St+0vrT8uAtLlZUj4bWyC6WKOWUFEZqRV+gmyQyJFBDbbwF1jCwqJx7
-QeGc+JTDMeBMoFK75Pfkjqal75jWoTkcmf0R2MFKFaqkl4sXfHmamhOaUQMMePl/
-LMDmheLZI44Ls37SqTj81WZRB0O91q3aFZ4H8UIpl0XaQ7cZbfdP8pZoW0QrVgsH
-JZf+HBmQjKxkZr2VvSuMPC2ifx6Yl/Rpa7k1ayqVCyBIu/I9OEE=
-=NXal
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjVIrgACgkQFg1XP6XL
+YMmBaA/+Nsle0FsCNLY6mTZzitmDY2tHA3n2CYPyuJ9Sm7DC//EF+XM1WhqecLA3
+tpV0DcAWSoc7CxG0tugE7YxbrqTPAKAL8re5FnutY1Q5l/TKLB0hr/SZPPIw1ipF
+bqcZE1w0Q3V/U9s/HBSYHWIPSiMroOTCdSb7/MdilQtfevx0hBxzzUeVWlIwAHIA
+D8JbAYFLM9ilHtz+r7wvWhVGCcmDjX/fPhFwB+eP7uLYr8pId63wAakcTz1E+CjU
+xTmCrH8u/fm0h9n0I3yOuSTctyZC+UjaeHUKMd+eME+NoU9D/zHYNUQ4wPP6jhic
+q1oLmOYwoZypaJrxRMoPe+8gW3CAXOd0JTX60mzyz/R5fbMhJxvXp/g8W7T8U3tO
+o9UTCDZ5ayh/7e8bJZv1FsxKsQuRw880BsY9+pYX7Lt1hhuFAPbAGfpcMaHQ6CnU
+ts9a1iL18H3ocHWMWUMYR1soKKOMD8EA1oqDMfkmqxDc3+I/UbHJR/Vw4Es9VB1S
+yGjvpH57uqQlxbExbEXsJcSuH2/9Zudv30xQ4hh5O0s3RbIAPrvkI6eQ1hsc+aKY
+FSdh7htpol1EZbDL7BKRH8unOumgSzBCqJXRtUtlWwRKnOU0b1kKOWWm4t/LwsXB
+VIZiXhD9hud+VGpaAfhWJTvvQPj5FujDVv0jH7uqK+myc8ZktO4=
+=Kx3j
 -----END PGP SIGNATURE-----

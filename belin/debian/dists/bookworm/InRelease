@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: stable
 Codename: bookworm
 Version: 8.0
-Date: Thu, 25 Sep 2025 10:39:47 UTC
+Date: Thu, 25 Sep 2025 11:08:34 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (stable repository)
@@ -291,17 +291,17 @@ SHA256:
  97498238ffc94f76320b964bdb55d8ad838a769497f8b662a0ecdd8b9a377d66 205 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjVG/4ACgkQFg1XP6XL
-YMkS+RAAtShDpHttirTxF40pzsNktbeXnqEV6YVGhtXHM9ifUBdFRb4Hh59wcsT/
-lbrZw/vaTaX64mwy9M49SEue228BVGDriY8j5XmulaHlQkbKD7tnSRe63oEeWGkG
-V+d+GK+1AK9mOM3LB/QjjalnltCZ/5x/joMJzng5dViRLT/JkNXMv/I2hu+KE/uC
-A7KjIvcS49wtcugBxktZUohrlZu7yIDxHjKgAwecqncNxqQJ6cEiUsUJjcO3+Hnp
-Fj5aB3zvNLqOeNzu+0oPbMOxRb/j45c2wwwVKaXCF4Z5wfy/WTVFU0hsY0CUZypx
-qb5FVoH72/BragBYi15g1LujZA9xJ/aoH7iqnj5w7XZKz2EuV3pEmlAV/Lw/gxf8
-IO+ruOOVrEfukQF3JdUf+4nU2JWQbKNm5DIf1uHRK4bGuvXEpEkBud3pXsD6TLtj
-A27S9hCYPoAH9VkpcXoCWCPGs41GcqaIeSBERWSu5VCkhivvFeiy5rxVlwDQHtLQ
-NMfaFlAsFiq2Rn4Y8RTfVMRtK9hTmFGx+bug6RO/3rhqHNzO3iof6I+bpY1jZnV8
-1pCBXcS3Vqn2dV6pTB2ZwD5T9DL5WoR3ZW43WwXksvElRkCsCJUUd6YwHzyKgINs
-hyXnT61ONcJtc+bwGBT9ZWrhAV0Ipcgs4exx51yoS3nNGajS5tA=
-=uc7y
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjVIrcACgkQFg1XP6XL
+YMnl/BAAj4GThBFYDon0NtGZMBhPnIvEAPVCTi9+yTT/ILZ5FNPKFDbLoPh5qz8w
+pMXfAI0zsmFJan91MKYqU+/H963n1m6pyrz3OtTK7bnzWb8YK8EzEOmdPHtM442A
+pXAGS9Of9Eopj9nqPp/2iTg6sHQmbQrT6pbZqnWpnXvc61qsJ6Jov1omTvaEAfIT
+Aqz2ngicLTJ6m9TWh3AlFcPVwndCRm8putxdoGYm/9c9TybWx6mjHHioJgw0dliQ
+Ry/fL9ykxiyTjGsHgihJUDLK7WsHSjxd4qSpJm6xZ3aqvle2FzCyh4XHRbx6k5l9
+HY9cYcTEdX2pWKlJ00ijAgf9000rv7Fx1B7Xpo1vXa2dHg6UBKr9NKwSpfidJsoa
+ZCk8hOPvpBLR4bDd1rF59dOEazJEb5rHW6rP+Gc2bsbYczDHsO/UVSXefPgO2lZN
+Vb0UH6Q3D7qWK8VM7ED+DMIM1v2WZBQW1GtJy2954E0Mogk81/eqpgcSkALvOyrl
+cYEOLGT0y5M5OvlaB0oDRPAyyHe7mkiqoHj6JdxkVyVoBiVwS/2rMJGLjPVXobM7
+MKnpZF2kP15ic25AX6GnwR/aPDSRL9tTQTne1Mt4HquiZlt57ypx0ziSzCt6Xkr0
+4hUKazUQ9XszhKjdhTbe3p/wOzDDifaEm66z5NFpNm1Lk/7bK68=
+=36o4
 -----END PGP SIGNATURE-----

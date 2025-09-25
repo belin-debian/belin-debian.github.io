@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: bookworm-security
 Codename: bookworm-security
 Version: 8.0
-Date: Wed, 24 Sep 2025 15:06:27 UTC
+Date: Thu, 25 Sep 2025 11:08:40 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (security packages repository)
@@ -291,17 +291,17 @@ SHA256:
  959e491024c725d068796b637b08689dcf5993d338d28dc4934108f69c9e1f7b 227 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjUCPMACgkQFg1XP6XL
-YMlP7g//ZxksquR/TaImeGbb0Tdc/FgYWAw6ZD6OIeffS/K3Lsx0lI4OAfo5YIOi
-BDycmQXDtWVL6GUKs0dQ9fTVG0hlLzXRtX4VKfrQqUN86OL5oaaDM7A2IytpOwzv
-aUAUAITwWpdEOV5dvEyRQJaK0gRVSZzDgEOfOqwK7IpkmhfPQVpv9zHcTpIURJ8f
-jozq9SIEjSNmhh1aqrYQfWtl8S+R0hlWEVBQHJfoJMvkCQa1JDJeZU6FBDiT4W6q
-V7yInWmQcWrLyIThUgTz+wZHWxmpANg0gi1FfPwfmbS1Iz46XAhTVosYdu+wTofS
-5d4td8b2IK/z07SnYIttvFk7aqByiLfwM4Ay8bTAYlHye8F86aA6cDRt2CgdlzwN
-YHt5PSL53878Uc618nFZ55Gb1ws2B5Tzx6J2AqOczJb+lm+rMFMmFRAhgRGQYUci
-pzG6cQDNgwb/CsTFCPIrhg51iiEMMWrmVEwLOP8+D0fhhrqNr+YynKSDLAOyfZhJ
-lWVwyvxpBA0uxQ9FOfOe0W5/X1kmfvD5ojikITe0UN5AbTJVXpc9rFd+fKRQwgOO
-Imfyf2Na2tpefx6st2f43za6C1MipUKLAfPoCK8miSEB6OabtEfje6+unfmONeUA
-g86Febag0Bm+01vQJ0K+bv6w4+2ww2H1afvK5lTNz1jQs1GNvDw=
-=sIrs
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjVIrkACgkQFg1XP6XL
+YMl2Kg/+ObuPM2rfd05y9UgPm20/hFnZyF0yzTs/pdnSyv5WvHDzTPDnr3+VqAqU
+7HlPeQKgSXeEe4EeQPgPBkknKANSwaGR9O108mLN38FXPbKabPLD4+ZWJl9B5SuD
+ZKkRvTwsLbcHV+9acz9FByavrkr/bvhLhneGdcpEHL1sbKzjegwms5KJT7+Izsp5
+9Nnv6EDJG0QCw5+OsyA5RnkdEwQjFCdvzgJh0qvc/b2+MDSwgkQCQHC7EQ8QDkbO
+awJM5pNqRNLMWHXpOe3whu1nlj1fsoNUYBtRidvO/sglhfmjgiRYyeJ5jQvdrh86
+uSIcAk3rRIU/Nik615o/TpfCw1RLRCT0lEtMFAswHMISGgxtt+8A37azm1cCIFTn
+JIyMGMvoJED3MgqXNQ646MQH5UGkqBvtqOVfgXyLk4vdDvdBMRlHzlLgRJ7uEMYr
+JW/UxAkTD8Lv4rRHyzjOgz0rYA1YUddnNvDO3CpquUHxV/5qzZ3QAmKfK/I3Tg1V
+6tAbkBblavkslNeP3pLZfINmfQaEKiKwGURJW9B45jHNFFtR3/mwi6vs6CyJD126
+pok2pYn7MAhKzTEwr/H2x0M3NJ//HnB9p+2YwmiwmoSnhGSUYUjsIPbVInfsI8L2
+Stt1vbBLM4C4Qu81G/NaI3BKq0tDEwPohnmwpbxMyQ27VnYZDT8=
+=s70T
 -----END PGP SIGNATURE-----
