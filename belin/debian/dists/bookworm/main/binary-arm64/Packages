@@ -790,6 +790,31 @@ MD5sum: 1ec7a2b3ecfdf9bda0016936f3ba6ff4
 Description: debug symbols for libespeak1
 Build-Ids: 678e352d90c99f1b0b5e0308502d934c2b49d6a9
 
+Package: liblouis-data
+Source: liblouis
+Version: 3.36.0-1
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 13373
+Multi-Arch: foreign
+Homepage: http://liblouis.org/
+Priority: optional
+Section: text
+Filename: pool/main/libl/liblouis/liblouis-data_3.36.0-1_all.deb
+Size: 2210888
+SHA256: 105a5283c04a027295e8786967a23eb9ae0392aa9641789ec54321a29b78d2ed
+SHA1: 6e7ecedb4c907c4358e4394b3e62eb93048999dd
+MD5sum: 8a699d3a3b8ba5c9cb2f35b6d945a12e
+Description: Braille translation library - data
+ Liblouis is a braille translator and back-translator.  It features support for
+ computer and literary braille, supports contracted and uncontracted translation
+ for many languages and has support for hyphenation.  Liblouis also supports
+ math braille (Nemeth and Marburg).  New languages can easily be added through
+ tables that support a rule- or dictionary based approach. Included are also
+ tools for testing and debugging tables.
+ .
+ This package contains runtime data.
+
 Package: libspeechd-dev
 Source: speech-dispatcher
 Version: 0.12.1-2belin1
@@ -1021,6 +1046,30 @@ SHA1: 7f65d2c2fb158ed188c0b4e7b0d7fbf6f3f4efae
 MD5sum: 130a7e77b0883c5f79c670ca3cead44a
 Description: debug symbols for ms-sys
 Build-Ids: 3dff900cba6f950a6a52cb0f64bab7f815225562
+
+Package: python3-louis
+Source: liblouis
+Version: 3.36.0-1
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 67
+Depends: python3:any, liblouis20 (>= 3.36.0-1)
+Multi-Arch: foreign
+Homepage: http://liblouis.org/
+Priority: optional
+Section: python
+Filename: pool/main/libl/liblouis/python3-louis_3.36.0-1_all.deb
+Size: 26828
+SHA256: dc5f0af51fa68b61481b421fd49aa343e25311a59eca3b53c7bd5cc86961596b
+SHA1: 92b6e25fcc092b7bb8280b87acfb6d8d76658fe9
+MD5sum: 4d9dea42b7e7b9e4f3eded456919284a
+Description: Python bindings for liblouis
+ Liblouis is a braille translator and back-translator.  It features support for
+ computer and literary braille, supports contracted and uncontracted translation
+ for many languages and has support for hyphenation.  Liblouis also supports
+ math braille (Nemeth and Marburg).
+ .
+ This package contains Python bindings.
 
 Package: python3-speechd
 Source: speech-dispatcher
