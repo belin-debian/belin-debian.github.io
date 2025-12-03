@@ -790,6 +790,50 @@ MD5sum: 1ec7a2b3ecfdf9bda0016936f3ba6ff4
 Description: debug symbols for libespeak1
 Build-Ids: 678e352d90c99f1b0b5e0308502d934c2b49d6a9
 
+Package: liblouis-bin
+Source: liblouis
+Version: 3.36.0-1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 576
+Depends: libc6 (>= 2.34), liblouis20 (>= 3.36.0), libyaml-0-2
+Multi-Arch: foreign
+Homepage: http://liblouis.org/
+Priority: optional
+Section: text
+Filename: pool/main/libl/liblouis/liblouis-bin_3.36.0-1_arm64.deb
+Size: 60624
+SHA256: cebabfedb898a8169c5c9939711aba1a35b1dbeff6aac175901e67f6da1aaad3
+SHA1: 1e18712d92d2356d6cb8ab9973249200f91c7d37
+MD5sum: 717add58f60a43e4606aeeb9f98bc554
+Description: Braille translation library - utilities
+ Liblouis is a braille translator and back-translator.  It features support for
+ computer and literary braille, supports contracted and uncontracted translation
+ for many languages and has support for hyphenation.  Liblouis also supports
+ math braille (Nemeth and Marburg).  New languages can easily be added through
+ tables that support a rule- or dictionary based approach. Included are also
+ tools for testing and debugging tables.
+ .
+ This package contains a few tools to test tables and translate text.
+
+Package: liblouis-bin-dbgsym
+Source: liblouis
+Version: 3.36.0-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 228
+Depends: liblouis-bin (= 3.36.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/libl/liblouis/liblouis-bin-dbgsym_3.36.0-1_arm64.deb
+Size: 143400
+SHA256: 233a69a2a9577f0ae16b93cc0d718bdb6c595ac0301997c836e63fa47bb9dd9d
+SHA1: f127fa8c1c839086012d52a87674fcf0c2293b86
+MD5sum: 4a41819ab38cce0fab2360a077860355
+Description: debug symbols for liblouis-bin
+Build-Ids: 0a23fff988b6f560d80aa1781487f235e9c3218f 0f4b5c66e9ae74b8cd9e9456ccabed4074a0e46b 1753bdb0680fafb7d96961f08ba6df1f03ca4e3a 372416152483ba988bec5ec3a4cf81410212a4a1 4694be82e7f3c3e1fa110e02e8dc6730c04f6214 5fd956fa6dd0253af7ec0a31ed29577643d348db 7d38f986526cff56edcdd6038a23454e69a27b87 d30ee06c98b174b8fdf1adc38a83b8015a7f4f7f
+
 Package: liblouis-data
 Source: liblouis
 Version: 3.36.0-1
@@ -814,6 +858,73 @@ Description: Braille translation library - data
  tools for testing and debugging tables.
  .
  This package contains runtime data.
+
+Package: liblouis-dev
+Source: liblouis
+Version: 3.36.0-1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 437
+Depends: liblouis20 (= 3.36.0-1)
+Multi-Arch: same
+Homepage: http://liblouis.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libl/liblouis/liblouis-dev_3.36.0-1_arm64.deb
+Size: 214100
+SHA256: 2fd93c3889ff2465f53d4b95944636884523866cd9860e93629daf55923a7b7e
+SHA1: 89513c91396cadeb16ed15e8a9a7eaddf0a7f244
+MD5sum: 3ca1ab3825a62e19ad92b0cbf258c328
+Description: Braille translation library - static libs and headers
+ Liblouis is a braille translator and back-translator.  It features support for
+ computer and literary braille, supports contracted and uncontracted translation
+ for many languages and has support for hyphenation.  Liblouis also supports
+ math braille (Nemeth and Marburg).
+ .
+ This package contains static libraries and development headers.
+
+Package: liblouis20
+Source: liblouis
+Version: 3.36.0-1
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 228
+Depends: libc6 (>= 2.33), liblouis-data (>= 3.36.0~)
+Multi-Arch: same
+Homepage: http://liblouis.org/
+Priority: optional
+Section: libs
+Filename: pool/main/libl/liblouis/liblouis20_3.36.0-1_arm64.deb
+Size: 95948
+SHA256: 1d6413ce1464598eae3b0bfff67551a126157d738db9c70c97e0b34e3599ce22
+SHA1: b9fd3d866366c56531d03035718e8bfc793800d4
+MD5sum: 83d819b12492438570e62a0546338ad3
+Description: Braille translation library - shared libs
+ Liblouis is a braille translator and back-translator.  It features support for
+ computer and literary braille, supports contracted and uncontracted translation
+ for many languages and has support for hyphenation.  Liblouis also supports
+ math braille (Nemeth and Marburg).
+ .
+ This package contains shared libraries.
+
+Package: liblouis20-dbgsym
+Source: liblouis
+Version: 3.36.0-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 263
+Depends: liblouis20 (= 3.36.0-1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libl/liblouis/liblouis20-dbgsym_3.36.0-1_arm64.deb
+Size: 244516
+SHA256: c2a3e45e5731e29a1efa59704af742bab6fd256a2b4208983421f75a616a4f40
+SHA1: 512987a1253b9647ce8e7895fbe3683aaf9b440e
+MD5sum: f1a7206f7efdfff6d56234a840a0c0ed
+Description: debug symbols for liblouis20
+Build-Ids: 9c3c216244bb6c96d7192610626adc185491ca6f
 
 Package: libspeechd-dev
 Source: speech-dispatcher
