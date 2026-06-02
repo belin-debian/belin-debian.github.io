@@ -792,20 +792,20 @@ Build-Ids: 678e352d90c99f1b0b5e0308502d934c2b49d6a9
 
 Package: liblouis-bin
 Source: liblouis
-Version: 3.37.0-1
+Version: 3.38.0-1
 Architecture: arm64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 576
-Depends: libc6 (>= 2.34), liblouis20 (>= 3.37.0), libyaml-0-2
+Depends: libc6 (>= 2.34), liblouis20 (>= 3.38.0), libyaml-0-2
 Multi-Arch: foreign
 Homepage: http://liblouis.org/
 Priority: optional
 Section: text
-Filename: pool/main/libl/liblouis/liblouis-bin_3.37.0-1_arm64.deb
-Size: 61180
-SHA256: 35eed0763da8d965902810325700f0df1c4015f33ed1359694a2d75f6b671ce4
-SHA1: 27246774b1c2a7387b1916d594ac9446bf5043d0
-MD5sum: 5a1d6918e9adbd5cd158d4d1f50656fb
+Filename: pool/main/libl/liblouis/liblouis-bin_3.38.0-1_arm64.deb
+Size: 61176
+SHA256: 2406656ed223b66f65604869054ac46127af56d3144094addc9b5396ee1535f5
+SHA1: 36625a2276c6b565b57f8fd95fca510896b6bee0
+MD5sum: b819976ff47683571428d0e99c85f8be
 Description: Braille translation library - utilities
  Liblouis is a braille translator and back-translator.  It features support for
  computer and literary braille, supports contracted and uncontracted translation
@@ -818,37 +818,37 @@ Description: Braille translation library - utilities
 
 Package: liblouis-bin-dbgsym
 Source: liblouis
-Version: 3.37.0-1
+Version: 3.38.0-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 229
-Depends: liblouis-bin (= 3.37.0-1)
+Depends: liblouis-bin (= 3.38.0-1)
 Priority: optional
 Section: debug
-Filename: pool/main/libl/liblouis/liblouis-bin-dbgsym_3.37.0-1_arm64.deb
-Size: 144528
-SHA256: a786a3197fd311c6fd020e91aac045c693908e838550ad605f701ed1f4746075
-SHA1: 4f79a3fcc382fa812421db063f41d6a5bf5ec3df
-MD5sum: 54bf271f5e201863ff26f357c35b8257
+Filename: pool/main/libl/liblouis/liblouis-bin-dbgsym_3.38.0-1_arm64.deb
+Size: 144556
+SHA256: 23c44a1f81660f8c8d623c2b33f4bb1ce1e0d7b1f7f427b6c95d4aff302b1f99
+SHA1: 7459b8b61ec9c91c30c7b5d5035bf000648f482b
+MD5sum: 3ff885f62fec7d6807fd3b1c6ee990a8
 Description: debug symbols for liblouis-bin
-Build-Ids: 1f8fbd9fbe62fb29ea4d2b7a810cefcf983ed02a 22346de4440de94fabd97571f9120426e49c0179 430520e0b5ac551f223db8be44acaf96fc125454 60ac706f7e221cf3fa004f3a27d80055a9f41af0 c40a9d618ba5c835d1deff49c84c736209badc8d d91830eb5b14b023581a611e619bb3f0d2c167af f0284a200facd345ab57f4a554fe2604118a4a5f fb7efdb16ebb8a2d180e23f8c12bb128872e0d8e
+Build-Ids: 3b99411e9dcb9a7e35bb6a15902a1575c775125a 49298deadc9aa5414e1e68abd256270f19d04d49 52a6ed5246f037239ad8d837d66358e0bb2bd7ba 5ec7cb8ddd97df803ed5a8f30ca2e0960239d611 adf196b717ae15f9e35bceb16de8f00b3c00bac4 cb421c50d8a2459919e14d65868de0cc877d9e1d e5a315ba800c457ec1a808a3bb15df50021831c6 fc52a5b14d7fcaaee3b42eabc05f2f646606c1e1
 
 Package: liblouis-data
 Source: liblouis
-Version: 3.37.0-1
+Version: 3.38.0-1
 Architecture: all
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 13423
+Installed-Size: 13704
 Multi-Arch: foreign
 Homepage: http://liblouis.org/
 Priority: optional
 Section: text
-Filename: pool/main/libl/liblouis/liblouis-data_3.37.0-1_all.deb
-Size: 2218240
-SHA256: 2fffead495d2c93dc88b6228226940acc52cd9e446ca51b85fffb107a9fac98d
-SHA1: 72e478a32e5ca0290250f2eb6bc5266c29c73bc6
-MD5sum: c66355de2a34b8cbe1935b015e19e154
+Filename: pool/main/libl/liblouis/liblouis-data_3.38.0-1_all.deb
+Size: 2254068
+SHA256: 9e5680a0901070dd2289c508f550d239b4775e683fe238ed4f0c006cd185b504
+SHA1: 41c6f8fb38c5c2b4def685f4acf6b9c7868febda
+MD5sum: 6b9322400f750b4aa3b8e624fbda73ed
 Description: Braille translation library - data
  Liblouis is a braille translator and back-translator.  It features support for
  computer and literary braille, supports contracted and uncontracted translation
@@ -861,20 +861,20 @@ Description: Braille translation library - data
 
 Package: liblouis-dev
 Source: liblouis
-Version: 3.37.0-1
+Version: 3.38.0-1
 Architecture: arm64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 442
-Depends: liblouis20 (= 3.37.0-1)
+Installed-Size: 443
+Depends: liblouis20 (= 3.38.0-1)
 Multi-Arch: same
 Homepage: http://liblouis.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/libl/liblouis/liblouis-dev_3.37.0-1_arm64.deb
-Size: 216296
-SHA256: 6a6dbdfbe56b3da4dd17defbfc45b2cdc51d31f23a2ff63588f2506320d2c118
-SHA1: 3854888300d34086dba8d1553cec7f5b14d7b53c
-MD5sum: c60ef723ed9b6749e526b9361305799a
+Filename: pool/main/libl/liblouis/liblouis-dev_3.38.0-1_arm64.deb
+Size: 217832
+SHA256: 87707eba24f49075ef1bdff1f94616fbcee07895694f3688c9fda3907e3beba7
+SHA1: beef546d56a4080d2a4f4ae5849159dd500b15ff
+MD5sum: ef3a5db6b6fd269fe4ff7debc310a9aa
 Description: Braille translation library - static libs and headers
  Liblouis is a braille translator and back-translator.  It features support for
  computer and literary braille, supports contracted and uncontracted translation
@@ -885,20 +885,20 @@ Description: Braille translation library - static libs and headers
 
 Package: liblouis20
 Source: liblouis
-Version: 3.37.0-1
+Version: 3.38.0-1
 Architecture: arm64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 228
-Depends: libc6 (>= 2.33), liblouis-data (>= 3.37.0~)
+Depends: libc6 (>= 2.33), liblouis-data (>= 3.38.0~)
 Multi-Arch: same
 Homepage: http://liblouis.org/
 Priority: optional
 Section: libs
-Filename: pool/main/libl/liblouis/liblouis20_3.37.0-1_arm64.deb
-Size: 96464
-SHA256: 3b2c0994b1036917e3fc8a834291898684c8a6f304fbadee07b6927b3207ca50
-SHA1: 3c3d13c71a38c9e60bcda4e45632379aed4aa703
-MD5sum: 6e3784fdf039bb8e6185189caf3a6164
+Filename: pool/main/libl/liblouis/liblouis20_3.38.0-1_arm64.deb
+Size: 96528
+SHA256: d7ad037cbfee1cc01cbde9fd6502e889d860e48b6eadf4f7612e901c374253c6
+SHA1: 56f8d8d4f3cdffe30bebff0d8e20ed0ed69f17f4
+MD5sum: 64f3299fbffcf704b34f0f968f765bda
 Description: Braille translation library - shared libs
  Liblouis is a braille translator and back-translator.  It features support for
  computer and literary braille, supports contracted and uncontracted translation
@@ -909,22 +909,22 @@ Description: Braille translation library - shared libs
 
 Package: liblouis20-dbgsym
 Source: liblouis
-Version: 3.37.0-1
+Version: 3.38.0-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 264
-Depends: liblouis20 (= 3.37.0-1)
+Installed-Size: 262
+Depends: liblouis20 (= 3.38.0-1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/libl/liblouis/liblouis20-dbgsym_3.37.0-1_arm64.deb
-Size: 246188
-SHA256: 1cfe0b3cb7b2923ad5334acd854d123d0d95de98120da6e39daae1baef8057d3
-SHA1: 8d54b732df198dc47216e36ab793eced5556441b
-MD5sum: b2b4826e56e2ef419a50faa7142f1541
+Filename: pool/main/libl/liblouis/liblouis20-dbgsym_3.38.0-1_arm64.deb
+Size: 244872
+SHA256: 5caae5523ced99296bb2e76161c1dce76cab111d3cc5079d0eb84efea2f2d266
+SHA1: 4410d0fb80c399ad1fa90f1c24b2135d5824d10a
+MD5sum: 18d234e7f7f785d931ce25d56ecb6938
 Description: debug symbols for liblouis20
-Build-Ids: 124c2dc2f7e69fe5edb0265054225b0d07e393b0
+Build-Ids: 17af2f0832dbaccdb89ff806c2343afd280d4639
 
 Package: libspeechd-dev
 Source: speech-dispatcher
@@ -1160,20 +1160,20 @@ Build-Ids: 3dff900cba6f950a6a52cb0f64bab7f815225562
 
 Package: python3-louis
 Source: liblouis
-Version: 3.37.0-1
+Version: 3.38.0-1
 Architecture: all
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 67
-Depends: python3:any, liblouis20 (>= 3.37.0-1)
+Depends: python3:any, liblouis20 (>= 3.38.0-1)
 Multi-Arch: foreign
 Homepage: http://liblouis.org/
 Priority: optional
 Section: python
-Filename: pool/main/libl/liblouis/python3-louis_3.37.0-1_all.deb
-Size: 26848
-SHA256: 9c3e022b16271ed08e4554744c4207a8b76489ecc5db2f4dad3e9e3ead747505
-SHA1: 446214aa12a117d9711fdbfbd8a88b91f384e9c4
-MD5sum: 13b8e7090444ac60b75363d7f223659e
+Filename: pool/main/libl/liblouis/python3-louis_3.38.0-1_all.deb
+Size: 26876
+SHA256: a0183b11bd4a4d93b7f664916ae0c231fe4da4db80e3873a8ab1101707752a83
+SHA1: b260ae79a38aba8484e4379ac35f86174cd39825
+MD5sum: db980ceecd8faf2f65e30581e401d71d
 Description: Python bindings for liblouis
  Liblouis is a braille translator and back-translator.  It features support for
  computer and literary braille, supports contracted and uncontracted translation

@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: liblouis
 Binary: liblouis-dev, liblouis20, liblouis-data, liblouis-bin, python3-louis
 Architecture: any all
-Version: 3.37.0-1
+Version: 3.38.0-1
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Uploaders: Samuel Thibault <sthibault@debian.org>, Cyril Brulebois <kibi@debian.org>
 Homepage: http://liblouis.org/
@@ -23,23 +23,23 @@ Package-List:
  liblouis20 deb libs optional arch=any
  python3-louis deb python optional arch=all
 Checksums-Sha1:
- f7437ba7f1bc3dcee135e818690778596eddf5fb 17191105 liblouis_3.37.0.orig.tar.gz
- c85dc0b2342d68d5e18bf4f2c42f7303541b8f7c 11280 liblouis_3.37.0-1.debian.tar.xz
+ c29079784d54360e9a3eba7a0ce8008b9247a684 17990241 liblouis_3.38.0.orig.tar.gz
+ 050b62a83bc3bc8ca98803df0351855a8c45b0b4 11284 liblouis_3.38.0-1.debian.tar.xz
 Checksums-Sha256:
- f629b9f086b6a17febb506f0eb5d1ed0d77ed0660bea8483a909c892d2c2e323 17191105 liblouis_3.37.0.orig.tar.gz
- fa1353d69ba6394427a225d3d7eb3ac8207fa5f6599667c8228b266fe0a6c966 11280 liblouis_3.37.0-1.debian.tar.xz
+ afb26096b18b17f43e6055e6a79ce0058eb9dbdcdcc4597522dcd7f11915ec16 17990241 liblouis_3.38.0.orig.tar.gz
+ 20c549e9acd73acb9ddba5795b67dffddf65575e8088c0afd185f6e0e18f6441 11284 liblouis_3.38.0-1.debian.tar.xz
 Files:
- 6d793eda5c64c307b08940c5e3d80926 17191105 liblouis_3.37.0.orig.tar.gz
- 28ab5f7c04bb3ee475b40e25d04f24bf 11280 liblouis_3.37.0-1.debian.tar.xz
+ 1f462ca32dafcdacdd74843de9ed5b49 17990241 liblouis_3.38.0.orig.tar.gz
+ e3937674b939c5ff0dfb085fe477df0d 11284 liblouis_3.38.0-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFGBAEBCgAwFiEEH3IeP65Ge6Ps6Bgvs4CARxGPsssFAmmmyMMSHGhhbW1lcmFA
-cGlja3VwLmh1AAoJELOAgEcRj7LL2yUH/Ro86JN2eOcgnNfJLYt5tTmaXaEHPL1j
-/KwKd4kar7C/awZeZx131xzWHWCiKd6bC+L7rA+L+MlajIE4rQDN7rmf3dawf7Fv
-xldFr9uH0wG3WmPrVFj9x1llOvOfFv5VzrmabiGzuUYZ5ZnOVIia+5yiXPYwmrWX
-FzqmAXK661DSRLOtxItZxOOox8JuYSSJjynC4z1vEdtdgL4TratqvneohCG7Gvor
-fo9JpfcmV52b/dyje5p7IRJcmY38QvDwHvyihw9c6jKNkJ0lImxJBQ5ZzOqO/HKQ
-UiV70ytU3EUE1SpBAZxu4x6DbHpM/gWysSrKw04OdW0Twc3xsiNm9FM=
-=GBoz
+iQFGBAEBCgAwFiEEH3IeP65Ge6Ps6Bgvs4CARxGPsssFAmoemPoSHGhhbW1lcmFA
+cGlja3VwLmh1AAoJELOAgEcRj7LL7DEIAJ0pBkuysX53FA+9Uw6NTCU4zBTOEH+m
+X3vq4wKLSrQeimFIW0qDj2Yc2sz7J50XqVh6A8iLbr7VUQBQJu6xuXtF3SJIv761
+Ryr5HeVvKJVslWepVuee3/eszpWGE4jmVcoYVuR+IQmiRoe8p2Z86ungLiLQYTgP
+Im87k/I0WC8p9SHKkwTn1WNhm52uuIxGlAzpjARdwnW39Hqds7s9y9DBReZRQnuL
+qwGhA6qCKyCt8qpzPLxGqhhEkVjsXiRn881lZeZckj5gyZkpme4eszft3ifUi9ta
++Byu+qR7iDWKJiZAGjgPQV1WMPePCtPk/VJogr76trTFiJvGEgZHHec=
+=jCcw
 -----END PGP SIGNATURE-----

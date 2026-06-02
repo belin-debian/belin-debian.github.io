@@ -145,19 +145,19 @@ Description: Documentation files for the ATK toolkit
 
 Package: liblouis-data
 Source: liblouis
-Version: 3.37.0-1
+Version: 3.38.0-1
 Architecture: all
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
-Installed-Size: 13423
+Installed-Size: 13704
 Multi-Arch: foreign
 Homepage: http://liblouis.org/
 Priority: optional
 Section: text
-Filename: pool/main/libl/liblouis/liblouis-data_3.37.0-1_all.deb
-Size: 2218240
-SHA256: 2fffead495d2c93dc88b6228226940acc52cd9e446ca51b85fffb107a9fac98d
-SHA1: 72e478a32e5ca0290250f2eb6bc5266c29c73bc6
-MD5sum: c66355de2a34b8cbe1935b015e19e154
+Filename: pool/main/libl/liblouis/liblouis-data_3.38.0-1_all.deb
+Size: 2254068
+SHA256: 9e5680a0901070dd2289c508f550d239b4775e683fe238ed4f0c006cd185b504
+SHA1: 41c6f8fb38c5c2b4def685f4acf6b9c7868febda
+MD5sum: 6b9322400f750b4aa3b8e624fbda73ed
 Description: Braille translation library - data
  Liblouis is a braille translator and back-translator.  It features support for
  computer and literary braille, supports contracted and uncontracted translation
@@ -194,20 +194,20 @@ Description: MATE desktop calculator (common files)
 
 Package: python3-louis
 Source: liblouis
-Version: 3.37.0-1
+Version: 3.38.0-1
 Architecture: all
 Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
 Installed-Size: 67
-Depends: python3:any, liblouis20 (>= 3.37.0-1)
+Depends: python3:any, liblouis20 (>= 3.38.0-1)
 Multi-Arch: foreign
 Homepage: http://liblouis.org/
 Priority: optional
 Section: python
-Filename: pool/main/libl/liblouis/python3-louis_3.37.0-1_all.deb
-Size: 26848
-SHA256: 9c3e022b16271ed08e4554744c4207a8b76489ecc5db2f4dad3e9e3ead747505
-SHA1: 446214aa12a117d9711fdbfbd8a88b91f384e9c4
-MD5sum: 13b8e7090444ac60b75363d7f223659e
+Filename: pool/main/libl/liblouis/python3-louis_3.38.0-1_all.deb
+Size: 26876
+SHA256: a0183b11bd4a4d93b7f664916ae0c231fe4da4db80e3873a8ab1101707752a83
+SHA1: b260ae79a38aba8484e4379ac35f86174cd39825
+MD5sum: db980ceecd8faf2f65e30581e401d71d
 Description: Python bindings for liblouis
  Liblouis is a braille translator and back-translator.  It features support for
  computer and literary braille, supports contracted and uncontracted translation
