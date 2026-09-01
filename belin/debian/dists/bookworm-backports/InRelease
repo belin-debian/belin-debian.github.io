@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: bookworm-backports
 Codename: bookworm-backports
 Version: 8.0
-Date: Thu, 25 Sep 2025 11:08:39 UTC
+Date: Tue, 01 Sep 2026 19:20:45 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (backported packages repository)
@@ -291,17 +291,17 @@ SHA256:
  4683eb5c359b35b6eb0e0fbe4d8f909a71a55ee13670f21fdd0ee39ef16a524b 230 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjVIrgACgkQFg1XP6XL
-YMmBaA/+Nsle0FsCNLY6mTZzitmDY2tHA3n2CYPyuJ9Sm7DC//EF+XM1WhqecLA3
-tpV0DcAWSoc7CxG0tugE7YxbrqTPAKAL8re5FnutY1Q5l/TKLB0hr/SZPPIw1ipF
-bqcZE1w0Q3V/U9s/HBSYHWIPSiMroOTCdSb7/MdilQtfevx0hBxzzUeVWlIwAHIA
-D8JbAYFLM9ilHtz+r7wvWhVGCcmDjX/fPhFwB+eP7uLYr8pId63wAakcTz1E+CjU
-xTmCrH8u/fm0h9n0I3yOuSTctyZC+UjaeHUKMd+eME+NoU9D/zHYNUQ4wPP6jhic
-q1oLmOYwoZypaJrxRMoPe+8gW3CAXOd0JTX60mzyz/R5fbMhJxvXp/g8W7T8U3tO
-o9UTCDZ5ayh/7e8bJZv1FsxKsQuRw880BsY9+pYX7Lt1hhuFAPbAGfpcMaHQ6CnU
-ts9a1iL18H3ocHWMWUMYR1soKKOMD8EA1oqDMfkmqxDc3+I/UbHJR/Vw4Es9VB1S
-yGjvpH57uqQlxbExbEXsJcSuH2/9Zudv30xQ4hh5O0s3RbIAPrvkI6eQ1hsc+aKY
-FSdh7htpol1EZbDL7BKRH8unOumgSzBCqJXRtUtlWwRKnOU0b1kKOWWm4t/LwsXB
-VIZiXhD9hud+VGpaAfhWJTvvQPj5FujDVv0jH7uqK+myc8ZktO4=
-=Kx3j
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmqXJY0ACgkQFg1XP6XL
+YMkpCxAAl8YK/Ty3k/Hk5diBmLiI8DNBGxolze5vXp6/VVUxBKVEpFpM13wMWGzf
+Qzpf8neQp3KziabeX/p8LEzJ1DzpeAxSqVZ6pC4/mcj992CBz0OuUZARKBGVQxvl
+4uC8ml3W5H3nZt8McRVUO+k0yCq8E3K8nOxj2dwhaZifQQp0hsD+8sFe1YGktIM3
+aYzVzXl6haBPH+7L0YHRGqPJiWEmWleigw5V4v+7Aj/Ga8tAgPl1fTmnKuIbXouj
+HPG9BiH3o//VjMWE+aclvHp7gm3npIPuNCZgQBqhAdoAxn7Z0zVF1HJjJ2KyWkaR
+ODmVQHLht+plrQpgeL2jYleS0c4K2sTW7MyTIsHrwe28r27mY84G+ifGXErksyk8
+3mKXLsuKqh4LmM7oEG8gRiSMFauENxv0taT3+H0RJ1HPrnfaq5PL/Z5MejN341js
+blJ93I6gO4t+qeouskJGYLT2REJtRxOd4fCWX1ATEXcsuj3q3Nr4Xhaz6AWDpaSB
+gYiePrVDPQpLZnctMRx6F0+cl/IL2s2oYg5AvBChpP6BRfbittV26UGi/j5J8ssw
+Xw8iZwTmUAHBgw2gjdvBot1BX2uIbZYFbr6t+X00hzg3TuwcmqKXCL5mtFK4ubbI
+mHv3AVWDIphCrhDv6bvGkmIjYSUutBBBMXHyETMeeJeo2KN6XuQ=
+=d/Gd
 -----END PGP SIGNATURE-----

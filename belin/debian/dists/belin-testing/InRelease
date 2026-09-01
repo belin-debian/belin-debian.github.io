@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: testing
 Codename: belin-testing
 Version: 8.5
-Date: Thu, 25 Sep 2025 11:08:41 UTC
+Date: Tue, 01 Sep 2026 19:20:46 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (testing repository)
@@ -291,17 +291,17 @@ SHA256:
  36acc300eb2e01cd6f3605d65772aeacdeb6301d3ec26cf708be3984a7c78105 207 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjVIrkACgkQFg1XP6XL
-YMnh0A//c9Jn0ZJC5ylQEWsXZLAvEdIZ93BOyOEg4frVg0LADEET6KlwvyI0Z+7f
-P1P2nf90B+dxC1+vibUKzdiU1TZuloqVJUVTfvGvbVzfXQXRBIzFSLoKzxj2yFiw
-eMRPVCmpbb976U0wYOMUjh30RTA048LL76D8czhzJIa9clmSBjnvrppGRhQWWO+w
-mKj/oxKcEXQhi+DOIcKeUnbJsYMZdo0tTX0Rsk2xlJE5sHoEwELi3/2iH/26C4JG
-SUGlY3AVTBs2Ia+JBnD5Cjg/uJ1Lu0Z6FWJ0m3DbLg9RyybqP80NSCLTooH5rPQl
-Vn6KDfvMWJITfwpi8phnpyvCHQu7KbH1ejogt22WaaXLU8L1b9hapqvm7qH2lSAA
-i9AMkmnO6hzQ0sUVGz99npReY7z25nSdd+6eUNfehx0jRm+0lYsJZVTQ8HAFxRFL
-Wc52mOCOMwFHQLz6jxb3quQibDztK+vgV6xLRhE5CwTJwuNTiZIUNiZbymX6p1ip
-XsLINFu+S6RTqXc8zES6ZKO3NMShZWdBHsMpBpRSIPB/TdsO7vTBQmff5m5FWnSA
-+AFxfe8pAe+jSn/1F6quT45xHoY69pc72p3URliCvcjb0XHx2IlFot/EBRbZtaF6
-g7DV02zFSj6k57kUw2MclUPvbiPiMd5jBT5AsjQ0JE9f09AK6vQ=
-=Jlsq
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmqXJY4ACgkQFg1XP6XL
+YMnuQQ/+LqcS3vAPPju7o0TMAWqMs1UiZaR5lvt6lTfsMi5IbKHITsYfPPNNZDZo
+HWYNH+gxBmbwJ+hxEUwa8Uwq1m/sZEr/2TlRoV3Z+Lmyd9KwT9i32148xpexeZSw
+n2l2iJg/9+mthnngsT7zGs+Ybtk5inTFkZGMA8gNUs9qTikB/EYbym4cj20r6yeB
+YjWSHZ+NUzfH5E8duTo8BnHYZmBTXRlcbXywVR5ZnigIqapBaWnXONQYSHaPuylr
+AumHJ7EaQHJMqLK4JaRdv+e/ShFODeE/S+hw1a578IvnTXwpaanLc2bjlcJhBBfm
+7Ljghs0GQL5F/vIzVvA78pfCverznW4JlBwHYG64y6oZNKuGhIOXAO6IALHvveLy
+ZCok4WWBtj9S8SLreAiUXhJ+k95HsDipgaJs8wPIhMA+Q2GGpIlLY1Kmnu8f6Emw
+Uyt1lXch6XDhpwbeVhkYPZzeE7W/wac2fpMvbymPOchwYuyo2EKQP/RaYUwMLcB7
+b4qI8FlXq+x66gPL703xVh3QPInne8esAqUc5XnYz8TXxPCn50SLfIgQ3PYH6A0g
+HscnmXK9/5Hy6wqrhcvx8sZ5R3ebKbH3ucE1LcKeviEZFh6on3AZuBECNG105zR5
+eleq0zZRhXNbqzvyF9VhJgVUdqHUh3Kvg1+C9XX21NlMf2rw6Zg=
+=AbuB
 -----END PGP SIGNATURE-----

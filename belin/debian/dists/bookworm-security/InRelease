@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: bookworm-security
 Codename: bookworm-security
 Version: 8.0
-Date: Thu, 25 Sep 2025 11:08:40 UTC
+Date: Tue, 01 Sep 2026 19:20:46 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (security packages repository)
@@ -291,17 +291,17 @@ SHA256:
  959e491024c725d068796b637b08689dcf5993d338d28dc4934108f69c9e1f7b 227 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjVIrkACgkQFg1XP6XL
-YMl2Kg/+ObuPM2rfd05y9UgPm20/hFnZyF0yzTs/pdnSyv5WvHDzTPDnr3+VqAqU
-7HlPeQKgSXeEe4EeQPgPBkknKANSwaGR9O108mLN38FXPbKabPLD4+ZWJl9B5SuD
-ZKkRvTwsLbcHV+9acz9FByavrkr/bvhLhneGdcpEHL1sbKzjegwms5KJT7+Izsp5
-9Nnv6EDJG0QCw5+OsyA5RnkdEwQjFCdvzgJh0qvc/b2+MDSwgkQCQHC7EQ8QDkbO
-awJM5pNqRNLMWHXpOe3whu1nlj1fsoNUYBtRidvO/sglhfmjgiRYyeJ5jQvdrh86
-uSIcAk3rRIU/Nik615o/TpfCw1RLRCT0lEtMFAswHMISGgxtt+8A37azm1cCIFTn
-JIyMGMvoJED3MgqXNQ646MQH5UGkqBvtqOVfgXyLk4vdDvdBMRlHzlLgRJ7uEMYr
-JW/UxAkTD8Lv4rRHyzjOgz0rYA1YUddnNvDO3CpquUHxV/5qzZ3QAmKfK/I3Tg1V
-6tAbkBblavkslNeP3pLZfINmfQaEKiKwGURJW9B45jHNFFtR3/mwi6vs6CyJD126
-pok2pYn7MAhKzTEwr/H2x0M3NJ//HnB9p+2YwmiwmoSnhGSUYUjsIPbVInfsI8L2
-Stt1vbBLM4C4Qu81G/NaI3BKq0tDEwPohnmwpbxMyQ27VnYZDT8=
-=s70T
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmqXJY4ACgkQFg1XP6XL
+YMnYDhAAr4VjS3PRFltUh7pI0zxE0jWhnXLV5PuTA7ttoug12vcPuOQxOVyvsodt
+QWodPjZIuzPdy4NPsglJ+hNUAdoS6KI1Eqgz6PqeY6m2Xscja9W+PLfKtlehhvP1
+pbbYhDpE5n22tGdomfV8IB41bRhRKHAMRv2JyipSVo2/UVOmsjCqDh0wdVq7h+IW
+cjCUoDJ/qxKfTKHbKRZtl1WRnC5h6gSjkNN7frwaKCUX0g7/t1HisWTtVrghzOm2
+U8yrvzFxzwu5UuYuWFwVI8PVSk9ACVj9/oE0nrWCBsAB5PNcsVLLUGL2oAhcH7Z7
++uPds4KCXYzZartuN/z6tYZ4VCSsU1VtOhJlI64YfI0kPbA82yBFlw3nigeBjnfW
+dUHlAv7f/JoWvJyYvw0LiMzsjUBn9wRSlTaxwm1N4LHBnGjWme0oNEeXU/v7rj5W
+4lSGMGX88a8J6Txho7b63+EoHs4Yhr9WAziEG/iyToS/u+xOec3PNNBD0zZmLFSv
+TIkSj2A9VpmVmw5ys4erFoRecERMS+jEpDpjwaLwl9DvK6ytk9OWQmMCP6shldxe
+/OvsGB+4yrxynwKtZFU3nJC2tz25U5ScaIAmtPxhTlX9qW2zodsvDUYY9lo7CEaN
+C7YUPyKE8yXHR11qphHVd1h9Yr9UmbC4UQ5nUCdr+h8t92WSjdI=
+=JhQz
 -----END PGP SIGNATURE-----

@@ -3,7 +3,7 @@ Label: BeLin package repository
 Suite: bookworm-backports
 Codename: bookworm-backports
 Version: 8.0
-Date: Thu, 25 Sep 2025 11:08:39 UTC
+Date: Tue, 01 Sep 2026 19:20:45 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (backported packages repository)

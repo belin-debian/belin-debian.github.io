@@ -6,7 +6,7 @@ Label: BeLin package repository
 Suite: bookworm-updates
 Codename: bookworm-updates
 Version: 8.0
-Date: Thu, 25 Sep 2025 11:08:40 UTC
+Date: Tue, 01 Sep 2026 19:20:45 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main contrib non-free non-free-firmware
 Description: BeLin package repository for Debian derivative (official updates packages repository)
@@ -291,17 +291,17 @@ SHA256:
  d72d7816d1485ec50c06b33dba5d29b3dea6a3ff6c08fa4b0317fb9e69c0dc47 234 non-free-firmware/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmjVIrgACgkQFg1XP6XL
-YMlEChAAicQP8aVtbiCworOdE11bq/ZN+DGNivJfaFtUjNhrIfAiSH3NT1CMXxsI
-rOIU1PMJ/fh9SdEJs8qppRSLDAoFTxIIJ3GeEODUqeYkO5Przkz+dFHMbmUGtcUC
-SArUXh6VzaX/WLfJBjlThP3kv6DOCb/0TqR9Mn7j5Z1dptandsiRWt23rn6Lp98J
-ZP/p77rnlFjsT+7mCkneJ4QPMS3qy+qW+aOGUw+HtB4yi3mxguzq34fxtvRTMEge
-0HaAQqieLsUx1ugq552Naa4cSMzPVCh5k1eTgHvkEumyF8ak7xl8kfvZeK0Vc3Jg
-V2CHPFPBlFNY1/FNELtRmh9a9UPj7qc4HpjvrbNKbDNMjeA9u5mZplRn0j4ckiCu
-JTVlDx22edxzG22oKMEsrr8/w8plRM4wUQlr38OsXvMRjkMWqaNW5hQZdtXMqxAb
-IsPMFHwEttcnOB9j1bUTjLw3w/Gy43XLsHAI8gCf+eZm0jUXIEJPjmRDZBRv+fXP
-r8tp6P/zud4tj6kFD5clDN25kmPTcH1pp9NuYVaqUI2n8X4sP5LuG+Fm4Vl9IV1q
-SPeHk6wTFBbTH6s2buK556aYV37RrJEzbNZwl31rSJcl4awDO/KTphwOB3BoKHBV
-mEJzfLtimU/T6BYjHMf28QfVPRLiyAP2V1XZKaZS3jaCm/pbyYM=
-=+f0c
+iQIzBAEBCgAdFiEECeKJMSHHEz4AY7oaFg1XP6XLYMkFAmqXJY0ACgkQFg1XP6XL
+YMmc9BAAhSA8e01+mWyrWuUung6gjJRhRNhILS5fun0WpTpukiffIx+miUvPkv7R
+D1ogqIp28Z0COgUicWQt2pbSIoXYvrkmxFTkIsQe0TVgOT+gBoS/tn4BeF4fiWz4
+eCgiMN6HPnMAqMThd/drx2XzkcsWPwJZwrN8Z/I426FH1IfjISz17SvHOf1zZrOe
+EQ5ADmIYomPEhoXCZUq1OIcvZ3uMcHaQ87xsQWprrVwX/tPiDhBkYEOguJATR19B
+Yx/7QwfWaK2HI6+RJ1lbFHjvhRGKB59iDcuWb6wZTLMONL+mw1c3mq+cnGKIHqEP
++9CYLiCQUB/fq0aetQmwm5+2A57iiu6pZnNz4fZooUAc7ifuVVWVNcRs8qdVDJbW
+8INNIO3WE3nCXSLeaX23CWzj7L3WEFyJkhZ6YD3HLGv2c6McsN06jroatc5zUuvy
+z2wpjplS6qNjd90ltlxYp4qTNwYepqYpjHsSJTe7M5F7PF+FpQq+Oi8UCDcAJ2s6
+KNTokZ7sKuHzZvp5sjvpV9UuxgAJ/hiYD+SdvyTGEPZCKQP/TZ1wGmLyL2FdBe7c
+hJAeXrNq8jEhhQKHqOqPc85S6EBgIENMIHSVJLAuCV6iVPRm4SU1WK3OMYJJ9Xxw
+4iXAQrIHzp8PB6wG7axCMe71obBzFqAEx1FFquTKt9Ydlzy0IVo=
+=WZ7m
 -----END PGP SIGNATURE-----
