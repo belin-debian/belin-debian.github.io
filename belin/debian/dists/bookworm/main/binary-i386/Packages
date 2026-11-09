@@ -168,6 +168,29 @@ Description: Braille translation library - data
  .
  This package contains runtime data.
 
+Package: libmateweather-common
+Source: libmateweather
+Version: 1.26.0-1.1+deb12u3
+Architecture: all
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 6592
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: libmateweather (<= 1.0.0-3)
+Multi-Arch: foreign
+Homepage: http://www.mate-desktop.org/
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmateweather/libmateweather-common_1.26.0-1.1+deb12u3_all.deb
+Size: 2873436
+SHA256: bb24b22664e3eb3649303e80dad26fed75d9bdeb2c561137c9dfb378114a6b0b
+SHA1: 32e5f1d99c337e28363aeda0104f69bf34f2e623
+MD5sum: dc83548c2486cc9d2681ba7c1fcb0342
+Description: MateWeather shared library (common files)
+ libmateweather is a library to access weather information from online
+ services for numerous locations.
+ .
+ This package contains the architecture independent files.
+
 Package: mate-calc-common
 Source: mate-calc
 Version: 1.26.0-2

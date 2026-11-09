@@ -926,6 +926,94 @@ MD5sum: 0d57b7b638b9cf717b712b0529decbf2
 Description: debug symbols for liblouis20
 Build-Ids: e227c6c57a2ba1e4d4a20ef5ba2e3fdf701ad831
 
+Package: libmateweather-common
+Source: libmateweather
+Version: 1.26.0-1.1+deb12u3
+Architecture: all
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 6592
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: libmateweather (<= 1.0.0-3)
+Multi-Arch: foreign
+Homepage: http://www.mate-desktop.org/
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmateweather/libmateweather-common_1.26.0-1.1+deb12u3_all.deb
+Size: 2873436
+SHA256: bb24b22664e3eb3649303e80dad26fed75d9bdeb2c561137c9dfb378114a6b0b
+SHA1: 32e5f1d99c337e28363aeda0104f69bf34f2e623
+MD5sum: dc83548c2486cc9d2681ba7c1fcb0342
+Description: MateWeather shared library (common files)
+ libmateweather is a library to access weather information from online
+ services for numerous locations.
+ .
+ This package contains the architecture independent files.
+
+Package: libmateweather-dev
+Source: libmateweather
+Version: 1.26.0-1.1+deb12u3
+Architecture: arm64
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 51
+Depends: libglib2.0-dev, libgtk-3-dev, libmateweather1 (= 1.26.0-1.1+deb12u3), libsoup-gnome2.4-dev, libsoup2.4-dev, libxml2-dev
+Multi-Arch: same
+Homepage: http://www.mate-desktop.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libm/libmateweather/libmateweather-dev_1.26.0-1.1+deb12u3_arm64.deb
+Size: 9596
+SHA256: e88a742ac903947374a1a062b5beb939d92e689cd2791e3c06fca4222c600023
+SHA1: 5c9fa5897957f8005646effd72840f03c5487259
+MD5sum: 6048dcfb0517a471e67c82d56eee0ecc
+Description: MateWeather shared library (development files)
+ libmateweather is a library to access weather information from online
+ services for numerous locations.
+ .
+ This package contains the development files.
+
+Package: libmateweather1
+Source: libmateweather
+Version: 1.26.0-1.1+deb12u3
+Architecture: arm64
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 157
+Depends: libmateweather-common (= 1.26.0-1.1+deb12u3), libc6 (>= 2.29), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.55.1), libgtk-3-0 (>= 3.0.0), libsoup2.4-1 (>= 2.41.90), libxml2 (>= 2.7.4)
+Breaks: libmateweather
+Replaces: libmateweather
+Multi-Arch: same
+Homepage: http://www.mate-desktop.org/
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmateweather/libmateweather1_1.26.0-1.1+deb12u3_arm64.deb
+Size: 40220
+SHA256: 1961ef1eeecd0a9e3a72f41b031306f0f639b52c23ffc58851c33e3645864402
+SHA1: 30054aec0a5198246503c2961d4fd528b23b3f25
+MD5sum: e04b4b3e3a22317241ac155b1f44e791
+Description: MateWeather shared library
+ libmateweather is a library to access weather information from online
+ services for numerous locations.
+ .
+ This package contains the shared library.
+
+Package: libmateweather1-dbgsym
+Source: libmateweather
+Version: 1.26.0-1.1+deb12u3
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 141
+Depends: libmateweather1 (= 1.26.0-1.1+deb12u3)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libm/libmateweather/libmateweather1-dbgsym_1.26.0-1.1+deb12u3_arm64.deb
+Size: 112588
+SHA256: 8f9b171d600234034d2729df4ef9241c7968b616b8cb688653128dabd909c983
+SHA1: 56a15cff0cd7115965a6e1047de0c143f72b38bd
+MD5sum: 506a95a2efc331c56aabcb63544a6889
+Description: debug symbols for libmateweather1
+Build-Ids: bc9f3917178df3c4a3115420e3f239227cd73024
+
 Package: libspeechd-dev
 Source: speech-dispatcher
 Version: 0.12.1-2belin1
